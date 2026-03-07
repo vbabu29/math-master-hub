@@ -1,0 +1,10 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Math Learning Site"
+
+theme = "hextra"
+
+[params]
+  defaultTheme = "light"
+  displayToggle = true
+  customCSS = ["css/custom.css"]
