@@ -1,3 +1,7 @@
+---
+title: "Factoring Trinomials"
+weight: 1
+---
 # 5 Common Mistakes When Factoring Trinomials
 
 Factoring trinomials is a core algebra skill, but it is also where many students get stuck. Most errors aren't caused by "not knowing the math," but by missing small steps that make the problem much harder than it needs to be.
