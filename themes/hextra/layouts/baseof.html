@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {{- partial "head.html" . -}}
+
+  <!-- KaTeX math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+        {left: '\\(', right: '\\)', display: false},
+        {left: '\\[', right: '\\]', display: true}
+      ]
+    });">
+  </script>
+
+</head>
+
+<body>
+
+  <a href="#content"
+    class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:px-4 hx:focus-visible:py-2 hx:focus-visible:rounded-md hx:focus-visible:text-sm hx:focus-visible:font-medium">
+    {{- (T "skipToContent") | default "Skip to content" -}}
+  </a>
+
+  {{- partial "banner.html" . -}}
+  {{- partial "navbar.html" . -}}
+
+  {{- block "main" . }}{{ end -}}
+
+  {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
+</html>
