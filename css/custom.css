@@ -31,3 +31,9 @@ p {
 .katex {
   font-size: 1.15em;
 }
+
+@media (max-width: 1024px) {
+  .hextra-toc {
+    display: block !important;
+  }
+}
