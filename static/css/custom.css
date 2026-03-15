@@ -37,3 +37,26 @@ p {
     display: block !important;
   }
 }
+
+.quiz-question-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #0f172a;
+  white-space: pre-line;
+  text-align: center;
+}
+
+/*.quiz-question-text {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #0f172a;
+  text-align: center;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.quiz-question-text p {
+  margin: 0.4rem 0;
+}*/

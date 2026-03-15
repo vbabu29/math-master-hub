@@ -1,0 +1,301 @@
+# --- UNIT 1: THE SEARCH FOR THE MAGIC PAIR (GUIDED) ---
+# Targets: "How to find numbers for factoring", "Sum and product of trinomials"
+
+basic_q1:
+  type: "Magic Pair Search"
+  difficulty: "Easy"
+  question: "To factor x² + 7x + 10, you need two numbers that multiply to 10 and add to 7. What are they?"
+  options: ["1 and 10", "2 and 5", "-2 and -5", "7 and 10"]
+  answer: 1
+
+basic_q2:
+  type: "Magic Pair Search"
+  difficulty: "Medium"
+  question: "Which pair of numbers multiplies to -24 and adds to +2?"
+  options: ["-4 and 6", "4 and -6", "-12 and 2", "8 and -3"]
+  answer: 0
+
+basic_q3:
+  type: "Sum/Product Logic"
+  difficulty: "Medium"
+  question: "In the trinomial x² - x - 20, the constant is -20 and the middle coefficient is -1. Which pair fits?"
+  options: ["-10 and 2", "5 and -4", "-5 and 4", "10 and -2"]
+  answer: 2
+
+basic_q4:
+  type: "Magic Pair Search"
+  difficulty: "Hard"
+  question: "For x² - 13x + 42, find the pair that multiplies to 42 and adds to -13."
+  options: ["-21 and -2", "-6 and -7", "6 and 7", "1 and 42"]
+  answer: 1
+
+# --- UNIT 2: SIGN RULES & LOGIC (GUIDED) ---
+# Targets: "Factoring trinomial sign rules", "Signs in binomial factors"
+
+basic_q5:
+  type: "Sign Logic"
+  difficulty: "Easy"
+  question: "If a trinomial is x² + bx + c (where b and c are both positive), what will the signs in the factors be?"
+  options: ["(x + m)(x - n)", "(x - m)(x - n)", "(x + m)(x + n)", "It depends on the value of b"]
+  answer: 2
+
+basic_q6:
+  type: "Sign Logic"
+  difficulty: "Medium"
+  question: "In x² - 8x + 15, the constant is positive (+15) but the middle is negative (-8). This means both factors must be:"
+  options: ["Positive", "Negative", "One of each", "Prime"]
+  answer: 1
+
+basic_q7:
+  type: "Sign Logic"
+  difficulty: "Medium"
+  question: "In x² + 2x - 24, the constant is negative (-24). This tells you that the two factors must have:"
+  options: ["Opposite signs", "The same sign", "Only negative signs", "Only positive signs"]
+  answer: 0
+
+basic_q8:
+  type: "Sign Logic"
+  difficulty: "Hard"
+  question: "For x² - 3x - 10, the factors have opposite signs. Which factor must get the negative sign to result in -3x?"
+  options: ["The smaller absolute value", "Both factors", "The larger absolute value", "Neither factor"]
+  answer: 2
+
+# --- UNIT 3: ERROR DETECTION & VERIFICATION ---
+# Targets: "Common factoring mistakes", "Check your factoring"
+
+basic_q9:
+  type: "Verification"
+  difficulty: "Easy"
+  question: "Is (x + 4)(x + 2) the correct factorization for x² + 6x + 8?"
+  options: ["Yes", "No, product is wrong", "No, sum is wrong", "No, variables are missing"]
+  answer: 0
+
+basic_q10:
+  type: "Error Analysis"
+  difficulty: "Medium"
+  question: "A student factors x² - 5x + 6 as (x - 1)(x - 6). Why is this wrong?"
+  options: ["The sum is -7, not -5", "The product is -6, not +6", "The constant term should be 5", "The signs should be positive"]
+  answer: 0
+
+basic_q11:
+  type: "Reverse Check"
+  difficulty: "Medium"
+  question: "Multiply (x - 7)(x + 3). What is the resulting middle term?"
+  options: ["-10x", "4x", "-4x", "-21x"]
+  answer: 2
+
+basic_q12:
+  type: "Error Analysis"
+  difficulty: "Hard"
+  question: "A student says x² + 5x - 6 factors into (x + 2)(x + 3). What mistake did they make?"
+  options: ["They ignored the negative sign of the constant", "They added instead of multiplied", "They used the wrong variable", "They factored correctly"]
+  answer: 0
+
+# --- UNIT 4: MISSING VALUES (REVERSE LOGIC) ---
+# Targets: "Find the missing number in factoring"
+
+basic_q13:
+  type: "Missing Constant"
+  difficulty: "Medium"
+  question: "x² + 9x + ___ = (x + 5)(x + 4)"
+  options: ["9", "1", "20", "25"]
+  answer: 2
+
+basic_q14:
+  type: "Missing Middle Term"
+  difficulty: "Medium"
+  question: "x² + ___x + 12 = (x + 6)(x + 2)"
+  options: ["8", "12", "7", "4"]
+  answer: 0
+
+basic_q15:
+  type: "Missing Factor"
+  difficulty: "Easy"
+  question: "x² - x - 12 = (x - 4)(x + ___)"
+  options: ["4", "1", "12", "3"]
+  answer: 3
+
+# --- UNIT 5: PRIME TRAPS ---
+# Targets: "Is this trinomial factorable?"
+
+basic_q16:
+  type: "Prime Check"
+  difficulty: "Hard"
+  question: "Which of these trinomials cannot be factored using integers (Prime)?"
+  options: ["x² + 5x + 4", "x² + 3x + 5", "x² - x - 6", "x² + 7x + 10"]
+  answer: 1
+
+basic_q17:
+  type: "Prime Check"
+  difficulty: "Hard"
+  question: "Find the trinomial that is NOT factorable:"
+  options: ["x² + 4x + 4", "x² - 2x - 3", "x² + 2x + 2", "x² + 6x + 5"]
+  answer: 2
+
+# --- UNIT 6: DIRECT FACTORING (STRENGTHENING DRILLS) ---
+# Targets: "Factoring practice problems"
+
+basic_q18:
+  question: "Factor: x² + 8x + 15"
+  options: ["(x+5)(x+3)", "(x+1)(x+15)", "(x+2)(x+6)", "(x+4)(x+4)"]
+  answer: 0
+
+basic_q19:
+  question: "Factor: x² - 9x + 20"
+  options: ["(x-2)(x-10)", "(x-4)(x-5)", "(x-1)(x-20)", "(x+4)(x+5)"]
+  answer: 1
+
+basic_q20:
+  question: "Factor: x² + 2x - 8"
+  options: ["(x-2)(x+4)", "(x+2)(x-4)", "(x+1)(x-8)", "(x-1)(x+8)"]
+  answer: 0
+
+basic_q21:
+  question: "Factor: x² - 7x - 18"
+  options: ["(x-2)(x+9)", "(x-6)(x+3)", "(x-9)(x+2)", "(x-18)(x+1)"]
+  answer: 2
+
+basic_q22:
+  question: "Factor: x² + 11x + 24"
+  options: ["(x+1)(x+24)", "(x+2)(x+12)", "(x+4)(x+6)", "(x+8)(x+3)"]
+  answer: 3
+
+basic_q23:
+  question: "Factor: x² - 12x + 27"
+  options: ["(x-3)(x-9)", "(x-1)(x-12)", "(x-4)(x-8)", "(x-6)(x-6)"]
+  answer: 0
+
+basic_q24:
+  question: "Factor: x² + x - 30"
+  options: ["(x+3)(x-10)", "(x+6)(x-5)", "(x-6)(x+5)", "(x+15)(x-2)"]
+  answer: 1
+
+basic_q25:
+  question: "Factor: x² - 10x + 21"
+  options: ["(x-1)(x-10)", "(x-2)(x-8)", "(x-3)(x-7)", "(x-5)(x-5)"]
+  answer: 2
+
+basic_q26:
+  question: "Factor: x² + 4x - 12"
+  options: ["(x-2)(x+6)", "(x+2)(x-6)", "(x-3)(x+4)", "(x+3)(x-4)"]
+  answer: 0
+
+basic_q27:
+  question: "Factor: x² - 15x + 56"
+  options: ["(x-4)(x-14)", "(x-7)(x-8)", "(x-1)(x-56)", "(x-2)(x-28)"]
+  answer: 1
+
+basic_q28:
+  question: "Factor: x² - 4x - 21"
+  options: ["(x+3)(x-7)", "(x-3)(x+7)", "(x-21)(x+1)", "(x-1)(x+21)"]
+  answer: 0
+
+basic_q29:
+  question: "Factor: x² + 13x + 40"
+  options: ["(x+1)(x+40)", "(x+4)(x+10)", "(x+5)(x+8)", "(x+2)(x+20)"]
+  answer: 2
+
+basic_q30:
+  question: "Factor: x² - 2x - 24"
+  options: ["(x+4)(x-6)", "(x-4)(x+6)", "(x-12)(x+2)", "(x-8)(x+3)"]
+  answer: 0
+
+basic_q31:
+  question: "Factor: x² + 10x + 25"
+  options: ["(x+1)(x+25)", "(x+5)(x+5)", "(x-5)(x-5)", "(x+10)(x+1)"]
+  answer: 1
+
+basic_q32:
+  question: "Factor: x² - 11x + 18"
+  options: ["(x-1)(x-18)", "(x-3)(x-6)", "(x-2)(x-9)", "(x-4)(x-7)"]
+  answer: 2
+
+basic_q33:
+  question: "Factor: x² + 3x - 18"
+  options: ["(x+6)(x-3)", "(x-6)(x+3)", "(x+9)(x-2)", "(x-9)(x+2)"]
+  answer: 0
+
+basic_q34:
+  question: "Factor: x² - 5x - 14"
+  options: ["(x+1)(x-14)", "(x-1)(x+14)", "(x+2)(x-7)", "(x-2)(x+7)"]
+  answer: 2
+
+basic_q35:
+  question: "Factor: x² + 14x + 45"
+  options: ["(x+5)(x+9)", "(x+3)(x+15)", "(x+1)(x+45)", "(x+7)(x+7)"]
+  answer: 0
+
+basic_q36:
+  question: "Factor: x² - x - 2"
+  options: ["(x+1)(x-2)", "(x-1)(x+2)", "(x-2)(x-1)", "(x+2)(x+1)"]
+  answer: 0
+
+basic_q37:
+  question: "Factor: x² + 12x + 32"
+  options: ["(x+2)(x+16)", "(x+4)(x+8)", "(x+1)(x+32)", "(x+6)(x+6)"]
+  answer: 1
+
+basic_q38:
+  question: "Factor: x² - 14x + 48"
+  options: ["(x-2)(x-24)", "(x-4)(x-12)", "(x-1)(x-48)", "(x-6)(x-8)"]
+  answer: 3
+
+basic_q39:
+  question: "Factor: x² + 6x - 27"
+  options: ["(x+9)(x-3)", "(x-9)(x+3)", "(x+27)(x-1)", "(x-27)(x+1)"]
+  answer: 0
+
+basic_q40:
+  question: "Factor: x² - 17x + 72"
+  options: ["(x-2)(x-36)", "(x-8)(x-9)", "(x-4)(x-18)", "(x-6)(x-12)"]
+  answer: 1
+
+basic_q41:
+  question: "Factor: x² + 5x - 24"
+  options: ["(x+8)(x-3)", "(x-8)(x+3)", "(x+12)(x-2)", "(x+6)(x-4)"]
+  answer: 0
+
+basic_q42:
+  question: "Factor: x² - 13x + 36"
+  options: ["(x-1)(x-36)", "(x-6)(x-6)", "(x-4)(x-9)", "(x-3)(x-12)"]
+  answer: 2
+
+basic_q43:
+  question: "Factor: x² + 2x - 15"
+  options: ["(x+5)(x-3)", "(x-5)(x+3)", "(x+15)(x-1)", "(x+1)(x-15)"]
+  answer: 0
+
+basic_q44:
+  question: "Factor: x² - 12x + 20"
+  options: ["(x-4)(x-5)", "(x-2)(x-10)", "(x-1)(x-20)", "(x+2)(x+10)"]
+  answer: 1
+
+basic_q45:
+  question: "Factor: x² + 4x - 21"
+  options: ["(x+7)(x-3)", "(x-7)(x+3)", "(x+21)(x-1)", "(x-21)(x+1)"]
+  answer: 0
+
+basic_q46:
+  question: "Factor: x² - 3x - 40"
+  options: ["(x+4)(x-10)", "(x+2)(x-20)", "(x-8)(x+5)", "(x+8)(x-5)"]
+  answer: 2
+
+basic_q47:
+  question: "Factor: x² + 16x + 63"
+  options: ["(x+7)(x+9)", "(x+1)(x+63)", "(x+3)(x+21)", "(x+10)(x+6)"]
+  answer: 0
+
+basic_q48:
+  question: "Factor: x² - 6x - 16"
+  options: ["(x+2)(x-8)", "(x-2)(x+8)", "(x-16)(x+1)", "(x-4)(x+4)"]
+  answer: 0
+
+basic_q49:
+  question: "Factor: x² + 15x + 54"
+  options: ["(x+3)(x+18)", "(x+6)(x+9)", "(x+1)(x+54)", "(x+2)(x+27)"]
+  answer: 1
+
+basic_q50:
+  question: "Factor: x² - 10x + 16"
+  options: ["(x-1)(x-16)", "(x-4)(x-4)", "(x-2)(x-8)", "(x-5)(x-3)"]
+  answer: 2

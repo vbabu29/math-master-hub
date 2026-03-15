@@ -1,0 +1,323 @@
+# --- UNIT 1: THE CONCEPT OF SLOPE (GUIDED) ---
+# Targets: "What is slope", "Rise over run", "Types of slope"
+
+slope_q1:
+  type: "Definition"
+  difficulty: "Easy"
+  question: "In the context of a graph, slope is often described as the ratio of the vertical change to the horizontal change. What is the common nickname for this?"
+  options: ["Run over Rise", "Across over Up", "Rise over Run", "Start over Finish"]
+  answer: 2
+
+slope_q2:
+  type: "Visual Logic"
+  difficulty: "Easy"
+  question: "If a line goes 'downhill' from left to right, what kind of slope does it have?"
+  options: ["Positive", "Zero", "Undefined", "Negative"]
+  answer: 3
+
+slope_q3:
+  type: "Visual Logic"
+  difficulty: "Easy"
+  question: "A line that is perfectly flat (horizontal) has which type of slope?"
+  options: ["Zero", "Positive", "Undefined", "Negative"]
+  answer: 0
+
+slope_q4:
+  type: "Visual Logic"
+  difficulty: "Easy"
+  question: "A line that goes straight up and down (vertical) has which type of slope?"
+  options: ["Zero", "Negative", "Undefined", "Positive"]
+  answer: 2
+
+# --- UNIT 2: SLOPE FORMULA CALCULATIONS ---
+# Targets: "Slope between two points", "Slope formula practice"
+
+slope_q5:
+  type: "Slope Formula"
+  difficulty: "Easy"
+  question: "Find the slope (m) between (1, 2) and (3, 6)."
+  options: ["m = 1/2", "m = 2", "m = 4", "m = 3"]
+  answer: 1
+
+slope_q6:
+  type: "Slope Formula"
+  difficulty: "Medium"
+  question: "Calculate the slope of the line passing through (-2, 4) and (1, 10)."
+  options: ["m = 3", "m = 2", "m = -2", "m = 6"]
+  answer: 1
+
+slope_q7:
+  type: "Slope Formula"
+  difficulty: "Medium"
+  question: "What is the slope of the line passing through (5, -3) and (2, -3)?"
+  options: ["m = 1", "m = -3", "m = 0", "Undefined"]
+  answer: 2
+
+slope_q8:
+  type: "Slope Formula"
+  difficulty: "Medium"
+  question: "Find the slope of a line passing through (4, 7) and (4, -2)."
+  options: ["m = 0", "m = 9", "m = -9", "Undefined"]
+  answer: 3
+
+slope_q9:
+  type: "Slope Formula"
+  difficulty: "Hard"
+  question: "Calculate the slope between (-1/2, 2) and (1/2, 5)."
+  options: ["m = 3", "m = 1.5", "m = 6", "m = 1"]
+  answer: 0
+
+# --- UNIT 3: UNDERSTANDING INTERCEPTS (GUIDED) ---
+# Targets: "What is an intercept", "Y-intercept definition", "X-intercept definition"
+
+slope_q10:
+  type: "Definition"
+  difficulty: "Easy"
+  question: "The y-intercept of a line is the point where the graph crosses the y-axis. At this point, what is always the value of x?"
+  options: ["x = 1", "x = y", "x = 0", "x is undefined"]
+  answer: 2
+
+slope_q11:
+  type: "Definition"
+  difficulty: "Easy"
+  question: "The x-intercept of a line is the point where the graph crosses the x-axis. At this point, what is always the value of y?"
+  options: ["y = 0", "y = x", "y = 1", "y is unknown"]
+  answer: 0
+
+slope_q12:
+  type: "Intercept Logic"
+  difficulty: "Medium"
+  question: "If a line passes through the origin (0, 0), what are its intercepts?"
+  options: ["Only the y-intercept is 0", "Only the x-intercept is 0", "Both intercepts are 0", "It has no intercepts"]
+  answer: 2
+
+# --- UNIT 4: FINDING INTERCEPTS FROM EQUATIONS ---
+# Targets: "X and Y intercept from standard form", "Intercept from slope-intercept form"
+
+slope_q13:
+  type: "Identify Y-Intercept"
+  difficulty: "Easy"
+  question: "In the equation y = -4x + 7, what is the y-intercept?"
+  options: ["-4", "0", "7", "(7, 0)"]
+  answer: 2
+
+slope_q14:
+  type: "X-Intercept Calculation"
+  difficulty: "Medium"
+  question: "Find the x-intercept of 2x + 4y = 8."
+  options: ["(4, 0)", "(0, 2)", "(2, 0)", "(8, 0)"]
+  answer: 0
+
+slope_q15:
+  type: "Identify X-Intercept"
+  difficulty: "Hard"
+  question: "Find the x-intercept of the line y = 3x - 9."
+  options: ["(0, -9)", "(3, 0)", "(-3, 0)", "(0, 3)"]
+  answer: 1
+
+slope_q16:
+  type: "Y-Intercept Calculation"
+  difficulty: "Medium"
+  question: "Find the y-intercept of the line 5x - 2y = 10."
+  options: ["(2, 0)", "(0, 5)", "(0, -5)", "(-2, 0)"]
+  answer: 2
+
+slope_q17:
+  type: "Intercept Identification"
+  difficulty: "Medium"
+  question: "What is the y-intercept of y = 12x?"
+  options: ["12", "(0, 0)", "(12, 0)", "None"]
+  answer: 1
+
+slope_q18:
+  type: "X-Intercept Calculation"
+  difficulty: "Hard"
+  question: "What is the x-intercept of the line x + y = 0?"
+  options: ["(1, 1)", "(0, 0)", "(-1, 0)", "None"]
+  answer: 1
+
+slope_q19:
+  type: "Y-Intercept Calculation"
+  difficulty: "Hard"
+  question: "Calculate the y-intercept for the line 0.5x + 0.1y = 1."
+  options: ["10", "1", "0.1", "5"]
+  answer: 0
+
+# --- UNIT 5: SPECIAL CASES & HORIZONTAL/VERTICAL LINES ---
+# Targets: "Horizontal line intercepts", "Vertical line slope"
+
+slope_q20:
+  type: "Special Case"
+  difficulty: "Medium"
+  question: "What is the slope of a vertical line like x = 5?"
+  options: ["0", "5", "Undefined", "1"]
+  answer: 2
+
+slope_q21:
+  type: "Special Case"
+  difficulty: "Medium"
+  question: "For the horizontal line y = -3, what is the x-intercept?"
+  options: ["(-3, 0)", "(0, -3)", "None", "Infinite"]
+  answer: 2
+
+slope_q22:
+  type: "Special Case"
+  difficulty: "Medium"
+  question: "For the vertical line x = 4, what is the y-intercept?"
+  options: ["(0, 4)", "None", "(4, 0)", "(0, 0)"]
+  answer: 1
+
+slope_q23:
+  type: "Slope Logic"
+  difficulty: "Hard"
+  question: "If a line has a slope of 0 and passes through (2, 5), what is its equation?"
+  options: ["x = 2", "y = 5", "y = 0", "y = 2x + 5"]
+  answer: 1
+
+slope_q24:
+  type: "Slope Logic"
+  difficulty: "Hard"
+  question: "A line with an undefined slope passes through (7, -1). What is its x-intercept?"
+  options: ["(0, 7)", "(-1, 0)", "(7, 0)", "None"]
+  answer: 2
+
+# --- UNIT 6: ERROR DETECTION & GUIDED MASTERY ---
+# Targets: "Common mistakes in slope", "Intercept logic check"
+
+slope_q25:
+  type: "Error Analysis"
+  difficulty: "Medium"
+  question: "A student calculates slope between (1, 2) and (3, 10) as (3 - 1) / (10 - 2) = 2/8. What was the error?"
+  options: ["They simplified wrong", "They used x-values in the numerator instead of y-values", "They subtracted incorrectly", "They swapped the signs"]
+  answer: 1
+
+slope_q26:
+  type: "Guided Logic"
+  difficulty: "Hard"
+  question: "If a line has a positive x-intercept and a positive y-intercept, which direction must the slope be?"
+  options: ["Positive", "Zero", "Negative", "Undefined"]
+  answer: 2
+
+slope_q27:
+  type: "Guided Logic"
+  difficulty: "Hard"
+  question: "If the slope of a line is positive, and the y-intercept is negative, in which quadrant will the x-intercept be located?"
+  options: ["Quadrant I (Positive x)", "Quadrant II (Negative x)", "Quadrant III (Negative x)", "The origin"]
+  answer: 0
+
+# --- UNIT 7: DIRECT PRACTICE & MIXED DRILLS ---
+
+slope_q28:
+  question: "Find the slope: (0, 0) and (5, 5)."
+  options: ["0", "5", "1", "Undefined"]
+  answer: 2
+
+slope_q29:
+  question: "Y-intercept of y = -x - 4?"
+  options: ["-1", "0", "4", "-4"]
+  answer: 3
+
+slope_q30:
+  question: "X-intercept of 3x + y = 9?"
+  options: ["(3, 0)", "(0, 9)", "(9, 0)", "(0, 3)"]
+  answer: 0
+
+slope_q31:
+  question: "Slope of y = 10?"
+  options: ["10", "1", "0", "Undefined"]
+  answer: 2
+
+slope_q32:
+  question: "Slope between (1, 1) and (2, 2)?"
+  options: ["1", "2", "0", "0.5"]
+  answer: 0
+
+slope_q33:
+  question: "Y-intercept of 4x + 2y = 12?"
+  options: ["4", "2", "6", "12"]
+  answer: 2
+
+slope_q34:
+  question: "X-intercept of y = 2x + 10?"
+  options: ["(5, 0)", "(-5, 0)", "(0, 10)", "(10, 0)"]
+  answer: 1
+
+slope_q35:
+  question: "Slope between (-5, 2) and (-5, 8)?"
+  options: ["6", "0", "Undefined", "1"]
+  answer: 2
+
+slope_q36:
+  question: "Slope of a line through the origin and (2, 4)?"
+  options: ["1/2", "2", "4", "0"]
+  answer: 1
+
+slope_q37:
+  question: "If y = 3, what is the slope?"
+  options: ["3", "0", "1", "Undefined"]
+  answer: 1
+
+slope_q38:
+  question: "What is the x-intercept of x = -2?"
+  options: ["(-2, 0)", "(0, -2)", "None", "(2, 0)"]
+  answer: 0
+
+slope_q39:
+  question: "Find slope: (10, 5) and (12, 4)."
+  options: ["-0.5", "0.5", "-2", "2"]
+  answer: 0
+
+slope_q40:
+  question: "Y-intercept of y = 0.5x + 3?"
+  options: ["0.5", "3", "6", "0"]
+  answer: 1
+
+slope_q41:
+  question: "X-intercept of 5x + 10y = 50?"
+  options: ["(5, 0)", "(10, 0)", "(50, 0)", "(0, 5)"]
+  answer: 1
+
+slope_q42:
+  question: "Slope of x = -100?"
+  options: ["-100", "0", "Undefined", "-1"]
+  answer: 2
+
+slope_q43:
+  question: "Find slope: (-1, -1) and (1, 1)."
+  options: ["0", "1", "-1", "2"]
+  answer: 1
+
+slope_q44:
+  question: "Y-intercept of x + y = 10?"
+  options: ["10", "0", "-10", "1"]
+  answer: 0
+
+slope_q45:
+  question: "X-intercept of y = x - 5?"
+  options: ["(5, 0)", "(-5, 0)", "(0, -5)", "(0, 5)"]
+  answer: 0
+
+slope_q46:
+  question: "Slope between (4, 3) and (8, 3)?"
+  options: ["4", "1", "0", "Undefined"]
+  answer: 2
+
+slope_q47:
+  question: "Y-intercept of y = 3x - 1?"
+  options: ["3", "1", "-1", "0"]
+  answer: 2
+
+slope_q48:
+  question: "X-intercept of 2x - y = 4?"
+  options: ["(2, 0)", "(4, 0)", "(-2, 0)", "(0, -4)"]
+  answer: 0
+
+slope_q49:
+  question: "Slope between (2, 1) and (4, 2)?"
+  options: ["2", "0.5", "1", "-0.5"]
+  answer: 1
+
+slope_q50:
+  question: "What is the slope of the x-axis?"
+  options: ["1", "Undefined", "0", "Infinite"]
+  answer: 2

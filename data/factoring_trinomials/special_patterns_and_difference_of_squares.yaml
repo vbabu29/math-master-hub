@@ -1,0 +1,290 @@
+# --- UNIT 1: DIFFERENCE OF SQUARES (GUIDED) ---
+# Targets: "Difference of squares formula", "Factoring x^2 - y^2"
+
+spec_q1:
+  type: "Pattern Recognition"
+  difficulty: "Easy"
+  question: "To use the Difference of Squares pattern, both terms must be perfect squares and separated by which sign?"
+  options: ["Addition (+)", "Multiplication (×)", "Division (÷)", "Subtraction (-)"]
+  answer: 3
+
+spec_q2:
+  type: "Identify Square Roots"
+  difficulty: "Easy"
+  question: "In the expression x² - 81, what are the square roots of the two terms used in the factors?"
+  options: ["x and 9", "x² and 81", "x and 40.5", "9 and 9"]
+  answer: 0
+
+spec_q3:
+  type: "Direct Factoring"
+  difficulty: "Medium"
+  question: "Factor: 4x² - 49"
+  options: ["(2x - 7)²", "(2x + 7)(2x - 7)", "(4x - 7)(x + 7)", "(2x - 49)(2x + 1)"]
+  answer: 1
+
+spec_q4:
+  type: "Variable Squares"
+  difficulty: "Medium"
+  question: "Factor: x² - y²"
+  options: ["(x - y)(x - y)", "(x + y)²", "(x + y)(x - y)", "Prime"]
+  answer: 2
+
+# --- UNIT 2: PERFECT SQUARE TRINOMIALS (GUIDED) ---
+# Targets: "Perfect square trinomial pattern", "Square of a binomial"
+
+spec_q5:
+  type: "Middle Term Logic"
+  difficulty: "Medium"
+  question: "In the pattern (a + b)² = a² + 2ab + b², why is the middle term '2ab' and not just 'ab'?"
+  options: ["Because you square the middle", "Because inner and outer products are identical and must be added", "Because a and b are both doubled", "It is a mathematical rule with no reason"]
+  answer: 1
+
+spec_q6:
+  type: "Identify the Constant"
+  difficulty: "Easy"
+  question: "Which constant makes x² + 10x + ___ a perfect square trinomial?"
+  options: ["10", "100", "5", "25"]
+  answer: 3
+
+spec_q7:
+  type: "Direct Factoring"
+  difficulty: "Medium"
+  question: "Factor: x² - 12x + 36"
+  options: ["(x - 6)(x + 6)", "(x - 6)²", "(x + 6)²", "(x - 18)(x - 2)"]
+  answer: 1
+
+spec_q8:
+  type: "Expansion Check"
+  difficulty: "Hard"
+  question: "Which expression is the result of squaring the binomial (3x - 4)?"
+  options: ["9x² - 16", "9x² - 12x + 16", "9x² - 24x + 16", "6x² - 24x + 8"]
+  answer: 2
+
+# --- UNIT 3: ERROR DETECTION & TRAPS ---
+# Targets: "Sum of squares prime", "Factoring special product errors"
+
+spec_q9:
+  type: "Prime Trap"
+  difficulty: "Hard"
+  question: "A student says x² + 25 factors into (x + 5)(x - 5). Why are they wrong?"
+  options: ["The product of factors is x² - 25", "Sum of squares is prime", "The middle term is missing", "Both A and B"]
+  answer: 3
+
+spec_q10:
+  type: "Expansion Error"
+  difficulty: "Medium"
+  question: "A student expands (x + 3)² as x² + 9. What did they forget?"
+  options: ["The middle term (2ab)", "To square the 3", "To square the x", "The negative sign"]
+  answer: 0
+
+spec_q11:
+  type: "Sign Error"
+  difficulty: "Hard"
+  question: "Factor: x² - 14x + 49. A student writes (x + 7)(x - 7). What is the error?"
+  options: ["The product is x² - 49", "The middle term would be 0x", "The constant should be -49", "Both A and B"]
+  answer: 3
+
+# --- UNIT 4: REVERSE LOGIC & MISSING TERMS ---
+
+spec_q12:
+  type: "Find b"
+  difficulty: "Medium"
+  question: "x² + bx + 100 = (x + 10)². What is the value of b?"
+  options: ["10", "20", "100", "50"]
+  answer: 1
+
+spec_q13:
+  type: "Find c"
+  difficulty: "Medium"
+  question: "4x² - 12x + ___ = (2x - 3)²"
+  options: ["3", "6", "9", "-9"]
+  answer: 2
+
+spec_q14:
+  type: "Find a"
+  difficulty: "Hard"
+  question: "___x² - 16 = (5x - 4)(5x + 4). What coefficient is missing?"
+  options: ["5", "10", "25", "16"]
+  answer: 2
+
+# --- UNIT 5: STRENGTHENING DRILLS (MIXED SPECIAL PATTERNS) ---
+
+spec_q15:
+  question: "Factor: x² - 64"
+  options: ["(x-8)(x+8)", "(x-8)²", "(x+8)²", "Prime"]
+  answer: 0
+
+spec_q16:
+  question: "Factor: x² + 4x + 4"
+  options: ["(x+2)(x-2)", "(x+2)²", "(x+4)²", "(x+1)(x+4)"]
+  answer: 1
+
+spec_q17:
+  question: "Factor: 9x² - 1"
+  options: ["(3x-1)²", "(3x+1)²", "(3x-1)(3x+1)", "(9x-1)(x+1)"]
+  answer: 2
+
+spec_q18:
+  question: "Factor: x² - 20x + 100"
+  options: ["(x-10)(x+10)", "(x-50)²", "(x-10)²", "(x+10)²"]
+  answer: 2
+
+spec_q19:
+  question: "Factor: 25x² - 36"
+  options: ["(5x-6)(5x+6)", "(5x-6)²", "(5x+6)²", "(25x-6)(x+6)"]
+  answer: 0
+
+spec_q20:
+  question: "Factor: 16x² + 24x + 9"
+  options: ["(4x+3)(4x-3)", "(8x+3)²", "(4x+3)²", "(4x+9)²"]
+  answer: 2
+
+spec_q21:
+  question: "Factor: x² - 144"
+  options: ["(x-12)(x+12)", "(x-12)²", "(x+12)²", "Prime"]
+  answer: 0
+
+spec_q22:
+  question: "Factor: x² + 18x + 81"
+  options: ["(x+9)(x-9)", "(x+9)²", "(x-9)²", "(x+81)(x+1)"]
+  answer: 1
+
+spec_q23:
+  question: "Factor: 49x² - 100"
+  options: ["(7x-10)²", "(7x+10)²", "(7x-10)(7x+10)", "(49x-10)(x+10)"]
+  answer: 2
+
+spec_q24:
+  question: "Factor: x² - 2x + 1"
+  options: ["(x+1)²", "(x-1)²", "(x-1)(x+1)", "(x-2)²"]
+  answer: 1
+
+spec_q25:
+  question: "Factor: 81x² - 4"
+  options: ["(9x-2)(9x+2)", "(9x-2)²", "(9x+2)²", "(81x-2)(x+2)"]
+  answer: 0
+
+spec_q26:
+  question: "Factor: 4x² + 20x + 25"
+  options: ["(2x-5)²", "(4x+5)²", "(2x+5)²", "(2x+5)(2x-5)"]
+  answer: 2
+
+spec_q27:
+  question: "Factor: x² - 121"
+  options: ["(x-11)(x+11)", "(x-11)²", "(x+11)²", "Prime"]
+  answer: 0
+
+spec_q28:
+  question: "Factor: x² - 16x + 64"
+  options: ["(x+8)²", "(x-8)(x+8)", "(x-8)²", "(x-32)²"]
+  answer: 2
+
+spec_q29:
+  question: "Factor: 36x² - 121"
+  options: ["(6x-11)(6x+11)", "(6x-11)²", "(6x+11)²", "(18x-11)²"]
+  answer: 0
+
+spec_q30:
+  question: "Factor: x² + 22x + 121"
+  options: ["(x-11)²", "(x+11)²", "(x+11)(x-11)", "(x+22)²"]
+  answer: 1
+
+spec_q31:
+  question: "Factor: 100x² - 9"
+  options: ["(10x-3)²", "(10x-3)(10x+3)", "(10x+3)²", "(50x-3)²"]
+  answer: 1
+
+spec_q32:
+  question: "Factor: x² - 26x + 169"
+  options: ["(x+13)²", "(x-13)(x+13)", "(x-13)²", "(x-169)²"]
+  answer: 2
+
+spec_q33:
+  question: "Factor: 16x² - 25y²"
+  options: ["(4x-5y)(4x+5y)", "(4x-5y)²", "(4x+5y)²", "(8x-5y)(2x+5y)"]
+  answer: 0
+
+spec_q34:
+  question: "Factor: 4x² + 28x + 49"
+  options: ["(2x-7)²", "(2x+7)²", "(4x+7)²", "(2x+7)(2x-7)"]
+  answer: 1
+
+spec_q35:
+  question: "Factor: 1 - x²"
+  options: ["(1-x)(1+x)", "(x-1)(x+1)", "(1-x)²", "Prime"]
+  answer: 0
+
+spec_q36:
+  question: "Factor: 9x² - 30x + 25"
+  options: ["(3x+5)²", "(3x-5)²", "(3x-5)(3x+5)", "(9x-5)²"]
+  answer: 1
+
+spec_q37:
+  question: "Factor: 64x² - 1"
+  options: ["(8x-1)²", "(8x-1)(8x+1)", "(8x+1)²", "(32x-1)²"]
+  answer: 1
+
+spec_q38:
+  question: "Factor: x² + 24x + 144"
+  options: ["(x+12)(x-12)", "(x-12)²", "(x+12)²", "(x+144)²"]
+  answer: 2
+
+spec_q39:
+  question: "Factor: 25x² - 49y²"
+  options: ["(5x-7y)(5x+7y)", "(5x-7y)²", "(5x+7y)²", "Prime"]
+  answer: 0
+
+spec_q40:
+  question: "Factor: 100x² - 20x + 1"
+  options: ["(10x+1)²", "(10x-1)²", "(10x-1)(10x+1)", "(50x-1)²"]
+  answer: 1
+
+spec_q41:
+  question: "Factor: x² - 400"
+  options: ["(x-20)(x+20)", "(x-20)²", "(x+20)²", "Prime"]
+  answer: 0
+
+spec_q42:
+  question: "Factor: 4x² + 4x + 1"
+  options: ["(2x-1)²", "(4x+1)²", "(2x+1)²", "(2x+1)(2x-1)"]
+  answer: 2
+
+spec_q43:
+  question: "Factor: 144x² - 1"
+  options: ["(12x-1)(12x+1)", "(12x-1)²", "(12x+1)²", "(72x-1)²"]
+  answer: 0
+
+spec_q44:
+  question: "Factor: x² - 30x + 225"
+  options: ["(x+15)²", "(x-15)²", "(x-15)(x+15)", "(x-225)²"]
+  answer: 1
+
+spec_q45:
+  question: "Factor: 16x² - 81"
+  options: ["(4x-9)(4x+9)", "(4x-9)²", "(4x+9)²", "(8x-9)(2x+9)"]
+  answer: 0
+
+spec_q46:
+  question: "Factor: 25x² + 70x + 49"
+  options: ["(5x+7)(5x-7)", "(5x+7)²", "(5x-7)²", "(25x+7)²"]
+  answer: 1
+
+spec_q47:
+  question: "Factor: x² - 225"
+  options: ["(x-15)(x+15)", "(x-15)²", "(x+15)²", "Prime"]
+  answer: 0
+
+spec_q48:
+  question: "Factor: 4x² - 40x + 100"
+  options: ["(2x-10)(2x+10)", "(2x+10)²", "(2x-10)²", "(4x-10)²"]
+  answer: 2
+
+spec_q49:
+  question: "Factor: 81x² - 121y²"
+  options: ["(9x-11y)(9x+11y)", "(9x-11y)²", "(9x+11y)²", "Prime"]
+  answer: 0
+
+spec_q50:
+  question: "Factor: x² + 2x + 1"
+  options: ["(x+1)(x-1)", "(x-1)²", "(x+1)²", "(x+2)²"]
+  answer: 2

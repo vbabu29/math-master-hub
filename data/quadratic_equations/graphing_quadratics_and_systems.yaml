@@ -1,0 +1,353 @@
+# GRAPHING QUADRATICS & SYSTEMS QUESTION BANK
+
+g_sys_01:
+  type: "Vertex Logic"
+  difficulty: "Easy"
+  question: "In the vertex form y = a(x - h)² + k, the value of 'k' tells you how far the parabola has shifted:"
+  options: ["Left or right", "Up or down", "To the origin", "Inward"]
+  answer: 1
+
+g_sys_02:
+  type: "Symmetry Identification"
+  difficulty: "Easy"
+  question: "The vertical line that cuts a parabola into two matching halves is called the:"
+  options: ["X-intercept", "Directrix", "Axis of Symmetry", "Tangent"]
+  answer: 2
+
+g_sys_03:
+  type: "Graph Direction"
+  difficulty: "Easy"
+  question: "If the leading coefficient 'a' in y = ax² + bx + c is negative, the 'arms' of the parabola will point:"
+  options: ["Upward", "Rightward", "Downward", "Leftward"]
+  answer: 2
+
+g_sys_04:
+  type: "Vertex vs Y-intercept"
+  difficulty: "Medium"
+  question: "In the standard equation y = x² + 6x + 5, which constant represents the point where the graph crosses the vertical axis?"
+  options: ["6", "5", "1", "0"]
+  answer: 1
+
+g_sys_05:
+  type: "System Visualization"
+  difficulty: "Easy"
+  question: "If a line is tangent to a parabola, how many solutions does the system have?"
+  options: ["Two", "Zero", "One", "Infinite"]
+  answer: 2
+
+g_sys_06:
+  type: "Guided Transformation"
+  difficulty: "Medium"
+  question: "To move the graph of y = x² three units to the right, how should the equation be modified?"
+  options: ["y = x² + 3", "y = (x + 3)²", "y = x² - 3", "y = (x - 3)²"]
+  answer: 3
+
+g_sys_07:
+  type: "Maximum/Minimum Logic"
+  difficulty: "Medium"
+  question: "A parabola opens upward. The y-coordinate of its vertex represents the:"
+  options: ["Maximum value", "Minimum value", "X-intercept", "Slope"]
+  answer: 1
+
+g_sys_08:
+  type: "System Sketching"
+  difficulty: "Hard"
+  question: "Consider a parabola with a vertex at (0,5) opening upward and a line y = 2. How many times do they intersect?"
+  options: ["0", "1", "2", "3"]
+  answer: 0
+
+g_sys_09:
+  type: "Width Analysis"
+  difficulty: "Medium"
+  question: "Compared to y = x², the graph of y = 4x² will appear:"
+  options: ["Wider", "Shifted up", "Narrower", "Shifted left"]
+  answer: 2
+
+g_sys_10:
+  type: "Root Identification"
+  difficulty: "Easy"
+  question: "If a parabola's vertex sits exactly on the x-axis, how many real roots does it have?"
+  options: ["0", "1", "2", "Impossible to tell"]
+  answer: 1
+
+# ... [Continuing to reach 50 questions] ...
+
+g_sys_11:
+  type: "Guided System Step"
+  difficulty: "Medium"
+  question: "To solve the system y = x² - 4 and y = 5 graphically, you should look for the x-values where x² - 4 equals:"
+  options: ["0", "5", "-4", "x"]
+  answer: 1
+
+g_sys_12:
+  type: "Domain/Range"
+  difficulty: "Medium"
+  question: "For the graph of y = x² + 2, which of these is a possible y-value?"
+  options: ["0", "1", "3", "-2"]
+  answer: 2
+
+g_sys_13:
+  type: "Reflections"
+  difficulty: "Easy"
+  question: "The graph of y = -x² is a reflection of y = x² across the:"
+  options: ["y-axis", "x-axis", "Line y=x", "Origin"]
+  answer: 1
+
+g_sys_14:
+  type: "Linear-Quadratic Intersection"
+  difficulty: "Medium"
+  question: "A line with a positive slope passes through the vertex of a parabola opening upward. What is the minimum number of intersections?"
+  options: ["0", "1", "2", "3"]
+  answer: 2
+
+g_sys_15:
+  type: "Vertex Identification"
+  difficulty: "Easy"
+  question: "What is the vertex of the function y = (x - 5)² + 10?"
+  options: ["(-5, 10)", "(5, 10)", "(5, -10)", "(-5, -10)"]
+  answer: 1
+
+g_sys_16:
+  type: "Horizontal Shift Logic"
+  difficulty: "Medium"
+  question: "In the function y = (x + 4)², the '+4' moves the graph toward which side of the x-axis?"
+  options: ["Positive (Right)", "Negative (Left)", "Up", "Down"]
+  answer: 1
+
+g_sys_17:
+  type: "System Check"
+  difficulty: "Hard"
+  question: "Does the system y = x² + 10 and y = x - 5 have any real intersection points?"
+  options: ["Yes, two", "Yes, one", "No", "Yes, infinite"]
+  answer: 2
+
+g_sys_18:
+  type: "Steepness"
+  difficulty: "Medium"
+  question: "Which function has the 'flattest' or widest curve?"
+  options: ["y = 0.1x²", "y = 5x²", "y = x²", "y = -2x²"]
+  answer: 0
+
+g_sys_19:
+  type: "Table to Graph"
+  difficulty: "Medium"
+  question: "A table shows points (-1, 1), (0, 0), and (1, 1). This most likely represents which shape?"
+  options: ["A straight line", "A parabola", "A circle", "An exponential curve"]
+  answer: 1
+
+g_sys_20:
+  type: "Axis of Symmetry Formula"
+  difficulty: "Easy"
+  question: "For the graph of y = ax² + bx + c, the vertical line of symmetry is always x = "
+  options: ["b/2a", "c", "-b/2a", "-c/a"]
+  answer: 2
+
+g_sys_21:
+  type: "Zero Intersections"
+  difficulty: "Medium"
+  question: "A system of y = x² and a horizontal line has no solution. Where must the line be located?"
+  options: ["Above the x-axis", "On the x-axis", "Below the x-axis", "Intersecting the origin"]
+  answer: 2
+
+g_sys_22:
+  type: "Guided Graphing"
+  difficulty: "Medium"
+  question: "Step 1: Find the vertex. Step 2: Find the y-intercept. If the vertex is (0,0) and a=1, the y-intercept is:"
+  options: ["(0, 1)", "(1, 0)", "(0, 0)", "(0, -1)"]
+  answer: 2
+
+g_sys_23:
+  type: "Multiple Systems"
+  difficulty: "Hard"
+  question: "How many solutions can a system of two different parabolas have?"
+  options: ["Only 2", "0, 1, or 2", "0, 1, 2, or infinite", "Exactly 1"]
+  answer: 2
+
+g_sys_24:
+  type: "Vertex Form Constants"
+  difficulty: "Easy"
+  question: "In y = a(x-h)²+k, if 'a' is doubled, what happens to the vertex?"
+  options: ["It moves up", "It moves right", "It stays the same", "It disappears"]
+  answer: 2
+
+g_sys_25:
+  type: "Negative Leading Coefficient"
+  difficulty: "Medium"
+  question: "Which graph will have a peak (maximum) rather than a valley (minimum)?"
+  options: ["y = 2x²", "y = x² - 10", "y = -0.5x² + 4", "y = (x-2)²"]
+  answer: 2
+
+g_sys_26:
+  type: "Y-intercept Discovery"
+  difficulty: "Easy"
+  question: "To find the y-intercept of any quadratic graph, you should set x equal to:"
+  options: ["1", "y", "0", "-1"]
+  answer: 2
+
+g_sys_27:
+  type: "Visualizing x-intercepts"
+  difficulty: "Medium"
+  question: "If the vertex of a parabola is (3, -4) and it opens upward, how many x-intercepts must it have?"
+  options: ["0", "1", "2", "3"]
+  answer: 2
+
+g_sys_28:
+  type: "Visualizing x-intercepts II"
+  difficulty: "Medium"
+  question: "If the vertex of a parabola is (3, -4) and it opens downward, how many x-intercepts must it have?"
+  options: ["0", "1", "2", "3"]
+  answer: 0
+
+g_sys_29:
+  type: "Standard Form"
+  difficulty: "Easy"
+  question: "In standard form y = ax² + bx + c, which letter determines if the graph opens up or down?"
+  options: ["a", "b", "c", "x"]
+  answer: 0
+
+g_sys_30:
+  type: "System Substitution Logic"
+  difficulty: "Medium"
+  question: "When solving y = x² + 2 and y = 3x, the first step is setting them equal. This represents finding the points where:"
+  options: ["The slopes are equal", "The graphs intersect", "The y-intercept is 0", "The x-axis is crossed"]
+  answer: 1
+
+g_sys_31:
+  type: "Horizontal Stretching"
+  difficulty: "Hard"
+  question: "Which equation represents a horizontal shift of y = x² followed by a vertical stretch?"
+  options: ["y = 3x² + 2", "y = 3(x - 2)²", "y = (3x)²", "y = x² + 6"]
+  answer: 1
+
+g_sys_32:
+  type: "Parabola Parts"
+  difficulty: "Easy"
+  question: "The lowest or highest point on a parabola is specifically called the:"
+  options: ["Root", "Focus", "Vertex", "Intercept"]
+  answer: 2
+
+g_sys_33:
+  type: "Increasing/Decreasing"
+  difficulty: "Medium"
+  question: "On the graph of y = x², for which x-values is the graph 'falling' or decreasing?"
+  options: ["x > 0", "x < 0", "All x", "No x"]
+  answer: 1
+
+g_sys_34:
+  type: "System Interpretation"
+  difficulty: "Medium"
+  question: "A system has solutions at (2, 4) and (-2, 4). This could be the intersection of y = x² and:"
+  options: ["y = 4", "y = x", "y = 2x", "y = -4"]
+  answer: 0
+
+g_sys_35:
+  type: "Comparing Graphs"
+  difficulty: "Medium"
+  question: "How does the graph of y = x² + 5 compare to y = x² - 5?"
+  options: ["It is wider", "It is 10 units higher", "It is 5 units to the left", "It is 10 units to the right"]
+  answer: 1
+
+g_sys_36:
+  type: "Vertex from Symmetry"
+  difficulty: "Hard"
+  question: "If the x-intercepts of a parabola are at x=2 and x=8, what is the x-coordinate of the vertex?"
+  options: ["10", "6", "5", "4"]
+  answer: 2
+
+g_sys_37:
+  type: "Translation Combination"
+  difficulty: "Medium"
+  question: "Identify the equation for y = x² shifted 2 units left and 3 units down."
+  options: ["y = (x-2)² + 3", "y = (x+2)² - 3", "y = (x-2)² - 3", "y = (x+2)² + 3"]
+  answer: 1
+
+g_sys_38:
+  type: "System Intersection Limits"
+  difficulty: "Easy"
+  question: "Can a linear equation and a quadratic equation intersect 0 times?"
+  options: ["Yes, if the line is below a parabola opening up", "No, they must meet once", "No, they must meet twice", "Yes, only if the line is vertical"]
+  answer: 0
+
+g_sys_39:
+  type: "Symmetry Property"
+  difficulty: "Medium"
+  question: "If (1, 5) is a point on a parabola with axis of symmetry x=3, which other point must be on the graph?"
+  options: ["(5, 5)", "(3, 5)", "(1, 1)", "(6, 5)"]
+  answer: 0
+
+g_sys_40:
+  type: "Leading Coefficient Effect"
+  difficulty: "Hard"
+  question: "If |a| < 1 in the equation y = ax², the parabola is:"
+  options: ["Shifted down", "Narrower than y = x²", "Wider than y = x²", "A straight line"]
+  answer: 2
+
+g_sys_41:
+  type: "Quadratic Systems"
+  difficulty: "Medium"
+  question: "Where do y = x² and y = -x² intersect?"
+  options: ["(1, 1)", "No intersection", "(0, 0)", "Everywhere"]
+  answer: 2
+
+g_sys_42:
+  type: "Vertex Logic"
+  difficulty: "Easy"
+  question: "In the function y = x² - 7, the vertex is located on which axis?"
+  options: ["X-axis", "Y-axis", "Origin", "None"]
+  answer: 1
+
+g_sys_43:
+  type: "Guided Graph Path"
+  difficulty: "Medium"
+  question: "As x increases from -10 to 0 for the graph y = x², the y-values:"
+  options: ["Increase", "Decrease", "Stay constant", "Turn negative"]
+  answer: 1
+
+g_sys_44:
+  type: "Solution Set Visualization"
+  difficulty: "Hard"
+  question: "Solving x² = 2x + 3 graphically involves finding the intersection of y = x² and:"
+  options: ["y = 3", "y = 2x + 3", "y = 2x", "x = 3"]
+  answer: 1
+
+g_sys_45:
+  type: "Upward Shift"
+  difficulty: "Easy"
+  question: "Which change to y = x² creates y = x² + k (where k > 0)?"
+  options: ["Vertical stretch", "Horizontal shift", "Vertical shift up", "Vertical shift down"]
+  answer: 2
+
+g_sys_46:
+  type: "Point Testing"
+  difficulty: "Medium"
+  question: "Which point lies on the graph of y = 2x² - 1?"
+  options: ["(0, 0)", "(1, 1)", "(2, 3)", "(-1, -1)"]
+  answer: 1
+
+g_sys_47:
+  type: "System Constraint"
+  difficulty: "Hard"
+  question: "If a system of a line and parabola has exactly one solution, the line is said to be ___ to the parabola."
+  options: ["Parallel", "Secant", "Tangent", "Perpendicular"]
+  answer: 2
+
+g_sys_48:
+  type: "Graph Reflection"
+  difficulty: "Medium"
+  question: "The graph of y = (x - 2)² is the same as y = (2 - x)²."
+  options: ["True", "False", "Only if x is positive", "Only at the vertex"]
+  answer: 0
+
+g_sys_49:
+  type: "Identifying Function Type"
+  difficulty: "Easy"
+  question: "Which graph is a U-shaped curve?"
+  options: ["y = 2x + 1", "y = x³", "y = x² + 4", "y = |x|"]
+  answer: 2
+
+g_sys_50:
+  type: "Range Analysis"
+  difficulty: "Hard"
+  question: "What is the range of the function y = -(x-1)² + 5?"
+  options: ["All real numbers", "y ≥ 5", "y ≤ 5", "y ≤ 1"]
+  answer: 2

@@ -1,0 +1,281 @@
+# --- UNIT 1: THE PERFECT SQUARE CONSTANT (GUIDED) ---
+cts_q1:
+  type: "Identify Constant"
+  difficulty: "Easy"
+  question: "To complete the square for x² + 10x, you take half of 10 and square it. What number must be added?"
+  options: ["10", "25", "100", "5"]
+  answer: 1
+
+cts_q2:
+  type: "Constant Logic"
+  difficulty: "Easy"
+  question: "If the middle term 'b' is -8, what is the constant (b/2)² needed to complete the square?"
+  options: ["64", "-16", "16", "4"]
+  answer: 2
+
+cts_q3:
+  type: "Fractional Constant"
+  difficulty: "Medium"
+  question: "To complete the square for x² + 5x, what fraction must be added?"
+  options: ["25/2", "5/4", "10", "25/4"]
+  answer: 3
+
+cts_q4:
+  type: "Identify Constant"
+  difficulty: "Medium"
+  question: "Which constant completes the square for x² - 14x?"
+  options: ["49", "14", "196", "7"]
+  answer: 0
+
+# --- UNIT 2: THE "FIRST STEP" LOGIC (GUIDED) ---
+cts_q5:
+  type: "First Step Logic"
+  difficulty: "Hard"
+  question: "To complete the square for 2x² + 8x = 10, what is the mandatory first step?"
+  options: ["Add 16 to both sides", "Divide the entire equation by 2", "Subtract 8x from both sides", "Square the 8"]
+  answer: 1
+
+cts_q6:
+  type: "Rearranging Step"
+  difficulty: "Medium"
+  question: "When solving x² + 6x - 7 = 0 by completing the square, what should you do with the -7 first?"
+  options: ["Add 7 to both sides", "Leave it on the left side", "Divide it by 2", "Factor it"]
+  answer: 0
+
+cts_q7:
+  type: "Balance Logic"
+  difficulty: "Medium"
+  question: "If you add 9 to the left side of an equation to complete the square, what must you do to the right side to keep it balanced?"
+  options: ["Subtract 9", "Divide by 9", "Add 9", "Nothing"]
+  answer: 2
+
+# --- UNIT 3: BINOMIAL SQUARING (GUIDED) ---
+cts_q8:
+  type: "Binomial Form"
+  difficulty: "Easy"
+  question: "The expression x² + 12x + 36 can be written as which perfect square binomial?"
+  options: ["(x + 12)²", "(x + 36)²", "(x + 6)²", "(x - 6)²"]
+  answer: 2
+
+cts_q9:
+  type: "Binomial Form"
+  difficulty: "Medium"
+  question: "After completing the square for x² - 18x + 81, how is the trinomial rewritten?"
+  options: ["(x - 9)²", "(x + 9)²", "(x - 81)²", "(x - 18)²"]
+  answer: 0
+
+# --- UNIT 4: VERTEX FORM CONVERSION ---
+cts_q10:
+  type: "Vertex Form"
+  difficulty: "Hard"
+  question: "Convert y = x² - 4x + 7 into vertex form by completing the square."
+  options: ["y = (x - 2)² + 7", "y = (x - 2)² + 3", "y = (x + 2)² + 3", "y = (x - 4)² + 3"]
+  answer: 1
+
+cts_q11:
+  type: "Identify Vertex"
+  difficulty: "Hard"
+  question: "If an equation is completed to y = (x + 5)² - 2, what is the vertex of the parabola?"
+  options: ["(5, -2)", "(-5, 2)", "(-5, -2)", "(5, 2)"]
+  answer: 2
+
+# --- UNIT 5: ERROR DETECTION & VERIFICATION ---
+cts_q12:
+  type: "Error Analysis"
+  difficulty: "Medium"
+  question: "A student adds 16 to the left of x² + 8x = 5 but forgets to add it to the right. What will their final constant on the right be mistakenly?"
+  options: ["21", "5", "80", "11"]
+  answer: 1
+
+cts_q13:
+  type: "Step Check"
+  difficulty: "Hard"
+  question: "For 3x² + 12x, a student factors out 3 to get 3(x² + 4x). What number should they add inside the parentheses to complete the square?"
+  options: ["4", "12", "16", "2"]
+  answer: 0
+
+# --- UNIT 6: DIRECT SOLVING DRILLS ---
+cts_q14:
+  question: "Solve by completing the square: x² - 6x + 2 = 0"
+  options: ["x = 3 ± √11", "x = -3 ± √7", "x = 3 ± √7", "x = 6 ± √2"]
+  answer: 2
+
+cts_q15:
+  question: "Solve: x² + 4x - 5 = 0"
+  options: ["x = -1, 5", "x = 2 ± √5", "x = -2 ± √1", "x = 1, -5"]
+  answer: 3
+
+cts_q16:
+  question: "Solve: x² - 2x = 3"
+  options: ["x = 1, -3", "x = 3, -1", "x = 1 ± √3", "x = 2, -1"]
+  answer: 1
+
+cts_q17:
+  question: "Solve: x² + 8x + 12 = 0"
+  options: ["x = 2, 6", "x = -2, -6", "x = -4 ± √2", "x = -4 ± √4"]
+  answer: 1
+
+cts_q18:
+  question: "Solve: x² - 10x + 20 = 0"
+  options: ["x = 5 ± √45", "x = -5 ± √5", "x = 10 ± √5", "x = 5 ± √5"]
+  answer: 3
+
+cts_q19:
+  question: "Solve: x² + 2x - 5 = 0"
+  options: ["x = -1 ± √6", "x = 1 ± √6", "x = -1 ± √4", "x = -2 ± √5"]
+  answer: 0
+
+cts_q20:
+  question: "Solve: x² - 4x = 12"
+  options: ["x = -6, 2", "x = 6, -2", "x = 2 ± √16", "x = 4, -3"]
+  answer: 1
+
+cts_q21:
+  question: "Solve: x² + 6x + 5 = 0"
+  options: ["x = 1, 5", "x = -1, -5", "x = -3 ± √4", "x = -6 ± √5"]
+  answer: 1
+
+cts_q22:
+  question: "Solve: x² - 8x + 7 = 0"
+  options: ["x = -1, -7", "x = 4 ± √9", "x = 1, 7", "x = 8 ± √7"]
+  answer: 2
+
+cts_q23:
+  question: "Solve: x² + 10x + 9 = 0"
+  options: ["x = 1, 9", "x = -5 ± √16", "x = -1, -9", "x = -10 ± √9"]
+  answer: 2
+
+cts_q24:
+  question: "Solve: x² - 12x + 11 = 0"
+  options: ["x = 1, 11", "x = -1, -11", "x = 6 ± √25", "x = 12 ± √11"]
+  answer: 0
+
+cts_q25:
+  question: "Solve: x² + 14x + 45 = 0"
+  options: ["x = 5, 9", "x = -5, -9", "x = -7 ± √4", "x = -14 ± √45"]
+  answer: 1
+
+cts_q26:
+  question: "Solve: x² - 16x + 60 = 0"
+  options: ["x = -6, -10", "x = 8 ± √4", "x = 6, 10", "x = 16 ± √60"]
+  answer: 2
+
+cts_q27:
+  question: "Solve: x² + 2x - 15 = 0"
+  options: ["x = -3, 5", "x = -1 ± √16", "x = -2 ± √15", "x = 3, -5"]
+  answer: 3
+
+cts_q28:
+  question: "Solve: x² - 4x - 21 = 0"
+  options: ["x = 7, -3", "x = -7, 3", "x = 2 ± √25", "x = 4 ± √21"]
+  answer: 0
+
+cts_q29:
+  question: "Solve: x² + 6x - 27 = 0"
+  options: ["x = -3, 9", "x = 3, -9", "x = -3 ± √36", "x = -6 ± √27"]
+  answer: 1
+
+cts_q30:
+  question: "Solve: x² - 8x - 20 = 0"
+  options: ["x = -10, 2", "x = 4 ± √36", "x = 10, -2", "x = 8 ± √20"]
+  answer: 2
+
+cts_q31:
+  question: "Solve: x² + 10x - 24 = 0"
+  options: ["x = -2, 12", "x = -5 ± √49", "x = -10 ± √24", "x = 2, -12"]
+  answer: 3
+
+cts_q32:
+  question: "Solve: x² - 2x - 8 = 0"
+  options: ["x = 4, -2", "x = -4, 2", "x = 1 ± √9", "x = 2 ± √8"]
+  answer: 0
+
+cts_q33:
+  question: "Solve: x² + 4x - 12 = 0"
+  options: ["x = -2, 6", "x = 2, -6", "x = -2 ± √16", "x = -4 ± √12"]
+  answer: 1
+
+cts_q34:
+  question: "Solve: x² - 6x - 16 = 0"
+  options: ["x = -8, 2", "x = 3 ± √25", "x = 8, -2", "x = 6 ± √16"]
+  answer: 2
+
+cts_q35:
+  question: "Solve: x² + 8x - 9 = 0"
+  options: ["x = -1, 9", "x = -4 ± √25", "x = -8 ± √9", "x = 1, -9"]
+  answer: 3
+
+cts_q36:
+  question: "Solve: x² - 10x - 11 = 0"
+  options: ["x = 11, -1", "x = -11, 1", "x = 5 ± √36", "x = 10 ± √11"]
+  answer: 0
+
+cts_q37:
+  question: "Solve: x² + 12x - 13 = 0"
+  options: ["x = -1, 13", "x = 1, -13", "x = -6 ± √49", "x = -12 ± √13"]
+  answer: 1
+
+cts_q38:
+  question: "Solve: x² - 14x - 15 = 0"
+  options: ["x = -15, 1", "x = 7 ± √64", "x = 15, -1", "x = 14 ± √15"]
+  answer: 2
+
+cts_q39:
+  question: "Solve: x² + 16x - 17 = 0"
+  options: ["x = -1, 17", "x = -8 ± √81", "x = -16 ± √17", "x = 1, -17"]
+  answer: 3
+
+cts_q40:
+  question: "Solve: x² + 2x + 2 = 0"
+  options: ["No real solutions", "x = -1 ± √1", "x = -1 ± √-1", "x = -2 ± √2"]
+  answer: 0
+
+cts_q41:
+  question: "Solve: x² - 4x + 5 = 0"
+  options: ["x = 2 ± √1", "No real solutions", "x = 2 ± √-1", "x = 4 ± √5"]
+  answer: 1
+
+cts_q42:
+  question: "Solve: x² + 6x + 10 = 0"
+  options: ["x = -3 ± √1", "x = -3 ± √-1", "No real solutions", "x = -6 ± √10"]
+  answer: 2
+
+cts_q43:
+  question: "Solve: x² - 8x + 20 = 0"
+  options: ["x = 4 ± √4", "x = 4 ± √-4", "x = 8 ± √20", "No real solutions"]
+  answer: 3
+
+cts_q44:
+  question: "Solve: x² + 10x + 26 = 0"
+  options: ["No real solutions", "x = -5 ± √1", "x = -5 ± √-1", "x = -10 ± √26"]
+  answer: 0
+
+cts_q45:
+  question: "Solve: x² - 12x + 40 = 0"
+  options: ["x = 6 ± √4", "No real solutions", "x = 6 ± √-4", "x = 12 ± √40"]
+  answer: 1
+
+cts_q46:
+  question: "Solve: x² + 14x + 50 = 0"
+  options: ["x = -7 ± √1", "x = -7 ± √-1", "No real solutions", "x = -14 ± √50"]
+  answer: 2
+
+cts_q47:
+  question: "Solve: x² - 16x + 70 = 0"
+  options: ["x = 8 ± √6", "x = 8 ± √-6", "x = 16 ± √70", "No real solutions"]
+  answer: 3
+
+cts_q48:
+  question: "Solve: x² + 18x + 90 = 0"
+  options: ["No real solutions", "x = -9 ± √9", "x = -9 ± √-9", "x = -18 ± √90"]
+  answer: 0
+
+cts_q49:
+  question: "Solve: x² - 20x + 110 = 0"
+  options: ["x = 10 ± √10", "No real solutions", "x = 10 ± √-10", "x = 20 ± √110"]
+  answer: 1
+
+cts_q50:
+  question: "Solve: x² + 2x - 1 = 0"
+  options: ["x = 1 ± √2", "x = -1 ± √2", "x = -1 ± √0", "x = -2 ± √1"]
+  answer: 1

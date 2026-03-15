@@ -1,0 +1,551 @@
+# Unit 1: Basic Trinomials (a=1)
+factor_q1:
+  difficulty: "Easy"
+  question: "Factor: x^2 + 5x + 6"
+  steps:
+    - title: "Identify a, b, c"
+      options: ["1, 5, 6", "1, 6, 5"]
+      answer: 0
+    - title: "Find pair (n1*n2=6, n1+n2=5)"
+      options: ["1, 6", "2, 3"]
+      answer: 1
+    - title: "Final Form"
+      options: ["(x+1)(x+6)", "(x+2)(x+3)"]
+      answer: 1
+
+factor_q2:
+  difficulty: "Easy"
+  question: "Factor: x^2 + 8x + 12"
+  steps:
+    - title: "Identify a, b, c"
+      options: ["1, 8, 12", "1, 12, 8"]
+      answer: 0
+    - title: "Find pair"
+      options: ["2, 6", "3, 4"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x+2)(x+6)", "(x+3)(x+4)"]
+      answer: 0
+
+factor_q3:
+  difficulty: "Medium"
+  question: "Factor: x^2 - x - 20"
+  steps:
+    - title: "Identify b and c"
+      options: ["-1, -20", "1, 20"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-10, 2", "-5, 4"]
+      answer: 1
+    - title: "Final Form"
+      options: ["(x-5)(x+4)", "(x+5)(x-4)"]
+      answer: 0
+
+factor_q4:
+  difficulty: "Medium"
+  question: "Factor: x^2 - 13x + 40"
+  steps:
+    - title: "Identify b and c"
+      options: ["-13, 40", "13, -40"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-10, -4", "-8, -5"]
+      answer: 1
+    - title: "Final Form"
+      options: ["(x-10)(x-4)", "(x-8)(x-5)"]
+      answer: 1
+
+factor_q5:
+  difficulty: "Hard"
+  question: "Factor: x^2 + 25x + 144"
+  steps:
+    - title: "Target Product"
+      options: ["144", "25"]
+      answer: 0
+    - title: "Find pair"
+      options: ["12, 12", "16, 9"]
+      answer: 1
+    - title: "Final Form"
+      options: ["(x+16)(x+9)", "(x+12)^2"]
+      answer: 0
+
+factor_q6:
+  difficulty: "Hard"
+  question: "Factor: x^2 - 2x - 80"
+  steps:
+    - title: "Target Sum"
+      options: ["-2", "-80"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-10, 8", "10, -8"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x-10)(x+8)", "(x+10)(x-8)"]
+      answer: 0
+
+# Unit 2: GCF First
+factor_q7:
+  difficulty: "Easy"
+  question: "Factor: 3x^2 + 6x + 3"
+  steps:
+    - title: "Identify GCF"
+      options: ["x", "3"]
+      answer: 1
+    - title: "Remaining Trinomial"
+      options: ["x^2 + 2x + 1", "x^2 + 6x + 3"]
+      answer: 0
+    - title: "Final Form"
+      options: ["3(x+1)^2", "(x+1)^2"]
+      answer: 0
+
+factor_q8:
+  difficulty: "Easy"
+  question: "Factor: 2x^2 - 18"
+  steps:
+    - title: "Identify GCF"
+      options: ["2", "18"]
+      answer: 0
+    - title: "Remaining Part"
+      options: ["x^2 - 9", "x^2 - 18"]
+      answer: 0
+    - title: "Final Form"
+      options: ["2(x+3)(x-3)", "(x+3)(x-3)"]
+      answer: 0
+
+factor_q9:
+  difficulty: "Medium"
+  question: "Factor: 4x^2 + 20x + 24"
+  steps:
+    - title: "Identify GCF"
+      options: ["4", "2"]
+      answer: 0
+    - title: "Remaining Trinomial"
+      options: ["x^2 + 5x + 6", "x^2 + 10x + 12"]
+      answer: 0
+    - title: "Final Form"
+      options: ["4(x+2)(x+3)", "4(x+1)(x+6)"]
+      answer: 0
+
+factor_q10:
+  difficulty: "Medium"
+  question: "Factor: 10x^2 - 50x - 60"
+  steps:
+    - title: "Identify GCF"
+      options: ["10", "5"]
+      answer: 0
+    - title: "Remaining Trinomial"
+      options: ["x^2 - 5x - 6", "x^2 - 10x - 12"]
+      answer: 0
+    - title: "Final Form"
+      options: ["10(x-6)(x+1)", "10(x-3)(x-2)"]
+      answer: 0
+
+factor_q11:
+  difficulty: "Hard"
+  question: "Factor: 3x^3 - 21x^2 + 30x"
+  steps:
+    - title: "Identify GCF"
+      options: ["3", "3x"]
+      answer: 1
+    - title: "Remaining Trinomial"
+      options: ["x^2 - 7x + 10", "x^2 - 21x + 30"]
+      answer: 0
+    - title: "Final Form"
+      options: ["3x(x-5)(x-2)", "3(x-5)(x-2)"]
+      answer: 0
+
+factor_q12:
+  difficulty: "Hard"
+  question: "Factor: -2x^2 + 16x - 30"
+  steps:
+    - title: "Identify GCF"
+      options: ["2", "-2"]
+      answer: 1
+    - title: "Remaining Trinomial"
+      options: ["x^2 - 8x + 15", "x^2 + 8x - 15"]
+      answer: 0
+    - title: "Final Form"
+      options: ["-2(x-5)(x-3)", "-2(x-5)(x+3)"]
+      answer: 0
+
+# Unit 3: Advanced (a != 1)
+factor_q13:
+  difficulty: "Easy"
+  question: "Factor: 2x^2 + 5x + 3"
+  steps:
+    - title: "AC Product (2*3)"
+      options: ["5", "6"]
+      answer: 1
+    - title: "Find pair"
+      options: ["2, 3", "6, 1"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(2x+3)(x+1)", "(2x+1)(x+3)"]
+      answer: 0
+
+factor_q14:
+  difficulty: "Easy"
+  question: "Factor: 3x^2 + 7x + 2"
+  steps:
+    - title: "AC Product"
+      options: ["6", "7"]
+      answer: 0
+    - title: "Find pair"
+      options: ["6, 1", "2, 3"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(3x+1)(x+2)", "(3x+2)(x+1)"]
+      answer: 0
+
+factor_q15:
+  difficulty: "Medium"
+  question: "Factor: 5x^2 - 13x - 6"
+  steps:
+    - title: "AC Product"
+      options: ["-30", "-13"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-15, 2", "-10, -3"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(5x+2)(x-3)", "(5x-3)(x+2)"]
+      answer: 0
+
+factor_q16:
+  difficulty: "Medium"
+  question: "Factor: 4x^2 + 11x - 3"
+  steps:
+    - title: "AC Product"
+      options: ["-12", "11"]
+      answer: 0
+    - title: "Find pair"
+      options: ["12, -1", "6, -2"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(4x-1)(x+3)", "(2x+3)(2x-1)"]
+      answer: 0
+
+factor_q17:
+  difficulty: "Hard"
+  question: "Factor: 6x^2 + 7x - 20"
+  steps:
+    - title: "AC Product"
+      options: ["-120", "42"]
+      answer: 0
+    - title: "Find pair"
+      options: ["15, -8", "12, -10"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(2x+5)(3x-4)", "(6x+5)(x-4)"]
+      answer: 0
+
+factor_q18:
+  difficulty: "Hard"
+  question: "Factor: 8x^2 - 10x - 3"
+  steps:
+    - title: "AC Product"
+      options: ["-24", "-10"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-12, 2", "-6, -4"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(4x+1)(2x-3)", "(8x+1)(x-3)"]
+      answer: 0
+
+# Unit 4: Special Patterns
+factor_q19:
+  difficulty: "Easy"
+  question: "Factor: x^2 - 25"
+  steps:
+    - title: "Square Roots"
+      options: ["x, 5", "x, 12.5"]
+      answer: 0
+    - title: "Pattern"
+      options: ["(a-b)^2", "(a-b)(a+b)"]
+      answer: 1
+    - title: "Final Form"
+      options: ["(x-5)(x+5)", "(x-5)^2"]
+      answer: 0
+
+factor_q20:
+  difficulty: "Easy"
+  question: "Factor: x^2 + 10x + 25"
+  steps:
+    - title: "Square Root of c"
+      options: ["5", "10"]
+      answer: 0
+    - title: "Middle Check (2*5)"
+      options: ["Matches", "No"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x+5)^2", "(x+5)(x-5)"]
+      answer: 0
+
+factor_q21:
+  difficulty: "Medium"
+  question: "Factor: 9x^2 - 16"
+  steps:
+    - title: "Square Roots"
+      options: ["3x, 4", "9x, 16"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(3x-4)(3x+4)", "(3x-4)^2"]
+      answer: 0
+
+factor_q22:
+  difficulty: "Medium"
+  question: "Factor: 4x^2 - 12x + 9"
+  steps:
+    - title: "Square Roots"
+      options: ["2x, 3", "4x, 9"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(2x-3)^2", "(2x+3)(2x-3)"]
+      answer: 0
+
+factor_q23:
+  difficulty: "Hard"
+  question: "Factor: 100x^2 - 1"
+  steps:
+    - title: "Square Roots"
+      options: ["10x, 1", "50x, 0.5"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(10x-1)(10x+1)", "(10x-1)^2"]
+      answer: 0
+
+factor_q24:
+  difficulty: "Hard"
+  question: "Factor: 25x^2 + 70x + 49"
+  steps:
+    - title: "Square Roots"
+      options: ["5x, 7", "25x, 49"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(5x+7)^2", "(5x-7)^2"]
+      answer: 0
+
+# Unit 5: Multi-Variable
+factor_q25:
+  difficulty: "Easy"
+  question: "Factor: x^2 + 3xy + 2y^2"
+  steps:
+    - title: "Coefficients"
+      options: ["1, 3, 2", "x, y"]
+      answer: 0
+    - title: "Find pair"
+      options: ["2, 1", "3, 0"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x+2y)(x+y)", "(x+2)(x+1)"]
+      answer: 0
+
+factor_q26:
+  difficulty: "Easy"
+  question: "Factor: x^2 - 4y^2"
+  steps:
+    - title: "Square Roots"
+      options: ["x, 2y", "x, 4y"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x-2y)(x+2y)", "(x-2y)^2"]
+      answer: 0
+
+factor_q27:
+  difficulty: "Medium"
+  question: "Factor: x^2 - 5xy - 14y^2"
+  steps:
+    - title: "Coefficients"
+      options: ["1, -5, -14", "1, 5, 14"]
+      answer: 0
+    - title: "Find pair"
+      options: ["-7, 2", "-14, 1"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x-7y)(x+2y)", "(x+7y)(x-2y)"]
+      answer: 0
+
+factor_q28:
+  difficulty: "Medium"
+  question: "Factor: x^2 + 8xy + 15y^2"
+  steps:
+    - title: "Coefficients"
+      options: ["1, 8, 15", "x, y"]
+      answer: 0
+    - title: "Find pair"
+      options: ["3, 5", "15, 1"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(x+3y)(x+5y)", "(x+3)(x+5)"]
+      answer: 0
+
+factor_q29:
+  difficulty: "Hard"
+  question: "Factor: 2x^2 + 7xy + 3y^2"
+  steps:
+    - title: "AC Product"
+      options: ["6", "7"]
+      answer: 0
+    - title: "Find pair"
+      options: ["6, 1", "2, 3"]
+      answer: 0
+    - title: "Final Form"
+      options: ["(2x+y)(x+3y)", "(2x+3y)(x+y)"]
+      answer: 0
+
+factor_q30:
+  difficulty: "Hard"
+  question: "Factor: x^4 - y^4"
+  steps:
+    - title: "Square Roots"
+      options: ["x^2, y^2", "x, y"]
+      answer: 0
+    - title: "Step 1 Factors"
+      options: ["(x^2-y^2)(x^2+y^2)", "(x^2-y^2)^2"]
+      answer: 0
+    - title: "Final Fully Factored"
+      options: ["(x-y)(x+y)(x^2+y^2)", "(x^2-y^2)(x^2+y^2)"]
+      answer: 0
+
+# Unit 6: Verification
+factor_q31:
+  difficulty: "Easy"
+  question: "Is (x+5)(x+2) the factor form of x^2 + 7x + 10?"
+  steps:
+    - title: "Product Check (5*2)"
+      options: ["10 (Matches)", "7"]
+      answer: 0
+    - title: "Sum Check (5+2)"
+      options: ["7 (Matches)", "10"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+
+factor_q32:
+  difficulty: "Easy"
+  question: "Is (x-6)(x+1) the factor form of x^2 - 5x - 6?"
+  steps:
+    - title: "Product Check (-6*1)"
+      options: ["-6 (Matches)", "6"]
+      answer: 0
+    - title: "Sum Check (-6+1)"
+      options: ["-5 (Matches)", "5"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+
+factor_q33:
+  difficulty: "Medium"
+  question: "Is (x-8)(x-5) the factor form of x^2 - 13x + 40?"
+  steps:
+    - title: "Product Check (-8*-5)"
+      options: ["+40 (Matches)", "-40"]
+      answer: 0
+    - title: "Sum Check (-8-5)"
+      options: ["-13 (Matches)", "13"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+
+factor_q34:
+  difficulty: "Medium"
+  question: "Is (x+9)(x-4) the factor form of x^2 + 5x - 36?"
+  steps:
+    - title: "Product Check (9*-4)"
+      options: ["-36 (Matches)", "36"]
+      answer: 0
+    - title: "Sum Check (9-4)"
+      options: ["+5 (Matches)", "-5"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+
+factor_q35:
+  difficulty: "Hard"
+  question: "Is (x+4y)(x-3y) the factor form of x^2 - xy - 12y^2?"
+  steps:
+    - title: "Product Check (4*-3)"
+      options: ["-12", "12"]
+      answer: 0
+    - title: "Sum Check (4-3)"
+      options: ["+1", "-1 (Mismatch)"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect (Sign Error)"]
+      answer: 1
+
+factor_q36:
+  difficulty: "Hard"
+  question: "Is (x-10)(x+8) the factor form of x^2 - 2x - 80?"
+  steps:
+    - title: "Product Check (-10*8)"
+      options: ["-80", "80"]
+      answer: 0
+    - title: "Sum Check (-10+8)"
+      options: ["-2", "2"]
+      answer: 0
+    - title: "Conclusion"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+
+# Unit 7: Error Analysis & Prime Traps
+factor_q37:
+  difficulty: "Easy"
+  question: "Check claim: x^2 - 9x + 20 = (x-5)(x-4)"
+  steps:
+    - title: "Product Check (-5*-4)"
+      options: ["20", "-20"]
+      answer: 0
+    - title: "Sum Check (-5-4)"
+      options: ["-9", "9"]
+      answer: 0
+    - title: "Verdict"
+      options: ["Student is Correct", "Error Found"]
+      answer: 0
+
+factor_q38:
+  difficulty: "Medium"
+  question: "Check claim: x^2 - 7x + 20 = (x-5)(x-4)"
+  steps:
+    - title: "Product Check (-5*-4)"
+      options: ["20 (Matches)", "-20"]
+      answer: 0
+    - title: "Sum Check (-5-4)"
+      options: ["-9", "-7 (Mismatch)"]
+      answer: 0
+    - title: "Verdict"
+      options: ["Student is Correct", "Error (Sum mismatch)"]
+      answer: 1
+
+factor_q39:
+  difficulty: "Medium"
+  question: "Check claim: x^2 + 5x + 10 = (x+2)(x+5)"
+  steps:
+    - title: "Product Check (2*5)"
+      options: ["10 (Matches)", "7"]
+      answer: 0
+    - title: "Sum Check (2+5)"
+      options: ["7 (Mismatch)", "10"]
+      answer: 0
+    - title: "Verdict"
+      options: ["Correct", "Error (Trinomial is Prime)"]
+      answer: 1
+
+factor_q40:
+  difficulty: "Hard"
+  question: "Check claim: 2x^2 - 8 = 2(x-4)(x+4)"
+  steps:
+    - title: "GCF Check [2(x^2-4)]"
+      options: ["Correct", "Incorrect"]
+      answer: 0
+    - title: "Pattern Check [(x-4)(x+4)]"
+      options: ["Correct", "Incorrect (Should be 2)"]
+      answer: 1
+    - title: "Verdict"
+      options: ["Correct", "Error in Step 2"]
+      answer: 1

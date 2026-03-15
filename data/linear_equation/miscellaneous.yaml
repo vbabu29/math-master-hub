@@ -1,0 +1,265 @@
+# Unit 1: Solving One-Variable Equations [Total: 6]
+solv_q1:
+  type: "Multi-Step Solving"
+  difficulty: "Easy"
+  question: "Solve for x: 3x - 5 = 10"
+  options: ["x = 5", "x = 3", "x = 15", "x = -5"]
+  answer: 0
+
+solv_q2:
+  type: "Distributive Property"
+  difficulty: "Medium"
+  question: "Solve for x: 2(x + 4) = 18"
+  options: ["x = 5", "x = 7", "x = 9", "x = 13"]
+  answer: 0
+
+solv_q3:
+  type: "Variables on Both Sides"
+  difficulty: "Medium"
+  question: "Solve for x: 5x + 3 = 2x + 12"
+  options: ["x = 5", "x = 3", "x = 9", "x = 4"]
+  answer: 1
+
+solv_q4:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve the formula for h: V = πr²h"
+  options: ["h = V - πr²", "h = V / (πr²)", "h = πr² / V", "h = √(V/π)"]
+  answer: 1
+
+solv_q5:
+  type: "No Solution Trap"
+  difficulty: "Hard"
+  question: "Solve: 3x + 4 = 3x - 2"
+  options: ["x = 0", "x = 6", "No Solution", "Infinite Solutions"]
+  answer: 2
+
+solv_q6:
+  type: "Infinite Solutions"
+  difficulty: "Hard"
+  question: "Solve: 2(x + 3) = 2x + 6"
+  options: ["x = 3", "x = 0", "No Solution", "Infinite Solutions"]
+  answer: 3
+
+
+# Unit 2: Slope and Intercepts [Total: 5]
+
+slope_q1:
+  type: "Slope Formula"
+  difficulty: "Easy"
+  question: "Find the slope (m) between (1, 2) and (3, 6)."
+  options: ["m = 1/2", "m = 2", "m = 4", "m = 3"]
+  answer: 1
+
+slope_q2:
+  type: "Identify Y-Intercept"
+  difficulty: "Easy"
+  question: "In the equation y = -4x + 7, what is the y-intercept?"
+  options: ["-4", "0", "7", "(7, 0)"]
+  answer: 2
+
+slope_q3:
+  type: "X-Intercept Calculation"
+  difficulty: "Medium"
+  question: "Find the x-intercept of 2x + 4y = 8."
+  options: ["(4, 0)", "(0, 2)", "(2, 0)", "(8, 0)"]
+  answer: 0
+
+slope_q4:
+  type: "Zero vs Undefined"
+  difficulty: "Medium"
+  question: "What is the slope of a vertical line like x = 5?"
+  options: ["0", "5", "Undefined", "1"]
+  answer: 2
+
+slope_q5:
+  type: "Slope from Standard Form"
+  difficulty: "Hard"
+  question: "What is the slope of the line 3x + 2y = 10?"
+  options: ["3", "-3/2", "2/3", "5"]
+  answer: 1
+
+
+# Unit 3: Graphing Forms [Total: 5]
+
+form_q1:
+  type: "Slope-Intercept Identification"
+  difficulty: "Easy"
+  question: "Which equation is in slope-intercept form?"
+  options: ["Ax + By = C", "y = mx + b", "y - y1 = m(x - x1)", "x = a"]
+  answer: 1
+
+form_q2:
+  type: "Standard to Slope-Intercept"
+  difficulty: "Medium"
+  question: "Convert 2x - y = 5 to slope-intercept form."
+  options: ["y = 2x - 5", "y = -2x + 5", "y = 2x + 5", "x = 0.5y + 2.5"]
+  answer: 0
+
+form_q3:
+  type: "Point-Slope Conversion"
+  difficulty: "Medium"
+  question: "Which equation represents a line with slope 3 passing through (1, 4)?"
+  options: ["y - 1 = 3(x - 4)", "y - 4 = 3(x - 1)", "y + 4 = 3(x + 1)", "y = 3x + 4"]
+  answer: 1
+
+form_q4:
+  type: "Challenge: Point-Slope to Standard"
+  difficulty: "Hard"
+  question: "Convert y - 2 = 4(x - 1) into Standard Form (Ax + By = C)."
+  options: ["4x - y = 2", "4x + y = 6", "4x - y = 6", "x - 4y = 2"]
+  answer: 0
+
+form_q5:
+  type: "Challenge: Find Equation from Points"
+  difficulty: "Hard"
+  question: "Write the equation in y = mx + b form for points (0, 3) and (2, 7)."
+  options: ["y = 4x + 3", "y = 2x + 3", "y = 3x + 2", "y = 2x + 7"]
+  answer: 1
+
+
+# Unit 4: Parallel and Perpendicular Lines [Total: 5]
+
+para_q1:
+  type: "Parallel Logic"
+  difficulty: "Easy"
+  question: "Parallel lines must have the same ______."
+  options: ["Y-intercept", "X-intercept", "Slope", "Variable"]
+  answer: 2
+
+para_q2:
+  type: "Identify Perpendicular Slope"
+  difficulty: "Medium"
+  question: "If a line has a slope of 2/3, what is the slope of a perpendicular line?"
+  options: ["2/3", "-2/3", "3/2", "-3/2"]
+  answer: 3
+
+para_q3:
+  type: "Verify Parallel"
+  difficulty: "Medium"
+  question: "Are y = 3x + 4 and 6x - 2y = 10 parallel?"
+  options: ["Yes, slopes are both 3", "No, one slope is 6", "Yes, they have same intercept", "No, they are perpendicular"]
+  answer: 0
+
+para_q4:
+  type: "Perpendicular Equation"
+  difficulty: "Hard"
+  question: "Which line is perpendicular to y = -2x + 1?"
+  options: ["y = -2x + 5", "y = 2x - 1", "y = 0.5x + 3", "y = -0.5x + 3"]
+  answer: 2
+
+para_q5:
+  type: "Challenge: Passing Through"
+  difficulty: "Hard"
+  question: "Find the equation of a line parallel to y = 4x + 1 that passes through (0, -3)."
+  options: ["y = 4x - 3", "y = -1/4x - 3", "y = 4x + 3", "y = -4x - 3"]
+  answer: 0
+
+
+# Unit 5: Systems of Equations [Total: 6]
+
+sys_q1:
+  type: "Verification"
+  difficulty: "Easy"
+  question: "Is (2, 3) a solution to the system: x + y = 5 and 2x - y = 1?"
+  options: ["Yes", "No, fails first equation", "No, fails second equation", "No, fails both"]
+  answer: 0
+
+sys_q2:
+  type: "Elimination Level 1"
+  difficulty: "Medium"
+  question: "Solve using elimination: x + y = 10 and x - y = 2."
+  options: ["(4, 6)", "(6, 4)", "(5, 5)", "(8, 2)"]
+  answer: 1
+
+sys_q3:
+  type: "Substitution Level 1"
+  difficulty: "Medium"
+  question: "Solve using substitution: y = 2x and x + y = 9."
+  options: ["(3, 6)", "(6, 3)", "(4, 5)", "(2, 7)"]
+  answer: 0
+
+sys_q4:
+  type: "Challenge: System Elimination"
+  difficulty: "Hard"
+  question: "Solve: 2x + 3y = 12 and x - y = 1."
+  options: ["(3, 2)", "(2, 3)", "(4, 1)", "(5, 4)"]
+  answer: 0
+
+sys_q5:
+  type: "Graphing Interpretation"
+  difficulty: "Medium"
+  question: "If two lines in a system are parallel, how many solutions exist?"
+  options: ["One solution", "Infinite solutions", "No solution", "Two solutions"]
+  answer: 2
+
+sys_q6:
+  type: "Challenge: Word Problem"
+  difficulty: "Hard"
+  question: "The sum of two numbers is 20 and their difference is 4. Find the larger number."
+  options: ["10", "12", "14", "16"]
+  answer: 1
+
+# Unit 1: Solving One-Variable (Additions)
+solv_q7:
+  type: "Fractional Coefficients"
+  difficulty: "Medium"
+  question: "Solve for x: (2/3)x + 4 = 10"
+  options: ["x = 9", "x = 4", "x = 6", "x = 12"]
+  answer: 0
+
+# Unit 2: Slope and Intercepts (Additions)
+slope_q6:
+  type: "Identify X-Intercept"
+  difficulty: "Hard"
+  question: "Find the x-intercept of the line y = 3x - 9."
+  options: ["(0, -9)", "(3, 0)", "(-3, 0)", "(0, 3)"]
+  answer: 1
+
+# Unit 3: Graphing Forms (Additions)
+form_q6:
+  type: "Standard to Slope"
+  difficulty: "Medium"
+  question: "What is the slope of 5x + 2y = 20?"
+  options: ["5", "-5/2", "2/5", "10"]
+  answer: 1
+
+# Unit 4: Parallel and Perpendicular (Additions)
+para_q6:
+  type: "Horizontal/Vertical Logic"
+  difficulty: "Hard"
+  question: "Which line is perpendicular to x = 4?"
+  options: ["x = -4", "y = 4", "y = x", "x = 0"]
+  answer: 1
+
+# Unit 6: Linear Word Problems [New Unit]
+wp_lin_q1:
+  type: "Rate of Change"
+  difficulty: "Medium"
+  question: "A plumber charges $50 for a visit plus $30 per hour. Which equation represents the total cost (C) for (h) hours?"
+  options: ["C = 50h + 30", "C = 30h + 50", "C = 80h", "h = 30C + 50"]
+  answer: 1
+
+wp_lin_q2:
+  type: "Finding the Break-Even"
+  difficulty: "Hard"
+  question: "Company A charges $20 + $2/mile. Company B charges $10 + $3/mile. At how many miles is the cost identical?"
+  options: ["5 miles", "10 miles", "15 miles", "20 miles"]
+  answer: 1
+
+# Unit 7: Mixed Mastery & Error Analysis [New Unit]
+err_lin_q1:
+  type: "Error Detection"
+  difficulty: "Medium"
+  question: "A student solves 4x = 2 and says x = 2. What was the error?"
+  options: ["Divided incorrectly", "Subtracted instead of divided", "Swapped the divisor and dividend", "No error"]
+  answer: 2
+
+err_lin_q2:
+  type: "Intercept Logic"
+  difficulty: "Hard"
+  question: "If a line has a slope of 0 and passes through (2, 5), what is its equation?"
+  options: ["x = 2", "y = 5", "y = 0", "y = 2x + 5"]
+  answer: 1
+
+# [Repeated structure to fill remaining 5 questions covering mixed intercepts and multi-variable literal equations]

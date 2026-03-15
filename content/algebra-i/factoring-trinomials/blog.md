@@ -1,8 +1,7 @@
 ---
-title: "Factoring Trinomials"
+title: "5 Common Mistakes When Factoring Trinomials"
 weight: 1
 ---
-# 5 Common Mistakes When Factoring Trinomials
 
 Factoring trinomials is a core algebra skill, but it is also where many students get stuck. Most errors aren't caused by "not knowing the math," but by missing small steps that make the problem much harder than it needs to be.
 
@@ -171,11 +170,13 @@ Turning in the paper without a quick 5-second check. Even a small sign error can
 
 Perform a quick **FOIL** check (First, Outer, Inner, Last):
 
+![Gemini_Generated_Image_sq9q30sq9q30sq9q](/images/foil-diagram.png)
+
 - **F:** $x \cdot x = x^2$
 
 - **O/I:** $-2x + 5x = 3x$
 
-- **L:** $5 \cdot -2 = -10$
+- **L:** $5 \times -2 = -10$
 
   The result $x^2 + 3x - 10$ matches the original problem.
 

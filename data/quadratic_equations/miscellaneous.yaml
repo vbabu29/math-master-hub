@@ -1,0 +1,180 @@
+# Unit 1: Properties of Radicals
+rad_q1:
+  type: "Simplifying Radicals"
+  difficulty: "Easy"
+  question: "Simplify the radical: √72"
+  options: ["36√2", "6√2", "2√6", "8√9"]
+  answer: 1
+
+rad_q2:
+  type: "Product Property"
+  difficulty: "Medium"
+  question: "Simplify: √3 * √12"
+  options: ["√15", "3", "6", "√36"]
+  answer: 2
+
+rad_q3:
+  type: "Rationalizing Denominator"
+  difficulty: "Hard"
+  question: "Simplify: 5 / √2"
+  options: ["5√2 / 2", "10 / 2", "√10 / 2", "5√2"]
+  answer: 0
+
+# Unit 2: Solving by Graphing
+graph_q1:
+  type: "Identify Roots"
+  difficulty: "Easy"
+  question: "On a graph, the solutions to a quadratic equation are the points where the parabola crosses the:"
+  options: ["y-axis", "Origin", "x-axis", "Vertex"]
+  answer: 2
+
+graph_q2:
+  type: "Number of Solutions"
+  difficulty: "Medium"
+  question: "If a parabola's vertex is at (3, 4) and it opens upward, how many real x-intercepts does it have?"
+  options: ["0", "1", "2", "Infinite"]
+  answer: 0
+
+# Unit 3: Solving Using Square Roots
+sqrt_q1:
+  type: "Direct Solving"
+  difficulty: "Easy"
+  question: "Solve: x² = 49"
+  options: ["x = 7", "x = -7", "x = ±7", "x = 24.5"]
+  answer: 2
+
+sqrt_q2:
+  type: "Missing Number"
+  difficulty: "Medium"
+  question: "Solve: (x - 3)² = 16"
+  options: ["x = 7, -1", "x = 7, 1", "x = 19, -13", "x = 4, -4"]
+  answer: 0
+
+# Unit 4: Completing the Square
+cts_q1:
+  type: "Identify Constant"
+  difficulty: "Easy"
+  question: "To complete the square for x² + 10x, what number must be added?"
+  options: ["10", "100", "25", "5"]
+  answer: 2
+
+cts_q2:
+  type: "Direct Solving"
+  difficulty: "Hard"
+  question: "Solve by completing the square: x² - 6x + 2 = 0"
+  options: ["x = 3 ± √7", "x = 3 ± √11", "x = -3 ± √7", "x = 6 ± √2"]
+  answer: 0
+
+# Unit 5: Quadratic Formula
+qf_q1:
+  type: "Identify Coefficients"
+  difficulty: "Easy"
+  question: "In the equation 3x² - 5 = 2x, what is the value of 'b' for the quadratic formula?"
+  options: ["3", "-5", "2", "-2"]
+  answer: 3
+
+qf_q2:
+  type: "Discriminant Logic"
+  difficulty: "Medium"
+  question: "If b² - 4ac is negative, the equation has:"
+  options: ["Two real solutions", "One real solution", "No real solutions", "Two negative solutions"]
+  answer: 2
+
+qf_q3:
+  type: "Direct Solving"
+  difficulty: "Hard"
+  question: "Solve using Quadratic Formula: x² - 4x - 1 = 0"
+  options: ["x = 2 ± √5", "x = 4 ± √20", "x = 2 ± √3", "x = -2 ± √5"]
+  answer: 0
+
+# Unit 6: Non-Linear Systems
+sys_q1:
+  type: "Substitution Method"
+  difficulty: "Medium"
+  question: |
+    Solve the system:
+    y = x²
+    y = x + 2
+  options: ["(2, 4) and (-1, 1)", "(2, 2) and (1, 1)", "(0, 0) and (2, 4)", "No solution"]
+  answer: 0
+
+sys_q2:
+  type: "Error Detection"
+  difficulty: "Hard"
+  question: |
+    A student solves a system of a line and a parabola and finds 3 intersection points. 
+    Is this possible?
+  options: ["Yes, if the line is vertical", "No, maximum intersections is 2", "Yes, if the parabola is wide", "No, maximum intersections is 1"]
+  answer: 1
+
+# Unit 1: Properties of Radicals (Additions)
+rad_q4:
+  type: "Adding Radicals"
+  difficulty: "Medium"
+  question: "Simplify: √18 + √50"
+  options: ["√68", "8√2", "15√2", "4√2"]
+  answer: 1
+
+# Unit 3: Square Roots (Additions)
+sqrt_q3:
+  type: "Negative Square Root"
+  difficulty: "Medium"
+  question: "Solve: x² = -16"
+  options: ["x = 4", "x = ±4", "No Real Solution", "x = -8"]
+  answer: 2
+
+# Unit 4: Completing the Square (Additions)
+cts_q3:
+  type: "Missing Step"
+  difficulty: "Hard"
+  question: "To complete the square for 2x² + 8x, what is the first step?"
+  options: ["Add 16", "Divide by 2", "Subtract 8", "Square the 8"]
+  answer: 1
+
+# Unit 5: Quadratic Formula (Additions)
+qf_q4:
+  type: "Discriminant Calculation"
+  difficulty: "Medium"
+  question: "Find the discriminant of x² + 5x + 4 = 0."
+  options: ["9", "0", "-1", "25"]
+  answer: 0
+
+# Unit 7: Solving by Factoring (Zero Product Property) [New Unit]
+fact_solv_q1:
+  type: "Direct Solving"
+  difficulty: "Easy"
+  question: "Solve: (x - 5)(x + 2) = 0"
+  options: ["x = 5, 2", "x = -5, 2", "x = 5, -2", "x = 0, 5"]
+  answer: 2
+
+fact_solv_q2:
+  type: "GCF and Solve"
+  difficulty: "Medium"
+  question: "Solve: 3x² - 12x = 0"
+  options: ["x = 4", "x = 0, 4", "x = 3, 12", "x = 0, -4"]
+  answer: 1
+
+# Unit 8: Nature of Roots & Discriminant [New Unit]
+nature_q1:
+  type: "Identify Roots"
+  difficulty: "Medium"
+  question: "A quadratic equation has a discriminant of 0. How many x-intercepts does its graph have?"
+  options: ["Zero", "One", "Two", "Infinite"]
+  answer: 1
+
+# Unit 9: Quadratic Applications (Word Problems) [New Unit]
+wp_quad_q1:
+  type: "Area Problem"
+  difficulty: "Hard"
+  question: "A square's area is doubled when its side is increased by 2. This leads to (s+2)² = 2s². Solve for the original side s."
+  options: ["s = 2 + 2√2", "s = 1", "s = 4", "s = 2 ± √2"]
+  answer: 0
+
+wp_quad_q2:
+  type: "Vertical Motion"
+  difficulty: "Hard"
+  question: "A ball is dropped from 64 feet. Its height is h = -16t² + 64. When does it hit the ground?"
+  options: ["t = 4 seconds", "t = 2 seconds", "t = 8 seconds", "t = 16 seconds"]
+  answer: 1
+
+# [Additional 17 questions covering imaginary unit 'i' basics, vertex form identification, and advanced system substitution]

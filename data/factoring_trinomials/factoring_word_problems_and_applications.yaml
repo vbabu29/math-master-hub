@@ -1,0 +1,280 @@
+# --- UNIT 1: GEOMETRY & AREA (GUIDED) ---
+# Targets: "Area of a rectangle word problems", "Factoring in geometry"
+
+wp_q1:
+  type: "Area Analysis"
+  difficulty: "Easy"
+  question: "A rectangle has an area represented by x² + 5x + 6. If the area is length times width, which dimensions are possible?"
+  options: ["(x + 1) and (x + 6)", "(x + 2) and (x + 3)", "(x + 2) and (x + 4)", "(x - 2) and (x - 3)"]
+  answer: 1
+
+wp_q2:
+  type: "Finding Width"
+  difficulty: "Medium"
+  question: "The area of a rug is x² + 7x + 10. If the length is (x + 5), what is the width?"
+  options: ["(x + 2)", "(x + 5)", "(x + 10)", "(x + 7)"]
+  answer: 0
+
+wp_q3:
+  type: "Square Dimensions"
+  difficulty: "Medium"
+  question: "A square garden has an area of x² + 6x + 9. What is the length of one side?"
+  options: ["(x + 9)", "(x + 6)", "(x + 3)", "(x + 3)²"]
+  answer: 2
+
+wp_q4:
+  type: "Unknown Side"
+  difficulty: "Hard"
+  question: "A picture frame has an area of x² - x - 12. If one side is (x - 4), what must the other side be?"
+  options: ["(x - 3)", "(x + 4)", "(x + 1)", "(x + 3)"]
+  answer: 3
+
+# --- UNIT 2: PROJECTILE MOTION & PHYSICS (GUIDED) ---
+# Targets: "Vertical motion problems", "When does the ball hit the ground"
+
+wp_q5:
+  type: "Ground Impact"
+  difficulty: "Medium"
+  question: "The height of a ball is given by h(t) = -16(t - 3)(t + 1). At what positive time 't' does the ball hit the ground (height = 0)?"
+  options: ["t = 1 second", "t = 3 seconds", "t = -1 second", "t = 0 seconds"]
+  answer: 1
+
+wp_q6:
+  type: "Initial Height Logic"
+  difficulty: "Hard"
+  question: "A rocket is launched. Its height is h = -16t² + 64t + 80. After factoring out the GCF (-16), you get -16(t² - 4t - 5). What are the roots of this motion?"
+  options: ["t = 5 and t = -1", "t = 4 and t = 5", "t = 2 and t = 8", "t = -5 and t = 1"]
+  answer: 0
+
+wp_q7:
+  type: "Interpretation"
+  difficulty: "Medium"
+  question: "If a projectile's height is factored as h = -16(t - 4)(t + 0.5), why do we ignore the root t = -0.5?"
+  options: ["Time cannot be a decimal", "The ball never hits that point", "Time cannot be negative in this context", "The equation is prime"]
+  answer: 2
+
+# --- UNIT 3: NUMBER THEORY & INTEGERS (GUIDED) ---
+# Targets: "Consecutive integer word problems", "Product of two numbers"
+
+wp_q8:
+  type: "Consecutive Integers"
+  difficulty: "Medium"
+  question: "The product of two consecutive positive integers is 42. This forms the equation x² + x - 42 = 0. Which pair of integers is the solution?"
+  options: ["5 and 6", "6 and 7", "7 and 8", "21 and 2"]
+  answer: 1
+
+wp_q9:
+  type: "Integer Logic"
+  difficulty: "Hard"
+  question: "The product of two consecutive even integers is 80. If x represents the smaller integer, the equation is x(x + 2) = 80. What is the smaller integer?"
+  options: ["10", "12", "8", "6"]
+  answer: 2
+
+wp_q10:
+  type: "Sum and Product"
+  difficulty: "Easy"
+  question: "Two numbers add to 10 and multiply to 21. What are the numbers?"
+  options: ["2 and 8", "4 and 6", "5 and 5", "3 and 7"]
+  answer: 3
+
+# --- UNIT 4: GUIDED APPLICATIONS (MIXED) ---
+
+wp_q11:
+  question: "A rectangular pool has an area of x² + 12x + 35. What is the sum of the length and width if they are represented by the factors?"
+  options: ["2x + 12", "x + 35", "2x + 35", "x + 12"]
+  answer: 0
+
+wp_q12:
+  question: "A patio area is x² - 10x + 24. If the width is (x - 6), find the length."
+  options: ["(x - 10)", "(x - 4)", "(x + 4)", "(x - 2)"]
+  answer: 1
+
+wp_q13:
+  question: "The product of two integers is 72. One integer is 1 more than the other. Find the positive integers."
+  options: ["6 and 12", "7 and 8", "8 and 9", "9 and 10"]
+  answer: 2
+
+wp_q14:
+  question: "A triangle has area (1/2)bh. If the area is (1/2)(x² + 5x + 4) and the base is (x + 1), what is the height?"
+  options: ["(x + 4)", "(x + 5)", "(x + 1)", "(x + 2)"]
+  answer: 0
+
+wp_q15:
+  question: "A path's area is x² + 13x + 40. Which factor represents a dimension?"
+  options: ["(x + 10)", "(x + 4)", "(x + 8)", "(x + 20)"]
+  answer: 2
+
+wp_q16:
+  question: "A ball reaches height h = 0 at t = 5. Which factor must be in its height equation?"
+  options: ["(t + 5)", "(t - 5)", "(t² - 5)", "(5t)"]
+  answer: 1
+
+wp_q17:
+  question: "The product of two consecutive odd integers is 35. What are the integers?"
+  options: ["3 and 5", "5 and 7", "7 and 9", "9 and 11"]
+  answer: 1
+
+wp_q18:
+  question: "A rectangular field has area x² - 14x + 45. Find the perimeter in terms of x."
+  options: ["2x - 14", "4x - 28", "4x - 14", "2x - 28"]
+  answer: 1
+
+wp_q19:
+  question: "The area of a poster is x² - 3x - 10. If the height is (x - 5), what is the base?"
+  options: ["(x + 2)", "(x - 2)", "(x + 5)", "(x - 10)"]
+  answer: 0
+
+wp_q20:
+  question: "A box has a base area of x² + 11x + 18. Find the length and width."
+  options: ["(x+1),(x+18)", "(x+2),(x+9)", "(x+3),(x+6)", "(x+11),(x+18)"]
+  answer: 1
+
+wp_q21:
+  question: "An object is thrown and hits the ground at t = 2 and t = 6. What could be the factors of the equation?"
+  options: ["(t+2)(t+6)", "(t-2)(t-6)", "(t-2)(t+6)", "(t+2)(t-6)"]
+  answer: 1
+
+wp_q22:
+  question: "A rectangle has area x² + x - 20. If x = 10, what is the actual area?"
+  options: ["90", "110", "130", "150"]
+  answer: 0
+
+wp_q23:
+  question: "The product of two consecutive integers is 110. Find the smaller positive integer."
+  options: ["9", "10", "11", "12"]
+  answer: 1
+
+wp_q24:
+  question: "A backyard has area x² + 15x + 56. Find the dimensions."
+  options: ["(x+1),(x+56)", "(x+2),(x+28)", "(x+4),(x+14)", "(x+7),(x+8)"]
+  answer: 3
+
+wp_q25:
+  question: "A window's area is x² - 4x - 21. Find the width if the length is (x + 3)."
+  options: ["(x - 7)", "(x + 7)", "(x - 3)", "(x - 21)"]
+  answer: 0
+
+wp_q26:
+  question: "A diver jumps from a board. The time to hit the water is found by factoring t² - 2t - 8 = 0. How many seconds until they hit?"
+  options: ["2 seconds", "4 seconds", "8 seconds", "6 seconds"]
+  answer: 1
+
+wp_q27:
+  question: "The area of a sail is x² + 10x + 24. Find the factors."
+  options: ["(x+2)(x+12)", "(x+4)(x+6)", "(x+8)(x+3)", "(x+10)(x+24)"]
+  answer: 1
+
+wp_q28:
+  question: "Two numbers multiply to 48 and have a difference of 2. What are the positive numbers?"
+  options: ["4 and 12", "5 and 7", "6 and 8", "8 and 10"]
+  answer: 2
+
+wp_q29:
+  question: "The area of a deck is x² + 8x + 12. If x = 4, what is the width if the length is (x + 6)?"
+  options: ["4", "6", "8", "10"]
+  answer: 1
+
+wp_q30:
+  question: "A ball's height is h = -(t - 5)(t + 1). At what time is the ball at its highest point (midpoint of roots)?"
+  options: ["t = 2", "t = 3", "t = 4", "t = 5"]
+  answer: 0
+
+wp_q31:
+  question: "Area of a room is x² + 14x + 48. If one side is (x + 8), find the other."
+  options: ["(x + 1)", "(x + 6)", "(x + 48)", "(x + 14)"]
+  answer: 1
+
+wp_q32:
+  question: "Product of two integers is 30. One is 7 more than the other. Find them."
+  options: ["2 and 15", "3 and 10", "5 and 6", "1 and 30"]
+  answer: 1
+
+wp_q33:
+  question: "Rectangle area is x² - 2x - 24. Find possible dimensions."
+  options: ["(x-6)(x+4)", "(x+6)(x-4)", "(x-12)(x+2)", "(x-8)(x+3)"]
+  answer: 0
+
+wp_q34:
+  question: "Height is h = -16(t - 2)(t + 0.5). How long is the ball in the air?"
+  options: ["0.5 seconds", "1 second", "1.5 seconds", "2 seconds"]
+  answer: 3
+
+wp_q35:
+  question: "Area is x² + 16x + 63. Find the length if width is (x + 7)."
+  options: ["(x + 9)", "(x + 1)", "(x + 63)", "(x + 16)"]
+  answer: 0
+
+wp_q36:
+  question: "Consecutive positive integers multiply to 132. Find the larger one."
+  options: ["11", "12", "13", "14"]
+  answer: 1
+
+wp_q37:
+  question: "Rectangle area is x² + 5x - 14. Find dimensions."
+  options: ["(x+7)(x-2)", "(x-7)(x+2)", "(x+14)(x-1)", "(x-14)(x+1)"]
+  answer: 0
+
+wp_q38:
+  question: "A square has area x² - 10x + 25. What is the perimeter?"
+  options: ["x - 5", "4x - 20", "4x - 5", "2x - 10"]
+  answer: 1
+
+wp_q39:
+  question: "Height factors to -16(t - 3)(t + 1). What is the height at t = 0?"
+  options: ["0", "16", "48", "32"]
+  answer: 2
+
+wp_q40:
+  question: "Area is x² - 12x + 20. If x = 11, what are the dimensions?"
+  options: ["9 and 1", "7 and 3", "10 and 2", "11 and 20"]
+  answer: 0
+
+wp_q41:
+  question: "Product of two consecutive integers is 90. Find them."
+  options: ["8, 9", "9, 10", "10, 11", "11, 12"]
+  answer: 1
+
+wp_q42:
+  question: "A storage unit has floor area x² + 13x + 40. Find the width if length is (x + 8)."
+  options: ["(x + 5)", "(x + 40)", "(x + 13)", "(x + 4)"]
+  answer: 0
+
+wp_q43:
+  question: "Projectile equation factors to -16(t - 1)(t + 1). When does it land?"
+  options: ["0.5 sec", "1 sec", "2 sec", "1.5 sec"]
+  answer: 1
+
+wp_q44:
+  question: "Area is x² - x - 2. Find dimensions."
+  options: ["(x-1)(x+2)", "(x+1)(x-2)", "(x-2)(x-1)", "(x+2)(x+1)"]
+  answer: 1
+
+wp_q45:
+  question: "Rectangle area is x² + 18x + 80. Find dimensions."
+  options: ["(x+8)(x+10)", "(x+4)(x+20)", "(x+2)(x+40)", "(x+5)(x+16)"]
+  answer: 0
+
+wp_q46:
+  question: "Consecutive integers multiply to 156. Find the smaller one."
+  options: ["11", "12", "13", "14"]
+  answer: 1
+
+wp_q47:
+  question: "Area of a frame is x² - 4x - 32. One side is (x - 8). Find the other."
+  options: ["(x + 4)", "(x - 4)", "(x + 8)", "(x - 32)"]
+  answer: 0
+
+wp_q48:
+  question: "Ball height is h = -16(t - 4)(t + 1). How high is it at t = 1?"
+  options: ["64 ft", "96 ft", "48 ft", "128 ft"]
+  answer: 1
+
+wp_q49:
+  question: "Area is x² + 20x + 99. Find the length if width is (x + 9)."
+  options: ["(x + 11)", "(x + 10)", "(x + 20)", "(x + 99)"]
+  answer: 0
+
+wp_q50:
+  question: "Two numbers add to 15 and multiply to 56. What are they?"
+  options: ["6 and 9", "7 and 8", "5 and 10", "4 and 11"]
+  answer: 1

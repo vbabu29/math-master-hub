@@ -1,0 +1,297 @@
+# Advanced Factoring Trinomials (a ≠ 1)
+# Optimized for SEO Variety and Answer Balancing
+
+# --- UNIT 1: AC METHOD & SPLITTING THE MIDDLE TERM ---
+adv_q1:
+  type: "AC Method Step"
+  difficulty: "Medium"
+  question: "For 5x² - 13x - 6, which pair multiplies to -30 (AC) and adds to -13?"
+  options: ["-10 and -3", "-15 and 2", "15 and -2", "-30 and 1"]
+  answer: 1
+
+adv_q2:
+  type: "AC Method Calculation"
+  difficulty: "Medium"
+  question: "For the trinomial 4x² - 17x + 4, what is the correct AC product and the magic pair?"
+  options: ["AC=16; (-16, -1)", "AC=8; (-8, -9)", "AC=16; (-4, -4)", "AC=4; (-4, -13)"]
+  answer: 0
+
+adv_q3:
+  type: "Splitting Logic"
+  difficulty: "Hard"
+  question: "To factor 6x² + 7x - 3 using grouping, how should the middle term 7x be split?"
+  options: ["6x and 1x", "3x and 4x", "9x and -2x", "-9x and 2x"]
+  answer: 2
+
+adv_q4:
+  type: "Magic Pair Search"
+  difficulty: "Medium"
+  question: "For 3x² + 11x + 6, what pair of numbers multiplies to 18 (AC) and adds to 11?"
+  options: ["3, 6", "18, 1", "6, 3", "9, 2"]
+  answer: 3
+
+adv_q5:
+  type: "Grouping Setup"
+  difficulty: "Hard"
+  question: "Which expression shows 2x² + 7x + 5 with the middle term split correctly for factoring by grouping?"
+  options: ["2x² + 1x + 6x + 5", "2x² + 2x + 5x + 5", "2x² + 3x + 4x + 5", "2x² - 2x + 9x + 5"]
+  answer: 1
+
+# --- UNIT 2: ERROR DETECTION & ANALYSIS ---
+adv_q6:
+  type: "Error Analysis"
+  difficulty: "Hard"
+  question: "Factor 6x² + 7x - 3. A student uses 9 and -2 to split 7x. Is this step correct?"
+  options: ["Yes, 9 * -2 = -18 (AC) and 9 + -2 = 7", "No, product should be -3", "No, sum should be 6", "No, 9 and -2 don't add to 7"]
+  answer: 0
+
+adv_q7:
+  type: "Verification"
+  difficulty: "Medium"
+  question: "A student factors 2x² - 5x - 3 as (2x + 1)(x - 3). Is this correct?"
+  options: ["No, the middle term is wrong", "Yes", "No, the constant is wrong", "No, signs are swapped"]
+  answer: 1
+
+adv_q8:
+  type: "Middle Term Check"
+  difficulty: "Medium"
+  question: "If a student writes (3x - 1)(x + 2) for 3x² + 5x - 2, what is the middle term of their product?"
+  options: ["x", "6x", "5x", "-x"]
+  answer: 2
+
+adv_q9:
+  type: "Sign Error"
+  difficulty: "Medium"
+  question: "Why is (2x - 3)(x - 4) the wrong factorization for 2x² - 11x + 12?"
+  options: ["The constant term is actually -12", "Product is +12, but sum is -11", "The middle term is actually -14x", "The middle term is actually +11x"]
+  answer: 2
+
+adv_q10:
+  type: "Reverse Distributive Error"
+  difficulty: "Hard"
+  question: "A student expands (4x + 3)(x - 1) and gets 4x² + x - 3. Is their work correct?"
+  options: ["No, the middle term should be -x", "No, the middle term should be 7x", "Yes", "No, the constant should be +3"]
+  answer: 0
+
+# --- UNIT 3: LOGIC, SIGNS, & PRIME TRAPS ---
+adv_q11:
+  type: "Factorable Check"
+  difficulty: "Hard"
+  question: "Using the discriminant (b² - 4ac), which of these is NOT factorable over integers?"
+  options: ["3x² + 5x + 2", "2x² + 7x + 3", "4x² + 2x + 5", "5x² + 13x - 6"]
+  answer: 2
+
+adv_q12:
+  type: "Sign Logic"
+  difficulty: "Medium"
+  question: "In the expression 4x² - 11x + 6, the signs in the binomial factors must be:"
+  options: ["Both positive", "Both negative", "One positive, one negative", "Varies by x value"]
+  answer: 1
+
+adv_q13:
+  type: "Prime Identification"
+  difficulty: "Hard"
+  question: "Which of the following advanced trinomials is considered 'Prime'?"
+  options: ["2x² + 3x + 1", "3x² + x + 2", "5x² - 14x - 3", "4x² + 8x + 3"]
+  answer: 1
+
+adv_q14:
+  type: "Coefficient Relationship"
+  difficulty: "Medium"
+  question: "If a and c are both positive in ax² + bx + c, and b is negative, the factors must be:"
+  options: ["(ax - m)(cx - n)", "(ax + m)(cx + n)", "(ax + m)(cx - n)", "Prime"]
+  answer: 0
+
+# --- UNIT 4: MISSING VALUES (REVERSE LOGIC) ---
+adv_q15:
+  type: "Missing Middle Term"
+  difficulty: "Hard"
+  question: "In the factorization 3x² + bx + 10 = (3x + 2)(x + 5), what is the value of b?"
+  options: ["7", "17", "15", "21"]
+  answer: 1
+
+adv_q16:
+  type: "Missing Constant"
+  difficulty: "Medium"
+  question: "3x² - 11x + ___ = (3x - 2)(x - 3)"
+  options: ["-6", "3", "5", "6"]
+  answer: 3
+
+adv_q17:
+  type: "Missing Value k"
+  difficulty: "Hard"
+  question: "If (2x + 3) is a factor of 2x² + kx - 15, what is k?"
+  options: ["7", "-7", "1", "13"]
+  answer: 1
+
+adv_q18:
+  type: "Identify a Factor"
+  difficulty: "Medium"
+  question: "Which of the following is a factor of 6x² - 5x - 4?"
+  options: ["(2x-1)", "(3x+4)", "(3x-4)", "(6x-1)"]
+  answer: 2
+
+adv_q19:
+  type: "Find Coefficient a"
+  difficulty: "Hard"
+  question: "If (x - 4)(ax + 1) = 3x² - 11x - 4, what is the value of a?"
+  options: ["1", "4", "11", "3"]
+  answer: 3
+
+# --- UNIT 5: DIRECT FACTORING ---
+adv_q20:
+  question: "Factor: 2x² + 5x + 3"
+  options: ["(2x+1)(x+3)", "(2x+3)(x+1)", "(x+2)(2x+3)", "(2x+5)(x+1)"]
+  answer: 1
+
+adv_q21:
+  question: "Factor: 3x² - 10x + 8"
+  options: ["(3x-2)(x-4)", "(x-8)(3x-1)", "(3x-4)(x-2)", "(3x+4)(x+2)"]
+  answer: 2
+
+adv_q22:
+  question: "Factor: 6x² + 11x - 10"
+  options: ["(3x-2)(2x+5)", "(3x+5)(2x-2)", "(6x-5)(x+2)", "(2x+5)(3x-2)"]
+  answer: 3
+
+adv_q23:
+  question: "Factor: 4x² + 4x - 3"
+  options: ["(2x+1)(2x-3)", "(2x-1)(2x+3)", "(4x-1)(x+3)", "(2x+3)(2x+1)"]
+  answer: 1
+
+adv_q24:
+  question: "Factor: 3x² + 13x + 4"
+  options: ["(3x+4)(x+1)", "(x+12)(x+1)", "(3x+1)(x+4)", "(3x+2)(x+2)"]
+  answer: 2
+
+adv_q25:
+  question: "Factor: 2x² - x - 6"
+  options: ["(2x-3)(x+2)", "(2x-1)(x+6)", "(x-3)(2x+2)", "(2x+3)(x-2)"]
+  answer: 3
+
+adv_q26:
+  question: "Factor: 6x² - x - 2"
+  options: ["(3x-2)(2x+1)", "(3x+2)(2x-1)", "(6x+1)(x-2)", "(2x-1)(3x+2)"]
+  answer: 0
+
+adv_q27:
+  question: "Factor: 5x² - 18x - 8"
+  options: ["(5x-2)(x+4)", "(5x+2)(x-4)", "(5x-4)(x+2)", "(x-8)(5x+1)"]
+  answer: 1
+
+adv_q28:
+  question: "Factor: 4x² + 8x - 5"
+  options: ["(2x+1)(2x-5)", "(4x+5)(x-1)", "(2x-1)(2x+5)", "(2x-5)(2x+1)"]
+  answer: 2
+
+adv_q29:
+  question: "Factor: 3x² - 5x - 2"
+  options: ["(3x-1)(x+2)", "(3x-2)(x+1)", "(x-1)(3x+2)", "(3x+1)(x-2)"]
+  answer: 3
+
+adv_q30:
+  question: "Factor: 2x² + 9x + 10"
+  options: ["(2x+5)(x+2)", "(2x+2)(x+5)", "(x+10)(2x+1)", "(2x+4)(x+2.5)"]
+  answer: 0
+
+adv_q31:
+  question: "Factor: 6x² + 7x + 2"
+  options: ["(3x+1)(2x+2)", "(3x+2)(2x+1)", "(6x+2)(x+1)", "(2x+2)(3x+1)"]
+  answer: 1
+
+adv_q32:
+  question: "Factor: 4x² - 15x - 4"
+  options: ["(4x-1)(x+4)", "(2x-4)(2x+1)", "(4x+1)(x-4)", "(x-15)(4x+1)"]
+  answer: 2
+
+adv_q33:
+  question: "Factor: 3x² + 14x + 8"
+  options: ["(3x+4)(x+2)", "(x+8)(3x+1)", "(3x+8)(x+1)", "(3x+2)(x+4)"]
+  answer: 3
+
+adv_q34:
+  question: "Factor: 2x² - 11x + 12"
+  options: ["(2x-3)(x-4)", "(2x-4)(x-3)", "(2x-6)(x-2)", "(x-12)(2x-1)"]
+  answer: 0
+
+adv_q35:
+  question: "Factor: 5x² + 7x + 2"
+  options: ["(5x+1)(x+2)", "(5x+2)(x+1)", "(x+7)(5x+1)", "(5x-2)(x-1)"]
+  answer: 1
+
+adv_q36:
+  question: "Factor: 6x² - 19x + 10"
+  options: ["(3x-5)(2x-2)", "(3x-2)(2x-5)", "(6x-5)(x-2)", "(2x-2)(3x-5)"]
+  answer: 1
+
+adv_q37:
+  question: "Factor: 4x² - 4x - 15"
+  options: ["(2x-3)(2x+5)", "(4x+3)(x-5)", "(2x+3)(2x-5)", "(2x-5)(2x+3)"]
+  answer: 2
+
+adv_q38:
+  question: "Factor: 3x² - 2x - 8"
+  options: ["(3x-4)(x+2)", "(3x-2)(x+4)", "(x-4)(3x+2)", "(3x+4)(x-2)"]
+  answer: 3
+
+adv_q39:
+  question: "Factor: 2x² + 13x + 15"
+  options: ["(2x+3)(x+5)", "(2x+5)(x+3)", "(x+15)(2x+1)", "(2x+1)(x+15)"]
+  answer: 0
+
+adv_q40:
+  question: "Factor: 8x² + 22x + 5"
+  options: ["(8x+1)(x+5)", "(4x+1)(2x+5)", "(2x+1)(4x+5)", "(4x+5)(2x+1)"]
+  answer: 1
+
+adv_q41:
+  question: "Factor: 10x² + 11x - 6"
+  options: ["(5x+3)(2x-2)", "(5x-2)(2x+3)", "(10x-3)(x+2)", "(2x-3)(5x+2)"]
+  answer: 1
+
+adv_q42:
+  question: "Factor: 3x² - 16x + 5"
+  options: ["(3x-5)(x-1)", "(x-15)(x-1)", "(3x-1)(x-5)", "(3x+1)(x+5)"]
+  answer: 2
+
+adv_q43:
+  question: "Factor: 4x² + 11x - 3"
+  options: ["(4x+3)(x-1)", "(2x+3)(2x-1)", "(x+3)(4x-1)", "(4x-1)(x+3)"]
+  answer: 3
+
+adv_q44:
+  question: "Factor: 6x² + x - 1"
+  options: ["(3x-1)(2x+1)", "(3x+1)(2x-1)", "(6x+1)(x-1)", "(2x+1)(3x-1)"]
+  answer: 0
+
+adv_q45:
+  question: "Factor: 5x² - 13x - 6"
+  options: ["(5x-3)(x+2)", "(5x+2)(x-3)", "(x-6)(5x+1)", "(5x+3)(x-2)"]
+  answer: 1
+
+adv_q46:
+  question: "Factor: 2x² + 11x + 5"
+  options: ["(2x+5)(x+1)", "(x+10)(2x+1)", "(2x+1)(x+5)", "(2x-1)(x-5)"]
+  answer: 2
+
+adv_q47:
+  question: "Factor: 3x² - 17x + 10"
+  options: ["(3x-5)(x-2)", "(3x-10)(x-1)", "(x-2)(3x-5)", "(3x-2)(x-5)"]
+  answer: 3
+
+adv_q48:
+  question: "Factor: 4x² + 19x - 5"
+  options: ["(4x-1)(x+5)", "(4x+5)(x-1)", "(2x+5)(2x-1)", "(x+5)(4x-1)"]
+  answer: 0
+
+adv_q49:
+  question: "Factor: 6x² - 7x + 2"
+  options: ["(3x-1)(2x-2)", "(3x-2)(2x-1)", "(6x-1)(x-2)", "(2x-1)(3x-2)"]
+  answer: 1
+
+adv_q50:
+  type: "Complex Factoring"
+  difficulty: "Hard"
+  question: "Factor: 12x² + 17x + 6"
+  options: ["(6x+2)(2x+3)", "(12x+1)(x+6)", "(3x+2)(4x+3)", "(3x+3)(4x+2)"]
+  answer: 2
