@@ -1,0 +1,13 @@
+fact_solv_q1:
+  type: "Zero Product Property"
+  difficulty: "Easy"
+  question: "Solve: (x - 5)(x + 2) = 0"
+  options: ["x = 5, 2", "x = -5, 2", "x = 5, -2", "x = 0, 5"]
+  answer: 2
+
+fact_solv_q2:
+  type: "GCF and Solve"
+  difficulty: "Medium"
+  question: "Solve: 3x² - 12x = 0"
+  options: ["x = 4", "x = 0, 4", "x = 3, 12", "x = 0, -4"]
+  answer: 1
