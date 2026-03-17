@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54360&amp;path=livereload" data-no-instant defer></script><head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex, nofollow" />
   <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" id="favicon-svg" />
 <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
@@ -11,7 +11,7 @@
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Factoring GCF – Math Learning Site</title>
   <meta name="description" content="Practice spotting and factoring out the greatest common factor before factoring the trinomial.
-Practice Question Set" /><link rel="canonical" href="https://quizmathgenius.com/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/" itemprop="url" />
+Practice Question Set" /><link rel="canonical" href="http://localhost:54360/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/" itemprop="url" />
 
 <meta property="og:title" content="Factoring GCF">
 <meta
@@ -78,7 +78,7 @@ Practice Question Set" /><link rel="canonical" href="https://quizmathgenius.com/
   content="
     article
   ">
-<meta property="og:url" content="https://quizmathgenius.com/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/"><meta property="article:section" content="algebra-i">
+<meta property="og:url" content="http://localhost:54360/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/"><meta property="article:section" content="algebra-i">
 
 
 
@@ -91,18 +91,12 @@ Practice Question Set">
   <meta name="twitter:title" content="Factoring GCF">
   <meta name="twitter:description" content="Practice spotting and factoring out the greatest common factor before factoring the trinomial.
 Practice Question Set">
-
-    <link rel="preload" href="/css/compiled/main.min.1a431501cdeb52323c920e7761f7d9e327b2bee53160196c4bd1d34a3fd9fbc9.css" as="style" integrity="sha256-GkMVAc3rUjI8kg53YffZ4yeyvuUxYBlsS9HTSj/Z&#43;8k=" />
-    <link href="/css/compiled/main.min.1a431501cdeb52323c920e7761f7d9e327b2bee53160196c4bd1d34a3fd9fbc9.css" rel="stylesheet" integrity="sha256-GkMVAc3rUjI8kg53YffZ4yeyvuUxYBlsS9HTSj/Z&#43;8k=" />
+<link href="/css/compiled/main.css" rel="stylesheet" />
+    <link href="/css/variables.css" rel="stylesheet" />
+    <link href="/css/custom.css" rel="stylesheet" />
 
   
-
-
-
-
-
-
-<script src="/js/main-head.min.94da6f95b126542222dab3a6e07ffefe1aaf63ec3ca555e827b58b80e7d3f0b7.js" integrity="sha256-lNpvlbEmVCIi2rOm4H/&#43;/hqvY&#43;w8pVXoJ7WLgOfT8Lc="></script>
+<script src="/js/main-head.js" integrity=""></script>
 
   
   
@@ -302,6 +296,18 @@ Practice Question Set">
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Word Problems</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/algebra-i/linear-algebra/practice-questions/graphing-linear-equations/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Graphing Linear Equations</span>
     </a>
   </div>
               
@@ -856,6 +862,35 @@ Practice Question Set">
     min-height: 0;
   }
 
+  .quiz-graph-card {
+    width: 100%;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: rgba(255, 255, 255, 0.96);
+    padding: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  .quiz-graph-card svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-option-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.55rem;
+    width: 100%;
+  }
+
+  .quiz-graph-caption {
+    font-size: 0.82rem;
+    color: #4b5563;
+    font-weight: 500;
+  }
+
   .quiz-question-figure img,
   .quiz-question-figure figure {
     max-width: 100%;
@@ -929,6 +964,13 @@ Practice Question Set">
     .quiz-tag {
       background: rgba(96, 165, 250, 0.18);
       color: #93c5fd;
+    }
+    .quiz-graph-card {
+      background: rgba(15, 23, 42, 0.82);
+      border-color: rgba(148, 163, 184, 0.25);
+    }
+    .quiz-graph-caption {
+      color: #cbd5e1;
     }
   }
 
@@ -1152,749 +1194,7 @@ Practice Question Set">
       
       
 
-      <div class="quiz-question" data-question-index="0" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="___(x² - 4x &#43; 4) = 7x² - 28x &#43; 28. What is the missing GCF?" data-expr="">
-          ___(x² - 4x &#43; 4) = 7x² - 28x &#43; 28. What is the missing GCF?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    7
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    14
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    28
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="1" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="Is 5(x² &#43; 2x - 3) the correct first step for factoring 5x² &#43; 10x - 15?" data-expr="">
-          Is 5(x² &#43; 2x - 3) the correct first step for factoring 5x² &#43; 10x - 15?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    No, the signs are wrong
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    No, the GCF is 5x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    Yes
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    No, the constant should be -5
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="2" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="What is the GCF of 24a²b and 16ab²?" data-expr="">
-          What is the GCF of 24a²b and 16ab²?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    4ab
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    8a²b²
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    8
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    8ab
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-        
-        
-          
-          
-        
-      
-
-      <div class="quiz-question" data-question-index="3" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="3x³ - 27x">
-          Factor completely: \(3x³ - 27x\)
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    3x(x-9)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    3(x²-9)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    3x(x-3)(x&#43;3)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    3x(x-3)²
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="4" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="If you factor 10x² - 40 as (10x - 20)(x &#43; 2), which step did you fail to do first?" data-expr="">
-          If you factor 10x² - 40 as (10x - 20)(x &#43; 2), which step did you fail to do first?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    Factor out the GCF of 10
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    Multiply 10 by 40
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    Check the signs
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    Find the square root
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-        
-        
-          
-          
-        
-      
-
-      <div class="quiz-question" data-question-index="5" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="5x² - 20x - 60">
-          Factor completely: \(5x² - 20x - 60\)
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    5(x-6)(x&#43;2)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    5(x&#43;6)(x-2)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    (5x-30)(x&#43;2)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    5(x²-4x-12)
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="6" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="For the expression 5x³ &#43; 15x² - 10x, what is the largest factor common to all three terms?" data-expr="">
-          For the expression 5x³ &#43; 15x² - 10x, what is the largest factor common to all three terms?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    5x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    5x²
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    5
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="7" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="Factor 3x³ - 21x² &#43; 30x. If the GCF is 3x, what is the resulting trinomial?" data-expr="">
-          Factor 3x³ - 21x² &#43; 30x. If the GCF is 3x, what is the resulting trinomial?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x² &#43; 7x &#43; 10
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x² - 7x - 10
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    x² - 7x &#43; 10
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x² - 21x &#43; 30
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="8" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="What is the Greatest Common Factor (GCF) of the terms 12x² and 18x?" data-expr="">
-          What is the Greatest Common Factor (GCF) of the terms 12x² and 18x?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    2x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    6
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    6x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    12x
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="9" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="When factoring 4x² &#43; 8x &#43; 4, why should you factor out the 4 before looking for binomials?" data-expr="">
-          When factoring 4x² &#43; 8x &#43; 4, why should you factor out the 4 before looking for binomials?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    Because 4 is a perfect square
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    To make the remaining trinomial easier to factor
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    Because the variable x must be alone
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    It is not necessary
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="10" style="display:none">
+      <div class="quiz-question" data-question-index="0"  style="display:none">
         
         <p class="quiz-question-text" data-prompt="A student factors 6x² - 12x as 2x(3x - 6). Why is this factoring incomplete?" data-expr="">
           A student factors 6x² - 12x as 2x(3x - 6). Why is this factoring incomplete?
@@ -1902,6 +1202,7 @@ Practice Question Set">
 
         <div class="quiz-steps">
           
+            
             <div class="quiz-step" data-step-index="0">
               <p class="quiz-step-title">
                 
@@ -1912,6 +1213,7 @@ Practice Question Set">
               
 
               <div class="quiz-options" role="list">
+                
                 
                 
                   <button
@@ -1946,6 +1248,7 @@ Practice Question Set">
                     The variable x was not squared
                   </button>
                 
+                
               </div>
 
               <div class="quiz-feedback" aria-live="polite"></div>
@@ -1966,15 +1269,22 @@ Practice Question Set">
       
       
       
-
-      <div class="quiz-question" data-question-index="11" style="display:none">
         
-        <p class="quiz-question-text" data-prompt="A student writes 4x² &#43; 20x &#43; 24 = (2x &#43; 4)(2x &#43; 6). What step did they miss?" data-expr="">
-          A student writes 4x² &#43; 20x &#43; 24 = (2x &#43; 4)(2x &#43; 6). What step did they miss?
+        
+          
+          
+        
+      
+
+      <div class="quiz-question" data-question-index="1"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="3x³ - 27x">
+          Factor completely: \(3x³ - 27x\)
         </p>
 
         <div class="quiz-steps">
           
+            
             <div class="quiz-step" data-step-index="0">
               <p class="quiz-step-title">
                 
@@ -1987,12 +1297,13 @@ Practice Question Set">
               <div class="quiz-options" role="list">
                 
                 
+                
                   <button
                     type="button"
                     class="quiz-option"
                     data-correct="false"
                     role="listitem">
-                    To multiply 4 and 6
+                    3x(x-9)
                   </button>
                 
                   <button
@@ -2000,7 +1311,7 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="false"
                     role="listitem">
-                    The middle term is wrong
+                    3(x²-9)
                   </button>
                 
                   <button
@@ -2008,7 +1319,7 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="true"
                     role="listitem">
-                    To factor out the GCF 4 first
+                    3x(x-3)(x&#43;3)
                   </button>
                 
                   <button
@@ -2016,8 +1327,9 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="false"
                     role="listitem">
-                    Variables cannot repeat
+                    3x(x-3)²
                   </button>
+                
                 
               </div>
 
@@ -2040,14 +1352,15 @@ Practice Question Set">
       
       
 
-      <div class="quiz-question" data-question-index="12" style="display:none">
+      <div class="quiz-question" data-question-index="2"  style="display:none">
         
-        <p class="quiz-question-text" data-prompt="2x(x² &#43; ___ - 5) = 2x³ &#43; 6x² - 10x" data-expr="">
-          2x(x² &#43; ___ - 5) = 2x³ &#43; 6x² - 10x
+        <p class="quiz-question-text" data-prompt="___(x² - 4x &#43; 4) = 7x² - 28x &#43; 28. What is the missing GCF?" data-expr="">
+          ___(x² - 4x &#43; 4) = 7x² - 28x &#43; 28. What is the missing GCF?
         </p>
 
         <div class="quiz-steps">
           
+            
             <div class="quiz-step" data-step-index="0">
               <p class="quiz-step-title">
                 
@@ -2059,157 +1372,6 @@ Practice Question Set">
 
               <div class="quiz-options" role="list">
                 
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    3x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    6x
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    3
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    x
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-        
-        
-          
-          
-        
-      
-
-      <div class="quiz-question" data-question-index="13" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="2x² &#43; 10x &#43; 12">
-          Factor completely: \(2x² &#43; 10x &#43; 12\)
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
-                
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    (2x&#43;4)(x&#43;3)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="true"
-                    role="listitem">
-                    2(x&#43;2)(x&#43;3)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    2(x&#43;5)(x&#43;6)
-                  </button>
-                
-                  <button
-                    type="button"
-                    class="quiz-option"
-                    data-correct="false"
-                    role="listitem">
-                    (x&#43;2)(2x&#43;6)
-                  </button>
-                
-              </div>
-
-              <div class="quiz-feedback" aria-live="polite"></div>
-            </div>
-          
-        </div>
-
-        <div class="quiz-next-wrap">
-        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
-        </div>
-      </div>
-    
-      
-      
-        
-      
-      
-      
-      
-      
-
-      <div class="quiz-question" data-question-index="14" style="display:none">
-        
-        <p class="quiz-question-text" data-prompt="In the expression x⁴ &#43; x³ &#43; x², which power of x represents the GCF?" data-expr="">
-          In the expression x⁴ &#43; x³ &#43; x², which power of x represents the GCF?
-        </p>
-
-        <div class="quiz-steps">
-          
-            <div class="quiz-step" data-step-index="0">
-              <p class="quiz-step-title">
-                
-                  
-                
-              </p>
-
-              
-
-              <div class="quiz-options" role="list">
                 
                 
                   <button
@@ -2225,7 +1387,7 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="true"
                     role="listitem">
-                    x²
+                    7
                   </button>
                 
                   <button
@@ -2233,7 +1395,7 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="false"
                     role="listitem">
-                    x³
+                    14
                   </button>
                 
                   <button
@@ -2241,8 +1403,9 @@ Practice Question Set">
                     class="quiz-option"
                     data-correct="false"
                     role="listitem">
-                    x⁴
+                    28
                   </button>
+                
                 
               </div>
 
@@ -2265,7 +1428,7 @@ Practice Question Set">
       
       
 
-      <div class="quiz-question" data-question-index="15" style="display:none">
+      <div class="quiz-question" data-question-index="3"  style="display:none">
         
         <p class="quiz-question-text" data-prompt="After factoring out the GCF of 3 from 3x² - 21x &#43; 30, what is the remaining trinomial inside the parentheses?" data-expr="">
           After factoring out the GCF of 3 from 3x² - 21x &#43; 30, what is the remaining trinomial inside the parentheses?
@@ -2273,6 +1436,7 @@ Practice Question Set">
 
         <div class="quiz-steps">
           
+            
             <div class="quiz-step" data-step-index="0">
               <p class="quiz-step-title">
                 
@@ -2283,6 +1447,7 @@ Practice Question Set">
               
 
               <div class="quiz-options" role="list">
+                
                 
                 
                   <button
@@ -2317,6 +1482,931 @@ Practice Question Set">
                     x² - 7x &#43; 30
                   </button>
                 
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="4"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="For the expression 5x³ &#43; 15x² - 10x, what is the largest factor common to all three terms?" data-expr="">
+          For the expression 5x³ &#43; 15x² - 10x, what is the largest factor common to all three terms?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    5x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    5x²
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    5
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="5"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="When factoring 4x² &#43; 8x &#43; 4, why should you factor out the 4 before looking for binomials?" data-expr="">
+          When factoring 4x² &#43; 8x &#43; 4, why should you factor out the 4 before looking for binomials?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Because 4 is a perfect square
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    To make the remaining trinomial easier to factor
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Because the variable x must be alone
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    It is not necessary
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="6"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="What is the GCF of 24a²b and 16ab²?" data-expr="">
+          What is the GCF of 24a²b and 16ab²?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    4ab
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    8a²b²
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    8
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    8ab
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="7"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="What is the Greatest Common Factor (GCF) of the terms 12x² and 18x?" data-expr="">
+          What is the Greatest Common Factor (GCF) of the terms 12x² and 18x?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    2x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    6
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    6x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    12x
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="8"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="If you factor 10x² - 40 as (10x - 20)(x &#43; 2), which step did you fail to do first?" data-expr="">
+          If you factor 10x² - 40 as (10x - 20)(x &#43; 2), which step did you fail to do first?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    Factor out the GCF of 10
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Multiply 10 by 40
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Check the signs
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Find the square root
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="9"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="In the expression x⁴ &#43; x³ &#43; x², which power of x represents the GCF?" data-expr="">
+          In the expression x⁴ &#43; x³ &#43; x², which power of x represents the GCF?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    x²
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x³
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x⁴
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+        
+        
+          
+          
+        
+      
+
+      <div class="quiz-question" data-question-index="10"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="2x² &#43; 10x &#43; 12">
+          Factor completely: \(2x² &#43; 10x &#43; 12\)
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    (2x&#43;4)(x&#43;3)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    2(x&#43;2)(x&#43;3)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    2(x&#43;5)(x&#43;6)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    (x&#43;2)(2x&#43;6)
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="11"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="2x(x² &#43; ___ - 5) = 2x³ &#43; 6x² - 10x" data-expr="">
+          2x(x² &#43; ___ - 5) = 2x³ &#43; 6x² - 10x
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    3x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    6x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    3
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="12"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="Is 5(x² &#43; 2x - 3) the correct first step for factoring 5x² &#43; 10x - 15?" data-expr="">
+          Is 5(x² &#43; 2x - 3) the correct first step for factoring 5x² &#43; 10x - 15?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    No, the signs are wrong
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    No, the GCF is 5x
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    Yes
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    No, the constant should be -5
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="13"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="Factor 3x³ - 21x² &#43; 30x. If the GCF is 3x, what is the resulting trinomial?" data-expr="">
+          Factor 3x³ - 21x² &#43; 30x. If the GCF is 3x, what is the resulting trinomial?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x² &#43; 7x &#43; 10
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x² - 7x - 10
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    x² - 7x &#43; 10
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    x² - 21x &#43; 30
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+        
+        
+          
+          
+        
+      
+
+      <div class="quiz-question" data-question-index="14"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="Factor completely" data-expr="5x² - 20x - 60">
+          Factor completely: \(5x² - 20x - 60\)
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    5(x-6)(x&#43;2)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    5(x&#43;6)(x-2)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    (5x-30)(x&#43;2)
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    5(x²-4x-12)
+                  </button>
+                
+                
+              </div>
+
+              <div class="quiz-feedback" aria-live="polite"></div>
+            </div>
+          
+        </div>
+
+        <div class="quiz-next-wrap">
+        <button type="button" class="quiz-next quiz-next-question" disabled>Next question</button>
+        </div>
+      </div>
+    
+      
+      
+        
+      
+      
+      
+      
+      
+
+      <div class="quiz-question" data-question-index="15"  style="display:none">
+        
+        <p class="quiz-question-text" data-prompt="A student writes 4x² &#43; 20x &#43; 24 = (2x &#43; 4)(2x &#43; 6). What step did they miss?" data-expr="">
+          A student writes 4x² &#43; 20x &#43; 24 = (2x &#43; 4)(2x &#43; 6). What step did they miss?
+        </p>
+
+        <div class="quiz-steps">
+          
+            
+            <div class="quiz-step" data-step-index="0">
+              <p class="quiz-step-title">
+                
+                  
+                
+              </p>
+
+              
+
+              <div class="quiz-options" role="list">
+                
+                
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    To multiply 4 and 6
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    The middle term is wrong
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="true"
+                    role="listitem">
+                    To factor out the GCF 4 first
+                  </button>
+                
+                  <button
+                    type="button"
+                    class="quiz-option"
+                    data-correct="false"
+                    role="listitem">
+                    Variables cannot repeat
+                  </button>
+                
+                
               </div>
 
               <div class="quiz-feedback" aria-live="polite"></div>
@@ -2342,6 +2432,7 @@ Practice Question Set">
   if (!quiz) return;
 
   const questionDisplay = quiz.querySelector('.quiz-question-display-text');
+  const questionFigure = quiz.querySelector('.quiz-question-figure');
   const allQuestions = Array.from(quiz.querySelectorAll('.quiz-question'));
   const progressBar = quiz.querySelector('.quiz-progress-bar');
   const progressText = quiz.querySelector('.quiz-progress-text');
@@ -2408,6 +2499,148 @@ Practice Question Set">
     return escaped.replace(/__/g, '<span class="quiz-blank">?</span>');
   }
 
+  function parseGraphSpec(raw) {
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function createSvgNode(tag, attrs) {
+    const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    Object.entries(attrs || {}).forEach(([key, value]) => node.setAttribute(key, value));
+    return node;
+  }
+
+  function mapX(x, width, padding, spec) {
+    return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+  }
+
+  function mapY(y, height, padding, spec) {
+    return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+  }
+
+  function renderGraphCard(container, graphSpec) {
+    if (!container) return;
+    container.innerHTML = '';
+    if (!graphSpec || graphSpec.type !== 'line') return;
+
+    const width = 240;
+    const height = 240;
+    const padding = 26;
+    const spec = {
+      type: 'line',
+      slope: Number(graphSpec.slope || 0),
+      intercept: Number(graphSpec.intercept || 0),
+      vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+      x_min: Number(graphSpec.x_min || -5),
+      x_max: Number(graphSpec.x_max || 5),
+      y_min: Number(graphSpec.y_min || -5),
+      y_max: Number(graphSpec.y_max || 5),
+      color: graphSpec.color || '#2563eb',
+      label: graphSpec.label || ''
+    };
+
+    const svg = createSvgNode('svg', {
+      viewBox: `0 0 ${width} ${height}`,
+      role: 'img',
+      'aria-label': spec.label || 'Coordinate plane'
+    });
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      const px = mapX(x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: x === 0 ? '#0f172a' : '#cbd5e1',
+        'stroke-width': x === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      const py = mapY(y, height, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: padding,
+        y1: py,
+        x2: width - padding,
+        y2: py,
+        stroke: y === 0 ? '#0f172a' : '#cbd5e1',
+        'stroke-width': y === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      if (x === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(x, width, padding, spec),
+        y: mapY(0, height, padding, spec) + 15,
+        'text-anchor': 'middle',
+        'font-size': 10,
+        fill: '#64748b'
+      });
+      label.textContent = String(x);
+      svg.appendChild(label);
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      if (y === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(0, width, padding, spec) - 10,
+        y: mapY(y, height, padding, spec) + 3,
+        'text-anchor': 'end',
+        'font-size': 10,
+        fill: '#64748b'
+      });
+      label.textContent = String(y);
+      svg.appendChild(label);
+    }
+
+    if (spec.vertical_x !== null && Number.isFinite(spec.vertical_x)) {
+      const px = mapX(spec.vertical_x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    } else {
+      const x1 = spec.x_min;
+      const x2 = spec.x_max;
+      const y1 = spec.slope * x1 + spec.intercept;
+      const y2 = spec.slope * x2 + spec.intercept;
+      svg.appendChild(createSvgNode('line', {
+        x1: mapX(x1, width, padding, spec),
+        y1: mapY(y1, height, padding, spec),
+        x2: mapX(x2, width, padding, spec),
+        y2: mapY(y2, height, padding, spec),
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    }
+
+    if (Array.isArray(graphSpec.points)) {
+      graphSpec.points.forEach((point) => {
+        if (!Array.isArray(point) || point.length < 2) return;
+        svg.appendChild(createSvgNode('circle', {
+          cx: mapX(Number(point[0]), width, padding, spec),
+          cy: mapY(Number(point[1]), height, padding, spec),
+          r: 4,
+          fill: '#f97316'
+        }));
+      });
+    }
+
+    container.appendChild(svg);
+  }
+
   function updateQuestionDisplay() {
     const idx = activeIndices[currentQuestionIndex];
     const currentQuestion = allQuestions[idx];
@@ -2419,6 +2652,18 @@ Practice Question Set">
       const expr = (questionText.dataset.expr || '').trim();
       const fullText = expr ? `${prompt}: (${expr})` : prompt;
       questionDisplay.innerHTML = renderQuestionHtml(fullText);
+    }
+
+    if (questionFigure) {
+      const graphSpec = parseGraphSpec(currentQuestion.dataset.questionGraph || '');
+      if (graphSpec) {
+        questionFigure.style.display = '';
+        questionFigure.innerHTML = '<div class="quiz-graph-card"></div>';
+        renderGraphCard(questionFigure.querySelector('.quiz-graph-card'), graphSpec);
+      } else {
+        questionFigure.innerHTML = '';
+        questionFigure.style.display = 'none';
+      }
     }
     
     const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
@@ -2495,6 +2740,10 @@ Practice Question Set">
     showQuestion(0);
   }
 
+  quiz.querySelectorAll('[data-option-graph]').forEach((option) => {
+    renderGraphCard(option.querySelector('.quiz-graph-card'), parseGraphSpec(option.dataset.optionGraph || ''));
+  });
+
   quiz.addEventListener('click', (e) => {
     const option = e.target.closest('.quiz-option');
     if (option) {
@@ -2542,8 +2791,8 @@ Practice Question Set">
     </div></footer>
   
 
-  <script defer src="/js/main.min.15eb8e58ef474e8764f1b2119666d41ed10d0c0d647ff5a407a86631cd51f0e2.js" integrity="sha256-FeuOWO9HTodk8bIRlmbUHtENDA1kf/WkB6hmMc1R8OI="></script>
-<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script><script defer src="/en.search.min.4fdabdde415d95c82a8107bef7d71e5731f7921501c4d623461053fa33f9fecb.js" integrity="sha256-T9q93kFdlcgqgQe&#43;99ceVzH3khUBxNYjRhBT&#43;jP5/ss="></script>
+  <script defer src="/js/main.js" integrity=""></script>
+<script defer src="/js/flexsearch.9f5b5908f93ae86f1ecd4b043b799f580c2d1654e703dd9357d568ac41b2547a.js" integrity="sha256-n1tZCPk66G8ezUsEO3mfWAwtFlTnA92TV9VorEGyVHo=" crossorigin="anonymous"></script><script defer src="/en.search.js" integrity=""></script>
 
 </body>
 

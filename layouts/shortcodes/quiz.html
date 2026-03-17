@@ -228,6 +228,35 @@
     min-height: 0;
   }
 
+  .quiz-graph-card {
+    width: 100%;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: rgba(255, 255, 255, 0.96);
+    padding: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  .quiz-graph-card svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-option-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.55rem;
+    width: 100%;
+  }
+
+  .quiz-graph-caption {
+    font-size: 0.82rem;
+    color: #4b5563;
+    font-weight: 500;
+  }
+
   .quiz-question-figure img,
   .quiz-question-figure figure {
     max-width: 100%;
@@ -301,6 +330,13 @@
     .quiz-tag {
       background: rgba(96, 165, 250, 0.18);
       color: #93c5fd;
+    }
+    .quiz-graph-card {
+      background: rgba(15, 23, 42, 0.82);
+      border-color: rgba(148, 163, 184, 0.25);
+    }
+    .quiz-graph-caption {
+      color: #cbd5e1;
     }
   }
 
@@ -517,7 +553,7 @@
     {{ range $qi, $q := $questions }}
       {{ $steps := $q.steps }}
       {{ if not $steps }}
-        {{ $steps = slice (dict "title" "" "options" $q.options "answer" $q.answer) }}
+        {{ $steps = slice (dict "title" "" "options" $q.options "option_graphs" $q.option_graphs "answer" $q.answer) }}
       {{ end }}
       {{ $questionText := $q.question }}
       {{ $prompt := $questionText }}
@@ -530,7 +566,7 @@
         {{ end }}
       {{ end }}
 
-      <div class="quiz-question" data-question-index="{{ $qi }}" style="display:none">
+      <div class="quiz-question" data-question-index="{{ $qi }}" {{ with $q.question_graph }}data-question-graph='{{ . | jsonify }}'{{ end }} style="display:none">
         <!-- Question text is now hidden here and displayed above -->
         <p class="quiz-question-text" data-prompt="{{ $prompt }}" data-expr="{{ $expr }}">
           {{ $prompt }}{{ if $expr }}: \({{ $expr }}\){{ end }}
@@ -538,6 +574,7 @@
 
         <div class="quiz-steps">
           {{ range $si, $step := $steps }}
+            {{ $optionGraphs := $step.option_graphs }}
             <div class="quiz-step" data-step-index="{{ $si }}">
               <p class="quiz-step-title">
                 {{ if $step.title }}
@@ -555,6 +592,23 @@
 
               <div class="quiz-options" role="list">
                 {{ $correctIndex := int $step.answer }}
+                {{ if $optionGraphs }}
+                  {{ range $oi, $opt := $optionGraphs }}
+                    <button
+                      type="button"
+                      class="quiz-option"
+                      data-correct="{{ if eq (int $oi) $correctIndex }}true{{ else }}false{{ end }}"
+                      data-option-graph='{{ $opt.graph | jsonify }}'
+                      role="listitem">
+                      <span class="quiz-option-graph">
+                        <span class="quiz-graph-card"></span>
+                        {{ with $opt.label }}
+                          <span class="quiz-graph-caption">{{ . }}</span>
+                        {{ end }}
+                      </span>
+                    </button>
+                  {{ end }}
+                {{ else }}
                 {{ range $oi, $opt := $step.options }}
                   <button
                     type="button"
@@ -563,6 +617,7 @@
                     role="listitem">
                     {{ $opt }}
                   </button>
+                {{ end }}
                 {{ end }}
               </div>
 
@@ -589,6 +644,7 @@
   if (!quiz) return;
 
   const questionDisplay = quiz.querySelector('.quiz-question-display-text');
+  const questionFigure = quiz.querySelector('.quiz-question-figure');
   const allQuestions = Array.from(quiz.querySelectorAll('.quiz-question'));
   const progressBar = quiz.querySelector('.quiz-progress-bar');
   const progressText = quiz.querySelector('.quiz-progress-text');
@@ -655,6 +711,148 @@
     return escaped.replace(/__/g, '<span class="quiz-blank">?</span>');
   }
 
+  function parseGraphSpec(raw) {
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function createSvgNode(tag, attrs) {
+    const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    Object.entries(attrs || {}).forEach(([key, value]) => node.setAttribute(key, value));
+    return node;
+  }
+
+  function mapX(x, width, padding, spec) {
+    return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+  }
+
+  function mapY(y, height, padding, spec) {
+    return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+  }
+
+  function renderGraphCard(container, graphSpec) {
+    if (!container) return;
+    container.innerHTML = '';
+    if (!graphSpec || graphSpec.type !== 'line') return;
+
+    const width = 240;
+    const height = 240;
+    const padding = 26;
+    const spec = {
+      type: 'line',
+      slope: Number(graphSpec.slope || 0),
+      intercept: Number(graphSpec.intercept || 0),
+      vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+      x_min: Number(graphSpec.x_min || -5),
+      x_max: Number(graphSpec.x_max || 5),
+      y_min: Number(graphSpec.y_min || -5),
+      y_max: Number(graphSpec.y_max || 5),
+      color: graphSpec.color || '#2563eb',
+      label: graphSpec.label || ''
+    };
+
+    const svg = createSvgNode('svg', {
+      viewBox: `0 0 ${width} ${height}`,
+      role: 'img',
+      'aria-label': spec.label || 'Coordinate plane'
+    });
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      const px = mapX(x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: x === 0 ? '#0f172a' : '#cbd5e1',
+        'stroke-width': x === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      const py = mapY(y, height, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: padding,
+        y1: py,
+        x2: width - padding,
+        y2: py,
+        stroke: y === 0 ? '#0f172a' : '#cbd5e1',
+        'stroke-width': y === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      if (x === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(x, width, padding, spec),
+        y: mapY(0, height, padding, spec) + 15,
+        'text-anchor': 'middle',
+        'font-size': 10,
+        fill: '#64748b'
+      });
+      label.textContent = String(x);
+      svg.appendChild(label);
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      if (y === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(0, width, padding, spec) - 10,
+        y: mapY(y, height, padding, spec) + 3,
+        'text-anchor': 'end',
+        'font-size': 10,
+        fill: '#64748b'
+      });
+      label.textContent = String(y);
+      svg.appendChild(label);
+    }
+
+    if (spec.vertical_x !== null && Number.isFinite(spec.vertical_x)) {
+      const px = mapX(spec.vertical_x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    } else {
+      const x1 = spec.x_min;
+      const x2 = spec.x_max;
+      const y1 = spec.slope * x1 + spec.intercept;
+      const y2 = spec.slope * x2 + spec.intercept;
+      svg.appendChild(createSvgNode('line', {
+        x1: mapX(x1, width, padding, spec),
+        y1: mapY(y1, height, padding, spec),
+        x2: mapX(x2, width, padding, spec),
+        y2: mapY(y2, height, padding, spec),
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    }
+
+    if (Array.isArray(graphSpec.points)) {
+      graphSpec.points.forEach((point) => {
+        if (!Array.isArray(point) || point.length < 2) return;
+        svg.appendChild(createSvgNode('circle', {
+          cx: mapX(Number(point[0]), width, padding, spec),
+          cy: mapY(Number(point[1]), height, padding, spec),
+          r: 4,
+          fill: '#f97316'
+        }));
+      });
+    }
+
+    container.appendChild(svg);
+  }
+
   function updateQuestionDisplay() {
     const idx = activeIndices[currentQuestionIndex];
     const currentQuestion = allQuestions[idx];
@@ -666,6 +864,18 @@
       const expr = (questionText.dataset.expr || '').trim();
       const fullText = expr ? `${prompt}: (${expr})` : prompt;
       questionDisplay.innerHTML = renderQuestionHtml(fullText);
+    }
+
+    if (questionFigure) {
+      const graphSpec = parseGraphSpec(currentQuestion.dataset.questionGraph || '');
+      if (graphSpec) {
+        questionFigure.style.display = '';
+        questionFigure.innerHTML = '<div class="quiz-graph-card"></div>';
+        renderGraphCard(questionFigure.querySelector('.quiz-graph-card'), graphSpec);
+      } else {
+        questionFigure.innerHTML = '';
+        questionFigure.style.display = 'none';
+      }
     }
     
     const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
@@ -741,6 +951,10 @@
     
     showQuestion(0);
   }
+
+  quiz.querySelectorAll('[data-option-graph]').forEach((option) => {
+    renderGraphCard(option.querySelector('.quiz-graph-card'), parseGraphSpec(option.dataset.optionGraph || ''));
+  });
 
   quiz.addEventListener('click', (e) => {
     const option = e.target.closest('.quiz-option');

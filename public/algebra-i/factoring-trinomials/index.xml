@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math Learning Site – Factoring Polynomials</title>
-    <link>https://quizmathgenius.com/algebra-i/factoring-trinomials/</link>
+    <link>http://localhost:54360/algebra-i/factoring-trinomials/</link>
     <description>Recent content in Factoring Polynomials on Math Learning Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="https://quizmathgenius.com/algebra-i/factoring-trinomials/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:54360/algebra-i/factoring-trinomials/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>5 Common Mistakes When Factoring Trinomials</title>
-      <link>https://quizmathgenius.com/algebra-i/factoring-trinomials/blog/</link>
+      <link>http://localhost:54360/algebra-i/factoring-trinomials/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/blog/</guid>
+      <guid>http://localhost:54360/algebra-i/factoring-trinomials/blog/</guid>
       <description>
         
         
@@ -153,7 +153,7 @@ x^2 + 10x + 24
 &lt;p&gt;Turning in the paper without a quick 5-second check. Even a small sign error can ruin the entire problem.&lt;/p&gt;
 &lt;p&gt;✅ &lt;strong&gt;Correct Solution&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Perform a quick &lt;strong&gt;FOIL&lt;/strong&gt; check (First, Outer, Inner, Last):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://quizmathgenius.com/images/foil-diagram.png&#34; alt=&#34;Gemini_Generated_Image_sq9q30sq9q30sq9q&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:54360/images/foil-diagram.png&#34; alt=&#34;Gemini_Generated_Image_sq9q30sq9q30sq9q&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;F:&lt;/strong&gt; &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;x \cdot x = x^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4445em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -180,10 +180,10 @@ x^2 + 10x + 24
     
     <item>
       <title>Practice Questions</title>
-      <link>https://quizmathgenius.com/algebra-i/factoring-trinomials/practice-questions/</link>
+      <link>http://localhost:54360/algebra-i/factoring-trinomials/practice-questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/practice-questions/</guid>
+      <guid>http://localhost:54360/algebra-i/factoring-trinomials/practice-questions/</guid>
       <description>
         
         
