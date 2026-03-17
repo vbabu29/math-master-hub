@@ -1,0 +1,124 @@
+basic_q1:
+  type: "Magic Pair Search"
+  difficulty: "Easy"
+  question: "To factor x² + 7x + 10, you need two numbers that multiply to 10 and add to 7. What are they?"
+  options: ["1 and 10", "2 and 5", "-2 and -5", "7 and 10"]
+  answer: 1
+
+basic_q2:
+  type: "Magic Pair Search"
+  difficulty: "Medium"
+  question: "Which pair of numbers multiplies to -24 and adds to +2?"
+  options: ["-4 and 6", "4 and -6", "-12 and 2", "8 and -3"]
+  answer: 0
+
+basic_q3:
+  type: "Sum/Product Logic"
+  difficulty: "Medium"
+  question: "In the trinomial x² - x - 20, the constant is -20 and the middle coefficient is -1. Which pair fits?"
+  options: ["-10 and 2", "5 and -4", "-5 and 4", "10 and -2"]
+  answer: 2
+
+basic_q4:
+  type: "Magic Pair Search"
+  difficulty: "Hard"
+  question: "For x² - 13x + 42, find the pair that multiplies to 42 and adds to -13."
+  options: ["-21 and -2", "-6 and -7", "6 and 7", "1 and 42"]
+  answer: 1
+
+basic_q5:
+  type: "Sign Logic"
+  difficulty: "Easy"
+  question: "If a trinomial is x² + bx + c (where b and c are both positive), what will the signs in the factors be?"
+  options: ["(x + m)(x - n)", "(x - m)(x - n)", "(x + m)(x + n)", "It depends on the value of b"]
+  answer: 2
+
+basic_q6:
+  type: "Sign Logic"
+  difficulty: "Medium"
+  question: "In x² - 8x + 15, the constant is positive (+15) but the middle is negative (-8). This means both factors must be:"
+  options: ["Positive", "Negative", "One of each", "Prime"]
+  answer: 1
+
+basic_q7:
+  type: "Sign Logic"
+  difficulty: "Medium"
+  question: "In x² + 2x - 24, the constant is negative (-24). This tells you that the two factors must have:"
+  options: ["Opposite signs", "The same sign", "Only negative signs", "Only positive signs"]
+  answer: 0
+
+basic_q8:
+  type: "Sign Logic"
+  difficulty: "Hard"
+  question: "For x² - 3x - 10, the factors have opposite signs. Which factor must get the negative sign to result in -3x?"
+  options: ["The smaller absolute value", "Both factors", "The larger absolute value", "Neither factor"]
+  answer: 2
+
+basic_q9:
+  type: "Verification"
+  difficulty: "Easy"
+  question: "Is (x + 4)(x + 2) the correct factorization for x² + 6x + 8?"
+  options: ["Yes", "No, product is wrong", "No, sum is wrong", "No, variables are missing"]
+  answer: 0
+
+basic_q10:
+  type: "Error Analysis"
+  difficulty: "Medium"
+  question: "A student factors x² - 5x + 6 as (x - 1)(x - 6). Why is this wrong?"
+  options: ["The sum is -7, not -5", "The product is -6, not +6", "The constant term should be 5", "The signs should be positive"]
+  answer: 0
+
+basic_q11:
+  type: "Reverse Check"
+  difficulty: "Medium"
+  question: "Multiply (x - 7)(x + 3). What is the resulting middle term?"
+  options: ["-10x", "4x", "-4x", "-21x"]
+  answer: 2
+
+basic_q12:
+  type: "Error Analysis"
+  difficulty: "Hard"
+  question: "A student says x² + 5x - 6 factors into (x + 2)(x + 3). What mistake did they make?"
+  options: ["They ignored the negative sign of the constant", "They added instead of multiplied", "They used the wrong variable", "They factored correctly"]
+  answer: 0
+
+basic_q13:
+  type: "Missing Constant"
+  difficulty: "Medium"
+  question: "x² + 9x + ___ = (x + 5)(x + 4)"
+  options: ["9", "1", "20", "25"]
+  answer: 2
+
+basic_q14:
+  type: "Missing Middle Term"
+  difficulty: "Medium"
+  question: "x² + ___x + 12 = (x + 6)(x + 2)"
+  options: ["8", "12", "7", "4"]
+  answer: 0
+
+basic_q15:
+  type: "Missing Factor"
+  difficulty: "Easy"
+  question: "x² - x - 12 = (x - 4)(x + ___)"
+  options: ["4", "1", "12", "3"]
+  answer: 3
+
+basic_q18:
+  question: "Factor: x² + 8x + 15"
+  options: ["(x+5)(x+3)", "(x+1)(x+15)", "(x+2)(x+6)", "(x+4)(x+4)"]
+  answer: 0
+
+basic_q19:
+  question: "Factor: x² - 9x + 20"
+  options: ["(x-2)(x-10)", "(x-4)(x-5)", "(x-1)(x-20)", "(x+4)(x+5)"]
+  answer: 1
+
+basic_q20:
+  question: "Factor: x² + 2x - 8"
+  options: ["(x-2)(x+4)", "(x+2)(x-4)", "(x+1)(x-8)", "(x-1)(x+8)"]
+  answer: 0
+
+basic_q21:
+  question: "Factor: x² - 7x - 18"
+  options: ["(x-2)(x+9)", "(x-6)(x+3)", "(x-9)(x+2)", "(x-18)(x+1)"]
+  answer: 2

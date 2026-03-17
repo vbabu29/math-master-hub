@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Math Learning Site – Factoring Trinomials</title>
+    <title>Math Learning Site – Factoring Polynomials</title>
     <link>https://quizmathgenius.com/algebra-i/factoring-trinomials/</link>
-    <description>Recent content in Factoring Trinomials on Math Learning Site</description>
+    <description>Recent content in Factoring Polynomials on Math Learning Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -187,7 +187,7 @@ x^2 + 10x + 24
       <description>
         
         
-        &lt;p&gt;Choose a factoring topic below and open a focused practice set.&lt;/p&gt;
+        &lt;p&gt;Choose a factoring topic below and open a focused practice set. The list now matches the reduced Algebra I structure, with everything outside it folded into &lt;strong&gt;Miscellaneous&lt;/strong&gt;.&lt;/p&gt;
 
       </description>
     </item>

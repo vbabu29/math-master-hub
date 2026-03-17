@@ -1,0 +1,50 @@
+solv_q1:
+  type: "Inverse Logic"
+  difficulty: "Easy"
+  question: "In the equation x - 15 = 30, which inverse operation should you use to isolate x?"
+  options: ["Subtract 15 from both sides", "Multiply both sides by 15", "Add 15 to both sides", "Divide both sides by 30"]
+  answer: 2
+
+solv_q3:
+  type: "Logic Check"
+  difficulty: "Easy"
+  question: "To solve (x / 5) = 10, you must multiply both sides by 5. What is the value of x?"
+  options: ["x = 2", "x = 15", "x = 50", "x = 5"]
+  answer: 2
+
+solv_q4:
+  type: "Inverse Logic"
+  difficulty: "Medium"
+  question: "In the equation -3x = 12, why do we divide by -3 rather than adding 3?"
+  options: ["Because -3 is being multiplied by x", "Because the answer must be negative", "Because 12 is a multiple of 3", "Adding 3 would change the variable to x+3"]
+  answer: 0
+
+solv_q17:
+  question: "Solve: x / 4 = -2"
+  options: ["x = -0.5", "x = -8", "x = 2", "x = 8"]
+  answer: 1
+
+solv_q22:
+  question: "Solve: 0.5x = 10"
+  options: ["x = 5", "x = 20", "x = 2", "x = 0.05"]
+  answer: 1
+
+solv_q32:
+  question: "Solve: 8x = 4"
+  options: ["x = 2", "x = 0.5", "x = 4", "x = -4"]
+  answer: 1
+
+solv_q36:
+  question: "Solve: x + 5 = 5"
+  options: ["Infinite", "No Solution", "x = 0", "x = 10"]
+  answer: 2
+
+solv_q44:
+  question: "Solve: x/10 = 0.1"
+  options: ["x = 0.01", "x = 1", "x = 10", "x = 0.1"]
+  answer: 1
+
+solv_q48:
+  question: "Solve: x - 4 = -12"
+  options: ["x = -16", "x = -8", "x = 8", "x = 16"]
+  answer: 1

@@ -1,0 +1,351 @@
+# QUADRATIC FORMULA AND DISCRIMINANT QUESTION BANK
+
+qf_disc_01:
+  type: "Standard Form Identification"
+  difficulty: "Easy"
+  question: "Before using the quadratic formula, the equation must be in the form ax² + bx + c = 0. In the equation 3x² - 5 = 2x, what is the correct value of 'b' after moving terms?"
+  options: ["2", "-2", "5", "-5"]
+  answer: 1
+
+qf_disc_02:
+  type: "Discriminant Formula"
+  difficulty: "Easy"
+  question: "The 'discriminant' is the specific part of the quadratic formula found under the radical. Its formula is:"
+  options: ["-b / 2a", "b² + 4ac", "b² - 4ac", "√(b² - 4ac)"]
+  answer: 2
+
+qf_disc_03:
+  type: "Identifying Coefficients"
+  difficulty: "Easy"
+  question: "In the equation x² - 7x + 10 = 0, what is the value of the constant 'c'?"
+  options: ["1", "-7", "10", "0"]
+  answer: 2
+
+qf_disc_04:
+  type: "Discriminant Logic"
+  difficulty: "Medium"
+  question: "If the discriminant (b² - 4ac) is exactly 0, how many unique real solutions does the equation have?"
+  options: ["Two", "One", "Zero", "Infinite"]
+  answer: 1
+
+qf_disc_05:
+  type: "Negative Discriminant"
+  difficulty: "Medium"
+  question: "When the value of b² - 4ac is negative, the square root will result in an imaginary number. This means the equation has:"
+  options: ["Two real roots", "One real root", "No real roots", "Two rational roots"]
+  answer: 2
+
+qf_disc_06:
+  type: "Formula Denominator"
+  difficulty: "Easy"
+  question: "In the quadratic formula, the entire numerator is divided by:"
+  options: ["a", "2", "2a", "b²"]
+  answer: 2
+
+qf_disc_07:
+  type: "Guided Calculation"
+  difficulty: "Medium"
+  question: "For the equation x² + 4x + 4 = 0, calculate b². What is the value?"
+  options: ["4", "8", "16", "2"]
+  answer: 2
+
+qf_disc_08:
+  type: "Guided Calculation II"
+  difficulty: "Medium"
+  question: "For the equation x² + 4x + 4 = 0, calculate 4ac. What is the value?"
+  options: ["4", "8", "16", "0"]
+  answer: 2
+
+qf_disc_09:
+  type: "Discriminant Conclusion"
+  difficulty: "Medium"
+  question: "Using the results from the previous two questions (b²=16, 4ac=16), what is the discriminant of x² + 4x + 4 = 0?"
+  options: ["32", "0", "1", "16"]
+  answer: 1
+
+qf_disc_10:
+  type: "Quadratic Formula Structure"
+  difficulty: "Easy"
+  question: "The quadratic formula starts with 'x = negative b...'. If your 'b' value is already -5, what should you write at the start of the formula?"
+  options: ["-5", "5", "±5", "0"]
+  answer: 1
+
+qf_disc_11:
+  type: "Nature of Roots: Perfect Square"
+  difficulty: "Hard"
+  question: "If the discriminant is a perfect square (like 25 or 49), the solutions to the equation will be:"
+  options: ["Irrational", "Rational", "Complex", "Negative"]
+  answer: 1
+
+qf_disc_12:
+  type: "Nature of Roots: Non-Square"
+  difficulty: "Hard"
+  question: "If the discriminant is positive but NOT a perfect square (like 7 or 13), the solutions will be:"
+  options: ["Rational", "Irrational", "Imaginary", "Zero"]
+  answer: 1
+
+qf_disc_13:
+  type: "Guided Substitution"
+  difficulty: "Medium"
+  question: "To solve 2x² - 3x + 1 = 0, what value should be substituted for 'a' in the denominator 2a?"
+  options: ["2", "4", "-3", "1"]
+  answer: 0
+
+qf_disc_14:
+  type: "Missing Terms"
+  difficulty: "Medium"
+  question: "If an equation is x² - 9 = 0, what is the value of 'b' to be used in the quadratic formula?"
+  options: ["-9", "1", "0", "9"]
+  answer: 2
+
+qf_disc_15:
+  type: "Missing Terms II"
+  difficulty: "Medium"
+  question: "If an equation is 2x² + 5x = 0, what is the value of 'c' to be used in the quadratic formula?"
+  options: ["2", "5", "0", "1"]
+  answer: 2
+
+qf_disc_16:
+  type: "Evaluating b²"
+  difficulty: "Easy"
+  question: "What is the value of b² if b = -6?"
+  options: ["-36", "36", "12", "-12"]
+  answer: 1
+
+qf_disc_17:
+  type: "Discriminant Practice"
+  difficulty: "Medium"
+  question: "Find the discriminant for x² + x + 1 = 0."
+  options: ["1", "5", "-3", "0"]
+  answer: 2
+
+qf_disc_18:
+  type: "Root Nature Interpretation"
+  difficulty: "Medium"
+  question: "Given the discriminant is -3 (from the previous question), the equation x² + x + 1 = 0 has:"
+  options: ["Two real roots", "One real root", "No real roots", "Two rational roots"]
+  answer: 2
+
+qf_disc_19:
+  type: "Formula Component"
+  difficulty: "Easy"
+  question: "In the quadratic formula, the symbol '±' indicates that:"
+  options: ["The answer must be positive", "There are usually two separate solutions", "The answer is approximate", "You must subtract before you add"]
+  answer: 1
+
+qf_disc_20:
+  type: "Zero a-value?"
+  difficulty: "Hard"
+  question: "Why can the coefficient 'a' never be 0 when using the quadratic formula?"
+  options: ["You cannot square 0", "You cannot divide by zero", "The discriminant becomes negative", "The equation would be cubic"]
+  answer: 1
+
+qf_disc_21:
+  type: "Simplifying the Radical"
+  difficulty: "Medium"
+  question: "If x = (6 ± √36) / 2, what is the first step to simplify this?"
+  options: ["Divide 6 by 2", "Find the square root of 36", "Subtract 36 from 6", "Multiply 6 by 2"]
+  answer: 1
+
+qf_disc_22:
+  type: "Discriminant of a Square"
+  difficulty: "Medium"
+  question: "What is the discriminant of x² - 10x + 25 = 0?"
+  options: ["100", "50", "0", "25"]
+  answer: 2
+
+qf_disc_23:
+  type: "One Solution Logic"
+  difficulty: "Medium"
+  question: "When the discriminant is 0, the formula becomes x = -b / 2a. This is why there is only ___ solution."
+  options: ["No", "One", "Two", "Imaginary"]
+  answer: 1
+
+qf_disc_24:
+  type: "Identifying Coefficients III"
+  difficulty: "Medium"
+  question: "In the equation -x² + 4x - 7 = 0, what is the value of 'a'?"
+  options: ["1", "0", "-1", "4"]
+  answer: 2
+
+qf_disc_25:
+  type: "Sign Awareness"
+  difficulty: "Hard"
+  question: "When calculating -4ac, if both 'a' and 'c' are negative, the result of -4ac will be:"
+  options: ["Positive", "Negative", "Zero", "Double the value"]
+  answer: 1
+
+qf_disc_26:
+  type: "Guided Formula Use"
+  difficulty: "Medium"
+  question: "For x² - 2x - 8 = 0, the discriminant is 36. What is the value of √D?"
+  options: ["18", "6", "36", "4"]
+  answer: 1
+
+qf_disc_27:
+  type: "Guided Formula Use II"
+  difficulty: "Hard"
+  question: "Continuing from the last question, if -b = 2 and √D = 6 and 2a = 2, the two solutions are (2+6)/2 and:"
+  options: ["(2-6)/2", "(6-2)/2", "2/6", "2-6"]
+  answer: 0
+
+qf_disc_28:
+  type: "Recognizing the Formula"
+  difficulty: "Easy"
+  question: "Which of these is the correct Quadratic Formula?"
+  options: ["x = (-b ± √b² - 4ac) / 2a", "x = (b ± √b² - 4ac) / 2a", "x = (-b ± √b² + 4ac) / a", "x = -b / 2a"]
+  answer: 0
+
+qf_disc_29:
+  type: "Discriminant Shortcut"
+  difficulty: "Medium"
+  question: "If you only need to know HOW MANY solutions an equation has, which part should you calculate?"
+  options: ["-b / 2a", "The whole formula", "The discriminant", "The y-intercept"]
+  answer: 2
+
+qf_disc_30:
+  type: "Positive Discriminant Meaning"
+  difficulty: "Easy"
+  question: "A discriminant of 15 tells you the equation has:"
+  options: ["One real solution", "Two real solutions", "No real solutions", "Two imaginary solutions"]
+  answer: 1
+
+qf_disc_31:
+  type: "Guided b² calculation"
+  difficulty: "Easy"
+  question: "If b = 1, what is b²?"
+  options: ["1", "2", "0", "-1"]
+  answer: 0
+
+qf_disc_32:
+  type: "Discriminant Practice II"
+  difficulty: "Medium"
+  question: "Find the discriminant of 2x² - 5x - 3 = 0."
+  options: ["1", "49", "25", "11"]
+  answer: 1
+
+qf_disc_33:
+  type: "Interpreting D=49"
+  difficulty: "Medium"
+  question: "Since the discriminant is 49 (from the previous question), the roots are:"
+  options: ["Irrational", "Complex", "Rational", "Exactly zero"]
+  answer: 2
+
+qf_disc_34:
+  type: "Standard Form Check"
+  difficulty: "Easy"
+  question: "True or False: You can use the Quadratic Formula on the equation 5x + 2 = 0."
+  options: ["True", "False, it is not quadratic", "True, if a=1", "True, if c=0"]
+  answer: 1
+
+qf_disc_35:
+  type: "Coefficient Source"
+  difficulty: "Easy"
+  question: "The values of a, b, and c come from which form of a quadratic equation?"
+  options: ["Vertex Form", "Factored Form", "Standard Form", "Slope-intercept Form"]
+  answer: 2
+
+qf_disc_36:
+  type: "Discriminant of x² + 1 = 0"
+  difficulty: "Hard"
+  question: "What is the discriminant of x² + 1 = 0? (Hint: a=1, b=0, c=1)"
+  options: ["1", "0", "-4", "4"]
+  answer: 2
+
+qf_disc_37:
+  type: "Complex Root Logic"
+  difficulty: "Medium"
+  question: "If an equation has no real roots, where does its graph sit relative to the x-axis?"
+  options: ["It touches it once", "It crosses it twice", "It never touches it", "It is the x-axis"]
+  answer: 2
+
+qf_disc_38:
+  type: "Quadratic Formula Use Case"
+  difficulty: "Medium"
+  question: "The Quadratic Formula is most useful when an equation:"
+  options: ["Is already factored", "Cannot be easily factored", "Is linear", "Has no constants"]
+  answer: 1
+
+qf_disc_39:
+  type: "Guided step: 4ac"
+  difficulty: "Medium"
+  question: "In 3x² + 2x + 1 = 0, what is the value of 4ac?"
+  options: ["12", "6", "4", "3"]
+  answer: 0
+
+qf_disc_40:
+  type: "Discriminant calculation"
+  difficulty: "Medium"
+  question: "Using b=2 and 4ac=12, what is the discriminant of 3x² + 2x + 1 = 0?"
+  options: ["16", "-8", "8", "4"]
+  answer: 1
+
+qf_disc_41:
+  type: "Nature of Roots: Positive"
+  difficulty: "Easy"
+  question: "Any time b² is greater than 4ac, the equation will have:"
+  options: ["No real solutions", "One real solution", "Two real solutions", "Infinite solutions"]
+  answer: 2
+
+qf_disc_42:
+  type: "Symmetry and Formula"
+  difficulty: "Hard"
+  question: "The part of the formula '-b / 2a' represents what part of the parabola?"
+  options: ["The y-intercept", "The axis of symmetry", "The discriminant", "The discriminant's root"]
+  answer: 1
+
+qf_disc_43:
+  type: "Guided subtraction"
+  difficulty: "Medium"
+  question: "If b² = 25 and 4ac = -20, what is b² - 4ac?"
+  options: ["5", "45", "-5", "20"]
+  answer: 1
+
+qf_disc_44:
+  type: "Calculating 2a"
+  difficulty: "Easy"
+  question: "If a = 1/2, what is the value of the denominator 2a?"
+  options: ["1", "2", "0.5", "4"]
+  answer: 0
+
+qf_disc_45:
+  type: "Discriminant Sign"
+  difficulty: "Medium"
+  question: "Which discriminant value would indicate two real, irrational roots?"
+  options: ["-4", "0", "10", "16"]
+  answer: 2
+
+qf_disc_46:
+  type: "Sign Error Check"
+  difficulty: "Hard"
+  question: "In x² - 5x - 6 = 0, the term -4ac is -4(1)(-6). This simplifies to:"
+  options: ["-24", "24", "10", "-10"]
+  answer: 1
+
+qf_disc_47:
+  type: "Discriminant of x² - x = 0"
+  difficulty: "Medium"
+  question: "What is the discriminant of x² - x = 0?"
+  options: ["0", "1", "-1", "4"]
+  answer: 1
+
+qf_disc_48:
+  type: "Identifying b"
+  difficulty: "Easy"
+  question: "In the equation x² + x - 1 = 0, the value of 'b' is:"
+  options: ["0", "x", "1", "-1"]
+  answer: 2
+
+qf_disc_49:
+  type: "Nature of Roots: Zero"
+  difficulty: "Easy"
+  question: "If the discriminant is 0, the two solutions are actually:"
+  options: ["Imaginary", "The same number", "Positive and Negative", "Zero"]
+  answer: 1
+
+qf_disc_50:
+  type: "Formula Conclusion"
+  difficulty: "Medium"
+  question: "The Quadratic Formula can be used to solve:"
+  options: ["Only factorable equations", "Only equations with real roots", "Any quadratic equation", "Only equations where a=1"]
+  answer: 2

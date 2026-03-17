@@ -1,18 +1,18 @@
 ---
-title: "Linear Algebra"
+title: "Linear Equations"
 weight: 1
 sidebar:
   open: true
 ---
 
-Linear equations and linear functions show up everywhere in Algebra I, from graphing straight lines to solving systems and modeling word problems.
+Linear equations are a core Algebra I skill. This hub focuses on solving equations one step at a time and then extending that thinking to systems of linear equations.
 
 In this hub, you will:
 
-- Understand what makes an equation linear
-- Connect tables, graphs, and equations
-- Practice interpreting slope and intercepts in real-world situations
+- Solve one-step, two-step, and multi-step equations
+- Work with equations that have variables on both sides
+- Practice substitution, elimination, and systems word problems
 
 ## Explore This Hub
 
-- Open **Practice Questions** to work through mixed linear algebra problems
+- Open **Practice Questions** to work through the full Linear Equations sequence

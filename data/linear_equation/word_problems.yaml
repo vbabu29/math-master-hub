@@ -1,0 +1,20 @@
+sys_q11:
+  type: "Number Problem"
+  difficulty: "Medium"
+  question: "The sum of two numbers is 20 and their difference is 4. Find the larger number."
+  options: ["10", "14", "12", "16"]
+  answer: 2
+
+sys_q12:
+  type: "Break-Even"
+  difficulty: "Hard"
+  question: "Company A charges $20 + $2/mile. Company B charges $10 + $3/mile. At how many miles is the cost identical?"
+  options: ["5 miles", "10 miles", "15 miles", "20 miles"]
+  answer: 1
+
+sys_q13:
+  type: "Rate Problem"
+  difficulty: "Medium"
+  question: "A plumber charges $50 for a visit plus $30 per hour. Which equation represents total cost C for h hours?"
+  options: ["C = 50h + 30", "C = 80h", "C = 30h + 50", "h = 30C + 50"]
+  answer: 2

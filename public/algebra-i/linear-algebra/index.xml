@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Math Learning Site – Linear Algebra</title>
+    <title>Math Learning Site – Linear Equations</title>
     <link>https://quizmathgenius.com/algebra-i/linear-algebra/</link>
-    <description>Recent content in Linear Algebra on Math Learning Site</description>
+    <description>Recent content in Linear Equations on Math Learning Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;p&gt;Choose a linear algebra topic below and open a focused practice set.&lt;/p&gt;
+        &lt;p&gt;Choose a linear equations topic below and open a focused practice set. The list now matches the reduced Algebra I structure, with everything outside it folded into &lt;strong&gt;Miscellaneous&lt;/strong&gt;.&lt;/p&gt;
 
       </description>
     </item>

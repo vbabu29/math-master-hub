@@ -1,0 +1,50 @@
+solv_q5:
+  type: "Distributive Step"
+  difficulty: "Medium"
+  question: "When solving 3(x - 4) = 15, what does the equation look like after applying the distributive property?"
+  options: ["3x - 4 = 15", "3x - 12 = 15", "3x + 12 = 15", "x - 4 = 5"]
+  answer: 1
+
+solv_q7:
+  type: "Combined Terms"
+  difficulty: "Medium"
+  question: "Solve for x: 2x + 5x - 3 = 11"
+  options: ["x = 7", "x = 1", "x = 2", "x = 4"]
+  answer: 2
+
+solv_q9:
+  type: "Fractional Coefficients"
+  difficulty: "Hard"
+  question: "Solve for x: (2/3)x + 4 = 10"
+  options: ["x = 9", "x = 4", "x = 6", "x = 12"]
+  answer: 0
+
+solv_q19:
+  question: "Solve: 2(x - 3) = 10"
+  options: ["x = 5", "x = 8", "x = 2", "x = 13"]
+  answer: 1
+
+solv_q24:
+  question: "Solve: x + x + x = 18"
+  options: ["x = 3", "x = 9", "x = 6", "x = 18"]
+  answer: 2
+
+solv_q30:
+  question: "Solve: 3(x + 2) = 12"
+  options: ["x = 2", "x = 4", "x = 6", "x = 3"]
+  answer: 0
+
+solv_q35:
+  question: "Solve: 5(x - 1) = 20"
+  options: ["x = 3", "x = 4", "x = 5", "x = 6"]
+  answer: 2
+
+solv_q37:
+  question: "Solve: 2x/5 = 4"
+  options: ["x = 10", "x = 20", "x = 8", "x = 2"]
+  answer: 0
+
+solv_q46:
+  question: "Solve: 15 = 5(x - 2)"
+  options: ["x = 5", "x = 3", "x = 1", "x = 10"]
+  answer: 0

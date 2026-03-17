@@ -1,0 +1,105 @@
+gcf_q1:
+  type: "Identify GCF"
+  difficulty: "Easy"
+  question: "What is the Greatest Common Factor (GCF) of the terms 12x² and 18x?"
+  options: ["2x", "6", "6x", "12x"]
+  answer: 2
+
+gcf_q2:
+  type: "Identify GCF"
+  difficulty: "Medium"
+  question: "For the expression 5x³ + 15x² - 10x, what is the largest factor common to all three terms?"
+  options: ["5x", "5x²", "x", "5"]
+  answer: 0
+
+gcf_q3:
+  type: "Variable GCF"
+  difficulty: "Medium"
+  question: "In the expression x⁴ + x³ + x², which power of x represents the GCF?"
+  options: ["x", "x²", "x³", "x⁴"]
+  answer: 1
+
+gcf_q4:
+  type: "Identify GCF"
+  difficulty: "Hard"
+  question: "What is the GCF of 24a²b and 16ab²?"
+  options: ["4ab", "8a²b²", "8", "8ab"]
+  answer: 3
+
+gcf_q5:
+  type: "Logic Check"
+  difficulty: "Easy"
+  question: "When factoring 4x² + 8x + 4, why should you factor out the 4 before looking for binomials?"
+  options: ["Because 4 is a perfect square", "To make the remaining trinomial easier to factor", "Because the variable x must be alone", "It is not necessary"]
+  answer: 1
+
+gcf_q6:
+  type: "Missing GCF Step"
+  difficulty: "Medium"
+  question: "If you factor 10x² - 40 as (10x - 20)(x + 2), which step did you fail to do first?"
+  options: ["Factor out the GCF of 10", "Multiply 10 by 40", "Check the signs", "Find the square root"]
+  answer: 0
+
+gcf_q7:
+  type: "Guided Factoring"
+  difficulty: "Medium"
+  question: "After factoring out the GCF of 3 from 3x² - 21x + 30, what is the remaining trinomial inside the parentheses?"
+  options: ["x² - 21x + 30", "x² - 7x + 10", "3(x² - 7x + 10)", "x² - 7x + 30"]
+  answer: 1
+
+gcf_q8:
+  type: "Error Analysis"
+  difficulty: "Medium"
+  question: "A student writes 4x² + 20x + 24 = (2x + 4)(2x + 6). What step did they miss?"
+  options: ["To multiply 4 and 6", "The middle term is wrong", "To factor out the GCF 4 first", "Variables cannot repeat"]
+  answer: 2
+
+gcf_q9:
+  type: "Incomplete Factoring"
+  difficulty: "Hard"
+  question: "A student factors 6x² - 12x as 2x(3x - 6). Why is this factoring incomplete?"
+  options: ["The 2x should be a 6x", "There is still a common factor of 3 inside (3x - 6)", "The sign should be positive", "The variable x was not squared"]
+  answer: 1
+
+gcf_q10:
+  type: "Verification"
+  difficulty: "Easy"
+  question: "Is 5(x² + 2x - 3) the correct first step for factoring 5x² + 10x - 15?"
+  options: ["No, the signs are wrong", "No, the GCF is 5x", "Yes", "No, the constant should be -5"]
+  answer: 2
+
+gcf_q11:
+  type: "Missing GCF"
+  difficulty: "Medium"
+  question: "___(x² - 4x + 4) = 7x² - 28x + 28. What is the missing GCF?"
+  options: ["x", "7", "14", "28"]
+  answer: 1
+
+gcf_q12:
+  type: "Missing Term"
+  difficulty: "Medium"
+  question: "2x(x² + ___ - 5) = 2x³ + 6x² - 10x"
+  options: ["3x", "6x", "3", "x"]
+  answer: 0
+
+gcf_q13:
+  type: "Missing Factor"
+  difficulty: "Hard"
+  question: "Factor 3x³ - 21x² + 30x. If the GCF is 3x, what is the resulting trinomial?"
+  options: ["x² + 7x + 10", "x² - 7x - 10", "x² - 7x + 10", "x² - 21x + 30"]
+  answer: 2
+
+gcf_q14:
+  question: "Factor completely: 2x² + 10x + 12"
+  options: ["(2x+4)(x+3)", "2(x+2)(x+3)", "2(x+5)(x+6)", "(x+2)(2x+6)"]
+  answer: 1
+
+gcf_q15:
+  question: "Factor completely: 5x² - 20x - 60"
+  options: ["5(x-6)(x+2)", "5(x+6)(x-2)", "(5x-30)(x+2)", "5(x²-4x-12)"]
+  answer: 0
+
+gcf_q16:
+  question: "Factor completely: 3x³ - 27x"
+  options: ["3x(x-9)", "3(x²-9)", "3x(x-3)(x+3)", "3x(x-3)²"]
+  answer: 2
