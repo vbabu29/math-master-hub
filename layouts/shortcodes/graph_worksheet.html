@@ -374,25 +374,107 @@
 
   @media (max-width: 640px) {
     .graph-worksheet {
-      margin: 1rem auto;
-      padding: 1rem;
+      margin: 0.75rem auto;
+      padding: 0.75rem;
+      border-radius: 1rem;
     }
 
     .graph-worksheet-sheet {
-      padding: 1rem;
+      padding: 0.85rem;
+      border-radius: 0.9rem;
     }
 
     .graph-worksheet-header {
       grid-template-columns: 1fr;
+      gap: 0.7rem;
+      margin-bottom: 0.8rem;
     }
 
     .graph-worksheet-meta {
       justify-content: flex-start;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .graph-worksheet-meta span {
+      min-height: 1.75rem;
+      padding: 0.15rem 0.6rem;
+    }
+
+    .graph-worksheet-title {
+      font-size: 1.45rem;
+      max-width: none;
+    }
+
+    .graph-worksheet-instruction {
+      margin-bottom: 0.85rem;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .graph-worksheet-name-line {
+      margin-bottom: 0.95rem;
+      font-size: 0.88rem;
+      gap: 0.75rem;
+    }
+
+    .graph-worksheet-list {
+      gap: 0.75rem;
+    }
+
+    .graph-worksheet-item {
+      padding: 0.8rem;
+      border-radius: 0.8rem;
+    }
+
+    .graph-worksheet-item-header {
+      margin-bottom: 0.35rem;
+      font-size: 0.78rem;
+      flex-wrap: wrap;
+    }
+
+    .graph-worksheet-question {
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+
+    .graph-worksheet-question-layout {
+      margin-top: 0.6rem;
+      gap: 0.65rem;
+    }
+
+    .graph-worksheet-figure {
+      width: 100%;
     }
 
     .graph-worksheet-options.text-options,
     .graph-worksheet-options.graph-options {
       grid-template-columns: 1fr;
+      gap: 0.35rem;
+      margin-top: 0.45rem;
+    }
+
+    .graph-worksheet-option {
+      padding: 0.35rem 0.3rem;
+      gap: 0.45rem;
+    }
+
+    .graph-worksheet-option-label {
+      font-size: 0.88rem;
+      line-height: 1.32;
+    }
+
+    .graph-worksheet-option-graph .graph-worksheet-graph-card {
+      padding: 0.12rem;
+    }
+
+    .graph-worksheet-option-caption {
+      font-size: 0.74rem;
+    }
+
+    .graph-worksheet-feedback {
+      margin-top: 0.45rem;
+      font-size: 0.82rem;
     }
   }
 
