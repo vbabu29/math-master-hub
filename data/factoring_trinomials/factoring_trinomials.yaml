@@ -103,6 +103,16 @@ basic_q15:
   options: ["4", "1", "12", "3"]
   answer: 3
 
+basic_q16:
+  question: "Factor: x² + 10x + 24"
+  options: ["(x+6)(x+4)", "(x+12)(x+2)", "(x+8)(x+3)", "(x+24)(x+1)"]
+  answer: 0
+
+basic_q17:
+  question: "Factor: x² - 11x + 18"
+  options: ["(x-3)(x-6)", "(x-2)(x-9)", "(x-1)(x-18)", "(x+2)(x+9)"]
+  answer: 1
+
 basic_q18:
   question: "Factor: x² + 8x + 15"
   options: ["(x+5)(x+3)", "(x+1)(x+15)", "(x+2)(x+6)", "(x+4)(x+4)"]
@@ -122,3 +132,148 @@ basic_q21:
   question: "Factor: x² - 7x - 18"
   options: ["(x-2)(x+9)", "(x-6)(x+3)", "(x-9)(x+2)", "(x-18)(x+1)"]
   answer: 2
+
+basic_q22:
+  question: "Factor: x² + 5x - 14"
+  options: ["(x-2)(x+7)", "(x+2)(x-7)", "(x-1)(x+14)", "(x+1)(x-14)"]
+  answer: 0
+
+basic_q23:
+  question: "Factor: x² - 12x + 27"
+  options: ["(x-1)(x-27)", "(x-2)(x-13.5)", "(x-3)(x-9)", "(x-4)(x-8)"]
+  answer: 2
+
+basic_q24:
+  question: "Factor: x² + 11x + 30"
+  options: ["(x+3)(x+10)", "(x+2)(x+15)", "(x+5)(x+6)", "(x+1)(x+30)"]
+  answer: 2
+
+basic_q25:
+  question: "Factor: x² - 6x - 16"
+  options: ["(x-8)(x+2)", "(x+8)(x-2)", "(x-4)(x+4)", "(x-16)(x+1)"]
+  answer: 0
+
+basic_q26:
+  question: "Factor: x² + 13x + 40"
+  options: ["(x+4)(x+10)", "(x+2)(x+20)", "(x+5)(x+8)", "(x+1)(x+40)"]
+  answer: 2
+
+basic_q27:
+  question: "Factor: x² - 4x - 21"
+  options: ["(x-7)(x+3)", "(x+7)(x-3)", "(x-21)(x+1)", "(x+21)(x-1)"]
+  answer: 0
+
+basic_q28:
+  question: "Factor: x² + 12x + 32"
+  options: ["(x+1)(x+32)", "(x+2)(x+16)", "(x+4)(x+8)", "(x+16)(x+2)"]
+  answer: 2
+
+basic_q29:
+  question: "Factor: x² - 10x + 21"
+  options: ["(x-1)(x-21)", "(x-3)(x-7)", "(x-2)(x-8)", "(x+3)(x+7)"]
+  answer: 1
+
+basic_q30:
+  question: "Factor: x² + 4x - 12"
+  options: ["(x+6)(x-2)", "(x-6)(x+2)", "(x+4)(x-3)", "(x-4)(x+3)"]
+  answer: 0
+
+basic_q31:
+  question: "Factor: x² - x - 30"
+  options: ["(x-3)(x+10)", "(x-10)(x+3)", "(x-6)(x+5)", "(x-5)(x+6)"]
+  answer: 2
+
+basic_q32:
+  question: "Factor: x² + 14x + 45"
+  options: ["(x+1)(x+45)", "(x+3)(x+15)", "(x+5)(x+9)", "(x+9)(x+5)"]
+  answer: 2
+
+basic_q33:
+  question: "Factor: x² - 14x + 48"
+  options: ["(x-2)(x-24)", "(x-4)(x-12)", "(x-1)(x-48)", "(x-6)(x-8)"]
+  answer: 3
+
+basic_q34:
+  question: "Factor: x² + 3x - 10"
+  options: ["(x-2)(x+5)", "(x+5)(x-2)", "(x+1)(x-10)", "(x-1)(x+10)"]
+  answer: 1
+
+basic_q35:
+  question: "Factor: x² - 15x + 54"
+  options: ["(x-2)(x-27)", "(x-3)(x-18)", "(x-6)(x-9)", "(x-1)(x-54)"]
+  answer: 2
+
+basic_q36:
+  question: "Factor: x² + 15x + 50"
+  options: ["(x+1)(x+50)", "(x+2)(x+25)", "(x+5)(x+10)", "(x+10)(x+5)"]
+  answer: 2
+
+basic_q37:
+  question: "Factor: x² - 2x - 24"
+  options: ["(x-6)(x+4)", "(x+6)(x-4)", "(x-8)(x+3)", "(x+8)(x-3)"]
+  answer: 0
+
+basic_q38:
+  question: "Factor: x² + 16x + 63"
+  options: ["(x+1)(x+63)", "(x+3)(x+21)", "(x+6)(x+10)", "(x+7)(x+9)"]
+  answer: 3
+
+basic_q39:
+  question: "Factor: x² - 5x - 36"
+  options: ["(x-6)(x+6)", "(x-4)(x+9)", "(x+4)(x-9)", "(x-9)(x+4)"]
+  answer: 3
+
+basic_q40:
+  question: "Factor: x² + 17x + 72"
+  options: ["(x+1)(x+72)", "(x+8)(x+9)", "(x+6)(x+12)", "(x+4)(x+18)"]
+  answer: 1
+
+basic_q41:
+  question: "Factor: x² - 16x + 60"
+  options: ["(x-1)(x-60)", "(x-6)(x-10)", "(x-2)(x-30)", "(x-4)(x-15)"]
+  answer: 1
+
+basic_q42:
+  question: "Factor: x² + 1x - 20"
+  options: ["(x-2)(x+10)", "(x+2)(x-10)", "(x+5)(x-4)", "(x-5)(x+4)"]
+  answer: 2
+
+basic_q43:
+  question: "Factor: x² - 4x - 32"
+  options: ["(x-4)(x+8)", "(x-8)(x+4)", "(x-16)(x+2)", "(x+16)(x-2)"]
+  answer: 1
+
+basic_q44:
+  question: "Factor: x² + 18x + 80"
+  options: ["(x+1)(x+80)", "(x+8)(x+10)", "(x+4)(x+20)", "(x+2)(x+40)"]
+  answer: 1
+
+basic_q45:
+  question: "Factor: x² - 3x - 40"
+  options: ["(x-4)(x+10)", "(x+4)(x-10)", "(x-8)(x+5)", "(x+8)(x-5)"]
+  answer: 2
+
+basic_q46:
+  question: "Factor: x² + 19x + 90"
+  options: ["(x+9)(x+10)", "(x+1)(x+90)", "(x+2)(x+45)", "(x+5)(x+18)"]
+  answer: 0
+
+basic_q47:
+  question: "Factor: x² - 2x - 35"
+  options: ["(x-5)(x+7)", "(x-7)(x+5)", "(x-35)(x+1)", "(x+35)(x-1)"]
+  answer: 1
+
+basic_q48:
+  question: "Factor: x² + 20x + 100"
+  options: ["(x+1)(x+100)", "(x+2)(x+50)", "(x+10)(x+10)", "(x+10)²"]
+  answer: 3
+
+basic_q49:
+  question: "Factor: x² - 1x - 56"
+  options: ["(x-1)(x+56)", "(x-2)(x+28)", "(x-4)(x+14)", "(x-8)(x+7)"]
+  answer: 3
+
+basic_q50:
+  question: "Factor: x² + 21x + 110"
+  options: ["(x+1)(x+110)", "(x+11)(x+10)", "(x+2)(x+55)", "(x+5)(x+22)"]
+  answer: 1

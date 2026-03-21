@@ -1,8 +1,6 @@
 ---
 title: "Linear Equations"
 weight: 1
-sidebar:
-  open: true
 ---
 
 Linear equations are a core Algebra I skill. This hub focuses on solving equations one step at a time and then extending that thinking to systems of linear equations.

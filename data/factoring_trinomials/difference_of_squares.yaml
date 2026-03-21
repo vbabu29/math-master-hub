@@ -26,6 +26,51 @@ spec_q4:
   options: ["(x - y)(x - y)", "(x + y)²", "(x + y)(x - y)", "Prime"]
   answer: 2
 
+spec_q5:
+  question: "Factor: 9x² - 25"
+  options: ["(3x - 5)²", "(3x + 5)²", "(3x - 5)(3x + 5)", "(9x - 5)(x + 5)"]
+  answer: 2
+
+spec_q6:
+  question: "Factor: x² - 1"
+  options: ["(x - 1)²", "(x - 1)(x + 1)", "(x + 1)²", "Prime"]
+  answer: 1
+
+spec_q7:
+  question: "Factor: 16x² - 1"
+  options: ["(4x - 1)²", "(4x - 1)(4x + 1)", "(4x + 1)²", "(8x - 1)(2x + 1)"]
+  answer: 1
+
+spec_q8:
+  question: "Factor: x² - 4"
+  options: ["(x - 2)²", "(x + 2)²", "(x - 2)(x + 2)", "Prime"]
+  answer: 2
+
+spec_q9:
+  question: "Which expression is a perfect difference of squares?"
+  options: ["x² + 9", "x² - 10", "x² - 16", "x² - 5"]
+  answer: 2
+
+spec_q10:
+  question: "Factor: 100 - x²"
+  options: ["(10 - x)(10 + x)", "(x - 10)(x + 10)", "(10 - x)²", "Prime"]
+  answer: 0
+
+spec_q11:
+  question: "Factor: 4x² - 9y²"
+  options: ["(2x - 3y)²", "(2x + 3y)²", "(2x - 3y)(2x + 3y)", "(4x - 3y)(x + 3y)"]
+  answer: 2
+
+spec_q12:
+  question: "Factor: x² - 36"
+  options: ["(x - 6)²", "(x - 6)(x + 6)", "(x + 6)²", "Prime"]
+  answer: 1
+
+spec_q13:
+  question: "Factor: 49 - 4x²"
+  options: ["(7 - 2x)²", "(7 + 2x)²", "(49 - 2x)(1 + 2x)", "(7 - 2x)(7 + 2x)"]
+  answer: 3
+
 spec_q14:
   type: "Find a"
   difficulty: "Hard"
@@ -38,39 +83,79 @@ spec_q15:
   options: ["(x-8)(x+8)", "(x-8)²", "(x+8)²", "Prime"]
   answer: 0
 
+spec_q16:
+  question: "Factor: 25 - 9x²"
+  options: ["(5-3x)²", "(5-3x)(5+3x)", "(3x-5)(3x+5)", "(5+3x)²"]
+  answer: 1
+
 spec_q17:
   question: "Factor: 9x² - 1"
   options: ["(3x-1)²", "(3x+1)²", "(3x-1)(3x+1)", "(9x-1)(x+1)"]
   answer: 2
+
+spec_q18:
+  question: "Factor: 121x² - 1"
+  options: ["(11x-1)²", "(11x+1)²", "(121x-1)(x+1)", "(11x-1)(11x+1)"]
+  answer: 3
 
 spec_q19:
   question: "Factor: 25x² - 36"
   options: ["(5x-6)(5x+6)", "(5x-6)²", "(5x+6)²", "(25x-6)(x+6)"]
   answer: 0
 
+spec_q20:
+  question: "Factor: x² - 49y²"
+  options: ["(x-7y)²", "(x-7y)(x+7y)", "(x+7y)²", "Prime"]
+  answer: 1
+
 spec_q21:
   question: "Factor: x² - 144"
   options: ["(x-12)(x+12)", "(x-12)²", "(x+12)²", "Prime"]
   answer: 0
+
+spec_q22:
+  question: "Factor: 81 - x²"
+  options: ["(x-9)(x+9)", "(9-x)²", "(9+x)²", "(9-x)(9+x)"]
+  answer: 3
 
 spec_q23:
   question: "Factor: 49x² - 100"
   options: ["(7x-10)²", "(7x+10)²", "(7x-10)(7x+10)", "(49x-10)(x+10)"]
   answer: 2
 
+spec_q24:
+  question: "Factor: 1 - 4x²"
+  options: ["(1-2x)²", "(1+2x)²", "(1-x)(1+4x)", "(1-2x)(1+2x)"]
+  answer: 3
+
 spec_q25:
   question: "Factor: 81x² - 4"
   options: ["(9x-2)(9x+2)", "(9x-2)²", "(9x+2)²", "(81x-2)(x+2)"]
   answer: 0
+
+spec_q26:
+  question: "Factor: 16 - 25x²"
+  options: ["(4-5x)²", "(4+5x)²", "(4-5x)(4+5x)", "(5x-4)(5x+4)"]
+  answer: 2
 
 spec_q27:
   question: "Factor: x² - 121"
   options: ["(x-11)(x+11)", "(x-11)²", "(x+11)²", "Prime"]
   answer: 0
 
+spec_q28:
+  question: "Factor: 64 - 9y²"
+  options: ["(8-3y)²", "(8+3y)²", "(8-3y)(8+3y)", "(3y-8)(3y+8)"]
+  answer: 2
+
 spec_q29:
   question: "Factor: 36x² - 121"
   options: ["(6x-11)(6x+11)", "(6x-11)²", "(6x+11)²", "(18x-11)²"]
+  answer: 0
+
+spec_q30:
+  question: "Factor: x² - 169"
+  options: ["(x-13)(x+13)", "(x-13)²", "(x+13)²", "Prime"]
   answer: 0
 
 spec_q31:
@@ -78,39 +163,79 @@ spec_q31:
   options: ["(10x-3)²", "(10x-3)(10x+3)", "(10x+3)²", "(50x-3)²"]
   answer: 1
 
+spec_q32:
+  question: "Factor: 25 - 4x²"
+  options: ["(5-2x)²", "(5+2x)²", "(2x-5)(2x+5)", "(5-2x)(5+2x)"]
+  answer: 3
+
 spec_q33:
   question: "Factor: 16x² - 25y²"
   options: ["(4x-5y)(4x+5y)", "(4x-5y)²", "(4x+5y)²", "(8x-5y)(2x+5y)"]
   answer: 0
+
+spec_q34:
+  question: "Factor: 4x² - 1"
+  options: ["(2x-1)²", "(2x-1)(2x+1)", "(2x+1)²", "Prime"]
+  answer: 1
 
 spec_q35:
   question: "Factor: 1 - x²"
   options: ["(1-x)(1+x)", "(x-1)(x+1)", "(1-x)²", "Prime"]
   answer: 0
 
+spec_q36:
+  question: "Factor: x² - 25y²"
+  options: ["(x-5y)²", "(x+5y)²", "(x-5y)(x+5y)", "Prime"]
+  answer: 2
+
 spec_q37:
   question: "Factor: 64x² - 1"
   options: ["(8x-1)²", "(8x-1)(8x+1)", "(8x+1)²", "(32x-1)²"]
   answer: 1
+
+spec_q38:
+  question: "Factor: 9 - 16x²"
+  options: ["(3-4x)²", "(3+4x)²", "(4x-3)(4x+3)", "(3-4x)(3+4x)"]
+  answer: 3
 
 spec_q39:
   question: "Factor: 25x² - 49y²"
   options: ["(5x-7y)(5x+7y)", "(5x-7y)²", "(5x+7y)²", "Prime"]
   answer: 0
 
+spec_q40:
+  question: "Factor: x² - 1"
+  options: ["(x+1)²", "(x-1)(x+1)", "(x-1)²", "Prime"]
+  answer: 1
+
 spec_q41:
   question: "Factor: x² - 400"
   options: ["(x-20)(x+20)", "(x-20)²", "(x+20)²", "Prime"]
   answer: 0
+
+spec_q42:
+  question: "Factor: 4 - 81x²"
+  options: ["(2-9x)²", "(2+9x)²", "(2-9x)(2+9x)", "(9x-2)(9x+2)"]
+  answer: 2
 
 spec_q43:
   question: "Factor: 144x² - 1"
   options: ["(12x-1)(12x+1)", "(12x-1)²", "(12x+1)²", "(72x-1)²"]
   answer: 0
 
+spec_q44:
+  question: "Factor: 16y² - 49"
+  options: ["(4y-7)²", "(4y+7)²", "(8y-7)(2y+7)", "(4y-7)(4y+7)"]
+  answer: 3
+
 spec_q45:
   question: "Factor: 16x² - 81"
   options: ["(4x-9)(4x+9)", "(4x-9)²", "(4x+9)²", "(8x-9)(2x+9)"]
+  answer: 0
+
+spec_q46:
+  question: "Factor: 9x² - 64y²"
+  options: ["(3x-8y)(3x+8y)", "(3x-8y)²", "(3x+8y)²", "Prime"]
   answer: 0
 
 spec_q47:
@@ -118,7 +243,17 @@ spec_q47:
   options: ["(x-15)(x+15)", "(x-15)²", "(x+15)²", "Prime"]
   answer: 0
 
+spec_q48:
+  question: "Factor: 4x² - 121"
+  options: ["(2x-11)²", "(2x+11)²", "(4x-11)(x+11)", "(2x-11)(2x+11)"]
+  answer: 3
+
 spec_q49:
   question: "Factor: 81x² - 121y²"
   options: ["(9x-11y)(9x+11y)", "(9x-11y)²", "(9x+11y)²", "Prime"]
   answer: 0
+
+spec_q50:
+  question: "Factor: x² - 100y²"
+  options: ["(x-10y)²", "(x-10y)(x+10y)", "(x+10y)²", "Prime"]
+  answer: 1

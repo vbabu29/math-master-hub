@@ -30,12 +30,20 @@
     box-shadow:
       0 18px 45px rgba(15, 23, 42, 0.12),
       0 0 0 1px rgba(15, 23, 42, 0.02);
+    --graph-surface: #ffffff;
+    --graph-grid: #cbd5e1;
+    --graph-axis: #0f172a;
+    --graph-label: #64748b;
   }
 
   @media (prefers-color-scheme: dark) {
     .quiz {
       --quiz-surface: #020617;
       border-color: rgba(148, 163, 184, 0.4);
+      --graph-surface: #0f172a;
+      --graph-grid: #334155;
+      --graph-axis: #e2e8f0;
+      --graph-label: #cbd5e1;
     }
   }
 
@@ -754,12 +762,28 @@
       color: graphSpec.color || '#2563eb',
       label: graphSpec.label || ''
     };
+    const quizStyles = getComputedStyle(quiz);
+    const theme = {
+      surface: (quizStyles.getPropertyValue('--graph-surface') || '#ffffff').trim(),
+      grid: (quizStyles.getPropertyValue('--graph-grid') || '#cbd5e1').trim(),
+      axis: (quizStyles.getPropertyValue('--graph-axis') || '#0f172a').trim(),
+      label: (quizStyles.getPropertyValue('--graph-label') || '#64748b').trim()
+    };
 
     const svg = createSvgNode('svg', {
       viewBox: `0 0 ${width} ${height}`,
       role: 'img',
       'aria-label': spec.label || 'Coordinate plane'
     });
+
+    svg.appendChild(createSvgNode('rect', {
+      x: 0,
+      y: 0,
+      width,
+      height,
+      rx: 12,
+      fill: theme.surface
+    }));
 
     for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
       const px = mapX(x, width, padding, spec);
@@ -768,7 +792,7 @@
         y1: padding,
         x2: px,
         y2: height - padding,
-        stroke: x === 0 ? '#0f172a' : '#cbd5e1',
+        stroke: x === 0 ? theme.axis : theme.grid,
         'stroke-width': x === 0 ? 1.6 : 1
       }));
     }
@@ -780,7 +804,7 @@
         y1: py,
         x2: width - padding,
         y2: py,
-        stroke: y === 0 ? '#0f172a' : '#cbd5e1',
+        stroke: y === 0 ? theme.axis : theme.grid,
         'stroke-width': y === 0 ? 1.6 : 1
       }));
     }
@@ -792,7 +816,7 @@
         y: mapY(0, height, padding, spec) + 15,
         'text-anchor': 'middle',
         'font-size': 10,
-        fill: '#64748b'
+        fill: theme.label
       });
       label.textContent = String(x);
       svg.appendChild(label);
@@ -805,7 +829,7 @@
         y: mapY(y, height, padding, spec) + 3,
         'text-anchor': 'end',
         'font-size': 10,
-        fill: '#64748b'
+        fill: theme.label
       });
       label.textContent = String(y);
       svg.appendChild(label);

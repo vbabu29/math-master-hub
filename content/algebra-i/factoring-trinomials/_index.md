@@ -1,8 +1,6 @@
 ---
 title: "Factoring Polynomials"
 weight: 2
-sidebar:
-  open: true
 ---
 
 Factoring polynomials is one of the most important Algebra I skills because it connects expressions, equations, and graphing. This hub groups the lesson content and the focused practice work in one place.

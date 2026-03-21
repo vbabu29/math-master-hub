@@ -1,5 +1,3 @@
-# QUADRATIC FORMULA AND DISCRIMINANT QUESTION BANK
-
 qf_disc_01:
   type: "Standard Form Identification"
   difficulty: "Easy"
@@ -25,36 +23,36 @@ qf_disc_04:
   type: "Discriminant Logic"
   difficulty: "Medium"
   question: "If the discriminant (b² - 4ac) is exactly 0, how many unique real solutions does the equation have?"
-  options: ["Two", "One", "Zero", "Infinite"]
-  answer: 1
+  options: ["Two", "Zero", "Infinite", "One"]
+  answer: 3
 
 qf_disc_05:
   type: "Negative Discriminant"
   difficulty: "Medium"
   question: "When the value of b² - 4ac is negative, the square root will result in an imaginary number. This means the equation has:"
-  options: ["Two real roots", "One real root", "No real roots", "Two rational roots"]
-  answer: 2
+  options: ["No real roots", "Two real roots", "One real root", "Two rational roots"]
+  answer: 0
 
 qf_disc_06:
   type: "Formula Denominator"
   difficulty: "Easy"
   question: "In the quadratic formula, the entire numerator is divided by:"
-  options: ["a", "2", "2a", "b²"]
-  answer: 2
+  options: ["a", "2", "b²", "2a"]
+  answer: 3
 
 qf_disc_07:
   type: "Guided Calculation"
   difficulty: "Medium"
   question: "For the equation x² + 4x + 4 = 0, calculate b². What is the value?"
-  options: ["4", "8", "16", "2"]
-  answer: 2
+  options: ["16", "4", "8", "2"]
+  answer: 0
 
 qf_disc_08:
   type: "Guided Calculation II"
   difficulty: "Medium"
   question: "For the equation x² + 4x + 4 = 0, calculate 4ac. What is the value?"
-  options: ["4", "8", "16", "0"]
-  answer: 2
+  options: ["4", "8", "0", "16"]
+  answer: 3
 
 qf_disc_09:
   type: "Discriminant Conclusion"
@@ -74,15 +72,15 @@ qf_disc_11:
   type: "Nature of Roots: Perfect Square"
   difficulty: "Hard"
   question: "If the discriminant is a perfect square (like 25 or 49), the solutions to the equation will be:"
-  options: ["Irrational", "Rational", "Complex", "Negative"]
-  answer: 1
+  options: ["Irrational", "Complex", "Negative", "Rational"]
+  answer: 3
 
 qf_disc_12:
   type: "Nature of Roots: Non-Square"
   difficulty: "Hard"
   question: "If the discriminant is positive but NOT a perfect square (like 7 or 13), the solutions will be:"
-  options: ["Rational", "Irrational", "Imaginary", "Zero"]
-  answer: 1
+  options: ["Rational", "Imaginary", "Zero", "Irrational"]
+  answer: 3
 
 qf_disc_13:
   type: "Guided Substitution"
@@ -122,7 +120,7 @@ qf_disc_17:
 qf_disc_18:
   type: "Root Nature Interpretation"
   difficulty: "Medium"
-  question: "Given the discriminant is -3 (from the previous question), the equation x² + x + 1 = 0 has:"
+  question: "Given the discriminant is -3, the equation x² + x + 1 = 0 has:"
   options: ["Two real roots", "One real root", "No real roots", "Two rational roots"]
   answer: 2
 
@@ -227,7 +225,7 @@ qf_disc_32:
 qf_disc_33:
   type: "Interpreting D=49"
   difficulty: "Medium"
-  question: "Since the discriminant is 49 (from the previous question), the roots are:"
+  question: "Since the discriminant is 49, the roots are:"
   options: ["Irrational", "Complex", "Rational", "Exactly zero"]
   answer: 2
 
@@ -246,9 +244,9 @@ qf_disc_35:
   answer: 2
 
 qf_disc_36:
-  type: "Discriminant of x² + 1 = 0"
+  type: "Discriminant Practice III"
   difficulty: "Hard"
-  question: "What is the discriminant of x² + 1 = 0? (Hint: a=1, b=0, c=1)"
+  question: "What is the discriminant of x² + 1 = 0?"
   options: ["1", "0", "-4", "4"]
   answer: 2
 
@@ -323,21 +321,21 @@ qf_disc_46:
   answer: 1
 
 qf_disc_47:
-  type: "Discriminant of x² - x = 0"
+  type: "Discriminant Calculation IV"
   difficulty: "Medium"
   question: "What is the discriminant of x² - x = 0?"
   options: ["0", "1", "-1", "4"]
   answer: 1
 
 qf_disc_48:
-  type: "Identifying b"
+  type: "Identifying b II"
   difficulty: "Easy"
   question: "In the equation x² + x - 1 = 0, the value of 'b' is:"
   options: ["0", "x", "1", "-1"]
   answer: 2
 
 qf_disc_49:
-  type: "Nature of Roots: Zero"
+  type: "Nature of Roots: Zero II"
   difficulty: "Easy"
   question: "If the discriminant is 0, the two solutions are actually:"
   options: ["Imaginary", "The same number", "Positive and Negative", "Zero"]

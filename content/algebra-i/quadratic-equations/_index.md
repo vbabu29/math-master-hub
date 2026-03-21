@@ -1,8 +1,6 @@
 ---
 title: "Quadratic Equations"
 weight: 3
-sidebar:
-  open: true
 ---
 
 Quadratic equations model curved motion, area problems, and many exam-style word problems. Mastering them means understanding graphs, factoring, completing the square, and the quadratic formula.

@@ -1,0 +1,979 @@
+{{/* Printable worksheet generator.
+     Usage:
+     {{< worksheet title="One-Step Equations Worksheet" count="12" banks="linear_equation.one_step_equations" >}}
+*/}}
+{{ $title := .Get "title" | default "Worksheet" }}
+{{ $count := int (.Get "count" | default "12") }}
+{{ $bankList := split (.Get "banks" | default "") "," }}
+{{ $typeFilters := split (.Get "types" | default "") "," }}
+{{ $mode := .Get "mode" | default "" }}
+{{ $worksheetID := printf "worksheet-%d" .Ordinal }}
+{{ $questions := slice }}
+
+{{ range $rawBank := $bankList }}
+  {{ $bank := trim $rawBank " " }}
+  {{ if $bank }}
+    {{ $parts := split $bank "." }}
+    {{ $all := site.Data }}
+    {{ range $parts }}
+      {{ $all = index $all . }}
+    {{ end }}
+    {{ range $key, $q := $all }}
+      {{ $include := true }}
+      {{ if gt (len $typeFilters) 0 }}
+        {{ $include = false }}
+        {{ range $rawType := $typeFilters }}
+          {{ $typeFilter := trim $rawType " " }}
+          {{ if and $typeFilter (eq (printf "%v" $q.type) $typeFilter) }}
+            {{ $include = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if $include }}
+        {{ $questions = $questions | append $q }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $questionJSON := $questions | jsonify }}
+
+<style>
+  .worksheet-shell {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 960px;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(148, 163, 184, 0.32);
+    background:
+      radial-gradient(circle at top left, rgba(59, 130, 246, 0.07), transparent 40%),
+      radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.07), transparent 36%),
+      #ffffff;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  }
+
+  .worksheet-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .worksheet-action {
+    border: none;
+    border-radius: 999px;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #0f172a;
+    color: #f8fafc;
+  }
+
+  .worksheet-action-secondary {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .worksheet-sheet {
+    background: #ffffff;
+    color: #0f172a;
+    border-radius: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    padding: 2rem 2rem 2.25rem;
+  }
+
+  .worksheet-page + .worksheet-page {
+    margin-top: 2rem;
+  }
+
+  .worksheet-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem 1.5rem;
+    align-items: start;
+    margin-bottom: 1.25rem;
+  }
+
+  .worksheet-title {
+    font-size: clamp(1.7rem, 2.2vw, 1.95rem);
+    line-height: 1.02;
+    font-weight: 800;
+    margin: 0;
+    max-width: 20ch;
+    text-wrap: balance;
+  }
+
+  .worksheet-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.88rem;
+    color: #475569;
+    text-align: right;
+    white-space: nowrap;
+    padding-top: 0.2rem;
+  }
+
+  .worksheet-meta span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    background: rgba(226, 232, 240, 0.8);
+  }
+
+  .worksheet-intro {
+    margin: 0;
+    color: #334155;
+    line-height: 1.6;
+    max-width: 58ch;
+  }
+
+  .worksheet-instruction {
+    margin: 0 0 1.25rem;
+    font-size: 0.96rem;
+    font-weight: 600;
+    color: #334155;
+  }
+
+  .worksheet-name-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .worksheet-line {
+    flex: 1;
+    border-bottom: 1px solid #94a3b8;
+    min-height: 1.25rem;
+  }
+
+  .worksheet-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .worksheet-question-page-group {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .worksheet-question-page-group + .worksheet-question-page-group {
+    margin-top: 1rem;
+  }
+
+  .worksheet-item {
+    padding: 1rem 1rem 1.1rem;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    background: #f8fafc;
+  }
+
+  .worksheet-item-body {
+    display: block;
+  }
+
+  .worksheet-item-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.88rem;
+    color: #475569;
+  }
+
+  .worksheet-item-question {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  .worksheet-question-figure {
+    margin-top: 0.9rem;
+  }
+
+  .worksheet-graph-card {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: #ffffff;
+    padding: 0.7rem;
+    box-sizing: border-box;
+  }
+
+  .worksheet-graph-card svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .worksheet-options {
+    display: grid;
+    gap: 0.35rem;
+    margin-top: 0.85rem;
+  }
+
+  .worksheet-options-graph-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .worksheet-option {
+    font-size: 0.96rem;
+    line-height: 1.45;
+  }
+
+  .worksheet-option-graph {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .worksheet-graph-caption {
+    font-size: 0.86rem;
+    color: #475569;
+    font-weight: 600;
+  }
+
+  .worksheet-answer-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .worksheet-answer-item {
+    padding: 0.9rem 1rem;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    background: #f8fafc;
+  }
+
+  .worksheet-answer-label {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .worksheet-answer-text {
+    color: #334155;
+  }
+
+  .worksheet-page-break {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .worksheet-shell {
+      background:
+        radial-gradient(circle at top left, rgba(59, 130, 246, 0.14), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.14), transparent 36%),
+        #020617;
+      border-color: rgba(148, 163, 184, 0.28);
+      box-shadow: 0 20px 40px rgba(2, 6, 23, 0.55);
+    }
+
+    .worksheet-sheet,
+    .worksheet-item,
+    .worksheet-answer-item,
+    .worksheet-graph-card {
+      background: #0f172a;
+      color: #e2e8f0;
+      border-color: rgba(148, 163, 184, 0.2);
+    }
+
+    .worksheet-intro,
+    .worksheet-instruction,
+    .worksheet-answer-text,
+    .worksheet-item-header,
+    .worksheet-meta,
+    .worksheet-graph-caption {
+      color: #cbd5e1;
+    }
+
+    .worksheet-line {
+      border-bottom-color: #64748b;
+    }
+
+    .worksheet-action-secondary {
+      background: #334155;
+      color: #e2e8f0;
+    }
+
+    .worksheet-meta span {
+      background: rgba(51, 65, 85, 0.85);
+    }
+  }
+
+  @media (max-width: 700px) {
+    .worksheet-header {
+      grid-template-columns: 1fr;
+      gap: 0.85rem;
+    }
+
+    .worksheet-title {
+      max-width: none;
+      font-size: 1.75rem;
+    }
+
+    .worksheet-meta {
+      justify-content: flex-start;
+      text-align: left;
+      flex-wrap: wrap;
+      padding-top: 0;
+    }
+
+    .worksheet-options-graph-grid {
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+  @media print {
+    .worksheet-shell {
+      margin: 0;
+      padding: 0;
+      max-width: none;
+      border: none;
+      box-shadow: none;
+      background: #ffffff;
+    }
+
+    .worksheet-actions {
+      display: none !important;
+    }
+
+    body * {
+      visibility: hidden !important;
+    }
+
+    #{{ $worksheetID }},
+    #{{ $worksheetID }} * {
+      visibility: visible !important;
+    }
+
+    #{{ $worksheetID }} {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+
+    .worksheet-sheet {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000000;
+    }
+
+    .worksheet-page {
+      min-height: auto;
+    }
+
+    .worksheet-list,
+    .worksheet-question-page-group {
+      gap: 0.7rem;
+    }
+
+    .worksheet-question-page-group {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.7rem;
+      align-items: start;
+    }
+
+    .worksheet-item,
+    .worksheet-answer-item,
+    .worksheet-graph-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      background: #ffffff;
+      color: #000000;
+      border-color: #cbd5e1;
+    }
+
+    .worksheet-item {
+      grid-column: 1 / -1;
+      padding: 0.75rem 0.8rem 0.85rem;
+    }
+
+    .worksheet-item-header {
+      margin-bottom: 0.35rem;
+      font-size: 0.82rem;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-item-body {
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr);
+      gap: 0.7rem;
+      align-items: start;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-question-figure {
+      margin-top: 0;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-options {
+      margin-top: 0;
+      align-content: start;
+      gap: 0.18rem;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-graph-card {
+      max-width: 180px;
+      padding: 0.25rem;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-item-question {
+      margin-bottom: 0.45rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-option {
+      font-size: 0.88rem;
+      line-height: 1.25;
+    }
+
+    .worksheet-item-has-question-graph .worksheet-option-graph {
+      gap: 0.3rem;
+    }
+
+    .worksheet-item-compact-print {
+      grid-column: auto;
+    }
+
+    .worksheet-item-compact-print .worksheet-item-body {
+      grid-template-columns: 110px minmax(0, 1fr);
+      gap: 0.55rem;
+    }
+
+    .worksheet-item-compact-print .worksheet-graph-card {
+      max-width: 110px;
+      padding: 0.18rem;
+    }
+
+    .worksheet-item-compact-print .worksheet-item-question {
+      font-size: 0.9rem;
+      line-height: 1.28;
+    }
+
+    .worksheet-item-compact-print .worksheet-option {
+      font-size: 0.82rem;
+      line-height: 1.18;
+    }
+
+    .worksheet-item-compact-print .worksheet-item-header {
+      font-size: 0.76rem;
+    }
+
+    .worksheet-question-page-group + .worksheet-question-page-group {
+      break-before: page;
+      page-break-before: always;
+      margin-top: 0;
+    }
+
+    .worksheet-mode-graph-read .worksheet-question-page-group,
+    .worksheet-mode-graph-match .worksheet-question-page-group {
+      display: block;
+    }
+
+    .worksheet-mode-graph-read .worksheet-item,
+    .worksheet-mode-graph-match .worksheet-item {
+      grid-column: auto;
+      border-radius: 0.55rem;
+      padding: 0.6rem 0.7rem;
+    }
+
+    .worksheet-mode-graph-read .worksheet-item + .worksheet-item,
+    .worksheet-mode-graph-match .worksheet-item + .worksheet-item {
+      margin-top: 0.5rem;
+    }
+
+    .worksheet-mode-graph-read .worksheet-item-header,
+    .worksheet-mode-graph-match .worksheet-item-header {
+      font-size: 0.78rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .worksheet-mode-graph-read .worksheet-item-question,
+    .worksheet-mode-graph-match .worksheet-item-question {
+      font-size: 0.88rem;
+      line-height: 1.25;
+      margin-bottom: 0.35rem;
+    }
+
+    .worksheet-mode-graph-read .worksheet-item-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 128px;
+      gap: 0.55rem;
+      align-items: start;
+    }
+
+    .worksheet-mode-graph-read .worksheet-question-figure {
+      margin: 0;
+      justify-self: end;
+    }
+
+    .worksheet-mode-graph-read .worksheet-options {
+      margin-top: 0;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 0.95rem;
+      row-gap: 0.15rem;
+      align-content: start;
+    }
+
+    .worksheet-mode-graph-read .worksheet-option {
+      font-size: 0.8rem;
+      line-height: 1.18;
+    }
+
+    .worksheet-mode-graph-read .worksheet-graph-card {
+      max-width: 128px;
+      padding: 0.12rem;
+      border-radius: 0.45rem;
+    }
+
+    .worksheet-mode-graph-match .worksheet-item-body {
+      display: block;
+    }
+
+    .worksheet-mode-graph-match .worksheet-options {
+      margin-top: 0.45rem;
+    }
+
+    .worksheet-mode-graph-match .worksheet-options-graph-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.35rem;
+    }
+
+    .worksheet-mode-graph-match .worksheet-option {
+      font-size: 0.72rem;
+      line-height: 1.05;
+    }
+
+    .worksheet-mode-graph-match .worksheet-option-graph {
+      gap: 0.15rem;
+      align-items: stretch;
+    }
+
+    .worksheet-mode-graph-match .worksheet-graph-card {
+      max-width: none;
+      padding: 0.08rem;
+      border-radius: 0.4rem;
+    }
+
+    .worksheet-mode-graph-match .worksheet-graph-caption {
+      font-size: 0.68rem;
+      line-height: 1.05;
+    }
+  }
+</style>
+
+<div id="{{ $worksheetID }}" class="worksheet-shell{{ if $mode }} worksheet-mode-{{ $mode }}{{ end }}" data-count="{{ $count }}" data-questions='{{ $questionJSON }}'{{ if $mode }} data-mode="{{ $mode }}"{{ end }}>
+  <div class="worksheet-actions">
+    <button type="button" class="worksheet-action" data-regenerate>Generate New Worksheet</button>
+    <button type="button" class="worksheet-action worksheet-action-secondary" data-print>Print Worksheet</button>
+  </div>
+
+  <div class="worksheet-sheet">
+    <section class="worksheet-page">
+      <div class="worksheet-header">
+        <div>
+          <p class="worksheet-title">{{ $title }}</p>
+        </div>
+        <div class="worksheet-meta">
+          <span>{{ $count }} questions</span>
+          <span>Page 1 of 2</span>
+        </div>
+      </div>
+
+      <p class="worksheet-instruction">Solve each problem. Show your work.</p>
+
+      <div class="worksheet-name-line">
+        <div>Name: <span class="worksheet-line"></span></div>
+        <div>Date: <span class="worksheet-line"></span></div>
+      </div>
+
+      <div class="worksheet-list" data-question-list></div>
+    </section>
+
+    <section class="worksheet-page worksheet-page-break">
+      <div class="worksheet-header">
+        <div>
+          <p class="worksheet-title">{{ $title }} Answer Key</p>
+        </div>
+        <div class="worksheet-meta">
+          <span>{{ $count }} questions</span>
+          <span>Page 2 of 2</span>
+        </div>
+      </div>
+
+      <p class="worksheet-instruction">Check your work using the correct answers below.</p>
+
+      <div class="worksheet-answer-list" data-answer-list></div>
+    </section>
+  </div>
+</div>
+
+<script>
+(function() {
+  const root = document.getElementById('{{ $worksheetID }}');
+  if (!root) return;
+
+  const allQuestions = JSON.parse(root.dataset.questions || '[]');
+  const desiredCount = Number(root.dataset.count || '12');
+  const questionList = root.querySelector('[data-question-list]');
+  const answerList = root.querySelector('[data-answer-list]');
+  const regenerateButton = root.querySelector('[data-regenerate]');
+  const printButton = root.querySelector('[data-print]');
+  const worksheetMode = root.dataset.mode || '';
+
+  function shuffle(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  function formatQuestionText(text) {
+    return String(text || '')
+      .replace(/\r\n/g, '\n')
+      .replace(/\r/g, '\n')
+      .split('\n')
+      .map((line) => line.trim())
+      .join('\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+  }
+
+  function optionLetter(index) {
+    return String.fromCharCode(65 + index);
+  }
+
+  function parseGraphSpec(raw) {
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function createSvgNode(tag, attrs) {
+    const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    Object.entries(attrs || {}).forEach(([key, value]) => node.setAttribute(key, value));
+    return node;
+  }
+
+  function mapX(x, width, padding, spec) {
+    return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+  }
+
+  function mapY(y, height, padding, spec) {
+    return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+  }
+
+  function renderGraphCard(container, graphSpec) {
+    if (!container) return;
+    container.innerHTML = '';
+    if (!graphSpec || graphSpec.type !== 'line') return;
+
+    const width = 240;
+    const height = 240;
+    const padding = 26;
+    const spec = {
+      type: 'line',
+      slope: Number(graphSpec.slope || 0),
+      intercept: Number(graphSpec.intercept || 0),
+      vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+      x_min: Number(graphSpec.x_min || -5),
+      x_max: Number(graphSpec.x_max || 5),
+      y_min: Number(graphSpec.y_min || -5),
+      y_max: Number(graphSpec.y_max || 5),
+      color: graphSpec.color || '#2563eb',
+      label: graphSpec.label || ''
+    };
+
+    const darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = darkMode
+      ? { surface: '#0f172a', grid: '#334155', axis: '#e2e8f0', label: '#cbd5e1' }
+      : { surface: '#ffffff', grid: '#cbd5e1', axis: '#0f172a', label: '#64748b' };
+
+    const svg = createSvgNode('svg', {
+      viewBox: `0 0 ${width} ${height}`,
+      role: 'img',
+      'aria-label': spec.label || 'Coordinate plane'
+    });
+
+    svg.appendChild(createSvgNode('rect', {
+      x: 0,
+      y: 0,
+      width,
+      height,
+      rx: 12,
+      fill: theme.surface
+    }));
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      const px = mapX(x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: x === 0 ? theme.axis : theme.grid,
+        'stroke-width': x === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      const py = mapY(y, height, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: padding,
+        y1: py,
+        x2: width - padding,
+        y2: py,
+        stroke: y === 0 ? theme.axis : theme.grid,
+        'stroke-width': y === 0 ? 1.6 : 1
+      }));
+    }
+
+    for (let x = Math.ceil(spec.x_min); x <= Math.floor(spec.x_max); x++) {
+      if (x === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(x, width, padding, spec),
+        y: mapY(0, height, padding, spec) + 15,
+        'text-anchor': 'middle',
+        'font-size': 10,
+        fill: theme.label
+      });
+      label.textContent = String(x);
+      svg.appendChild(label);
+    }
+
+    for (let y = Math.ceil(spec.y_min); y <= Math.floor(spec.y_max); y++) {
+      if (y === 0) continue;
+      const label = createSvgNode('text', {
+        x: mapX(0, width, padding, spec) - 10,
+        y: mapY(y, height, padding, spec) + 3,
+        'text-anchor': 'end',
+        'font-size': 10,
+        fill: theme.label
+      });
+      label.textContent = String(y);
+      svg.appendChild(label);
+    }
+
+    if (spec.vertical_x !== null && Number.isFinite(spec.vertical_x)) {
+      const px = mapX(spec.vertical_x, width, padding, spec);
+      svg.appendChild(createSvgNode('line', {
+        x1: px,
+        y1: padding,
+        x2: px,
+        y2: height - padding,
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    } else {
+      const x1 = spec.x_min;
+      const x2 = spec.x_max;
+      const y1 = spec.slope * x1 + spec.intercept;
+      const y2 = spec.slope * x2 + spec.intercept;
+      svg.appendChild(createSvgNode('line', {
+        x1: mapX(x1, width, padding, spec),
+        y1: mapY(y1, height, padding, spec),
+        x2: mapX(x2, width, padding, spec),
+        y2: mapY(y2, height, padding, spec),
+        stroke: spec.color,
+        'stroke-width': 3.2,
+        'stroke-linecap': 'round'
+      }));
+    }
+
+    if (Array.isArray(graphSpec.points)) {
+      graphSpec.points.forEach((point) => {
+        if (!Array.isArray(point) || point.length < 2) return;
+        svg.appendChild(createSvgNode('circle', {
+          cx: mapX(Number(point[0]), width, padding, spec),
+          cy: mapY(Number(point[1]), height, padding, spec),
+          r: 4,
+          fill: '#f97316'
+        }));
+      });
+    }
+
+    container.appendChild(svg);
+  }
+
+  function clearQuestionPagination() {
+    const groups = Array.from(questionList.querySelectorAll('.worksheet-question-page-group'));
+    if (!groups.length) return;
+    const items = groups.flatMap((group) => Array.from(group.children));
+    questionList.innerHTML = '';
+    items.forEach((item) => questionList.appendChild(item));
+  }
+
+  function paginateQuestionList() {
+    clearQuestionPagination();
+
+    const items = Array.from(questionList.children);
+    if (!items.length) return;
+
+    root.classList.add('worksheet-measure-print');
+    const maxPageHeight = worksheetMode === 'graph-read' ? 980 : worksheetMode === 'graph-match' ? 760 : 1120;
+    const gapAllowance = 12;
+    const groups = [];
+    let currentGroup = [];
+    let currentHeight = 0;
+
+    items.forEach((item) => {
+      const itemHeight = Math.ceil(item.getBoundingClientRect().height);
+      const nextHeight = currentGroup.length ? currentHeight + gapAllowance + itemHeight : itemHeight;
+
+      if (currentGroup.length && nextHeight > maxPageHeight) {
+        groups.push(currentGroup);
+        currentGroup = [item];
+        currentHeight = itemHeight;
+      } else {
+        currentGroup.push(item);
+        currentHeight = nextHeight;
+      }
+    });
+
+    if (currentGroup.length) {
+      groups.push(currentGroup);
+    }
+
+    questionList.innerHTML = '';
+    groups.forEach((groupItems) => {
+      const pageGroup = document.createElement('div');
+      pageGroup.className = 'worksheet-question-page-group';
+      groupItems.forEach((item) => pageGroup.appendChild(item));
+      questionList.appendChild(pageGroup);
+    });
+    root.classList.remove('worksheet-measure-print');
+  }
+
+  function buildWorksheet() {
+    const selected = shuffle(allQuestions).slice(0, Math.min(desiredCount, allQuestions.length));
+    questionList.innerHTML = '';
+    answerList.innerHTML = '';
+
+    selected.forEach((question, index) => {
+      const item = document.createElement('article');
+      item.className = 'worksheet-item';
+
+      const difficulty = question.difficulty ? String(question.difficulty) : 'Practice';
+      const type = question.type ? String(question.type) : 'Question';
+      const options = Array.isArray(question.options) ? question.options : [];
+      const optionGraphs = Array.isArray(question.option_graphs) ? question.option_graphs : [];
+      const answerIndex = Number(question.answer || 0);
+      const questionGraph = question.question_graph || null;
+      if (questionGraph) {
+        item.classList.add('worksheet-item-has-question-graph');
+      }
+      if (questionGraph && !optionGraphs.length && !worksheetMode) {
+        item.classList.add('worksheet-item-compact-print');
+      }
+
+      item.innerHTML = `
+        <div class="worksheet-item-header">
+          <span>Question ${index + 1}</span>
+          <span>${difficulty} · ${type}</span>
+        </div>
+        <p class="worksheet-item-question">${formatQuestionText(question.question)}</p>
+        <div class="worksheet-item-body"></div>
+      `;
+
+      const body = item.querySelector('.worksheet-item-body');
+      const optionWrap = document.createElement('div');
+      optionWrap.className = optionGraphs.length
+        ? 'worksheet-options worksheet-options-graph-grid'
+        : 'worksheet-options';
+
+      if (questionGraph) {
+        const figure = document.createElement('div');
+        figure.className = 'worksheet-question-figure';
+        figure.innerHTML = '<div class="worksheet-graph-card"></div>';
+        if (worksheetMode === 'graph-read') {
+          renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+          body.appendChild(optionWrap);
+          body.appendChild(figure);
+        } else {
+          body.appendChild(figure);
+          renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+        }
+      }
+
+      if (optionGraphs.length) {
+        optionGraphs.forEach((option, optionIndex) => {
+          const row = document.createElement('div');
+          row.className = 'worksheet-option';
+          row.innerHTML = `
+            <div class="worksheet-option-graph">
+              <div>${optionLetter(optionIndex)}.</div>
+              <div class="worksheet-graph-card"></div>
+              <div class="worksheet-graph-caption">${option.label || `Graph ${optionLetter(optionIndex)}`}</div>
+            </div>
+          `;
+          optionWrap.appendChild(row);
+          renderGraphCard(row.querySelector('.worksheet-graph-card'), option.graph || null);
+        });
+      } else {
+        options.forEach((option, optionIndex) => {
+          const row = document.createElement('div');
+          row.className = 'worksheet-option';
+          row.textContent = `${optionLetter(optionIndex)}. ${option}`;
+          optionWrap.appendChild(row);
+        });
+      }
+      if (!questionGraph || worksheetMode !== 'graph-read') {
+        body.appendChild(optionWrap);
+      }
+      questionList.appendChild(item);
+
+      const answerChoices = optionGraphs.length
+        ? optionGraphs.map((option) => option.label || '')
+        : options;
+
+      const answerItem = document.createElement('article');
+      answerItem.className = 'worksheet-answer-item';
+      answerItem.innerHTML = `
+        <div class="worksheet-answer-label">Question ${index + 1}</div>
+        <div class="worksheet-answer-text">${optionLetter(answerIndex)}. ${answerChoices[answerIndex] || ''}</div>
+      `;
+      answerList.appendChild(answerItem);
+    });
+
+    requestAnimationFrame(() => {
+      paginateQuestionList();
+    });
+  }
+
+  if (regenerateButton) {
+    regenerateButton.addEventListener('click', buildWorksheet);
+  }
+
+  if (printButton) {
+    printButton.addEventListener('click', () => {
+      paginateQuestionList();
+      window.print();
+    });
+  }
+
+  window.addEventListener('beforeprint', paginateQuestionList);
+
+  buildWorksheet();
+})();
+</script>
