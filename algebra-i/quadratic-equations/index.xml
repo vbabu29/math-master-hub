@@ -1,2 +1,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math Learning Site – Quadratic Equations</title><link>https://quizmathgenius.com/algebra-i/quadratic-equations/</link><description>Recent content in Quadratic Equations on Math Learning Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://quizmathgenius.com/algebra-i/quadratic-equations/index.xml" rel="self" type="application/rss+xml"/><item><title>Practice Questions</title><link>https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/</guid><description>
-&lt;p&gt;Choose a quadratic equations topic below and open a focused practice set. The list now matches the reduced Algebra I structure, with everything outside it folded into &lt;strong&gt;Miscellaneous&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Choose a quadratic equations topic below and open a focused practice set. Each topic opens a randomized interactive practice session built from the current quadratic banks.&lt;/p&gt;
+&lt;div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;"&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/solve-by-factoring/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Solve by Factoring&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Practice solving quadratic equations by factoring and using the zero product property.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/quadratic-formula/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Quadratic Formula&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Build confidence with coefficient identification and formula substitution.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/completing-the-square/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Completing the Square&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Practice rewriting quadratics into perfect-square form and solving carefully.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/practice-questions/miscellaneous/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Miscellaneous&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Mixed review for additional quadratic practice and extension problems.&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;</description></item><item><title>Worksheets</title><link>https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/</guid><description>
+&lt;p&gt;Choose a printable quadratic worksheet below. Each page includes a short topic explanation, a randomized printable worksheet generated from the existing quadratic question banks, and an answer key on page 2.&lt;/p&gt;
+&lt;div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;"&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/solve-by-factoring-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Solve by Factoring Worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Practice solving quadratic equations by factoring and using the zero product property.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/quadratic-formula-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Quadratic Formula Worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Build confidence using the quadratic formula and identifying coefficients correctly.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/completing-the-square-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Completing the Square Worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;Practice rewriting quadratics into perfect-square form and solving carefully.&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="https://quizmathgenius.com/algebra-i/quadratic-equations/worksheets/mixed-quadratic-equations-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;"&gt;
+&lt;strong&gt;Mixed Quadratic Equations Worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;span style="display:block;margin-top:.45rem;color:#475569;"&gt;A mixed printable review covering factoring, quadratic formula, and completing the square.&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,0 +1,3289 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math Learning Site – Worksheets</title><link>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/</link><description>Recent content in Worksheets on Math Learning Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/index.xml" rel="self" type="application/rss+xml"/><item><title>Factoring GCF Worksheet</title><link>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/factoring-gcf-worksheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/factoring-gcf-worksheet/</guid><description>
+&lt;p&gt;This factoring GCF worksheet helps students practice identifying the greatest common factor and rewriting expressions in factored form. The printable set includes 12 randomized questions and an answer key on page 2.&lt;/p&gt;
+&lt;h2&gt;What is Factoring GCF?&lt;span class="hx:absolute hx:-mt-20" id="what-is-factoring-gcf"&gt;&lt;/span&gt;
+&lt;a href="#what-is-factoring-gcf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Factoring GCF means finding the greatest common factor shared by all the terms in an expression and pulling it outside parentheses. This is often the first step in simplifying or factoring more complicated polynomials.&lt;/p&gt;
+&lt;h2&gt;How to Factor Out the GCF&lt;span class="hx:absolute hx:-mt-20" id="how-to-factor-out-the-gcf"&gt;&lt;/span&gt;
+&lt;a href="#how-to-factor-out-the-gcf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Find the greatest common numerical factor in all terms.&lt;/li&gt;
+&lt;li&gt;Check whether the variable part also has a common factor.&lt;/li&gt;
+&lt;li&gt;Divide each term by the GCF.&lt;/li&gt;
+&lt;li&gt;Write the expression as the GCF times the simplified parentheses.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Factor &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;6x^2 + 12x&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;6&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The greatest common factor is &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;6x&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;6&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;6x^2 + 12x = 6x(x + 2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;6&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;6&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;2&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;style&gt;
+.worksheet-shell {
+margin: 2rem auto;
+padding: 1.5rem;
+max-width: 960px;
+border-radius: 1.25rem;
+border: 1px solid rgba(148, 163, 184, 0.32);
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.07), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.07), transparent 36%),
+#ffffff;
+box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+.worksheet-actions {
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 1rem;
+}
+.worksheet-action {
+border: none;
+border-radius: 999px;
+padding: 0.7rem 1rem;
+font-size: 0.95rem;
+font-weight: 600;
+cursor: pointer;
+background: #0f172a;
+color: #f8fafc;
+}
+.worksheet-action-secondary {
+background: #e2e8f0;
+color: #0f172a;
+}
+.worksheet-sheet {
+background: #ffffff;
+color: #0f172a;
+border-radius: 1rem;
+border: 1px solid rgba(148, 163, 184, 0.3);
+padding: 2rem 2rem 2.25rem;
+}
+.worksheet-page + .worksheet-page {
+margin-top: 2rem;
+}
+.worksheet-header {
+display: grid;
+grid-template-columns: minmax(0, 1fr) auto;
+gap: 1rem 1.5rem;
+align-items: start;
+margin-bottom: 1.25rem;
+}
+.worksheet-title {
+font-size: clamp(1.7rem, 2.2vw, 1.95rem);
+line-height: 1.02;
+font-weight: 800;
+margin: 0;
+max-width: 20ch;
+text-wrap: balance;
+}
+.worksheet-meta {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+font-size: 0.88rem;
+color: #475569;
+text-align: right;
+white-space: nowrap;
+padding-top: 0.2rem;
+}
+.worksheet-meta span {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-height: 2rem;
+padding: 0.2rem 0.7rem;
+border-radius: 999px;
+background: rgba(226, 232, 240, 0.8);
+}
+.worksheet-intro {
+margin: 0;
+color: #334155;
+line-height: 1.6;
+max-width: 58ch;
+}
+.worksheet-instruction {
+margin: 0 0 1.25rem;
+font-size: 0.96rem;
+font-weight: 600;
+color: #334155;
+}
+.worksheet-name-line {
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 1.25rem;
+font-size: 0.95rem;
+}
+.worksheet-line {
+flex: 1;
+border-bottom: 1px solid #94a3b8;
+min-height: 1.25rem;
+}
+.worksheet-list {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+margin-top: 1rem;
+}
+.worksheet-item {
+padding: 1rem 1rem 1.1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-item-body {
+display: block;
+}
+.worksheet-item-header {
+display: flex;
+justify-content: space-between;
+gap: 0.75rem;
+margin-bottom: 0.5rem;
+font-size: 0.88rem;
+color: #475569;
+}
+.worksheet-item-question {
+font-size: 1rem;
+line-height: 1.6;
+margin: 0;
+white-space: pre-line;
+}
+.worksheet-question-figure {
+margin-top: 0.9rem;
+}
+.worksheet-graph-card {
+width: 100%;
+max-width: 320px;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.35);
+background: #ffffff;
+padding: 0.7rem;
+box-sizing: border-box;
+}
+.worksheet-graph-card svg {
+display: block;
+width: 100%;
+height: auto;
+}
+.worksheet-options {
+display: grid;
+gap: 0.35rem;
+margin-top: 0.85rem;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.75rem;
+}
+.worksheet-option {
+font-size: 0.96rem;
+line-height: 1.45;
+}
+.worksheet-option-graph {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: flex-start;
+}
+.worksheet-graph-caption {
+font-size: 0.86rem;
+color: #475569;
+font-weight: 600;
+}
+.worksheet-answer-list {
+display: grid;
+gap: 0.75rem;
+}
+.worksheet-answer-item {
+padding: 0.9rem 1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-answer-label {
+font-weight: 700;
+margin-bottom: 0.25rem;
+}
+.worksheet-answer-text {
+color: #334155;
+}
+.worksheet-page-break {
+break-before: page;
+page-break-before: always;
+}
+@media (prefers-color-scheme: dark) {
+.worksheet-shell {
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.14), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.14), transparent 36%),
+#020617;
+border-color: rgba(148, 163, 184, 0.28);
+box-shadow: 0 20px 40px rgba(2, 6, 23, 0.55);
+}
+.worksheet-sheet,
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+background: #0f172a;
+color: #e2e8f0;
+border-color: rgba(148, 163, 184, 0.2);
+}
+.worksheet-intro,
+.worksheet-instruction,
+.worksheet-answer-text,
+.worksheet-item-header,
+.worksheet-meta,
+.worksheet-graph-caption {
+color: #cbd5e1;
+}
+.worksheet-line {
+border-bottom-color: #64748b;
+}
+.worksheet-action-secondary {
+background: #334155;
+color: #e2e8f0;
+}
+.worksheet-meta span {
+background: rgba(51, 65, 85, 0.85);
+}
+}
+@media (max-width: 700px) {
+.worksheet-header {
+grid-template-columns: 1fr;
+gap: 0.85rem;
+}
+.worksheet-title {
+max-width: none;
+font-size: 1.75rem;
+}
+.worksheet-meta {
+justify-content: flex-start;
+text-align: left;
+flex-wrap: wrap;
+padding-top: 0;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: 1fr;
+}
+}
+@media print {
+.worksheet-shell {
+margin: 0;
+padding: 0;
+max-width: none;
+border: none;
+box-shadow: none;
+background: #ffffff;
+}
+.worksheet-actions {
+display: none !important;
+}
+body * {
+visibility: hidden !important;
+}
+#worksheet-0,
+#worksheet-0 * {
+visibility: visible !important;
+}
+#worksheet-0 {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+.worksheet-sheet {
+border: none;
+border-radius: 0;
+padding: 0;
+background: #ffffff;
+color: #000000;
+}
+.worksheet-page {
+min-height: auto;
+}
+.worksheet-list,
+.worksheet-question-page-group {
+gap: 0.7rem;
+}
+.worksheet-question-page-group {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+break-inside: avoid;
+page-break-inside: avoid;
+background: #ffffff;
+color: #000000;
+border-color: #cbd5e1;
+}
+.worksheet-item {
+grid-column: 1 / -1;
+padding: 0.75rem 0.8rem 0.85rem;
+}
+.worksheet-item-header {
+margin-bottom: 0.35rem;
+font-size: 0.82rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-body {
+display: grid;
+grid-template-columns: 180px minmax(0, 1fr);
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item-has-question-graph .worksheet-question-figure {
+margin-top: 0;
+}
+.worksheet-item-has-question-graph .worksheet-options {
+margin-top: 0;
+align-content: start;
+gap: 0.18rem;
+}
+.worksheet-item-has-question-graph .worksheet-graph-card {
+max-width: 180px;
+padding: 0.25rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-question {
+margin-bottom: 0.45rem;
+font-size: 0.95rem;
+line-height: 1.4;
+}
+.worksheet-item-has-question-graph .worksheet-option {
+font-size: 0.88rem;
+line-height: 1.25;
+}
+.worksheet-item-has-question-graph .worksheet-option-graph {
+gap: 0.3rem;
+}
+.worksheet-item-compact-print {
+grid-column: auto;
+}
+.worksheet-item-compact-print .worksheet-item-body {
+grid-template-columns: 110px minmax(0, 1fr);
+gap: 0.55rem;
+}
+.worksheet-item-compact-print .worksheet-graph-card {
+max-width: 110px;
+padding: 0.18rem;
+}
+.worksheet-item-compact-print .worksheet-item-question {
+font-size: 0.9rem;
+line-height: 1.28;
+}
+.worksheet-item-compact-print .worksheet-option {
+font-size: 0.82rem;
+line-height: 1.18;
+}
+.worksheet-item-compact-print .worksheet-item-header {
+font-size: 0.76rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+break-before: page;
+page-break-before: always;
+margin-top: 0;
+}
+.worksheet-mode-graph-read .worksheet-question-page-group,
+.worksheet-mode-graph-match .worksheet-question-page-group {
+display: block;
+}
+.worksheet-mode-graph-read .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item {
+grid-column: auto;
+border-radius: 0.55rem;
+padding: 0.6rem 0.7rem;
+}
+.worksheet-mode-graph-read .worksheet-item + .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item + .worksheet-item {
+margin-top: 0.5rem;
+}
+.worksheet-mode-graph-read .worksheet-item-header,
+.worksheet-mode-graph-match .worksheet-item-header {
+font-size: 0.78rem;
+margin-bottom: 0.25rem;
+}
+.worksheet-mode-graph-read .worksheet-item-question,
+.worksheet-mode-graph-match .worksheet-item-question {
+font-size: 0.88rem;
+line-height: 1.25;
+margin-bottom: 0.35rem;
+}
+.worksheet-mode-graph-read .worksheet-item-body {
+display: grid;
+grid-template-columns: minmax(0, 1fr) 128px;
+gap: 0.55rem;
+align-items: start;
+}
+.worksheet-mode-graph-read .worksheet-question-figure {
+margin: 0;
+justify-self: end;
+}
+.worksheet-mode-graph-read .worksheet-options {
+margin-top: 0;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+column-gap: 0.95rem;
+row-gap: 0.15rem;
+align-content: start;
+}
+.worksheet-mode-graph-read .worksheet-option {
+font-size: 0.8rem;
+line-height: 1.18;
+}
+.worksheet-mode-graph-read .worksheet-graph-card {
+max-width: 128px;
+padding: 0.12rem;
+border-radius: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-item-body {
+display: block;
+}
+.worksheet-mode-graph-match .worksheet-options {
+margin-top: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-options-graph-grid {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 0.35rem;
+}
+.worksheet-mode-graph-match .worksheet-option {
+font-size: 0.72rem;
+line-height: 1.05;
+}
+.worksheet-mode-graph-match .worksheet-option-graph {
+gap: 0.15rem;
+align-items: stretch;
+}
+.worksheet-mode-graph-match .worksheet-graph-card {
+max-width: none;
+padding: 0.08rem;
+border-radius: 0.4rem;
+}
+.worksheet-mode-graph-match .worksheet-graph-caption {
+font-size: 0.68rem;
+line-height: 1.05;
+}
+}
+&lt;/style&gt;
+&lt;div id="worksheet-0" class="worksheet-shell" data-count="12" data-questions='[]'&gt;
+&lt;div class="worksheet-actions"&gt;
+&lt;button type="button" class="worksheet-action" data-regenerate&gt;Generate New Worksheet&lt;/button&gt;
+&lt;button type="button" class="worksheet-action worksheet-action-secondary" data-print&gt;Print Worksheet&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-sheet"&gt;
+&lt;section class="worksheet-page"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Factoring GCF Worksheet&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 1 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Solve each problem. Show your work.&lt;/p&gt;
+&lt;div class="worksheet-name-line"&gt;
+&lt;div&gt;Name: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;Date: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-list" data-question-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="worksheet-page worksheet-page-break"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Factoring GCF Worksheet Answer Key&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 2 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Check your work using the correct answers below.&lt;/p&gt;
+&lt;div class="worksheet-answer-list" data-answer-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+const root = document.getElementById('worksheet-0');
+if (!root) return;
+const allQuestions = JSON.parse(root.dataset.questions || '[]');
+const desiredCount = Number(root.dataset.count || '12');
+const questionList = root.querySelector('[data-question-list]');
+const answerList = root.querySelector('[data-answer-list]');
+const regenerateButton = root.querySelector('[data-regenerate]');
+const printButton = root.querySelector('[data-print]');
+const worksheetMode = root.dataset.mode || '';
+function shuffle(array) {
+const copy = [...array];
+for (let i = copy.length - 1; i &gt; 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[copy[i], copy[j]] = [copy[j], copy[i]];
+}
+return copy;
+}
+function formatQuestionText(text) {
+return String(text || '')
+.replace(/\r\n/g, '\n')
+.replace(/\r/g, '\n')
+.split('\n')
+.map((line) =&gt; line.trim())
+.join('\n')
+.replace(/\n{3,}/g, '\n\n')
+.trim();
+}
+function optionLetter(index) {
+return String.fromCharCode(65 + index);
+}
+function parseGraphSpec(raw) {
+if (!raw) return null;
+try {
+return JSON.parse(raw);
+} catch (error) {
+return null;
+}
+}
+function createSvgNode(tag, attrs) {
+const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+Object.entries(attrs || {}).forEach(([key, value]) =&gt; node.setAttribute(key, value));
+return node;
+}
+function mapX(x, width, padding, spec) {
+return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+}
+function mapY(y, height, padding, spec) {
+return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+}
+function renderGraphCard(container, graphSpec) {
+if (!container) return;
+container.innerHTML = '';
+if (!graphSpec || graphSpec.type !== 'line') return;
+const width = 240;
+const height = 240;
+const padding = 26;
+const spec = {
+type: 'line',
+slope: Number(graphSpec.slope || 0),
+intercept: Number(graphSpec.intercept || 0),
+vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+x_min: Number(graphSpec.x_min || -5),
+x_max: Number(graphSpec.x_max || 5),
+y_min: Number(graphSpec.y_min || -5),
+y_max: Number(graphSpec.y_max || 5),
+color: graphSpec.color || '#2563eb',
+label: graphSpec.label || ''
+};
+const darkMode = window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches;
+const theme = darkMode
+? { surface: '#0f172a', grid: '#334155', axis: '#e2e8f0', label: '#cbd5e1' }
+: { surface: '#ffffff', grid: '#cbd5e1', axis: '#0f172a', label: '#64748b' };
+const svg = createSvgNode('svg', {
+viewBox: `0 0 ${width} ${height}`,
+role: 'img',
+'aria-label': spec.label || 'Coordinate plane'
+});
+svg.appendChild(createSvgNode('rect', {
+x: 0,
+y: 0,
+width,
+height,
+rx: 12,
+fill: theme.surface
+}));
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+const px = mapX(x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: x === 0 ? theme.axis : theme.grid,
+'stroke-width': x === 0 ? 1.6 : 1
+}));
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+const py = mapY(y, height, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: padding,
+y1: py,
+x2: width - padding,
+y2: py,
+stroke: y === 0 ? theme.axis : theme.grid,
+'stroke-width': y === 0 ? 1.6 : 1
+}));
+}
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+if (x === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(x, width, padding, spec),
+y: mapY(0, height, padding, spec) + 15,
+'text-anchor': 'middle',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(x);
+svg.appendChild(label);
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+if (y === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(0, width, padding, spec) - 10,
+y: mapY(y, height, padding, spec) + 3,
+'text-anchor': 'end',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(y);
+svg.appendChild(label);
+}
+if (spec.vertical_x !== null &amp;&amp; Number.isFinite(spec.vertical_x)) {
+const px = mapX(spec.vertical_x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+} else {
+const x1 = spec.x_min;
+const x2 = spec.x_max;
+const y1 = spec.slope * x1 + spec.intercept;
+const y2 = spec.slope * x2 + spec.intercept;
+svg.appendChild(createSvgNode('line', {
+x1: mapX(x1, width, padding, spec),
+y1: mapY(y1, height, padding, spec),
+x2: mapX(x2, width, padding, spec),
+y2: mapY(y2, height, padding, spec),
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+}
+if (Array.isArray(graphSpec.points)) {
+graphSpec.points.forEach((point) =&gt; {
+if (!Array.isArray(point) || point.length &lt; 2) return;
+svg.appendChild(createSvgNode('circle', {
+cx: mapX(Number(point[0]), width, padding, spec),
+cy: mapY(Number(point[1]), height, padding, spec),
+r: 4,
+fill: '#f97316'
+}));
+});
+}
+container.appendChild(svg);
+}
+function clearQuestionPagination() {
+const groups = Array.from(questionList.querySelectorAll('.worksheet-question-page-group'));
+if (!groups.length) return;
+const items = groups.flatMap((group) =&gt; Array.from(group.children));
+questionList.innerHTML = '';
+items.forEach((item) =&gt; questionList.appendChild(item));
+}
+function paginateQuestionList() {
+clearQuestionPagination();
+const items = Array.from(questionList.children);
+if (!items.length) return;
+root.classList.add('worksheet-measure-print');
+const maxPageHeight = worksheetMode === 'graph-read' ? 980 : worksheetMode === 'graph-match' ? 760 : 1120;
+const gapAllowance = 12;
+const groups = [];
+let currentGroup = [];
+let currentHeight = 0;
+items.forEach((item) =&gt; {
+const itemHeight = Math.ceil(item.getBoundingClientRect().height);
+const nextHeight = currentGroup.length ? currentHeight + gapAllowance + itemHeight : itemHeight;
+if (currentGroup.length &amp;&amp; nextHeight &gt; maxPageHeight) {
+groups.push(currentGroup);
+currentGroup = [item];
+currentHeight = itemHeight;
+} else {
+currentGroup.push(item);
+currentHeight = nextHeight;
+}
+});
+if (currentGroup.length) {
+groups.push(currentGroup);
+}
+questionList.innerHTML = '';
+groups.forEach((groupItems) =&gt; {
+const pageGroup = document.createElement('div');
+pageGroup.className = 'worksheet-question-page-group';
+groupItems.forEach((item) =&gt; pageGroup.appendChild(item));
+questionList.appendChild(pageGroup);
+});
+root.classList.remove('worksheet-measure-print');
+}
+function buildWorksheet() {
+const selected = shuffle(allQuestions).slice(0, Math.min(desiredCount, allQuestions.length));
+questionList.innerHTML = '';
+answerList.innerHTML = '';
+selected.forEach((question, index) =&gt; {
+const item = document.createElement('article');
+item.className = 'worksheet-item';
+const difficulty = question.difficulty ? String(question.difficulty) : 'Practice';
+const type = question.type ? String(question.type) : 'Question';
+const options = Array.isArray(question.options) ? question.options : [];
+const optionGraphs = Array.isArray(question.option_graphs) ? question.option_graphs : [];
+const answerIndex = Number(question.answer || 0);
+const questionGraph = question.question_graph || null;
+if (questionGraph) {
+item.classList.add('worksheet-item-has-question-graph');
+}
+if (questionGraph &amp;&amp; !optionGraphs.length &amp;&amp; !worksheetMode) {
+item.classList.add('worksheet-item-compact-print');
+}
+item.innerHTML = `
+&lt;div class="worksheet-item-header"&gt;
+&lt;span&gt;Question ${index + 1}&lt;/span&gt;
+&lt;span&gt;${difficulty} · ${type}&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-item-question"&gt;${formatQuestionText(question.question)}&lt;/p&gt;
+&lt;div class="worksheet-item-body"&gt;&lt;/div&gt;
+`;
+const body = item.querySelector('.worksheet-item-body');
+const optionWrap = document.createElement('div');
+optionWrap.className = optionGraphs.length
+? 'worksheet-options worksheet-options-graph-grid'
+: 'worksheet-options';
+if (questionGraph) {
+const figure = document.createElement('div');
+figure.className = 'worksheet-question-figure';
+figure.innerHTML = '&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;';
+if (worksheetMode === 'graph-read') {
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+body.appendChild(optionWrap);
+body.appendChild(figure);
+} else {
+body.appendChild(figure);
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+}
+}
+if (optionGraphs.length) {
+optionGraphs.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.innerHTML = `
+&lt;div class="worksheet-option-graph"&gt;
+&lt;div&gt;${optionLetter(optionIndex)}.&lt;/div&gt;
+&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;
+&lt;div class="worksheet-graph-caption"&gt;${option.label || `Graph ${optionLetter(optionIndex)}`}&lt;/div&gt;
+&lt;/div&gt;
+`;
+optionWrap.appendChild(row);
+renderGraphCard(row.querySelector('.worksheet-graph-card'), option.graph || null);
+});
+} else {
+options.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.textContent = `${optionLetter(optionIndex)}. ${option}`;
+optionWrap.appendChild(row);
+});
+}
+if (!questionGraph || worksheetMode !== 'graph-read') {
+body.appendChild(optionWrap);
+}
+questionList.appendChild(item);
+const answerChoices = optionGraphs.length
+? optionGraphs.map((option) =&gt; option.label || '')
+: options;
+const answerItem = document.createElement('article');
+answerItem.className = 'worksheet-answer-item';
+answerItem.innerHTML = `
+&lt;div class="worksheet-answer-label"&gt;Question ${index + 1}&lt;/div&gt;
+&lt;div class="worksheet-answer-text"&gt;${optionLetter(answerIndex)}. ${answerChoices[answerIndex] || ''}&lt;/div&gt;
+`;
+answerList.appendChild(answerItem);
+});
+requestAnimationFrame(() =&gt; {
+paginateQuestionList();
+});
+}
+if (regenerateButton) {
+regenerateButton.addEventListener('click', buildWorksheet);
+}
+if (printButton) {
+printButton.addEventListener('click', () =&gt; {
+paginateQuestionList();
+window.print();
+});
+}
+window.addEventListener('beforeprint', paginateQuestionList);
+buildWorksheet();
+})();
+&lt;/script&gt;
+&lt;h2&gt;FAQ&lt;span class="hx:absolute hx:-mt-20" id="faq"&gt;&lt;/span&gt;
+&lt;a href="#faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: Why do we factor out the GCF first?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Factoring out the GCF makes the remaining expression simpler and often reveals another factoring step.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Can the GCF include variables?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Yes. If every term contains the same variable factor, it should be part of the GCF.&lt;/p&gt;</description></item><item><title>Factoring Trinomials Worksheet</title><link>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/factoring-trinomials-worksheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/factoring-trinomials-worksheet/</guid><description>
+&lt;p&gt;This factoring trinomials worksheet helps students practice breaking quadratic expressions into two binomial factors. The printable set includes 12 randomized questions and an answer key on page 2.&lt;/p&gt;
+&lt;h2&gt;What is Factoring a Trinomial?&lt;span class="hx:absolute hx:-mt-20" id="what-is-factoring-a-trinomial"&gt;&lt;/span&gt;
+&lt;a href="#what-is-factoring-a-trinomial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Factoring a trinomial means rewriting a three-term polynomial as a product of two simpler expressions. For many Algebra I problems, the goal is to find two numbers that multiply to the constant term and add to the middle coefficient.&lt;/p&gt;
+&lt;h2&gt;How to Factor Trinomials&lt;span class="hx:absolute hx:-mt-20" id="how-to-factor-trinomials"&gt;&lt;/span&gt;
+&lt;a href="#how-to-factor-trinomials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Check whether there is a GCF first.&lt;/li&gt;
+&lt;li&gt;Identify the trinomial in the form &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 + bx + c&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.4306em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; or a similar quadratic expression.&lt;/li&gt;
+&lt;li&gt;Find two numbers that multiply to &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;c&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.4306em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; and add to &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;b&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6944em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Write the trinomial as a product of two binomials.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Factor &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 + 7x + 12&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;7&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You need two numbers that multiply to &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;12&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; and add to &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;7&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Those numbers are &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; and &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;4&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 + 7x + 12 = (x + 3)(x + 4)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;7&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;style&gt;
+.worksheet-shell {
+margin: 2rem auto;
+padding: 1.5rem;
+max-width: 960px;
+border-radius: 1.25rem;
+border: 1px solid rgba(148, 163, 184, 0.32);
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.07), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.07), transparent 36%),
+#ffffff;
+box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+.worksheet-actions {
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 1rem;
+}
+.worksheet-action {
+border: none;
+border-radius: 999px;
+padding: 0.7rem 1rem;
+font-size: 0.95rem;
+font-weight: 600;
+cursor: pointer;
+background: #0f172a;
+color: #f8fafc;
+}
+.worksheet-action-secondary {
+background: #e2e8f0;
+color: #0f172a;
+}
+.worksheet-sheet {
+background: #ffffff;
+color: #0f172a;
+border-radius: 1rem;
+border: 1px solid rgba(148, 163, 184, 0.3);
+padding: 2rem 2rem 2.25rem;
+}
+.worksheet-page + .worksheet-page {
+margin-top: 2rem;
+}
+.worksheet-header {
+display: grid;
+grid-template-columns: minmax(0, 1fr) auto;
+gap: 1rem 1.5rem;
+align-items: start;
+margin-bottom: 1.25rem;
+}
+.worksheet-title {
+font-size: clamp(1.7rem, 2.2vw, 1.95rem);
+line-height: 1.02;
+font-weight: 800;
+margin: 0;
+max-width: 20ch;
+text-wrap: balance;
+}
+.worksheet-meta {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+font-size: 0.88rem;
+color: #475569;
+text-align: right;
+white-space: nowrap;
+padding-top: 0.2rem;
+}
+.worksheet-meta span {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-height: 2rem;
+padding: 0.2rem 0.7rem;
+border-radius: 999px;
+background: rgba(226, 232, 240, 0.8);
+}
+.worksheet-intro {
+margin: 0;
+color: #334155;
+line-height: 1.6;
+max-width: 58ch;
+}
+.worksheet-instruction {
+margin: 0 0 1.25rem;
+font-size: 0.96rem;
+font-weight: 600;
+color: #334155;
+}
+.worksheet-name-line {
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 1.25rem;
+font-size: 0.95rem;
+}
+.worksheet-line {
+flex: 1;
+border-bottom: 1px solid #94a3b8;
+min-height: 1.25rem;
+}
+.worksheet-list {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+margin-top: 1rem;
+}
+.worksheet-item {
+padding: 1rem 1rem 1.1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-item-body {
+display: block;
+}
+.worksheet-item-header {
+display: flex;
+justify-content: space-between;
+gap: 0.75rem;
+margin-bottom: 0.5rem;
+font-size: 0.88rem;
+color: #475569;
+}
+.worksheet-item-question {
+font-size: 1rem;
+line-height: 1.6;
+margin: 0;
+white-space: pre-line;
+}
+.worksheet-question-figure {
+margin-top: 0.9rem;
+}
+.worksheet-graph-card {
+width: 100%;
+max-width: 320px;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.35);
+background: #ffffff;
+padding: 0.7rem;
+box-sizing: border-box;
+}
+.worksheet-graph-card svg {
+display: block;
+width: 100%;
+height: auto;
+}
+.worksheet-options {
+display: grid;
+gap: 0.35rem;
+margin-top: 0.85rem;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.75rem;
+}
+.worksheet-option {
+font-size: 0.96rem;
+line-height: 1.45;
+}
+.worksheet-option-graph {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: flex-start;
+}
+.worksheet-graph-caption {
+font-size: 0.86rem;
+color: #475569;
+font-weight: 600;
+}
+.worksheet-answer-list {
+display: grid;
+gap: 0.75rem;
+}
+.worksheet-answer-item {
+padding: 0.9rem 1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-answer-label {
+font-weight: 700;
+margin-bottom: 0.25rem;
+}
+.worksheet-answer-text {
+color: #334155;
+}
+.worksheet-page-break {
+break-before: page;
+page-break-before: always;
+}
+@media (prefers-color-scheme: dark) {
+.worksheet-shell {
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.14), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.14), transparent 36%),
+#020617;
+border-color: rgba(148, 163, 184, 0.28);
+box-shadow: 0 20px 40px rgba(2, 6, 23, 0.55);
+}
+.worksheet-sheet,
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+background: #0f172a;
+color: #e2e8f0;
+border-color: rgba(148, 163, 184, 0.2);
+}
+.worksheet-intro,
+.worksheet-instruction,
+.worksheet-answer-text,
+.worksheet-item-header,
+.worksheet-meta,
+.worksheet-graph-caption {
+color: #cbd5e1;
+}
+.worksheet-line {
+border-bottom-color: #64748b;
+}
+.worksheet-action-secondary {
+background: #334155;
+color: #e2e8f0;
+}
+.worksheet-meta span {
+background: rgba(51, 65, 85, 0.85);
+}
+}
+@media (max-width: 700px) {
+.worksheet-header {
+grid-template-columns: 1fr;
+gap: 0.85rem;
+}
+.worksheet-title {
+max-width: none;
+font-size: 1.75rem;
+}
+.worksheet-meta {
+justify-content: flex-start;
+text-align: left;
+flex-wrap: wrap;
+padding-top: 0;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: 1fr;
+}
+}
+@media print {
+.worksheet-shell {
+margin: 0;
+padding: 0;
+max-width: none;
+border: none;
+box-shadow: none;
+background: #ffffff;
+}
+.worksheet-actions {
+display: none !important;
+}
+body * {
+visibility: hidden !important;
+}
+#worksheet-0,
+#worksheet-0 * {
+visibility: visible !important;
+}
+#worksheet-0 {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+.worksheet-sheet {
+border: none;
+border-radius: 0;
+padding: 0;
+background: #ffffff;
+color: #000000;
+}
+.worksheet-page {
+min-height: auto;
+}
+.worksheet-list,
+.worksheet-question-page-group {
+gap: 0.7rem;
+}
+.worksheet-question-page-group {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+break-inside: avoid;
+page-break-inside: avoid;
+background: #ffffff;
+color: #000000;
+border-color: #cbd5e1;
+}
+.worksheet-item {
+grid-column: 1 / -1;
+padding: 0.75rem 0.8rem 0.85rem;
+}
+.worksheet-item-header {
+margin-bottom: 0.35rem;
+font-size: 0.82rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-body {
+display: grid;
+grid-template-columns: 180px minmax(0, 1fr);
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item-has-question-graph .worksheet-question-figure {
+margin-top: 0;
+}
+.worksheet-item-has-question-graph .worksheet-options {
+margin-top: 0;
+align-content: start;
+gap: 0.18rem;
+}
+.worksheet-item-has-question-graph .worksheet-graph-card {
+max-width: 180px;
+padding: 0.25rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-question {
+margin-bottom: 0.45rem;
+font-size: 0.95rem;
+line-height: 1.4;
+}
+.worksheet-item-has-question-graph .worksheet-option {
+font-size: 0.88rem;
+line-height: 1.25;
+}
+.worksheet-item-has-question-graph .worksheet-option-graph {
+gap: 0.3rem;
+}
+.worksheet-item-compact-print {
+grid-column: auto;
+}
+.worksheet-item-compact-print .worksheet-item-body {
+grid-template-columns: 110px minmax(0, 1fr);
+gap: 0.55rem;
+}
+.worksheet-item-compact-print .worksheet-graph-card {
+max-width: 110px;
+padding: 0.18rem;
+}
+.worksheet-item-compact-print .worksheet-item-question {
+font-size: 0.9rem;
+line-height: 1.28;
+}
+.worksheet-item-compact-print .worksheet-option {
+font-size: 0.82rem;
+line-height: 1.18;
+}
+.worksheet-item-compact-print .worksheet-item-header {
+font-size: 0.76rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+break-before: page;
+page-break-before: always;
+margin-top: 0;
+}
+.worksheet-mode-graph-read .worksheet-question-page-group,
+.worksheet-mode-graph-match .worksheet-question-page-group {
+display: block;
+}
+.worksheet-mode-graph-read .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item {
+grid-column: auto;
+border-radius: 0.55rem;
+padding: 0.6rem 0.7rem;
+}
+.worksheet-mode-graph-read .worksheet-item + .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item + .worksheet-item {
+margin-top: 0.5rem;
+}
+.worksheet-mode-graph-read .worksheet-item-header,
+.worksheet-mode-graph-match .worksheet-item-header {
+font-size: 0.78rem;
+margin-bottom: 0.25rem;
+}
+.worksheet-mode-graph-read .worksheet-item-question,
+.worksheet-mode-graph-match .worksheet-item-question {
+font-size: 0.88rem;
+line-height: 1.25;
+margin-bottom: 0.35rem;
+}
+.worksheet-mode-graph-read .worksheet-item-body {
+display: grid;
+grid-template-columns: minmax(0, 1fr) 128px;
+gap: 0.55rem;
+align-items: start;
+}
+.worksheet-mode-graph-read .worksheet-question-figure {
+margin: 0;
+justify-self: end;
+}
+.worksheet-mode-graph-read .worksheet-options {
+margin-top: 0;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+column-gap: 0.95rem;
+row-gap: 0.15rem;
+align-content: start;
+}
+.worksheet-mode-graph-read .worksheet-option {
+font-size: 0.8rem;
+line-height: 1.18;
+}
+.worksheet-mode-graph-read .worksheet-graph-card {
+max-width: 128px;
+padding: 0.12rem;
+border-radius: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-item-body {
+display: block;
+}
+.worksheet-mode-graph-match .worksheet-options {
+margin-top: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-options-graph-grid {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 0.35rem;
+}
+.worksheet-mode-graph-match .worksheet-option {
+font-size: 0.72rem;
+line-height: 1.05;
+}
+.worksheet-mode-graph-match .worksheet-option-graph {
+gap: 0.15rem;
+align-items: stretch;
+}
+.worksheet-mode-graph-match .worksheet-graph-card {
+max-width: none;
+padding: 0.08rem;
+border-radius: 0.4rem;
+}
+.worksheet-mode-graph-match .worksheet-graph-caption {
+font-size: 0.68rem;
+line-height: 1.05;
+}
+}
+&lt;/style&gt;
+&lt;div id="worksheet-0" class="worksheet-shell" data-count="12" data-questions='[]'&gt;
+&lt;div class="worksheet-actions"&gt;
+&lt;button type="button" class="worksheet-action" data-regenerate&gt;Generate New Worksheet&lt;/button&gt;
+&lt;button type="button" class="worksheet-action worksheet-action-secondary" data-print&gt;Print Worksheet&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-sheet"&gt;
+&lt;section class="worksheet-page"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Factoring Trinomials Worksheet&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 1 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Solve each problem. Show your work.&lt;/p&gt;
+&lt;div class="worksheet-name-line"&gt;
+&lt;div&gt;Name: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;Date: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-list" data-question-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="worksheet-page worksheet-page-break"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Factoring Trinomials Worksheet Answer Key&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 2 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Check your work using the correct answers below.&lt;/p&gt;
+&lt;div class="worksheet-answer-list" data-answer-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+const root = document.getElementById('worksheet-0');
+if (!root) return;
+const allQuestions = JSON.parse(root.dataset.questions || '[]');
+const desiredCount = Number(root.dataset.count || '12');
+const questionList = root.querySelector('[data-question-list]');
+const answerList = root.querySelector('[data-answer-list]');
+const regenerateButton = root.querySelector('[data-regenerate]');
+const printButton = root.querySelector('[data-print]');
+const worksheetMode = root.dataset.mode || '';
+function shuffle(array) {
+const copy = [...array];
+for (let i = copy.length - 1; i &gt; 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[copy[i], copy[j]] = [copy[j], copy[i]];
+}
+return copy;
+}
+function formatQuestionText(text) {
+return String(text || '')
+.replace(/\r\n/g, '\n')
+.replace(/\r/g, '\n')
+.split('\n')
+.map((line) =&gt; line.trim())
+.join('\n')
+.replace(/\n{3,}/g, '\n\n')
+.trim();
+}
+function optionLetter(index) {
+return String.fromCharCode(65 + index);
+}
+function parseGraphSpec(raw) {
+if (!raw) return null;
+try {
+return JSON.parse(raw);
+} catch (error) {
+return null;
+}
+}
+function createSvgNode(tag, attrs) {
+const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+Object.entries(attrs || {}).forEach(([key, value]) =&gt; node.setAttribute(key, value));
+return node;
+}
+function mapX(x, width, padding, spec) {
+return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+}
+function mapY(y, height, padding, spec) {
+return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+}
+function renderGraphCard(container, graphSpec) {
+if (!container) return;
+container.innerHTML = '';
+if (!graphSpec || graphSpec.type !== 'line') return;
+const width = 240;
+const height = 240;
+const padding = 26;
+const spec = {
+type: 'line',
+slope: Number(graphSpec.slope || 0),
+intercept: Number(graphSpec.intercept || 0),
+vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+x_min: Number(graphSpec.x_min || -5),
+x_max: Number(graphSpec.x_max || 5),
+y_min: Number(graphSpec.y_min || -5),
+y_max: Number(graphSpec.y_max || 5),
+color: graphSpec.color || '#2563eb',
+label: graphSpec.label || ''
+};
+const darkMode = window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches;
+const theme = darkMode
+? { surface: '#0f172a', grid: '#334155', axis: '#e2e8f0', label: '#cbd5e1' }
+: { surface: '#ffffff', grid: '#cbd5e1', axis: '#0f172a', label: '#64748b' };
+const svg = createSvgNode('svg', {
+viewBox: `0 0 ${width} ${height}`,
+role: 'img',
+'aria-label': spec.label || 'Coordinate plane'
+});
+svg.appendChild(createSvgNode('rect', {
+x: 0,
+y: 0,
+width,
+height,
+rx: 12,
+fill: theme.surface
+}));
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+const px = mapX(x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: x === 0 ? theme.axis : theme.grid,
+'stroke-width': x === 0 ? 1.6 : 1
+}));
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+const py = mapY(y, height, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: padding,
+y1: py,
+x2: width - padding,
+y2: py,
+stroke: y === 0 ? theme.axis : theme.grid,
+'stroke-width': y === 0 ? 1.6 : 1
+}));
+}
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+if (x === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(x, width, padding, spec),
+y: mapY(0, height, padding, spec) + 15,
+'text-anchor': 'middle',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(x);
+svg.appendChild(label);
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+if (y === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(0, width, padding, spec) - 10,
+y: mapY(y, height, padding, spec) + 3,
+'text-anchor': 'end',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(y);
+svg.appendChild(label);
+}
+if (spec.vertical_x !== null &amp;&amp; Number.isFinite(spec.vertical_x)) {
+const px = mapX(spec.vertical_x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+} else {
+const x1 = spec.x_min;
+const x2 = spec.x_max;
+const y1 = spec.slope * x1 + spec.intercept;
+const y2 = spec.slope * x2 + spec.intercept;
+svg.appendChild(createSvgNode('line', {
+x1: mapX(x1, width, padding, spec),
+y1: mapY(y1, height, padding, spec),
+x2: mapX(x2, width, padding, spec),
+y2: mapY(y2, height, padding, spec),
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+}
+if (Array.isArray(graphSpec.points)) {
+graphSpec.points.forEach((point) =&gt; {
+if (!Array.isArray(point) || point.length &lt; 2) return;
+svg.appendChild(createSvgNode('circle', {
+cx: mapX(Number(point[0]), width, padding, spec),
+cy: mapY(Number(point[1]), height, padding, spec),
+r: 4,
+fill: '#f97316'
+}));
+});
+}
+container.appendChild(svg);
+}
+function clearQuestionPagination() {
+const groups = Array.from(questionList.querySelectorAll('.worksheet-question-page-group'));
+if (!groups.length) return;
+const items = groups.flatMap((group) =&gt; Array.from(group.children));
+questionList.innerHTML = '';
+items.forEach((item) =&gt; questionList.appendChild(item));
+}
+function paginateQuestionList() {
+clearQuestionPagination();
+const items = Array.from(questionList.children);
+if (!items.length) return;
+root.classList.add('worksheet-measure-print');
+const maxPageHeight = worksheetMode === 'graph-read' ? 980 : worksheetMode === 'graph-match' ? 760 : 1120;
+const gapAllowance = 12;
+const groups = [];
+let currentGroup = [];
+let currentHeight = 0;
+items.forEach((item) =&gt; {
+const itemHeight = Math.ceil(item.getBoundingClientRect().height);
+const nextHeight = currentGroup.length ? currentHeight + gapAllowance + itemHeight : itemHeight;
+if (currentGroup.length &amp;&amp; nextHeight &gt; maxPageHeight) {
+groups.push(currentGroup);
+currentGroup = [item];
+currentHeight = itemHeight;
+} else {
+currentGroup.push(item);
+currentHeight = nextHeight;
+}
+});
+if (currentGroup.length) {
+groups.push(currentGroup);
+}
+questionList.innerHTML = '';
+groups.forEach((groupItems) =&gt; {
+const pageGroup = document.createElement('div');
+pageGroup.className = 'worksheet-question-page-group';
+groupItems.forEach((item) =&gt; pageGroup.appendChild(item));
+questionList.appendChild(pageGroup);
+});
+root.classList.remove('worksheet-measure-print');
+}
+function buildWorksheet() {
+const selected = shuffle(allQuestions).slice(0, Math.min(desiredCount, allQuestions.length));
+questionList.innerHTML = '';
+answerList.innerHTML = '';
+selected.forEach((question, index) =&gt; {
+const item = document.createElement('article');
+item.className = 'worksheet-item';
+const difficulty = question.difficulty ? String(question.difficulty) : 'Practice';
+const type = question.type ? String(question.type) : 'Question';
+const options = Array.isArray(question.options) ? question.options : [];
+const optionGraphs = Array.isArray(question.option_graphs) ? question.option_graphs : [];
+const answerIndex = Number(question.answer || 0);
+const questionGraph = question.question_graph || null;
+if (questionGraph) {
+item.classList.add('worksheet-item-has-question-graph');
+}
+if (questionGraph &amp;&amp; !optionGraphs.length &amp;&amp; !worksheetMode) {
+item.classList.add('worksheet-item-compact-print');
+}
+item.innerHTML = `
+&lt;div class="worksheet-item-header"&gt;
+&lt;span&gt;Question ${index + 1}&lt;/span&gt;
+&lt;span&gt;${difficulty} · ${type}&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-item-question"&gt;${formatQuestionText(question.question)}&lt;/p&gt;
+&lt;div class="worksheet-item-body"&gt;&lt;/div&gt;
+`;
+const body = item.querySelector('.worksheet-item-body');
+const optionWrap = document.createElement('div');
+optionWrap.className = optionGraphs.length
+? 'worksheet-options worksheet-options-graph-grid'
+: 'worksheet-options';
+if (questionGraph) {
+const figure = document.createElement('div');
+figure.className = 'worksheet-question-figure';
+figure.innerHTML = '&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;';
+if (worksheetMode === 'graph-read') {
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+body.appendChild(optionWrap);
+body.appendChild(figure);
+} else {
+body.appendChild(figure);
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+}
+}
+if (optionGraphs.length) {
+optionGraphs.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.innerHTML = `
+&lt;div class="worksheet-option-graph"&gt;
+&lt;div&gt;${optionLetter(optionIndex)}.&lt;/div&gt;
+&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;
+&lt;div class="worksheet-graph-caption"&gt;${option.label || `Graph ${optionLetter(optionIndex)}`}&lt;/div&gt;
+&lt;/div&gt;
+`;
+optionWrap.appendChild(row);
+renderGraphCard(row.querySelector('.worksheet-graph-card'), option.graph || null);
+});
+} else {
+options.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.textContent = `${optionLetter(optionIndex)}. ${option}`;
+optionWrap.appendChild(row);
+});
+}
+if (!questionGraph || worksheetMode !== 'graph-read') {
+body.appendChild(optionWrap);
+}
+questionList.appendChild(item);
+const answerChoices = optionGraphs.length
+? optionGraphs.map((option) =&gt; option.label || '')
+: options;
+const answerItem = document.createElement('article');
+answerItem.className = 'worksheet-answer-item';
+answerItem.innerHTML = `
+&lt;div class="worksheet-answer-label"&gt;Question ${index + 1}&lt;/div&gt;
+&lt;div class="worksheet-answer-text"&gt;${optionLetter(answerIndex)}. ${answerChoices[answerIndex] || ''}&lt;/div&gt;
+`;
+answerList.appendChild(answerItem);
+});
+requestAnimationFrame(() =&gt; {
+paginateQuestionList();
+});
+}
+if (regenerateButton) {
+regenerateButton.addEventListener('click', buildWorksheet);
+}
+if (printButton) {
+printButton.addEventListener('click', () =&gt; {
+paginateQuestionList();
+window.print();
+});
+}
+window.addEventListener('beforeprint', paginateQuestionList);
+buildWorksheet();
+})();
+&lt;/script&gt;
+&lt;h2&gt;FAQ&lt;span class="hx:absolute hx:-mt-20" id="faq"&gt;&lt;/span&gt;
+&lt;a href="#faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: What should I do if I cannot find the right pair of numbers?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Double-check the signs and make sure the expression has been simplified fully before factoring.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Do all trinomials factor over the integers?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; No. Some trinomials are prime and do not factor nicely using integers.&lt;/p&gt;</description></item><item><title>Difference of Squares Worksheet</title><link>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/difference-of-squares-worksheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/difference-of-squares-worksheet/</guid><description>
+&lt;p&gt;This difference of squares worksheet helps students recognize and factor expressions that match the pattern &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;a^2 - b^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8141em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;. The printable set includes 12 randomized questions and an answer key on page 2.&lt;/p&gt;
+&lt;h2&gt;What is a Difference of Squares?&lt;span class="hx:absolute hx:-mt-20" id="what-is-a-difference-of-squares"&gt;&lt;/span&gt;
+&lt;a href="#what-is-a-difference-of-squares" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A difference of squares is an expression with two perfect square terms separated by subtraction. It follows the pattern:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;a^2 - b^2 = (a - b)(a + b)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8141em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Recognizing this pattern makes factoring much faster.&lt;/p&gt;
+&lt;h2&gt;How to Factor a Difference of Squares&lt;span class="hx:absolute hx:-mt-20" id="how-to-factor-a-difference-of-squares"&gt;&lt;/span&gt;
+&lt;a href="#how-to-factor-a-difference-of-squares" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Check that there are exactly two terms.&lt;/li&gt;
+&lt;li&gt;Make sure both terms are perfect squares.&lt;/li&gt;
+&lt;li&gt;Confirm that the operation is subtraction.&lt;/li&gt;
+&lt;li&gt;Rewrite using the pattern &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;(a - b)(a + b)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Factor &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;16&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 - 16&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;16&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 - 4^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8141em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;16&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2 - 16 = (x - 4)(x + 4)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;16&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;style&gt;
+.worksheet-shell {
+margin: 2rem auto;
+padding: 1.5rem;
+max-width: 960px;
+border-radius: 1.25rem;
+border: 1px solid rgba(148, 163, 184, 0.32);
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.07), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.07), transparent 36%),
+#ffffff;
+box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+.worksheet-actions {
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 1rem;
+}
+.worksheet-action {
+border: none;
+border-radius: 999px;
+padding: 0.7rem 1rem;
+font-size: 0.95rem;
+font-weight: 600;
+cursor: pointer;
+background: #0f172a;
+color: #f8fafc;
+}
+.worksheet-action-secondary {
+background: #e2e8f0;
+color: #0f172a;
+}
+.worksheet-sheet {
+background: #ffffff;
+color: #0f172a;
+border-radius: 1rem;
+border: 1px solid rgba(148, 163, 184, 0.3);
+padding: 2rem 2rem 2.25rem;
+}
+.worksheet-page + .worksheet-page {
+margin-top: 2rem;
+}
+.worksheet-header {
+display: grid;
+grid-template-columns: minmax(0, 1fr) auto;
+gap: 1rem 1.5rem;
+align-items: start;
+margin-bottom: 1.25rem;
+}
+.worksheet-title {
+font-size: clamp(1.7rem, 2.2vw, 1.95rem);
+line-height: 1.02;
+font-weight: 800;
+margin: 0;
+max-width: 20ch;
+text-wrap: balance;
+}
+.worksheet-meta {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+font-size: 0.88rem;
+color: #475569;
+text-align: right;
+white-space: nowrap;
+padding-top: 0.2rem;
+}
+.worksheet-meta span {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-height: 2rem;
+padding: 0.2rem 0.7rem;
+border-radius: 999px;
+background: rgba(226, 232, 240, 0.8);
+}
+.worksheet-intro {
+margin: 0;
+color: #334155;
+line-height: 1.6;
+max-width: 58ch;
+}
+.worksheet-instruction {
+margin: 0 0 1.25rem;
+font-size: 0.96rem;
+font-weight: 600;
+color: #334155;
+}
+.worksheet-name-line {
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 1.25rem;
+font-size: 0.95rem;
+}
+.worksheet-line {
+flex: 1;
+border-bottom: 1px solid #94a3b8;
+min-height: 1.25rem;
+}
+.worksheet-list {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+margin-top: 1rem;
+}
+.worksheet-item {
+padding: 1rem 1rem 1.1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-item-body {
+display: block;
+}
+.worksheet-item-header {
+display: flex;
+justify-content: space-between;
+gap: 0.75rem;
+margin-bottom: 0.5rem;
+font-size: 0.88rem;
+color: #475569;
+}
+.worksheet-item-question {
+font-size: 1rem;
+line-height: 1.6;
+margin: 0;
+white-space: pre-line;
+}
+.worksheet-question-figure {
+margin-top: 0.9rem;
+}
+.worksheet-graph-card {
+width: 100%;
+max-width: 320px;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.35);
+background: #ffffff;
+padding: 0.7rem;
+box-sizing: border-box;
+}
+.worksheet-graph-card svg {
+display: block;
+width: 100%;
+height: auto;
+}
+.worksheet-options {
+display: grid;
+gap: 0.35rem;
+margin-top: 0.85rem;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.75rem;
+}
+.worksheet-option {
+font-size: 0.96rem;
+line-height: 1.45;
+}
+.worksheet-option-graph {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: flex-start;
+}
+.worksheet-graph-caption {
+font-size: 0.86rem;
+color: #475569;
+font-weight: 600;
+}
+.worksheet-answer-list {
+display: grid;
+gap: 0.75rem;
+}
+.worksheet-answer-item {
+padding: 0.9rem 1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-answer-label {
+font-weight: 700;
+margin-bottom: 0.25rem;
+}
+.worksheet-answer-text {
+color: #334155;
+}
+.worksheet-page-break {
+break-before: page;
+page-break-before: always;
+}
+@media (prefers-color-scheme: dark) {
+.worksheet-shell {
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.14), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.14), transparent 36%),
+#020617;
+border-color: rgba(148, 163, 184, 0.28);
+box-shadow: 0 20px 40px rgba(2, 6, 23, 0.55);
+}
+.worksheet-sheet,
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+background: #0f172a;
+color: #e2e8f0;
+border-color: rgba(148, 163, 184, 0.2);
+}
+.worksheet-intro,
+.worksheet-instruction,
+.worksheet-answer-text,
+.worksheet-item-header,
+.worksheet-meta,
+.worksheet-graph-caption {
+color: #cbd5e1;
+}
+.worksheet-line {
+border-bottom-color: #64748b;
+}
+.worksheet-action-secondary {
+background: #334155;
+color: #e2e8f0;
+}
+.worksheet-meta span {
+background: rgba(51, 65, 85, 0.85);
+}
+}
+@media (max-width: 700px) {
+.worksheet-header {
+grid-template-columns: 1fr;
+gap: 0.85rem;
+}
+.worksheet-title {
+max-width: none;
+font-size: 1.75rem;
+}
+.worksheet-meta {
+justify-content: flex-start;
+text-align: left;
+flex-wrap: wrap;
+padding-top: 0;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: 1fr;
+}
+}
+@media print {
+.worksheet-shell {
+margin: 0;
+padding: 0;
+max-width: none;
+border: none;
+box-shadow: none;
+background: #ffffff;
+}
+.worksheet-actions {
+display: none !important;
+}
+body * {
+visibility: hidden !important;
+}
+#worksheet-0,
+#worksheet-0 * {
+visibility: visible !important;
+}
+#worksheet-0 {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+.worksheet-sheet {
+border: none;
+border-radius: 0;
+padding: 0;
+background: #ffffff;
+color: #000000;
+}
+.worksheet-page {
+min-height: auto;
+}
+.worksheet-list,
+.worksheet-question-page-group {
+gap: 0.7rem;
+}
+.worksheet-question-page-group {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+break-inside: avoid;
+page-break-inside: avoid;
+background: #ffffff;
+color: #000000;
+border-color: #cbd5e1;
+}
+.worksheet-item {
+grid-column: 1 / -1;
+padding: 0.75rem 0.8rem 0.85rem;
+}
+.worksheet-item-header {
+margin-bottom: 0.35rem;
+font-size: 0.82rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-body {
+display: grid;
+grid-template-columns: 180px minmax(0, 1fr);
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item-has-question-graph .worksheet-question-figure {
+margin-top: 0;
+}
+.worksheet-item-has-question-graph .worksheet-options {
+margin-top: 0;
+align-content: start;
+gap: 0.18rem;
+}
+.worksheet-item-has-question-graph .worksheet-graph-card {
+max-width: 180px;
+padding: 0.25rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-question {
+margin-bottom: 0.45rem;
+font-size: 0.95rem;
+line-height: 1.4;
+}
+.worksheet-item-has-question-graph .worksheet-option {
+font-size: 0.88rem;
+line-height: 1.25;
+}
+.worksheet-item-has-question-graph .worksheet-option-graph {
+gap: 0.3rem;
+}
+.worksheet-item-compact-print {
+grid-column: auto;
+}
+.worksheet-item-compact-print .worksheet-item-body {
+grid-template-columns: 110px minmax(0, 1fr);
+gap: 0.55rem;
+}
+.worksheet-item-compact-print .worksheet-graph-card {
+max-width: 110px;
+padding: 0.18rem;
+}
+.worksheet-item-compact-print .worksheet-item-question {
+font-size: 0.9rem;
+line-height: 1.28;
+}
+.worksheet-item-compact-print .worksheet-option {
+font-size: 0.82rem;
+line-height: 1.18;
+}
+.worksheet-item-compact-print .worksheet-item-header {
+font-size: 0.76rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+break-before: page;
+page-break-before: always;
+margin-top: 0;
+}
+.worksheet-mode-graph-read .worksheet-question-page-group,
+.worksheet-mode-graph-match .worksheet-question-page-group {
+display: block;
+}
+.worksheet-mode-graph-read .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item {
+grid-column: auto;
+border-radius: 0.55rem;
+padding: 0.6rem 0.7rem;
+}
+.worksheet-mode-graph-read .worksheet-item + .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item + .worksheet-item {
+margin-top: 0.5rem;
+}
+.worksheet-mode-graph-read .worksheet-item-header,
+.worksheet-mode-graph-match .worksheet-item-header {
+font-size: 0.78rem;
+margin-bottom: 0.25rem;
+}
+.worksheet-mode-graph-read .worksheet-item-question,
+.worksheet-mode-graph-match .worksheet-item-question {
+font-size: 0.88rem;
+line-height: 1.25;
+margin-bottom: 0.35rem;
+}
+.worksheet-mode-graph-read .worksheet-item-body {
+display: grid;
+grid-template-columns: minmax(0, 1fr) 128px;
+gap: 0.55rem;
+align-items: start;
+}
+.worksheet-mode-graph-read .worksheet-question-figure {
+margin: 0;
+justify-self: end;
+}
+.worksheet-mode-graph-read .worksheet-options {
+margin-top: 0;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+column-gap: 0.95rem;
+row-gap: 0.15rem;
+align-content: start;
+}
+.worksheet-mode-graph-read .worksheet-option {
+font-size: 0.8rem;
+line-height: 1.18;
+}
+.worksheet-mode-graph-read .worksheet-graph-card {
+max-width: 128px;
+padding: 0.12rem;
+border-radius: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-item-body {
+display: block;
+}
+.worksheet-mode-graph-match .worksheet-options {
+margin-top: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-options-graph-grid {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 0.35rem;
+}
+.worksheet-mode-graph-match .worksheet-option {
+font-size: 0.72rem;
+line-height: 1.05;
+}
+.worksheet-mode-graph-match .worksheet-option-graph {
+gap: 0.15rem;
+align-items: stretch;
+}
+.worksheet-mode-graph-match .worksheet-graph-card {
+max-width: none;
+padding: 0.08rem;
+border-radius: 0.4rem;
+}
+.worksheet-mode-graph-match .worksheet-graph-caption {
+font-size: 0.68rem;
+line-height: 1.05;
+}
+}
+&lt;/style&gt;
+&lt;div id="worksheet-0" class="worksheet-shell" data-count="12" data-questions='[]'&gt;
+&lt;div class="worksheet-actions"&gt;
+&lt;button type="button" class="worksheet-action" data-regenerate&gt;Generate New Worksheet&lt;/button&gt;
+&lt;button type="button" class="worksheet-action worksheet-action-secondary" data-print&gt;Print Worksheet&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-sheet"&gt;
+&lt;section class="worksheet-page"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Difference of Squares Worksheet&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 1 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Solve each problem. Show your work.&lt;/p&gt;
+&lt;div class="worksheet-name-line"&gt;
+&lt;div&gt;Name: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;Date: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-list" data-question-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="worksheet-page worksheet-page-break"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Difference of Squares Worksheet Answer Key&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;12 questions&lt;/span&gt;
+&lt;span&gt;Page 2 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Check your work using the correct answers below.&lt;/p&gt;
+&lt;div class="worksheet-answer-list" data-answer-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+const root = document.getElementById('worksheet-0');
+if (!root) return;
+const allQuestions = JSON.parse(root.dataset.questions || '[]');
+const desiredCount = Number(root.dataset.count || '12');
+const questionList = root.querySelector('[data-question-list]');
+const answerList = root.querySelector('[data-answer-list]');
+const regenerateButton = root.querySelector('[data-regenerate]');
+const printButton = root.querySelector('[data-print]');
+const worksheetMode = root.dataset.mode || '';
+function shuffle(array) {
+const copy = [...array];
+for (let i = copy.length - 1; i &gt; 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[copy[i], copy[j]] = [copy[j], copy[i]];
+}
+return copy;
+}
+function formatQuestionText(text) {
+return String(text || '')
+.replace(/\r\n/g, '\n')
+.replace(/\r/g, '\n')
+.split('\n')
+.map((line) =&gt; line.trim())
+.join('\n')
+.replace(/\n{3,}/g, '\n\n')
+.trim();
+}
+function optionLetter(index) {
+return String.fromCharCode(65 + index);
+}
+function parseGraphSpec(raw) {
+if (!raw) return null;
+try {
+return JSON.parse(raw);
+} catch (error) {
+return null;
+}
+}
+function createSvgNode(tag, attrs) {
+const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+Object.entries(attrs || {}).forEach(([key, value]) =&gt; node.setAttribute(key, value));
+return node;
+}
+function mapX(x, width, padding, spec) {
+return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+}
+function mapY(y, height, padding, spec) {
+return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+}
+function renderGraphCard(container, graphSpec) {
+if (!container) return;
+container.innerHTML = '';
+if (!graphSpec || graphSpec.type !== 'line') return;
+const width = 240;
+const height = 240;
+const padding = 26;
+const spec = {
+type: 'line',
+slope: Number(graphSpec.slope || 0),
+intercept: Number(graphSpec.intercept || 0),
+vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+x_min: Number(graphSpec.x_min || -5),
+x_max: Number(graphSpec.x_max || 5),
+y_min: Number(graphSpec.y_min || -5),
+y_max: Number(graphSpec.y_max || 5),
+color: graphSpec.color || '#2563eb',
+label: graphSpec.label || ''
+};
+const darkMode = window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches;
+const theme = darkMode
+? { surface: '#0f172a', grid: '#334155', axis: '#e2e8f0', label: '#cbd5e1' }
+: { surface: '#ffffff', grid: '#cbd5e1', axis: '#0f172a', label: '#64748b' };
+const svg = createSvgNode('svg', {
+viewBox: `0 0 ${width} ${height}`,
+role: 'img',
+'aria-label': spec.label || 'Coordinate plane'
+});
+svg.appendChild(createSvgNode('rect', {
+x: 0,
+y: 0,
+width,
+height,
+rx: 12,
+fill: theme.surface
+}));
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+const px = mapX(x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: x === 0 ? theme.axis : theme.grid,
+'stroke-width': x === 0 ? 1.6 : 1
+}));
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+const py = mapY(y, height, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: padding,
+y1: py,
+x2: width - padding,
+y2: py,
+stroke: y === 0 ? theme.axis : theme.grid,
+'stroke-width': y === 0 ? 1.6 : 1
+}));
+}
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+if (x === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(x, width, padding, spec),
+y: mapY(0, height, padding, spec) + 15,
+'text-anchor': 'middle',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(x);
+svg.appendChild(label);
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+if (y === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(0, width, padding, spec) - 10,
+y: mapY(y, height, padding, spec) + 3,
+'text-anchor': 'end',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(y);
+svg.appendChild(label);
+}
+if (spec.vertical_x !== null &amp;&amp; Number.isFinite(spec.vertical_x)) {
+const px = mapX(spec.vertical_x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+} else {
+const x1 = spec.x_min;
+const x2 = spec.x_max;
+const y1 = spec.slope * x1 + spec.intercept;
+const y2 = spec.slope * x2 + spec.intercept;
+svg.appendChild(createSvgNode('line', {
+x1: mapX(x1, width, padding, spec),
+y1: mapY(y1, height, padding, spec),
+x2: mapX(x2, width, padding, spec),
+y2: mapY(y2, height, padding, spec),
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+}
+if (Array.isArray(graphSpec.points)) {
+graphSpec.points.forEach((point) =&gt; {
+if (!Array.isArray(point) || point.length &lt; 2) return;
+svg.appendChild(createSvgNode('circle', {
+cx: mapX(Number(point[0]), width, padding, spec),
+cy: mapY(Number(point[1]), height, padding, spec),
+r: 4,
+fill: '#f97316'
+}));
+});
+}
+container.appendChild(svg);
+}
+function clearQuestionPagination() {
+const groups = Array.from(questionList.querySelectorAll('.worksheet-question-page-group'));
+if (!groups.length) return;
+const items = groups.flatMap((group) =&gt; Array.from(group.children));
+questionList.innerHTML = '';
+items.forEach((item) =&gt; questionList.appendChild(item));
+}
+function paginateQuestionList() {
+clearQuestionPagination();
+const items = Array.from(questionList.children);
+if (!items.length) return;
+root.classList.add('worksheet-measure-print');
+const maxPageHeight = worksheetMode === 'graph-read' ? 980 : worksheetMode === 'graph-match' ? 760 : 1120;
+const gapAllowance = 12;
+const groups = [];
+let currentGroup = [];
+let currentHeight = 0;
+items.forEach((item) =&gt; {
+const itemHeight = Math.ceil(item.getBoundingClientRect().height);
+const nextHeight = currentGroup.length ? currentHeight + gapAllowance + itemHeight : itemHeight;
+if (currentGroup.length &amp;&amp; nextHeight &gt; maxPageHeight) {
+groups.push(currentGroup);
+currentGroup = [item];
+currentHeight = itemHeight;
+} else {
+currentGroup.push(item);
+currentHeight = nextHeight;
+}
+});
+if (currentGroup.length) {
+groups.push(currentGroup);
+}
+questionList.innerHTML = '';
+groups.forEach((groupItems) =&gt; {
+const pageGroup = document.createElement('div');
+pageGroup.className = 'worksheet-question-page-group';
+groupItems.forEach((item) =&gt; pageGroup.appendChild(item));
+questionList.appendChild(pageGroup);
+});
+root.classList.remove('worksheet-measure-print');
+}
+function buildWorksheet() {
+const selected = shuffle(allQuestions).slice(0, Math.min(desiredCount, allQuestions.length));
+questionList.innerHTML = '';
+answerList.innerHTML = '';
+selected.forEach((question, index) =&gt; {
+const item = document.createElement('article');
+item.className = 'worksheet-item';
+const difficulty = question.difficulty ? String(question.difficulty) : 'Practice';
+const type = question.type ? String(question.type) : 'Question';
+const options = Array.isArray(question.options) ? question.options : [];
+const optionGraphs = Array.isArray(question.option_graphs) ? question.option_graphs : [];
+const answerIndex = Number(question.answer || 0);
+const questionGraph = question.question_graph || null;
+if (questionGraph) {
+item.classList.add('worksheet-item-has-question-graph');
+}
+if (questionGraph &amp;&amp; !optionGraphs.length &amp;&amp; !worksheetMode) {
+item.classList.add('worksheet-item-compact-print');
+}
+item.innerHTML = `
+&lt;div class="worksheet-item-header"&gt;
+&lt;span&gt;Question ${index + 1}&lt;/span&gt;
+&lt;span&gt;${difficulty} · ${type}&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-item-question"&gt;${formatQuestionText(question.question)}&lt;/p&gt;
+&lt;div class="worksheet-item-body"&gt;&lt;/div&gt;
+`;
+const body = item.querySelector('.worksheet-item-body');
+const optionWrap = document.createElement('div');
+optionWrap.className = optionGraphs.length
+? 'worksheet-options worksheet-options-graph-grid'
+: 'worksheet-options';
+if (questionGraph) {
+const figure = document.createElement('div');
+figure.className = 'worksheet-question-figure';
+figure.innerHTML = '&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;';
+if (worksheetMode === 'graph-read') {
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+body.appendChild(optionWrap);
+body.appendChild(figure);
+} else {
+body.appendChild(figure);
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+}
+}
+if (optionGraphs.length) {
+optionGraphs.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.innerHTML = `
+&lt;div class="worksheet-option-graph"&gt;
+&lt;div&gt;${optionLetter(optionIndex)}.&lt;/div&gt;
+&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;
+&lt;div class="worksheet-graph-caption"&gt;${option.label || `Graph ${optionLetter(optionIndex)}`}&lt;/div&gt;
+&lt;/div&gt;
+`;
+optionWrap.appendChild(row);
+renderGraphCard(row.querySelector('.worksheet-graph-card'), option.graph || null);
+});
+} else {
+options.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.textContent = `${optionLetter(optionIndex)}. ${option}`;
+optionWrap.appendChild(row);
+});
+}
+if (!questionGraph || worksheetMode !== 'graph-read') {
+body.appendChild(optionWrap);
+}
+questionList.appendChild(item);
+const answerChoices = optionGraphs.length
+? optionGraphs.map((option) =&gt; option.label || '')
+: options;
+const answerItem = document.createElement('article');
+answerItem.className = 'worksheet-answer-item';
+answerItem.innerHTML = `
+&lt;div class="worksheet-answer-label"&gt;Question ${index + 1}&lt;/div&gt;
+&lt;div class="worksheet-answer-text"&gt;${optionLetter(answerIndex)}. ${answerChoices[answerIndex] || ''}&lt;/div&gt;
+`;
+answerList.appendChild(answerItem);
+});
+requestAnimationFrame(() =&gt; {
+paginateQuestionList();
+});
+}
+if (regenerateButton) {
+regenerateButton.addEventListener('click', buildWorksheet);
+}
+if (printButton) {
+printButton.addEventListener('click', () =&gt; {
+paginateQuestionList();
+window.print();
+});
+}
+window.addEventListener('beforeprint', paginateQuestionList);
+buildWorksheet();
+})();
+&lt;/script&gt;
+&lt;h2&gt;FAQ&lt;span class="hx:absolute hx:-mt-20" id="faq"&gt;&lt;/span&gt;
+&lt;a href="#faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: Does &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;a^2 + b^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;a&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8141em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;b&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; factor the same way?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; No. The sum of squares does not factor the same way over the real numbers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: How do I know if something is a perfect square?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Look for terms like &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;x^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8141em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;9&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;9&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;16&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;16y^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;16&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal" style="margin-right:0.03588em;"&gt;y&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, or anything that can be written as a quantity squared.&lt;/p&gt;</description></item><item><title>Mixed Factoring Polynomials Worksheet</title><link>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/mixed-factoring-polynomials-worksheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/algebra-i/factoring-trinomials/worksheets/mixed-factoring-polynomials-worksheet/</guid><description>
+&lt;p&gt;This mixed factoring polynomials worksheet combines GCF, trinomials, and difference of squares in one printable review. It includes 16 randomized questions and an answer key on page 2.&lt;/p&gt;
+&lt;h2&gt;What Does This Worksheet Cover?&lt;span class="hx:absolute hx:-mt-20" id="what-does-this-worksheet-cover"&gt;&lt;/span&gt;
+&lt;a href="#what-does-this-worksheet-cover" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This worksheet is designed for mixed factoring review. Students practice deciding whether to factor out a GCF first, use trinomial factoring, or recognize a difference of squares pattern.&lt;/p&gt;
+&lt;h2&gt;How to Approach Mixed Factoring Problems&lt;span class="hx:absolute hx:-mt-20" id="how-to-approach-mixed-factoring-problems"&gt;&lt;/span&gt;
+&lt;a href="#how-to-approach-mixed-factoring-problems" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Look for a GCF first.&lt;/li&gt;
+&lt;li&gt;Decide whether the remaining expression is a trinomial or a special pattern.&lt;/li&gt;
+&lt;li&gt;Use the factoring method that best matches the expression.&lt;/li&gt;
+&lt;li&gt;Check your answer by multiplying the factors back together.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Factor &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;3x^2 - 12&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First factor out the GCF:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;3x^2 - 12 = 3(x^2 - 4)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6444em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;12&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1.0641em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then factor the difference of squares:&lt;/p&gt;
+&lt;p&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;3(x^2 - 4) = 3(x - 2)(x + 2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1.0641em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8141em;"&gt;&lt;span style="top:-3.063em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;4&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;3&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;−&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;2&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;span class="mopen"&gt;(&lt;/span&gt;&lt;span class="mord mathnormal"&gt;x&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;span class="mbin"&gt;+&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2222em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;2&lt;/span&gt;&lt;span class="mclose"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;style&gt;
+.worksheet-shell {
+margin: 2rem auto;
+padding: 1.5rem;
+max-width: 960px;
+border-radius: 1.25rem;
+border: 1px solid rgba(148, 163, 184, 0.32);
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.07), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.07), transparent 36%),
+#ffffff;
+box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+.worksheet-actions {
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 1rem;
+}
+.worksheet-action {
+border: none;
+border-radius: 999px;
+padding: 0.7rem 1rem;
+font-size: 0.95rem;
+font-weight: 600;
+cursor: pointer;
+background: #0f172a;
+color: #f8fafc;
+}
+.worksheet-action-secondary {
+background: #e2e8f0;
+color: #0f172a;
+}
+.worksheet-sheet {
+background: #ffffff;
+color: #0f172a;
+border-radius: 1rem;
+border: 1px solid rgba(148, 163, 184, 0.3);
+padding: 2rem 2rem 2.25rem;
+}
+.worksheet-page + .worksheet-page {
+margin-top: 2rem;
+}
+.worksheet-header {
+display: grid;
+grid-template-columns: minmax(0, 1fr) auto;
+gap: 1rem 1.5rem;
+align-items: start;
+margin-bottom: 1.25rem;
+}
+.worksheet-title {
+font-size: clamp(1.7rem, 2.2vw, 1.95rem);
+line-height: 1.02;
+font-weight: 800;
+margin: 0;
+max-width: 20ch;
+text-wrap: balance;
+}
+.worksheet-meta {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+font-size: 0.88rem;
+color: #475569;
+text-align: right;
+white-space: nowrap;
+padding-top: 0.2rem;
+}
+.worksheet-meta span {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-height: 2rem;
+padding: 0.2rem 0.7rem;
+border-radius: 999px;
+background: rgba(226, 232, 240, 0.8);
+}
+.worksheet-intro {
+margin: 0;
+color: #334155;
+line-height: 1.6;
+max-width: 58ch;
+}
+.worksheet-instruction {
+margin: 0 0 1.25rem;
+font-size: 0.96rem;
+font-weight: 600;
+color: #334155;
+}
+.worksheet-name-line {
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 1.25rem;
+font-size: 0.95rem;
+}
+.worksheet-line {
+flex: 1;
+border-bottom: 1px solid #94a3b8;
+min-height: 1.25rem;
+}
+.worksheet-list {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group {
+display: grid;
+gap: 1rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+margin-top: 1rem;
+}
+.worksheet-item {
+padding: 1rem 1rem 1.1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-item-body {
+display: block;
+}
+.worksheet-item-header {
+display: flex;
+justify-content: space-between;
+gap: 0.75rem;
+margin-bottom: 0.5rem;
+font-size: 0.88rem;
+color: #475569;
+}
+.worksheet-item-question {
+font-size: 1rem;
+line-height: 1.6;
+margin: 0;
+white-space: pre-line;
+}
+.worksheet-question-figure {
+margin-top: 0.9rem;
+}
+.worksheet-graph-card {
+width: 100%;
+max-width: 320px;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.35);
+background: #ffffff;
+padding: 0.7rem;
+box-sizing: border-box;
+}
+.worksheet-graph-card svg {
+display: block;
+width: 100%;
+height: auto;
+}
+.worksheet-options {
+display: grid;
+gap: 0.35rem;
+margin-top: 0.85rem;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.75rem;
+}
+.worksheet-option {
+font-size: 0.96rem;
+line-height: 1.45;
+}
+.worksheet-option-graph {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: flex-start;
+}
+.worksheet-graph-caption {
+font-size: 0.86rem;
+color: #475569;
+font-weight: 600;
+}
+.worksheet-answer-list {
+display: grid;
+gap: 0.75rem;
+}
+.worksheet-answer-item {
+padding: 0.9rem 1rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.28);
+background: #f8fafc;
+}
+.worksheet-answer-label {
+font-weight: 700;
+margin-bottom: 0.25rem;
+}
+.worksheet-answer-text {
+color: #334155;
+}
+.worksheet-page-break {
+break-before: page;
+page-break-before: always;
+}
+@media (prefers-color-scheme: dark) {
+.worksheet-shell {
+background:
+radial-gradient(circle at top left, rgba(59, 130, 246, 0.14), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.14), transparent 36%),
+#020617;
+border-color: rgba(148, 163, 184, 0.28);
+box-shadow: 0 20px 40px rgba(2, 6, 23, 0.55);
+}
+.worksheet-sheet,
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+background: #0f172a;
+color: #e2e8f0;
+border-color: rgba(148, 163, 184, 0.2);
+}
+.worksheet-intro,
+.worksheet-instruction,
+.worksheet-answer-text,
+.worksheet-item-header,
+.worksheet-meta,
+.worksheet-graph-caption {
+color: #cbd5e1;
+}
+.worksheet-line {
+border-bottom-color: #64748b;
+}
+.worksheet-action-secondary {
+background: #334155;
+color: #e2e8f0;
+}
+.worksheet-meta span {
+background: rgba(51, 65, 85, 0.85);
+}
+}
+@media (max-width: 700px) {
+.worksheet-header {
+grid-template-columns: 1fr;
+gap: 0.85rem;
+}
+.worksheet-title {
+max-width: none;
+font-size: 1.75rem;
+}
+.worksheet-meta {
+justify-content: flex-start;
+text-align: left;
+flex-wrap: wrap;
+padding-top: 0;
+}
+.worksheet-options-graph-grid {
+grid-template-columns: 1fr;
+}
+}
+@media print {
+.worksheet-shell {
+margin: 0;
+padding: 0;
+max-width: none;
+border: none;
+box-shadow: none;
+background: #ffffff;
+}
+.worksheet-actions {
+display: none !important;
+}
+body * {
+visibility: hidden !important;
+}
+#worksheet-0,
+#worksheet-0 * {
+visibility: visible !important;
+}
+#worksheet-0 {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+.worksheet-sheet {
+border: none;
+border-radius: 0;
+padding: 0;
+background: #ffffff;
+color: #000000;
+}
+.worksheet-page {
+min-height: auto;
+}
+.worksheet-list,
+.worksheet-question-page-group {
+gap: 0.7rem;
+}
+.worksheet-question-page-group {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item,
+.worksheet-answer-item,
+.worksheet-graph-card {
+break-inside: avoid;
+page-break-inside: avoid;
+background: #ffffff;
+color: #000000;
+border-color: #cbd5e1;
+}
+.worksheet-item {
+grid-column: 1 / -1;
+padding: 0.75rem 0.8rem 0.85rem;
+}
+.worksheet-item-header {
+margin-bottom: 0.35rem;
+font-size: 0.82rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-body {
+display: grid;
+grid-template-columns: 180px minmax(0, 1fr);
+gap: 0.7rem;
+align-items: start;
+}
+.worksheet-item-has-question-graph .worksheet-question-figure {
+margin-top: 0;
+}
+.worksheet-item-has-question-graph .worksheet-options {
+margin-top: 0;
+align-content: start;
+gap: 0.18rem;
+}
+.worksheet-item-has-question-graph .worksheet-graph-card {
+max-width: 180px;
+padding: 0.25rem;
+}
+.worksheet-item-has-question-graph .worksheet-item-question {
+margin-bottom: 0.45rem;
+font-size: 0.95rem;
+line-height: 1.4;
+}
+.worksheet-item-has-question-graph .worksheet-option {
+font-size: 0.88rem;
+line-height: 1.25;
+}
+.worksheet-item-has-question-graph .worksheet-option-graph {
+gap: 0.3rem;
+}
+.worksheet-item-compact-print {
+grid-column: auto;
+}
+.worksheet-item-compact-print .worksheet-item-body {
+grid-template-columns: 110px minmax(0, 1fr);
+gap: 0.55rem;
+}
+.worksheet-item-compact-print .worksheet-graph-card {
+max-width: 110px;
+padding: 0.18rem;
+}
+.worksheet-item-compact-print .worksheet-item-question {
+font-size: 0.9rem;
+line-height: 1.28;
+}
+.worksheet-item-compact-print .worksheet-option {
+font-size: 0.82rem;
+line-height: 1.18;
+}
+.worksheet-item-compact-print .worksheet-item-header {
+font-size: 0.76rem;
+}
+.worksheet-question-page-group + .worksheet-question-page-group {
+break-before: page;
+page-break-before: always;
+margin-top: 0;
+}
+.worksheet-mode-graph-read .worksheet-question-page-group,
+.worksheet-mode-graph-match .worksheet-question-page-group {
+display: block;
+}
+.worksheet-mode-graph-read .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item {
+grid-column: auto;
+border-radius: 0.55rem;
+padding: 0.6rem 0.7rem;
+}
+.worksheet-mode-graph-read .worksheet-item + .worksheet-item,
+.worksheet-mode-graph-match .worksheet-item + .worksheet-item {
+margin-top: 0.5rem;
+}
+.worksheet-mode-graph-read .worksheet-item-header,
+.worksheet-mode-graph-match .worksheet-item-header {
+font-size: 0.78rem;
+margin-bottom: 0.25rem;
+}
+.worksheet-mode-graph-read .worksheet-item-question,
+.worksheet-mode-graph-match .worksheet-item-question {
+font-size: 0.88rem;
+line-height: 1.25;
+margin-bottom: 0.35rem;
+}
+.worksheet-mode-graph-read .worksheet-item-body {
+display: grid;
+grid-template-columns: minmax(0, 1fr) 128px;
+gap: 0.55rem;
+align-items: start;
+}
+.worksheet-mode-graph-read .worksheet-question-figure {
+margin: 0;
+justify-self: end;
+}
+.worksheet-mode-graph-read .worksheet-options {
+margin-top: 0;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+column-gap: 0.95rem;
+row-gap: 0.15rem;
+align-content: start;
+}
+.worksheet-mode-graph-read .worksheet-option {
+font-size: 0.8rem;
+line-height: 1.18;
+}
+.worksheet-mode-graph-read .worksheet-graph-card {
+max-width: 128px;
+padding: 0.12rem;
+border-radius: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-item-body {
+display: block;
+}
+.worksheet-mode-graph-match .worksheet-options {
+margin-top: 0.45rem;
+}
+.worksheet-mode-graph-match .worksheet-options-graph-grid {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 0.35rem;
+}
+.worksheet-mode-graph-match .worksheet-option {
+font-size: 0.72rem;
+line-height: 1.05;
+}
+.worksheet-mode-graph-match .worksheet-option-graph {
+gap: 0.15rem;
+align-items: stretch;
+}
+.worksheet-mode-graph-match .worksheet-graph-card {
+max-width: none;
+padding: 0.08rem;
+border-radius: 0.4rem;
+}
+.worksheet-mode-graph-match .worksheet-graph-caption {
+font-size: 0.68rem;
+line-height: 1.05;
+}
+}
+&lt;/style&gt;
+&lt;div id="worksheet-0" class="worksheet-shell" data-count="16" data-questions='[]'&gt;
+&lt;div class="worksheet-actions"&gt;
+&lt;button type="button" class="worksheet-action" data-regenerate&gt;Generate New Worksheet&lt;/button&gt;
+&lt;button type="button" class="worksheet-action worksheet-action-secondary" data-print&gt;Print Worksheet&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-sheet"&gt;
+&lt;section class="worksheet-page"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Mixed Factoring Polynomials Worksheet&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;16 questions&lt;/span&gt;
+&lt;span&gt;Page 1 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Solve each problem. Show your work.&lt;/p&gt;
+&lt;div class="worksheet-name-line"&gt;
+&lt;div&gt;Name: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;Date: &lt;span class="worksheet-line"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-list" data-question-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="worksheet-page worksheet-page-break"&gt;
+&lt;div class="worksheet-header"&gt;
+&lt;div&gt;
+&lt;p class="worksheet-title"&gt;Mixed Factoring Polynomials Worksheet Answer Key&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="worksheet-meta"&gt;
+&lt;span&gt;16 questions&lt;/span&gt;
+&lt;span&gt;Page 2 of 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-instruction"&gt;Check your work using the correct answers below.&lt;/p&gt;
+&lt;div class="worksheet-answer-list" data-answer-list&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+const root = document.getElementById('worksheet-0');
+if (!root) return;
+const allQuestions = JSON.parse(root.dataset.questions || '[]');
+const desiredCount = Number(root.dataset.count || '12');
+const questionList = root.querySelector('[data-question-list]');
+const answerList = root.querySelector('[data-answer-list]');
+const regenerateButton = root.querySelector('[data-regenerate]');
+const printButton = root.querySelector('[data-print]');
+const worksheetMode = root.dataset.mode || '';
+function shuffle(array) {
+const copy = [...array];
+for (let i = copy.length - 1; i &gt; 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[copy[i], copy[j]] = [copy[j], copy[i]];
+}
+return copy;
+}
+function formatQuestionText(text) {
+return String(text || '')
+.replace(/\r\n/g, '\n')
+.replace(/\r/g, '\n')
+.split('\n')
+.map((line) =&gt; line.trim())
+.join('\n')
+.replace(/\n{3,}/g, '\n\n')
+.trim();
+}
+function optionLetter(index) {
+return String.fromCharCode(65 + index);
+}
+function parseGraphSpec(raw) {
+if (!raw) return null;
+try {
+return JSON.parse(raw);
+} catch (error) {
+return null;
+}
+}
+function createSvgNode(tag, attrs) {
+const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+Object.entries(attrs || {}).forEach(([key, value]) =&gt; node.setAttribute(key, value));
+return node;
+}
+function mapX(x, width, padding, spec) {
+return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+}
+function mapY(y, height, padding, spec) {
+return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+}
+function renderGraphCard(container, graphSpec) {
+if (!container) return;
+container.innerHTML = '';
+if (!graphSpec || graphSpec.type !== 'line') return;
+const width = 240;
+const height = 240;
+const padding = 26;
+const spec = {
+type: 'line',
+slope: Number(graphSpec.slope || 0),
+intercept: Number(graphSpec.intercept || 0),
+vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+x_min: Number(graphSpec.x_min || -5),
+x_max: Number(graphSpec.x_max || 5),
+y_min: Number(graphSpec.y_min || -5),
+y_max: Number(graphSpec.y_max || 5),
+color: graphSpec.color || '#2563eb',
+label: graphSpec.label || ''
+};
+const darkMode = window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches;
+const theme = darkMode
+? { surface: '#0f172a', grid: '#334155', axis: '#e2e8f0', label: '#cbd5e1' }
+: { surface: '#ffffff', grid: '#cbd5e1', axis: '#0f172a', label: '#64748b' };
+const svg = createSvgNode('svg', {
+viewBox: `0 0 ${width} ${height}`,
+role: 'img',
+'aria-label': spec.label || 'Coordinate plane'
+});
+svg.appendChild(createSvgNode('rect', {
+x: 0,
+y: 0,
+width,
+height,
+rx: 12,
+fill: theme.surface
+}));
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+const px = mapX(x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: x === 0 ? theme.axis : theme.grid,
+'stroke-width': x === 0 ? 1.6 : 1
+}));
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+const py = mapY(y, height, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: padding,
+y1: py,
+x2: width - padding,
+y2: py,
+stroke: y === 0 ? theme.axis : theme.grid,
+'stroke-width': y === 0 ? 1.6 : 1
+}));
+}
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+if (x === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(x, width, padding, spec),
+y: mapY(0, height, padding, spec) + 15,
+'text-anchor': 'middle',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(x);
+svg.appendChild(label);
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+if (y === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(0, width, padding, spec) - 10,
+y: mapY(y, height, padding, spec) + 3,
+'text-anchor': 'end',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(y);
+svg.appendChild(label);
+}
+if (spec.vertical_x !== null &amp;&amp; Number.isFinite(spec.vertical_x)) {
+const px = mapX(spec.vertical_x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+} else {
+const x1 = spec.x_min;
+const x2 = spec.x_max;
+const y1 = spec.slope * x1 + spec.intercept;
+const y2 = spec.slope * x2 + spec.intercept;
+svg.appendChild(createSvgNode('line', {
+x1: mapX(x1, width, padding, spec),
+y1: mapY(y1, height, padding, spec),
+x2: mapX(x2, width, padding, spec),
+y2: mapY(y2, height, padding, spec),
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+}
+if (Array.isArray(graphSpec.points)) {
+graphSpec.points.forEach((point) =&gt; {
+if (!Array.isArray(point) || point.length &lt; 2) return;
+svg.appendChild(createSvgNode('circle', {
+cx: mapX(Number(point[0]), width, padding, spec),
+cy: mapY(Number(point[1]), height, padding, spec),
+r: 4,
+fill: '#f97316'
+}));
+});
+}
+container.appendChild(svg);
+}
+function clearQuestionPagination() {
+const groups = Array.from(questionList.querySelectorAll('.worksheet-question-page-group'));
+if (!groups.length) return;
+const items = groups.flatMap((group) =&gt; Array.from(group.children));
+questionList.innerHTML = '';
+items.forEach((item) =&gt; questionList.appendChild(item));
+}
+function paginateQuestionList() {
+clearQuestionPagination();
+const items = Array.from(questionList.children);
+if (!items.length) return;
+root.classList.add('worksheet-measure-print');
+const maxPageHeight = worksheetMode === 'graph-read' ? 980 : worksheetMode === 'graph-match' ? 760 : 1120;
+const gapAllowance = 12;
+const groups = [];
+let currentGroup = [];
+let currentHeight = 0;
+items.forEach((item) =&gt; {
+const itemHeight = Math.ceil(item.getBoundingClientRect().height);
+const nextHeight = currentGroup.length ? currentHeight + gapAllowance + itemHeight : itemHeight;
+if (currentGroup.length &amp;&amp; nextHeight &gt; maxPageHeight) {
+groups.push(currentGroup);
+currentGroup = [item];
+currentHeight = itemHeight;
+} else {
+currentGroup.push(item);
+currentHeight = nextHeight;
+}
+});
+if (currentGroup.length) {
+groups.push(currentGroup);
+}
+questionList.innerHTML = '';
+groups.forEach((groupItems) =&gt; {
+const pageGroup = document.createElement('div');
+pageGroup.className = 'worksheet-question-page-group';
+groupItems.forEach((item) =&gt; pageGroup.appendChild(item));
+questionList.appendChild(pageGroup);
+});
+root.classList.remove('worksheet-measure-print');
+}
+function buildWorksheet() {
+const selected = shuffle(allQuestions).slice(0, Math.min(desiredCount, allQuestions.length));
+questionList.innerHTML = '';
+answerList.innerHTML = '';
+selected.forEach((question, index) =&gt; {
+const item = document.createElement('article');
+item.className = 'worksheet-item';
+const difficulty = question.difficulty ? String(question.difficulty) : 'Practice';
+const type = question.type ? String(question.type) : 'Question';
+const options = Array.isArray(question.options) ? question.options : [];
+const optionGraphs = Array.isArray(question.option_graphs) ? question.option_graphs : [];
+const answerIndex = Number(question.answer || 0);
+const questionGraph = question.question_graph || null;
+if (questionGraph) {
+item.classList.add('worksheet-item-has-question-graph');
+}
+if (questionGraph &amp;&amp; !optionGraphs.length &amp;&amp; !worksheetMode) {
+item.classList.add('worksheet-item-compact-print');
+}
+item.innerHTML = `
+&lt;div class="worksheet-item-header"&gt;
+&lt;span&gt;Question ${index + 1}&lt;/span&gt;
+&lt;span&gt;${difficulty} · ${type}&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="worksheet-item-question"&gt;${formatQuestionText(question.question)}&lt;/p&gt;
+&lt;div class="worksheet-item-body"&gt;&lt;/div&gt;
+`;
+const body = item.querySelector('.worksheet-item-body');
+const optionWrap = document.createElement('div');
+optionWrap.className = optionGraphs.length
+? 'worksheet-options worksheet-options-graph-grid'
+: 'worksheet-options';
+if (questionGraph) {
+const figure = document.createElement('div');
+figure.className = 'worksheet-question-figure';
+figure.innerHTML = '&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;';
+if (worksheetMode === 'graph-read') {
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+body.appendChild(optionWrap);
+body.appendChild(figure);
+} else {
+body.appendChild(figure);
+renderGraphCard(figure.querySelector('.worksheet-graph-card'), questionGraph);
+}
+}
+if (optionGraphs.length) {
+optionGraphs.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.innerHTML = `
+&lt;div class="worksheet-option-graph"&gt;
+&lt;div&gt;${optionLetter(optionIndex)}.&lt;/div&gt;
+&lt;div class="worksheet-graph-card"&gt;&lt;/div&gt;
+&lt;div class="worksheet-graph-caption"&gt;${option.label || `Graph ${optionLetter(optionIndex)}`}&lt;/div&gt;
+&lt;/div&gt;
+`;
+optionWrap.appendChild(row);
+renderGraphCard(row.querySelector('.worksheet-graph-card'), option.graph || null);
+});
+} else {
+options.forEach((option, optionIndex) =&gt; {
+const row = document.createElement('div');
+row.className = 'worksheet-option';
+row.textContent = `${optionLetter(optionIndex)}. ${option}`;
+optionWrap.appendChild(row);
+});
+}
+if (!questionGraph || worksheetMode !== 'graph-read') {
+body.appendChild(optionWrap);
+}
+questionList.appendChild(item);
+const answerChoices = optionGraphs.length
+? optionGraphs.map((option) =&gt; option.label || '')
+: options;
+const answerItem = document.createElement('article');
+answerItem.className = 'worksheet-answer-item';
+answerItem.innerHTML = `
+&lt;div class="worksheet-answer-label"&gt;Question ${index + 1}&lt;/div&gt;
+&lt;div class="worksheet-answer-text"&gt;${optionLetter(answerIndex)}. ${answerChoices[answerIndex] || ''}&lt;/div&gt;
+`;
+answerList.appendChild(answerItem);
+});
+requestAnimationFrame(() =&gt; {
+paginateQuestionList();
+});
+}
+if (regenerateButton) {
+regenerateButton.addEventListener('click', buildWorksheet);
+}
+if (printButton) {
+printButton.addEventListener('click', () =&gt; {
+paginateQuestionList();
+window.print();
+});
+}
+window.addEventListener('beforeprint', paginateQuestionList);
+buildWorksheet();
+})();
+&lt;/script&gt;
+&lt;h2&gt;FAQ&lt;span class="hx:absolute hx:-mt-20" id="faq"&gt;&lt;/span&gt;
+&lt;a href="#faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: Why should I check for GCF first?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Many factoring problems are not completely factored until the GCF is removed first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: How do I know which factoring method to use?&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Start by identifying the structure of the expression: common factor, trinomial, or special product pattern.&lt;/p&gt;</description></item></channel></rss>
