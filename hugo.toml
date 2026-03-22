@@ -4,6 +4,10 @@ title = "Math Learning Site"
 
 theme = "hextra"
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-SBWP5KZB8K"
+
 [params]
   defaultTheme = "light"
   displayToggle = true
@@ -22,4 +26,3 @@ theme = "hextra"
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [["$$","$$"], ["\\[","\\]"]]
           inline = [["$","$"], ["\\(","\\)"]]
-

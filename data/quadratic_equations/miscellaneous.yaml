@@ -1244,3 +1244,245 @@ quadratic_word_problems__wp_quad_50:
 
 # Moved from solving_quadratics_by_factoring.yaml
 # SOLVING QUADRATICS BY FACTORING QUESTION BANK
+advanced_q1:
+  type: "Biquadratic Substitution"
+  difficulty: "Hard"
+  question: "Find the real roots of x⁴ - 5x² + 4 = 0."
+  options: 
+    - "±1, ±2"
+    - "1, 4"
+    - "±1, ±4"
+    - "±2, ±4"
+  answer: 0
+  explanation: "Let u = x². The equation becomes u² - 5u + 4 = 0, which factors to (u-4)(u-1) = 0. Thus x²=4 or x²=1, giving x = ±2 or ±1."
+
+advanced_q2:
+  type: "Exponential Substitution"
+  difficulty: "Hard"
+  question: "Solve for x: 4ˣ - 3(2ˣ) + 2 = 0"
+  options: 
+    - "x = 1, x = 2"
+    - "x = 0, x = 1"
+    - "x = 2, x = 4"
+    - "x = 1, x = 0.5"
+  answer: 1
+  explanation: "Let t = 2ˣ. Then (2ˣ)² - 3(2ˣ) + 2 = 0 becomes t² - 3t + 2 = 0. Factors are (t-2)(t-1)=0. So 2ˣ = 2 (x=1) or 2ˣ = 1 (x=0)."
+
+advanced_q3:
+  type: "Reciprocal Equation"
+  difficulty: "Expert"
+  question: "To solve x⁴ + 2x³ - 6x² + 2x + 1 = 0, we divide by x² and substitute y = x + 1/x. What is the resulting quadratic in y?"
+  options: 
+    - "y² + 2y - 6 = 0"
+    - "y² + 2y - 8 = 0"
+    - "y² + 2y - 4 = 0"
+    - "y² - 6y + 2 = 0"
+  answer: 1
+  explanation: "Dividing by x² gives (x² + 1/x²) + 2(x + 1/x) - 6 = 0. Since x² + 1/x² = (x + 1/x)² - 2, substituting y gives (y² - 2) + 2y - 6 = 0, or y² + 2y - 8 = 0."
+
+advanced_q4:
+  type: "Irrational Equation"
+  difficulty: "Hard"
+  question: "Solve √(x + 7) = x + 1. Which of the following is the only valid solution?"
+  options: 
+    - "x = 2"
+    - "x = -3"
+    - "x = 2 and x = -3"
+    - "x = 9"
+  answer: 0
+  explanation: "Squaring gives x + 7 = x² + 2x + 1 -> x² + x - 6 = 0 -> (x+3)(x-2)=0. x = -3 is extraneous because √(-3+7) = √4 = 2, but -3+1 = -2. Only x=2 is valid."
+
+advanced_q5:
+  type: "Modulus Equation"
+  difficulty: "Expert"
+  question: "How many real solutions exist for |x² - 4| = 3?"
+  options: 
+    - "2"
+    - "3"
+    - "4"
+    - "1"
+  answer: 2
+  explanation: "Case 1: x² - 4 = 3 => x² = 7 => x = ±√7. Case 2: x² - 4 = -3 => x² = 1 => x = ±1. All four values satisfy the original modulus equation."
+
+advanced_q6:
+  type: "Logarithmic Substitution"
+  difficulty: "Hard"
+  question: "Solve: (log₂x)² - log₂x⁴ + 3 = 0"
+  options: 
+    - "x = 2, x = 8"
+    - "x = 1, x = 3"
+    - "x = 4, x = 16"
+    - "x = 2, x = 4"
+  answer: 0
+  explanation: "Rewrite log₂x⁴ as 4log₂x. Let t = log₂x. Equation: t² - 4t + 3 = 0. (t-3)(t-1)=0. log₂x=3 (x=8) or log₂x=1 (x=2)."
+
+advanced_q7:
+  type: "Substitution"
+  difficulty: "Expert"
+  question: "Factor x - 5√x + 6 = 0 into linear-root factors."
+  options: 
+    - "(x - 2)(x - 3)"
+    - "(√x - 2)(√x - 3)"
+    - "(√x + 2)(√x + 3)"
+    - "(x - 4)(x - 9)"
+  answer: 1
+  explanation: "Let u = √x. Then u² - 5u + 6 = (u - 2)(u - 3). Substituting back gives (√x - 2)(√x - 3)."
+
+advanced_q8:
+  type: "Biquadratic"
+  difficulty: "Hard"
+  question: "Find the values of x² for the equation 9x⁴ - 37x² + 4 = 0."
+  options: 
+    - "4 and 1/9"
+    - "2 and 1/3"
+    - "9 and 4"
+    - "±2 and ±1/3"
+  answer: 0
+  explanation: "Let u = x². 9u² - 37u + 4 = 0. Using AC method: 9*4=36. -36 and -1 add to -37. (9u-1)(u-4)=0. u = 1/9, u = 4."
+
+advanced_q9:
+  type: "Absolute Value"
+  difficulty: "Expert"
+  question: "Find the sum of roots for |x - 2|² + |x - 2| - 6 = 0."
+  options: 
+    - "2"
+    - "4"
+    - "0"
+    - "6"
+  answer: 1
+  explanation: "Let t = |x - 2|. t² + t - 6 = 0 => (t+3)(t-2)=0. Since |x-2| cannot be -3, we take |x-2|=2. This gives x-2=2 (x=4) and x-2=-2 (x=0). Sum = 4+0 = 4."
+
+advanced_q10:
+  type: "Reciprocal Equation"
+  difficulty: "Expert"
+  question: "If x + 1/x = 3, find the value of x² + 1/x²."
+  options: 
+    - "9"
+    - "6"
+    - "7"
+    - "11"
+  answer: 2
+  explanation: "Square both sides: (x + 1/x)² = 3² => x² + 2 + 1/x² = 9 => x² + 1/x² = 7."
+
+advanced_q11:
+  type: "Irrational Substitution"
+  difficulty: "Expert"
+  question: "Solve: x² - 5x + 2√(x² - 5x + 3) = 12. (Hint: Let u = √(x² - 5x + 3))"
+  options: 
+    - "u = 3 or u = -5"
+    - "u = 3"
+    - "x = 6, x = -1"
+    - "x = 2, x = 3"
+  answer: 2
+  explanation: "Let u = √(x² - 5x + 3). Then u² = x² - 5x + 3, so x² - 5x = u² - 3. Equation becomes (u² - 3) + 2u = 12 => u² + 2u - 15 = 0. (u+5)(u-3)=0. Since u is a square root, u=3. √(x² - 5x + 3)=3 => x² - 5x + 3=9 => x² - 5x - 6 = 0 => (x-6)(x+1)=0."
+
+advanced_q12:
+  type: "Hidden Trig Quadratic"
+  difficulty: "Expert"
+  question: "Factor: 2cos²x - 5cosx + 2"
+  options: 
+    - "(2cosx - 1)(cosx - 2)"
+    - "(2cosx + 1)(cosx + 2)"
+    - "(2cosx - 2)(cosx - 1)"
+    - "(cosx - 1)(2cosx - 5)"
+  answer: 0
+  explanation: "Substitute u = cosx. 2u² - 5u + 2 factors to (2u - 1)(u - 2). Replace u with cosx."
+
+advanced_q13:
+  type: "Reciprocal Equation"
+  difficulty: "Expert"
+  question: "What substitution is typically used for the equation 2x⁴ + x³ - 6x² + x + 2 = 0?"
+  options: 
+    - "y = x²"
+    - "y = x + 1/x"
+    - "y = x - 1/x"
+    - "y = 2x + 1"
+  answer: 1
+  explanation: "This is a symmetric reciprocal equation. Dividing by x² groups terms as 2(x² + 1/x²) + (x + 1/x) - 6 = 0, making y = x + 1/x the ideal choice."
+
+advanced_q14:
+  type: "Irrational Logic"
+  difficulty: "Hard"
+  question: "Why does squaring √(2x - 1) = -5 yield an extraneous solution?"
+  options: 
+    - "Because the discriminant is negative."
+    - "Because a principal square root cannot be negative."
+    - "Because the equation is a cubic in disguise."
+    - "Because x must be an integer."
+  answer: 1
+  explanation: "√(2x - 1) is defined as the non-negative root. It can never equal -5. Squaring removes the sign difference, creating a solution that doesn't work in the original equation."
+
+advanced_q15:
+  type: "Double Modulus"
+  difficulty: "Expert"
+  question: "Solve: |x² - 1| = 0"
+  options: 
+    - "x = 1"
+    - "x = ±1"
+    - "x = 0"
+    - "No solution"
+  answer: 1
+  explanation: "For the absolute value to be zero, the inside expression must be zero. x² - 1 = 0 gives x = ±1."
+
+advanced_q16:
+  type: "Power Substitution"
+  difficulty: "Hard"
+  question: "Solve for x: x^(2/3) - 5x^(1/3) + 6 = 0"
+  options: 
+    - "x = 2, x = 3"
+    - "x = 8, x = 27"
+    - "x = 4, x = 9"
+    - "x = √2, x = √3"
+  answer: 1
+  explanation: "Let u = x^(1/3). u² - 5u + 6 = 0 => (u-2)(u-3)=0. u=2 => x=2³=8; u=3 => x=3³=27."
+
+advanced_q17:
+  type: "Biquadratic Complex"
+  difficulty: "Expert"
+  question: "Find the real roots of x⁴ + 3x² - 4 = 0."
+  options: 
+    - "±1"
+    - "±1, ±2"
+    - "±1, ±2i"
+    - "1, -4"
+  answer: 0
+  explanation: "Let u = x². u² + 3u - 4 = 0 => (u+4)(u-1)=0. x² = -4 (no real roots) or x² = 1 (x = ±1)."
+
+advanced_q18:
+  type: "Exponential Advance"
+  difficulty: "Expert"
+  question: "Solve: 3²ˣ⁺¹ - 10(3ˣ) + 3 = 0"
+  options: 
+    - "x = 1, x = -1"
+    - "x = 0, x = 1"
+    - "x = 3, x = 1/3"
+    - "x = 1, x = 0"
+  answer: 0
+  explanation: "Rewrite 3²ˣ⁺¹ as 3 · (3ˣ)². Let t = 3ˣ. 3t² - 10t + 3 = 0 => (3t-1)(t-3)=0. t=3 (x=1) or t=1/3 (x=-1)."
+
+advanced_q19:
+  type: "Radical Substitution"
+  difficulty: "Expert"
+  question: "Solve: √(x/x-1) + √(x-1/x) = 13/6"
+  options: 
+    - "x = 4/13"
+    - "x = 9/5, x = -4/5"
+    - "x = 4/5, x = 9/5"
+    - "x = 13/6"
+  answer: 1
+  explanation: "Let u = √(x/x-1). Then the equation is u + 1/u = 13/6. Solving for u gives 3/2 or 2/3. Set √(x/x-1) = 3/2 and 2/3 to solve for x."
+
+advanced_q20:
+  type: "Modulus Case Analysis"
+  difficulty: "Expert"
+  question: "Solve |x² - 3x + 2| = x - 1."
+  options: 
+    - "x = 1, x = 3"
+    - "x = 1, x = 2, x = 3"
+    - "x = 1"
+    - "x = 3"
+  answer: 0
+  explanation: "Factor inside: |(x-1)(x-2)| = x-1. If x≥2 or x≤1, (x-1)(x-2) = x-1 => x-2=1 (x=3) or x-1=0 (x=1). If 1<x<2, -(x-1)(x-2) = x-1 => -x+2=1 (x=1, not in interval). Valid solutions are 1 and 3."
+
+
+  

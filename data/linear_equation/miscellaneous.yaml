@@ -1143,3 +1143,374 @@ systems_of_equations_test__sys_q10:
 
 # --- UNIT 4: WORD PROBLEMS & APPLICATIONS ---
 # Targets: "System of equations word problems", "Break-even analysis"
+
+# --- UNIT 1: LITERAL EQUATIONS (8 Questions) ---
+
+lit_q1:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve for x in terms of a and b: a(x - b) = b(x + a)"
+  options: ["x = 2ab / (a - b)", "x = ab / (a + b)", "x = 0", "x = 2ab / (a + b)"]
+  answer: 0
+  explanation: "ax - ab = bx + ab -> ax - bx = 2ab -> x(a - b) = 2ab -> x = 2ab/(a-b)."
+
+lit_q2:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve for y: 3x - 4y = 12"
+  options: ["y = (3/4)x - 3", "y = (3/4)x + 3", "y = -(4/3)x + 4", "y = 3x - 12"]
+  answer: 0
+
+lit_q3:
+  type: "Literal Equations"
+  difficulty: "Expert"
+  question: "Solve for c: 1/a = 1/b + 1/c"
+  options: ["c = ab / (b - a)", "c = (b - a) / ab", "c = a - b", "c = ab / (a + b)"]
+  answer: 0
+
+lit_q4:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve for h: V = (1/3)πr²h"
+  options: ["h = 3V / (πr²)", "h = V / (3πr²)", "h = √(3V/π)", "h = 3V - πr²"]
+  answer: 0
+
+lit_q5:
+  type: "Literal Equations"
+  difficulty: "Expert"
+  question: "Solve for x: m(x - n) = p(x + q)"
+  options: ["x = (mn + pq) / (m - p)", "x = (mn - pq) / (m + p)", "x = mn + pq", "x = (m - p) / (mn + pq)"]
+  answer: 0
+
+lit_q6:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve for w: P = 2l + 2w"
+  options: ["w = (P - 2l) / 2", "w = P - l", "w = 2P - l", "w = (P + 2l) / 2"]
+  answer: 0
+
+lit_q7:
+  type: "Literal Equations"
+  difficulty: "Expert"
+  question: "Solve for x: (x + a) / b = (x - b) / a"
+  options: ["x = -(a² + b²) / (a - b)", "x = (a² + b²) / (b - a)", "x = ab", "x = a + b"]
+  answer: 0
+
+lit_q8:
+  type: "Literal Equations"
+  difficulty: "Hard"
+  question: "Solve for C: F = (9/5)C + 32"
+  options: ["C = (5/9)(F - 32)", "C = (9/5)(F + 32)", "C = 5F - 160", "C = F - 32 / 1.8"]
+  answer: 0
+
+# --- UNIT 2: ABSOLUTE VALUE (8 Questions) ---
+
+abs_q9:
+  type: "Absolute Value"
+  difficulty: "Hard"
+  question: "Solve: |3x + 2| = 11"
+  options: ["x = 3, x = -13/3", "x = 3", "x = -3, x = 13/3", "No Solution"]
+  answer: 0
+
+abs_q10:
+  type: "Absolute Value"
+  difficulty: "Hard"
+  question: "Solve: |x - 5| = -2"
+  options: ["x = 3", "x = 7", "x = 3, 7", "No Solution"]
+  answer: 3
+  explanation: "Absolute value represents distance and cannot be negative."
+
+abs_q11:
+  type: "Absolute Value"
+  difficulty: "Expert"
+  question: "Solve: |x + 4| = |2x - 1|"
+  options: ["x = 5, x = -1", "x = 5", "x = -1", "x = 5, x = 1"]
+  answer: 0
+
+abs_q12:
+  type: "Absolute Value"
+  difficulty: "Expert"
+  question: "Solve: |x - 4| = 2x + 1"
+  options: ["x = 1, x = -5", "x = 1", "x = -5", "No solution"]
+  answer: 1
+  explanation: "Checking x = -5: |-5-4| = 9, but 2(-5)+1 = -9. 9 ≠ -9. Only x=1 works."
+
+abs_q13:
+  type: "Absolute Value"
+  difficulty: "Hard"
+  question: "Solve: 2|x + 3| - 4 = 10"
+  options: ["x = 4, x = -10", "x = 4", "x = -10", "x = 7, x = -7"]
+  answer: 0
+
+abs_q14:
+  type: "Absolute Value"
+  difficulty: "Expert"
+  question: "Solve: |3x - 5| = |3x + 5|"
+  options: ["x = 0", "x = 5/3", "No solution", "Infinite solutions"]
+  answer: 0
+
+abs_q15:
+  type: "Absolute Value"
+  difficulty: "Hard"
+  question: "Solve: |x/2 - 1| = 3"
+  options: ["x = 8, x = -4", "x = 4, x = -8", "x = 8", "x = -4"]
+  answer: 0
+
+abs_q16:
+  type: "Absolute Value"
+  difficulty: "Expert"
+  question: "How many solutions exist for |x - 2| + 5 = 5?"
+  options: ["0", "1", "2", "Infinite"]
+  answer: 1
+  explanation: "|x-2| = 0 only has one solution (x=2)."
+
+# --- UNIT 3: RATE/SPEED WORD PROBLEMS (7 Questions) ---
+
+rate_q17:
+  type: "Relative Rate"
+  difficulty: "Expert"
+  question: "A car leaves at 40 mph. 1 hour later, a second car leaves at 60 mph. How long after the second car starts will it catch the first?"
+  options: ["2 hours", "3 hours", "1.5 hours", "4 hours"]
+  answer: 0
+
+rate_q18:
+  type: "Relative Rate (Head-on)"
+  difficulty: "Expert"
+  question: "Two towns are 300 miles apart. Car A (50 mph) and Car B (70 mph) drive toward each other. How long until they meet?"
+  options: ["2.5 hours", "3 hours", "4 hours", "2 hours"]
+  answer: 0
+
+rate_q19:
+  type: "Upstream/Downstream"
+  difficulty: "Expert"
+  question: "A boat travels 12 mph in still water. If the river current is 3 mph, how long is a 45-mile trip upstream?"
+  options: ["5 hours", "3 hours", "15 hours", "4 hours"]
+  answer: 0
+  explanation: "Upstream speed = 12 - 3 = 9 mph. Time = 45 / 9 = 5."
+
+rate_q20:
+  type: "Speed Shift"
+  difficulty: "Hard"
+  question: "If I walk at 5 mph instead of 4 mph, I save 15 minutes. How far am I walking?"
+  options: ["5 miles", "4 miles", "6 miles", "3 miles"]
+  answer: 0
+
+rate_q21:
+  type: "Work Rate"
+  difficulty: "Expert"
+  question: "John can paint a room in 3 hours. Dave takes 6 hours. How long together?"
+  options: ["2 hours", "4.5 hours", "9 hours", "2.5 hours"]
+  answer: 0
+
+rate_q22:
+  type: "Average Speed"
+  difficulty: "Hard"
+  question: "I drive 60 miles at 30 mph and 60 miles at 60 mph. What is the total travel time?"
+  options: ["3 hours", "2 hours", "2.5 hours", "4 hours"]
+  answer: 0
+
+rate_q23:
+  type: "Relative Distance"
+  difficulty: "Expert"
+  question: "Two joggers start at the same point and run in opposite directions. One runs at 6 mph, the other at 8 mph. When will they be 21 miles apart?"
+  options: ["1.5 hours", "2 hours", "3 hours", "1 hour"]
+  answer: 0
+
+# --- UNIT 4: NO/INFINITE SOLUTION LOGIC (6 Questions) ---
+
+logic_q24:
+  type: "No Solution"
+  difficulty: "Hard"
+  question: "Find k if 4x - 9 = kx + 2 has no solution."
+  options: ["k = 4", "k = -9", "k = 0", "k = 2"]
+  answer: 0
+
+logic_q25:
+  type: "Infinite Solutions"
+  difficulty: "Hard"
+  question: "Solve: 3(2x - 4) = 6x - 12"
+  options: ["x = 0", "x = 2", "No Solution", "Infinite Solutions"]
+  answer: 3
+
+logic_q26:
+  type: "Identity Logic"
+  difficulty: "Expert"
+  question: "For what value of 'a' and 'b' does ax + 7 = 3x + b have infinite solutions?"
+  options: ["a=3, b=7", "a=7, b=3", "a=3, b=3", "a=0, b=0"]
+  answer: 0
+
+logic_q27:
+  type: "Logic Trap"
+  difficulty: "Hard"
+  question: "A student simplifies an equation to 0 = 0. This means the original equation is a(n) ________."
+  options: ["Contradiction", "Identity", "Conditional", "Quadratic"]
+  answer: 1
+
+logic_q28:
+  type: "Contradiction"
+  difficulty: "Hard"
+  question: "Solve: 5(x + 1) = 5x + 1"
+  options: ["x = 0", "x = 1", "No Solution", "Infinite Solutions"]
+  answer: 2
+
+logic_q29:
+  type: "No Solution Expert"
+  difficulty: "Expert"
+  question: "If m(x - 2) = 4x + 1 has no solution, what is m?"
+  options: ["4", "-2", "1", "0"]
+  answer: 0
+
+# --- UNIT 5: FRACTIONAL/RATIONAL LINEAR (7 Questions) ---
+
+frac_q30:
+  type: "Fractional Linear"
+  difficulty: "Hard"
+  question: "Solve: (x/4) + (x/3) = 7"
+  options: ["x = 12", "x = 7", "x = 1", "x = 24"]
+  answer: 0
+
+frac_q31:
+  type: "Fractional Linear"
+  difficulty: "Hard"
+  question: "Solve: 2/x + 3/x = 1"
+  options: ["x = 5", "x = 1", "x = 6", "x = 0"]
+  answer: 0
+
+frac_q32:
+  type: "Extraneous Solution"
+  difficulty: "Expert"
+  question: "Solve: x / (x - 2) = 2 / (x - 2) + 1"
+  options: ["x = 2", "No Solution", "x = 0", "Infinite Solutions"]
+  answer: 1
+  explanation: "Solving gives x=2, but x=2 makes the denominator zero."
+
+frac_q33:
+  type: "Fractional Linear"
+  difficulty: "Hard"
+  question: "Solve: (x + 1) / 2 - (x - 1) / 3 = 2"
+  options: ["x = 7", "x = 5", "x = 11", "x = 1"]
+  answer: 0
+
+frac_q34:
+  type: "Cross Multiply"
+  difficulty: "Hard"
+  question: "Solve: 5 / (2x - 3) = 2 / (x + 1)"
+  options: ["x = 11", "x = -11", "x = 1", "x = 9"]
+  answer: 0
+
+frac_q35:
+  type: "Fractional Linear"
+  difficulty: "Expert"
+  question: "Solve: 3 / x = 12 / (x + 3)"
+  options: ["x = 1", "x = 3", "x = 4", "x = 12"]
+  answer: 0
+
+frac_q36:
+  type: "Fractional GCF"
+  difficulty: "Hard"
+  question: "Solve: (2/5)x - 1 = (1/10)x + 2"
+  options: ["x = 10", "x = 5", "x = 15", "x = 20"]
+  answer: 0
+
+# --- UNIT 6: DIGIT/NUMBER WORD PROBLEMS (7 Questions) ---
+
+num_q37:
+  type: "Digit Problem"
+  difficulty: "Expert"
+  question: "The sum of the digits of a 2-digit number is 9. Reversing the digits increases it by 27. Find the number."
+  options: ["36", "63", "45", "27"]
+  answer: 0
+  explanation: "10x + y = 36. 10y + x = 63. 63 - 36 = 27."
+
+num_q38:
+  type: "Consecutive Integers"
+  difficulty: "Hard"
+  question: "The sum of four consecutive integers is 66. Find the smallest."
+  options: ["15", "16", "17", "14"]
+  answer: 0
+
+num_q39:
+  type: "Digit Problem"
+  difficulty: "Expert"
+  question: "The units digit is double the tens digit. Reversing them increases the value by 18. Find the number."
+  options: ["24", "48", "12", "36"]
+  answer: 0
+
+num_q40:
+  type: "Number Logic"
+  difficulty: "Hard"
+  question: "One number is 5 more than twice another. Their sum is 20. Find the smaller number."
+  options: ["5", "10", "7.5", "15"]
+  answer: 0
+
+num_q41:
+  type: "Consecutive Odd"
+  difficulty: "Hard"
+  question: "The sum of three consecutive odd integers is 51. What is the middle integer?"
+  options: ["17", "15", "19", "21"]
+  answer: 0
+
+num_q42:
+  type: "Fraction Number"
+  difficulty: "Expert"
+  question: "A number's 3/4 part is 10 more than its 1/2 part. Find the number."
+  options: ["40", "20", "60", "80"]
+  answer: 0
+
+num_q43:
+  type: "Digit Logic"
+  difficulty: "Hard"
+  question: "A two-digit number ends in 5. The sum of digits is 1/7 of the number. Find the number."
+  options: ["35", "25", "15", "45"]
+  answer: 0
+
+# --- UNIT 7: GEOMETRIC LINEAR PROBLEMS (7 Questions) ---
+
+geo_q44:
+  type: "Perimeter"
+  difficulty: "Hard"
+  question: "The length of a rectangle is 3cm more than the width. If the perimeter is 26cm, find the width."
+  options: ["5 cm", "8 cm", "10 cm", "4 cm"]
+  answer: 0
+
+geo_q45:
+  type: "Triangle Angles"
+  difficulty: "Hard"
+  question: "Two angles of a triangle are equal. The third is 30° more than the others. Find the equal angles."
+  options: ["50°", "60°", "75°", "45°"]
+  answer: 0
+
+geo_q46:
+  type: "Complementary Angles"
+  difficulty: "Hard"
+  question: "An angle is 20° less than its complement. Find the angle."
+  options: ["35°", "55°", "45°", "25°"]
+  answer: 0
+
+geo_q47:
+  type: "Supplementary Angles"
+  difficulty: "Hard"
+  question: "Two angles are supplementary. One is triple the other. Find the smaller angle."
+  options: ["45°", "135°", "60°", "30°"]
+  answer: 0
+
+geo_q48:
+  type: "Isosceles Logic"
+  difficulty: "Expert"
+  question: "In an isosceles triangle, the vertex angle is 40°. Find the base angles."
+  options: ["70°", "140°", "40°", "60°"]
+  answer: 0
+
+geo_q49:
+  type: "Perimeter Shift"
+  difficulty: "Expert"
+  question: "If the side of a square is doubled, the perimeter increases by 20 units. What was the original side?"
+  options: ["5", "10", "4", "2.5"]
+  answer: 0
+
+geo_q50:
+  type: "Exterior Angle"
+  difficulty: "Expert"
+  question: "An exterior angle of a triangle is 110°. One interior opposite angle is 40°. Find the other interior opposite angle."
+  options: ["70°", "40°", "110°", "150°"]
+  answer: 0
