@@ -5,7 +5,11 @@
 {{ $title := .Get "title" | default "Worksheet" }}
 {{ $count := int (.Get "count" | default "12") }}
 {{ $bankList := split (.Get "banks" | default "") "," }}
-{{ $typeFilters := split (.Get "types" | default "") "," }}
+{{ $typesRaw := .Get "types" | default "" }}
+{{ $typeFilters := slice }}
+{{ if $typesRaw }}
+  {{ $typeFilters = split $typesRaw "," }}
+{{ end }}
 {{ $mode := .Get "mode" | default "" }}
 {{ $worksheetID := printf "worksheet-%d" .Ordinal }}
 {{ $questions := slice }}

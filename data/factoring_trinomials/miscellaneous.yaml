@@ -1481,3 +1481,243 @@ special_patterns_and_difference_of_squares__spec_q50:
   question: "Factor: x² + 2x + 1"
   options: ["(x+1)(x-1)", "(x-1)²", "(x+1)²", "(x+2)²"]
   answer: 2
+
+expert_q21:
+  type: "Substitution"
+  difficulty: "Expert"
+  question: "Factor completely: x⁶ - 9x³ + 8"
+  options: 
+    - "(x³ - 8)(x³ - 1)"
+    - "(x - 2)(x² + 2x + 4)(x - 1)(x² + x + 1)"
+    - "(x - 2)³(x - 1)³"
+    - "(x² - 2)(x⁴ + 2x² + 4)(x - 1)"
+  answer: 1
+  explanation: "Let u = x³. The expression becomes u² - 9u + 8 = (u - 8)(u - 1). Substituting back gives (x³ - 8)(x³ - 1). Both are differences of cubes: (x-2)(x²+2x+4) and (x-1)(x²+x+1)."
+
+expert_q22:
+  type: "Fractional Coefficients"
+  difficulty: "Hard"
+  question: "Factor: x² - 5/6x + 1/6"
+  options: 
+    - "(x - 1/2)(x - 1/3)"
+    - "(x - 5/6)(x - 1)"
+    - "(x - 1/6)(x - 1)"
+    - "(x - 2/3)(x - 1/2)"
+  answer: 0
+  explanation: "We need two numbers that multiply to 1/6 and add to -5/6. Since (-1/2) * (-1/3) = 1/6 and (-1/2) + (-1/3) = -3/6 - 2/6 = -5/6, the factors are (x - 1/2)(x - 1/3)."
+
+expert_q23:
+  type: "Multi-Variable Trinomial"
+  difficulty: "Hard"
+  question: "Factor: 6x² - 7xy - 3y²"
+  options: 
+    - "(6x + y)(x - 3y)"
+    - "(2x + 3y)(3x - y)"
+    - "(2x - 3y)(3x + y)"
+    - "(3x - 3y)(2x + y)"
+  answer: 2
+  explanation: "Using the AC method: 6 * -3 = -18. Factors of -18 that add to -7 are -9 and 2. Splitting the middle: 6x² - 9xy + 2xy - 3y² = 3x(2x - 3y) + y(2x - 3y) = (2x - 3y)(3x + y)."
+
+expert_q24:
+  type: "Trigonometric Substitution"
+  difficulty: "Expert"
+  question: "Factor: 2sin²θ + sinθ - 1"
+  options: 
+    - "(2sinθ - 1)(sinθ + 1)"
+    - "(2sinθ + 1)(sinθ - 1)"
+    - "(sinθ + 1)(sinθ - 1)"
+    - "(2sinθ - 1)²"
+  answer: 0
+  explanation: "Let u = sinθ. The trinomial 2u² + u - 1 factors into (2u - 1)(u + 1). Replacing u with sinθ gives (2sinθ - 1)(sinθ + 1)."
+
+expert_q25:
+  type: "Irrational AC Method"
+  difficulty: "Expert"
+  question: "Factor: √3x² + 11x + 6√3"
+  options: 
+    - "(√3x + 2)(x + 3√3)"
+    - "(√3x + 9)(x + 2)"
+    - "(3x + 2)(x + √3)"
+    - "(√3x + 3)(x + 2√3)"
+  answer: 0
+  explanation: "AC = √3 * 6√3 = 18. Factors of 18 that add to 11 are 9 and 2. Split: √3x² + 9x + 2x + 6√3 = √3x(x + 3√3) + 2(x + 3√3) = (√3x + 2)(x + 3√3)."
+
+expert_q26:
+  type: "Hidden Difference of Squares"
+  difficulty: "Expert"
+  question: "Factor: x⁴ + 4"
+  options: 
+    - "(x² + 2)²"
+    - "(x² + 2x + 2)(x² - 2x + 2)"
+    - "(x² + 2)(x² - 2)"
+    - "Prime"
+  answer: 1
+  explanation: "Using Sophie Germain's Identity: Add and subtract 4x² to get (x⁴ + 4x² + 4) - 4x² = (x² + 2)² - (2x)². This is a difference of squares: (x² + 2 + 2x)(x² + 2 - 2x)."
+
+expert_q27:
+  type: "Rational Simplification"
+  difficulty: "Hard"
+  question: "Simplify: (x² - 4) / (x² + 4x + 4)"
+  options: 
+    - "(x - 2) / (x + 2)"
+    - "1 / (x + 2)"
+    - "(x + 2) / (x - 2)"
+    - "x - 2"
+  answer: 0
+  explanation: "Numerator: (x-2)(x+2). Denominator: (x+2)(x+2). After canceling (x+2), we are left with (x-2)/(x+2)."
+
+expert_q28:
+  type: "Negative Leading Coefficient"
+  difficulty: "Hard"
+  question: "Factor completely: -3x² + 15x - 18"
+  options: 
+    - "-3(x - 2)(x - 3)"
+    - "-3(x + 2)(x + 3)"
+    - "3(x - 2)(x - 3)"
+    - "(3x - 6)(x - 3)"
+  answer: 0
+  explanation: "First factor out -3: -3(x² - 5x + 6). Then factor the trinomial: -3(x - 2)(x - 3)."
+
+expert_q29:
+  type: "Logarithmic Substitution"
+  difficulty: "Expert"
+  question: "Factor: (log x)² - 5(log x) + 6"
+  options: 
+    - "(log x - 6)(log x + 1)"
+    - "(log x - 2)(log x - 3)"
+    - "(log x + 2)(log x + 3)"
+    - "log(x² - 5x + 6)"
+  answer: 1
+  explanation: "Let u = log x. u² - 5u + 6 = (u - 2)(u - 3). Substituting back gives (log x - 2)(log x - 3)."
+
+expert_q30:
+  type: "Fractional GCF"
+  difficulty: "Expert"
+  question: "Factor: 1/4x² - x - 3"
+  options: 
+    - "1/4(x - 6)(x + 2)"
+    - "1/4(x - 2)(x + 6)"
+    - "1/4(x - 4)(x + 3)"
+    - "1/2(x - 3)(x + 1)"
+  answer: 0
+  explanation: "Factor out 1/4: 1/4(x² - 4x - 12). The trinomial factors to (x - 6)(x + 2). Result: 1/4(x - 6)(x + 2)."
+
+expert_q31:
+  type: "Fourth Degree Substitution"
+  difficulty: "Hard"
+  question: "Factor completely: x⁴ - 10x² + 9"
+  options: 
+    - "(x - 3)(x + 3)(x - 1)(x + 1)"
+    - "(x² - 9)(x² - 1)"
+    - "(x - 3)²(x - 1)²"
+    - "(x + 3)²(x + 1)²"
+  answer: 0
+  explanation: "Let u = x². u² - 10u + 9 = (u - 9)(u - 1). Substituting back gives (x² - 9)(x² - 1). Both are differences of squares: (x-3)(x+3)(x-1)(x+1)."
+
+expert_q32:
+  type: "Complex Multi-Variable"
+  difficulty: "Expert"
+  question: "Factor: x² + 2xy + y² - z²"
+  options: 
+    - "(x + y + z)(x + y - z)"
+    - "(x + y - z)²"
+    - "(x - y + z)(x - y - z)"
+    - "Prime"
+  answer: 0
+  explanation: "Group the first three terms: (x + y)² - z². This is now a difference of squares: (x + y + z)(x + y - z)."
+
+expert_q33:
+  type: "Irrational Middle Term"
+  difficulty: "Expert"
+  question: "Factor: x² - 4√2x + 6"
+  options: 
+    - "(x - 3√2)(x - √2)"
+    - "(x - 2√2)²"
+    - "(x - 6)(x - 1)"
+    - "Prime"
+  answer: 0
+  explanation: "We need numbers that multiply to 6 and add to -4√2. (-3√2) * (-√2) = 3 * 2 = 6. (-3√2) + (-√2) = -4√2. Factors are (x - 3√2)(x - √2)."
+
+expert_q34:
+  type: "Higher Degree Rational"
+  difficulty: "Expert"
+  question: "Simplify: (x³ - 1) / (x² - 1)"
+  options: 
+    - "(x² + x + 1) / (x + 1)"
+    - "(x² - x + 1) / (x + 1)"
+    - "x² + x + 1"
+    - "x - 1"
+  answer: 0
+  explanation: "Numerator: (x-1)(x²+x+1). Denominator: (x-1)(x+1). Cancel (x-1)."
+
+expert_q35:
+  type: "Leading Coefficient Choice"
+  difficulty: "Hard"
+  question: "Factor: 3x² - 2x - 5"
+  options: 
+    - "(3x - 5)(x + 1)"
+    - "(3x + 5)(x - 1)"
+    - "(3x + 1)(x - 5)"
+    - "(x - 5)(x + 1)"
+  answer: 0
+  explanation: "AC = -15. Factors are -5 and 3. 3x² - 5x + 3x - 5 = x(3x - 5) + 1(3x - 5) = (3x - 5)(x + 1)."
+
+expert_q36:
+  type: "Perfect Square Radical"
+  difficulty: "Expert"
+  question: "Factor: 2x² - 2√10x + 5"
+  options: 
+    - "(√2x - √5)²"
+    - "(2x - 5)²"
+    - "(√2x + √5)²"
+    - "(√2x - √5)(√2x + √5)"
+  answer: 0
+  explanation: "This fits a² - 2ab + b², where a = √2x and b = √5. Check: 2 * √2x * √5 = 2√10x."
+
+expert_q37:
+  type: "Cubic Grouping"
+  difficulty: "Expert"
+  question: "Factor completely: x³ - 2x² - 9x + 18"
+  options: 
+    - "(x - 2)(x - 3)(x + 3)"
+    - "(x + 2)(x - 3)(x + 3)"
+    - "(x - 2)(x - 3)²"
+    - "(x² - 9)(x + 2)"
+  answer: 0
+  explanation: "Group terms: x²(x - 2) - 9(x - 2) = (x² - 9)(x - 2) = (x - 3)(x + 3)(x - 2)."
+
+expert_q38:
+  type: "Rationalizing Factors"
+  difficulty: "Expert"
+  question: "Factor: x² - 3"
+  options: 
+    - "(x - √3)(x + √3)"
+    - "(x - 3)(x + 3)"
+    - "Prime over Reals"
+    - "(x - 1.73)²"
+  answer: 0
+  explanation: "This is a difference of squares where 3 is (√3)²."
+
+expert_q39:
+  type: "Substitution"
+  difficulty: "Expert"
+  question: "Factor: (x² - 1)² - 11(x² - 1) + 24"
+  options: 
+    - "(x - 3)(x + 3)(x - 2)(x + 2)"
+    - "(x² - 9)(x² - 4)"
+    - "(x² - 4)(x² - 9)"
+    - "(x - √3)(x + √3)(x - √8)(x + √8)"
+  answer: 3
+  explanation: "Let u = (x²-1). u² - 11u + 24 = (u-8)(u-3). Back-sub: (x²-1-8)(x²-1-3) = (x²-9)(x²-4) = (x-3)(x+3)(x-2)(x+2)."
+
+expert_q40:
+  type: "Double Variable Rational"
+  difficulty: "Expert"
+  question: "Factor: 1/9x² - 1/4y²"
+  options: 
+    - "(1/3x - 1/2y)(1/3x + 1/2y)"
+    - "(1/3x - 1/2y)²"
+    - "(1/9x - 1/4y)(x + y)"
+    - "1/36(4x² - 9y²)"
+  answer: 0
+  explanation: "Difference of squares where a = 1/3x and b = 1/2y."
