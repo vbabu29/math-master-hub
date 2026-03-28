@@ -1,6 +1,7 @@
 rad_q1:
   type: "Simplifying Radicals"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "Simplify the radical: √72"
   options: ["36√2", "6√2", "2√6", "8√9"]
   answer: 1
@@ -8,6 +9,7 @@ rad_q1:
 rad_q2:
   type: "Product Property"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify: √3 * √12"
   options: ["√15", "3", "6", "√36"]
   answer: 2
@@ -15,6 +17,7 @@ rad_q2:
 rad_q3:
   type: "Rationalizing Denominator"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Simplify: 5 / √2"
   options: ["5√2 / 2", "10 / 2", "√10 / 2", "5√2"]
   answer: 0
@@ -24,6 +27,7 @@ rad_q3:
 graph_q1:
   type: "Identify Roots"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "On a graph, the solutions to a quadratic equation are the points where the parabola crosses the:"
   options: ["y-axis", "Origin", "x-axis", "Vertex"]
   answer: 2
@@ -31,6 +35,7 @@ graph_q1:
 graph_q2:
   type: "Number of Solutions"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "If a parabola's vertex is at (3, 4) and it opens upward, how many real x-intercepts does it have?"
   options: ["0", "1", "2", "Infinite"]
   answer: 0
@@ -40,6 +45,7 @@ graph_q2:
 sqrt_q1:
   type: "Direct Solving"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "Solve: x² = 49"
   options: ["x = 7", "x = -7", "x = ±7", "x = 24.5"]
   answer: 2
@@ -47,6 +53,7 @@ sqrt_q1:
 sqrt_q2:
   type: "Missing Number"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Solve: (x - 3)² = 16"
   options: ["x = 7, -1", "x = 7, 1", "x = 19, -13", "x = 4, -4"]
   answer: 0
@@ -56,6 +63,7 @@ sqrt_q2:
 cts_q1:
   type: "Identify Constant"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "To complete the square for x² + 10x, what number must be added?"
   options: ["10", "100", "25", "5"]
   answer: 2
@@ -63,6 +71,7 @@ cts_q1:
 qf_q1:
   type: "Identify Coefficients"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "In the equation 3x² - 5 = 2x, what is the value of 'b' for the quadratic formula?"
   options: ["3", "-5", "2", "-2"]
   answer: 3
@@ -70,6 +79,7 @@ qf_q1:
 qf_q2:
   type: "Discriminant Logic"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "If b² - 4ac is negative, the equation has:"
   options: ["Two real solutions", "One real solution", "No real solutions", "Two negative solutions"]
   answer: 2
@@ -77,6 +87,7 @@ qf_q2:
 qf_q3:
   type: "Direct Solving"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solve using Quadratic Formula: x² - 4x - 1 = 0"
   options: ["x = 2 ± √5", "x = 4 ± √20", "x = 2 ± √3", "x = -2 ± √5"]
   answer: 0
@@ -86,6 +97,7 @@ qf_q3:
 sys_q1:
   type: "Substitution Method"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: |
     Solve the system:
     y = x²
@@ -96,6 +108,7 @@ sys_q1:
 sys_q2:
   type: "Error Detection"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: |
     A student solves a system of a line and a parabola and finds 3 intersection points. 
     Is this possible?
@@ -107,6 +120,7 @@ sys_q2:
 rad_q4:
   type: "Adding Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify: √18 + √50"
   options: ["√68", "8√2", "15√2", "4√2"]
   answer: 1
@@ -116,6 +130,7 @@ rad_q4:
 sqrt_q3:
   type: "Negative Square Root"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Solve: x² = -16"
   options: ["x = 4", "x = ±4", "No Real Solution", "x = -8"]
   answer: 2
@@ -125,6 +140,7 @@ sqrt_q3:
 cts_q3:
   type: "Missing Step"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "To complete the square for 2x² + 8x, what is the first step?"
   options: ["Add 16", "Divide by 2", "Subtract 8", "Square the 8"]
   answer: 1
@@ -134,6 +150,7 @@ cts_q3:
 qf_q4:
   type: "Discriminant Calculation"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Find the discriminant of x² + 5x + 4 = 0."
   options: ["9", "0", "-1", "25"]
   answer: 0
@@ -143,6 +160,7 @@ qf_q4:
 fact_solv_q1:
   type: "Direct Solving"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "Solve: (x - 5)(x + 2) = 0"
   options: ["x = 5, 2", "x = -5, 2", "x = 5, -2", "x = 0, 5"]
   answer: 2
@@ -150,6 +168,7 @@ fact_solv_q1:
 fact_solv_q2:
   type: "GCF and Solve"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "Solve: 3x² - 12x = 0"
   options: ["x = 4", "x = 0, 4", "x = 3, 12", "x = 0, -4"]
   answer: 1
@@ -159,6 +178,7 @@ fact_solv_q2:
 nature_q1:
   type: "Identify Roots"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A quadratic equation has a discriminant of 0. How many x-intercepts does its graph have?"
   options: ["Zero", "One", "Two", "Infinite"]
   answer: 1
@@ -168,6 +188,7 @@ nature_q1:
 wp_quad_q1:
   type: "Area Problem"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A square's area is doubled when its side is increased by 2. This leads to (s+2)² = 2s². Solve for the original side s."
   options: ["s = 2 + 2√2", "s = 1", "s = 4", "s = 2 ± √2"]
   answer: 0
@@ -175,6 +196,7 @@ wp_quad_q1:
 wp_quad_q2:
   type: "Vertical Motion"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A ball is dropped from 64 feet. Its height is h = -16t² + 64. When does it hit the ground?"
   options: ["t = 4 seconds", "t = 2 seconds", "t = 8 seconds", "t = 16 seconds"]
   answer: 1
@@ -187,6 +209,7 @@ wp_quad_q2:
 graphing_quadratics_and_systems__g_sys_01:
   type: "Vertex Logic"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "In the vertex form y = a(x - h)² + k, the value of 'k' tells you how far the parabola has shifted:"
   options: ["Left or right", "Up or down", "To the origin", "Inward"]
   answer: 1
@@ -194,6 +217,7 @@ graphing_quadratics_and_systems__g_sys_01:
 graphing_quadratics_and_systems__g_sys_02:
   type: "Symmetry Identification"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "The vertical line that cuts a parabola into two matching halves is called the:"
   options: ["X-intercept", "Directrix", "Axis of Symmetry", "Tangent"]
   answer: 2
@@ -201,6 +225,7 @@ graphing_quadratics_and_systems__g_sys_02:
 graphing_quadratics_and_systems__g_sys_03:
   type: "Graph Direction"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "If the leading coefficient 'a' in y = ax² + bx + c is negative, the 'arms' of the parabola will point:"
   options: ["Upward", "Rightward", "Downward", "Leftward"]
   answer: 2
@@ -208,6 +233,7 @@ graphing_quadratics_and_systems__g_sys_03:
 graphing_quadratics_and_systems__g_sys_04:
   type: "Vertex vs Y-intercept"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "In the standard equation y = x² + 6x + 5, which constant represents the point where the graph crosses the vertical axis?"
   options: ["6", "5", "1", "0"]
   answer: 1
@@ -215,6 +241,7 @@ graphing_quadratics_and_systems__g_sys_04:
 graphing_quadratics_and_systems__g_sys_05:
   type: "System Visualization"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "If a line is tangent to a parabola, how many solutions does the system have?"
   options: ["Two", "Zero", "One", "Infinite"]
   answer: 2
@@ -222,6 +249,7 @@ graphing_quadratics_and_systems__g_sys_05:
 graphing_quadratics_and_systems__g_sys_06:
   type: "Guided Transformation"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "To move the graph of y = x² three units to the right, how should the equation be modified?"
   options: ["y = x² + 3", "y = (x + 3)²", "y = x² - 3", "y = (x - 3)²"]
   answer: 3
@@ -229,6 +257,7 @@ graphing_quadratics_and_systems__g_sys_06:
 graphing_quadratics_and_systems__g_sys_07:
   type: "Maximum/Minimum Logic"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A parabola opens upward. The y-coordinate of its vertex represents the:"
   options: ["Maximum value", "Minimum value", "X-intercept", "Slope"]
   answer: 1
@@ -236,6 +265,7 @@ graphing_quadratics_and_systems__g_sys_07:
 graphing_quadratics_and_systems__g_sys_08:
   type: "System Sketching"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Consider a parabola with a vertex at (0,5) opening upward and a line y = 2. How many times do they intersect?"
   options: ["0", "1", "2", "3"]
   answer: 0
@@ -243,6 +273,7 @@ graphing_quadratics_and_systems__g_sys_08:
 graphing_quadratics_and_systems__g_sys_09:
   type: "Width Analysis"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Compared to y = x², the graph of y = 4x² will appear:"
   options: ["Wider", "Shifted up", "Narrower", "Shifted left"]
   answer: 2
@@ -250,6 +281,7 @@ graphing_quadratics_and_systems__g_sys_09:
 graphing_quadratics_and_systems__g_sys_10:
   type: "Root Identification"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "If a parabola's vertex sits exactly on the x-axis, how many real roots does it have?"
   options: ["0", "1", "2", "Impossible to tell"]
   answer: 1
@@ -259,6 +291,7 @@ graphing_quadratics_and_systems__g_sys_10:
 graphing_quadratics_and_systems__g_sys_11:
   type: "Guided System Step"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "To solve the system y = x² - 4 and y = 5 graphically, you should look for the x-values where x² - 4 equals:"
   options: ["0", "5", "-4", "x"]
   answer: 1
@@ -266,6 +299,7 @@ graphing_quadratics_and_systems__g_sys_11:
 graphing_quadratics_and_systems__g_sys_12:
   type: "Domain/Range"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "For the graph of y = x² + 2, which of these is a possible y-value?"
   options: ["0", "1", "3", "-2"]
   answer: 2
@@ -273,6 +307,7 @@ graphing_quadratics_and_systems__g_sys_12:
 graphing_quadratics_and_systems__g_sys_13:
   type: "Reflections"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "The graph of y = -x² is a reflection of y = x² across the:"
   options: ["y-axis", "x-axis", "Line y=x", "Origin"]
   answer: 1
@@ -280,6 +315,7 @@ graphing_quadratics_and_systems__g_sys_13:
 graphing_quadratics_and_systems__g_sys_14:
   type: "Linear-Quadratic Intersection"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A line with a positive slope passes through the vertex of a parabola opening upward. What is the minimum number of intersections?"
   options: ["0", "1", "2", "3"]
   answer: 2
@@ -287,6 +323,7 @@ graphing_quadratics_and_systems__g_sys_14:
 graphing_quadratics_and_systems__g_sys_15:
   type: "Vertex Identification"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "What is the vertex of the function y = (x - 5)² + 10?"
   options: ["(-5, 10)", "(5, 10)", "(5, -10)", "(-5, -10)"]
   answer: 1
@@ -294,6 +331,7 @@ graphing_quadratics_and_systems__g_sys_15:
 graphing_quadratics_and_systems__g_sys_16:
   type: "Horizontal Shift Logic"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "In the function y = (x + 4)², the '+4' moves the graph toward which side of the x-axis?"
   options: ["Positive (Right)", "Negative (Left)", "Up", "Down"]
   answer: 1
@@ -301,6 +339,7 @@ graphing_quadratics_and_systems__g_sys_16:
 graphing_quadratics_and_systems__g_sys_17:
   type: "System Check"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Does the system y = x² + 10 and y = x - 5 have any real intersection points?"
   options: ["Yes, two", "Yes, one", "No", "Yes, infinite"]
   answer: 2
@@ -308,6 +347,7 @@ graphing_quadratics_and_systems__g_sys_17:
 graphing_quadratics_and_systems__g_sys_18:
   type: "Steepness"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Which function has the 'flattest' or widest curve?"
   options: ["y = 0.1x²", "y = 5x²", "y = x²", "y = -2x²"]
   answer: 0
@@ -315,6 +355,7 @@ graphing_quadratics_and_systems__g_sys_18:
 graphing_quadratics_and_systems__g_sys_19:
   type: "Table to Graph"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A table shows points (-1, 1), (0, 0), and (1, 1). This most likely represents which shape?"
   options: ["A straight line", "A parabola", "A circle", "An exponential curve"]
   answer: 1
@@ -322,6 +363,7 @@ graphing_quadratics_and_systems__g_sys_19:
 graphing_quadratics_and_systems__g_sys_20:
   type: "Axis of Symmetry Formula"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "For the graph of y = ax² + bx + c, the vertical line of symmetry is always x = "
   options: ["b/2a", "c", "-b/2a", "-c/a"]
   answer: 2
@@ -329,6 +371,7 @@ graphing_quadratics_and_systems__g_sys_20:
 graphing_quadratics_and_systems__g_sys_21:
   type: "Zero Intersections"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A system of y = x² and a horizontal line has no solution. Where must the line be located?"
   options: ["Above the x-axis", "On the x-axis", "Below the x-axis", "Intersecting the origin"]
   answer: 2
@@ -336,6 +379,7 @@ graphing_quadratics_and_systems__g_sys_21:
 graphing_quadratics_and_systems__g_sys_22:
   type: "Guided Graphing"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Step 1: Find the vertex. Step 2: Find the y-intercept. If the vertex is (0,0) and a=1, the y-intercept is:"
   options: ["(0, 1)", "(1, 0)", "(0, 0)", "(0, -1)"]
   answer: 2
@@ -343,6 +387,7 @@ graphing_quadratics_and_systems__g_sys_22:
 graphing_quadratics_and_systems__g_sys_23:
   type: "Multiple Systems"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "How many solutions can a system of two different parabolas have?"
   options: ["Only 2", "0, 1, or 2", "0, 1, 2, or infinite", "Exactly 1"]
   answer: 2
@@ -350,6 +395,7 @@ graphing_quadratics_and_systems__g_sys_23:
 graphing_quadratics_and_systems__g_sys_24:
   type: "Vertex Form Constants"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "In y = a(x-h)²+k, if 'a' is doubled, what happens to the vertex?"
   options: ["It moves up", "It moves right", "It stays the same", "It disappears"]
   answer: 2
@@ -357,6 +403,7 @@ graphing_quadratics_and_systems__g_sys_24:
 graphing_quadratics_and_systems__g_sys_25:
   type: "Negative Leading Coefficient"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Which graph will have a peak (maximum) rather than a valley (minimum)?"
   options: ["y = 2x²", "y = x² - 10", "y = -0.5x² + 4", "y = (x-2)²"]
   answer: 2
@@ -364,6 +411,7 @@ graphing_quadratics_and_systems__g_sys_25:
 graphing_quadratics_and_systems__g_sys_26:
   type: "Y-intercept Discovery"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "To find the y-intercept of any quadratic graph, you should set x equal to:"
   options: ["1", "y", "0", "-1"]
   answer: 2
@@ -371,6 +419,7 @@ graphing_quadratics_and_systems__g_sys_26:
 graphing_quadratics_and_systems__g_sys_27:
   type: "Visualizing x-intercepts"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "If the vertex of a parabola is (3, -4) and it opens upward, how many x-intercepts must it have?"
   options: ["0", "1", "2", "3"]
   answer: 2
@@ -378,6 +427,7 @@ graphing_quadratics_and_systems__g_sys_27:
 graphing_quadratics_and_systems__g_sys_28:
   type: "Visualizing x-intercepts II"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "If the vertex of a parabola is (3, -4) and it opens downward, how many x-intercepts must it have?"
   options: ["0", "1", "2", "3"]
   answer: 0
@@ -385,6 +435,7 @@ graphing_quadratics_and_systems__g_sys_28:
 graphing_quadratics_and_systems__g_sys_29:
   type: "Standard Form"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "In standard form y = ax² + bx + c, which letter determines if the graph opens up or down?"
   options: ["a", "b", "c", "x"]
   answer: 0
@@ -392,6 +443,7 @@ graphing_quadratics_and_systems__g_sys_29:
 graphing_quadratics_and_systems__g_sys_30:
   type: "System Substitution Logic"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "When solving y = x² + 2 and y = 3x, the first step is setting them equal. This represents finding the points where:"
   options: ["The slopes are equal", "The graphs intersect", "The y-intercept is 0", "The x-axis is crossed"]
   answer: 1
@@ -399,6 +451,7 @@ graphing_quadratics_and_systems__g_sys_30:
 graphing_quadratics_and_systems__g_sys_31:
   type: "Horizontal Stretching"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Which equation represents a horizontal shift of y = x² followed by a vertical stretch?"
   options: ["y = 3x² + 2", "y = 3(x - 2)²", "y = (3x)²", "y = x² + 6"]
   answer: 1
@@ -406,6 +459,7 @@ graphing_quadratics_and_systems__g_sys_31:
 graphing_quadratics_and_systems__g_sys_32:
   type: "Parabola Parts"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "The lowest or highest point on a parabola is specifically called the:"
   options: ["Root", "Focus", "Vertex", "Intercept"]
   answer: 2
@@ -413,6 +467,7 @@ graphing_quadratics_and_systems__g_sys_32:
 graphing_quadratics_and_systems__g_sys_33:
   type: "Increasing/Decreasing"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "On the graph of y = x², for which x-values is the graph 'falling' or decreasing?"
   options: ["x > 0", "x < 0", "All x", "No x"]
   answer: 1
@@ -420,6 +475,7 @@ graphing_quadratics_and_systems__g_sys_33:
 graphing_quadratics_and_systems__g_sys_34:
   type: "System Interpretation"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "A system has solutions at (2, 4) and (-2, 4). This could be the intersection of y = x² and:"
   options: ["y = 4", "y = x", "y = 2x", "y = -4"]
   answer: 0
@@ -427,6 +483,7 @@ graphing_quadratics_and_systems__g_sys_34:
 graphing_quadratics_and_systems__g_sys_35:
   type: "Comparing Graphs"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "How does the graph of y = x² + 5 compare to y = x² - 5?"
   options: ["It is wider", "It is 10 units higher", "It is 5 units to the left", "It is 10 units to the right"]
   answer: 1
@@ -434,6 +491,7 @@ graphing_quadratics_and_systems__g_sys_35:
 graphing_quadratics_and_systems__g_sys_36:
   type: "Vertex from Symmetry"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "If the x-intercepts of a parabola are at x=2 and x=8, what is the x-coordinate of the vertex?"
   options: ["10", "6", "5", "4"]
   answer: 2
@@ -441,6 +499,7 @@ graphing_quadratics_and_systems__g_sys_36:
 graphing_quadratics_and_systems__g_sys_37:
   type: "Translation Combination"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Identify the equation for y = x² shifted 2 units left and 3 units down."
   options: ["y = (x-2)² + 3", "y = (x+2)² - 3", "y = (x-2)² - 3", "y = (x+2)² + 3"]
   answer: 1
@@ -448,6 +507,7 @@ graphing_quadratics_and_systems__g_sys_37:
 graphing_quadratics_and_systems__g_sys_38:
   type: "System Intersection Limits"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "Can a linear equation and a quadratic equation intersect 0 times?"
   options: ["Yes, if the line is below a parabola opening up", "No, they must meet once", "No, they must meet twice", "Yes, only if the line is vertical"]
   answer: 0
@@ -455,6 +515,7 @@ graphing_quadratics_and_systems__g_sys_38:
 graphing_quadratics_and_systems__g_sys_39:
   type: "Symmetry Property"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "If (1, 5) is a point on a parabola with axis of symmetry x=3, which other point must be on the graph?"
   options: ["(5, 5)", "(3, 5)", "(1, 1)", "(6, 5)"]
   answer: 0
@@ -462,6 +523,7 @@ graphing_quadratics_and_systems__g_sys_39:
 graphing_quadratics_and_systems__g_sys_40:
   type: "Leading Coefficient Effect"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "If |a| < 1 in the equation y = ax², the parabola is:"
   options: ["Shifted down", "Narrower than y = x²", "Wider than y = x²", "A straight line"]
   answer: 2
@@ -469,6 +531,7 @@ graphing_quadratics_and_systems__g_sys_40:
 graphing_quadratics_and_systems__g_sys_41:
   type: "Quadratic Systems"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Where do y = x² and y = -x² intersect?"
   options: ["(1, 1)", "No intersection", "(0, 0)", "Everywhere"]
   answer: 2
@@ -476,6 +539,7 @@ graphing_quadratics_and_systems__g_sys_41:
 graphing_quadratics_and_systems__g_sys_42:
   type: "Vertex Logic"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "In the function y = x² - 7, the vertex is located on which axis?"
   options: ["X-axis", "Y-axis", "Origin", "None"]
   answer: 1
@@ -483,6 +547,7 @@ graphing_quadratics_and_systems__g_sys_42:
 graphing_quadratics_and_systems__g_sys_43:
   type: "Guided Graph Path"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "As x increases from -10 to 0 for the graph y = x², the y-values:"
   options: ["Increase", "Decrease", "Stay constant", "Turn negative"]
   answer: 1
@@ -490,6 +555,7 @@ graphing_quadratics_and_systems__g_sys_43:
 graphing_quadratics_and_systems__g_sys_44:
   type: "Solution Set Visualization"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solving x² = 2x + 3 graphically involves finding the intersection of y = x² and:"
   options: ["y = 3", "y = 2x + 3", "y = 2x", "x = 3"]
   answer: 1
@@ -497,6 +563,7 @@ graphing_quadratics_and_systems__g_sys_44:
 graphing_quadratics_and_systems__g_sys_45:
   type: "Upward Shift"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "Which change to y = x² creates y = x² + k (where k > 0)?"
   options: ["Vertical stretch", "Horizontal shift", "Vertical shift up", "Vertical shift down"]
   answer: 2
@@ -504,6 +571,7 @@ graphing_quadratics_and_systems__g_sys_45:
 graphing_quadratics_and_systems__g_sys_46:
   type: "Point Testing"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "Which point lies on the graph of y = 2x² - 1?"
   options: ["(0, 0)", "(1, 1)", "(2, 3)", "(-1, -1)"]
   answer: 1
@@ -511,6 +579,7 @@ graphing_quadratics_and_systems__g_sys_46:
 graphing_quadratics_and_systems__g_sys_47:
   type: "System Constraint"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "If a system of a line and parabola has exactly one solution, the line is said to be ___ to the parabola."
   options: ["Parallel", "Secant", "Tangent", "Perpendicular"]
   answer: 2
@@ -518,6 +587,7 @@ graphing_quadratics_and_systems__g_sys_47:
 graphing_quadratics_and_systems__g_sys_48:
   type: "Graph Reflection"
   difficulty: "Medium"
+  category: "quadratic_formula"
   question: "The graph of y = (x - 2)² is the same as y = (2 - x)²."
   options: ["True", "False", "Only if x is positive", "Only at the vertex"]
   answer: 0
@@ -525,6 +595,7 @@ graphing_quadratics_and_systems__g_sys_48:
 graphing_quadratics_and_systems__g_sys_49:
   type: "Identifying Function Type"
   difficulty: "Easy"
+  category: "quadratic_formula"
   question: "Which graph is a U-shaped curve?"
   options: ["y = 2x + 1", "y = x³", "y = x² + 4", "y = |x|"]
   answer: 2
@@ -532,6 +603,7 @@ graphing_quadratics_and_systems__g_sys_49:
 graphing_quadratics_and_systems__g_sys_50:
   type: "Range Analysis"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "What is the range of the function y = -(x-1)² + 5?"
   options: ["All real numbers", "y ≥ 5", "y ≤ 5", "y ≤ 1"]
   answer: 2
@@ -542,6 +614,7 @@ graphing_quadratics_and_systems__g_sys_50:
 properties_of_radicals_practice__rad_prac_01:
   type: "Perfect Square Logic"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "To simplify a square root, we look for the largest factor of the number that is a:"
   options: ["Prime number", "Perfect square", "Odd number", "Multiple of 10"]
   answer: 1
@@ -549,6 +622,7 @@ properties_of_radicals_practice__rad_prac_01:
 properties_of_radicals_practice__rad_prac_02:
   type: "Product Property"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "The Product Property of Square Roots states that √(a • b) is equal to:"
   options: ["√a + √b", "√a - √b", "√a • √b", "a • b"]
   answer: 2
@@ -556,6 +630,7 @@ properties_of_radicals_practice__rad_prac_02:
 properties_of_radicals_practice__rad_prac_03:
   type: "Identifying Like Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Which of these can be added directly to 3√5 because they are 'like radicals'?"
   options: ["5√3", "√5", "3√2", "√15"]
   answer: 1
@@ -563,6 +638,7 @@ properties_of_radicals_practice__rad_prac_03:
 properties_of_radicals_practice__rad_prac_04:
   type: "Guided Simplification"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "When simplifying √20, we can write it as √(4 • 5). Since √4 is 2, the final form is:"
   options: ["4√5", "5√2", "2√5", "√10"]
   answer: 2
@@ -570,6 +646,7 @@ properties_of_radicals_practice__rad_prac_04:
 properties_of_radicals_practice__rad_prac_05:
   type: "Quotient Property"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "To simplify √(9/16), you can take the square root of the numerator and denominator separately. This results in:"
   options: ["3/4", "9/4", "3/16", "4/3"]
   answer: 0
@@ -577,6 +654,7 @@ properties_of_radicals_practice__rad_prac_05:
 properties_of_radicals_practice__rad_prac_06:
   type: "Rationalizing Concept"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Why do we 'rationalize the denominator' for a fraction like 1/√3?"
   options: ["To make the number smaller", "To remove the radical from the bottom", "To make the fraction negative", "To find the decimal version"]
   answer: 1
@@ -584,6 +662,7 @@ properties_of_radicals_practice__rad_prac_06:
 properties_of_radicals_practice__rad_prac_07:
   type: "Squaring a Radical"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "If you square a square root, such as (√x)², the result is simply:"
   options: ["x²", "√x", "x", "2x"]
   answer: 2
@@ -591,6 +670,7 @@ properties_of_radicals_practice__rad_prac_07:
 properties_of_radicals_practice__rad_prac_08:
   type: "Guided Rationalizing"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "To rationalize 2/√5, you should multiply both the top and the bottom by:"
   options: ["2", "√2", "5", "√5"]
   answer: 3
@@ -598,6 +678,7 @@ properties_of_radicals_practice__rad_prac_08:
 properties_of_radicals_practice__rad_prac_09:
   type: "Variable Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √x⁶ assuming x is positive. (Hint: What times itself equals x⁶?)"
   options: ["x³", "x⁴", "x²", "3x"]
   answer: 0
@@ -605,6 +686,7 @@ properties_of_radicals_practice__rad_prac_09:
 properties_of_radicals_practice__rad_prac_10:
   type: "Addition Rule"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "True or False: √9 + √16 is equal to √25."
   options: ["True", "False", "Only if x is 0", "Sometimes"]
   answer: 1
@@ -612,6 +694,7 @@ properties_of_radicals_practice__rad_prac_10:
 properties_of_radicals_practice__rad_prac_11:
   type: "Coefficient Logic"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "In the expression 7√2, the number 7 is called the:"
   options: ["Radicand", "Index", "Coefficient", "Exponent"]
   answer: 2
@@ -619,6 +702,7 @@ properties_of_radicals_practice__rad_prac_11:
 properties_of_radicals_practice__rad_prac_12:
   type: "Radicand Identification"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "In the expression √45, the number 45 is specifically called the:"
   options: ["Radicand", "Base", "Power", "Rooter"]
   answer: 0
@@ -626,6 +710,7 @@ properties_of_radicals_practice__rad_prac_12:
 properties_of_radicals_practice__rad_prac_13:
   type: "Multiplying Different Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "When multiplying √2 • √3, the result is:"
   options: ["√5", "5", "√6", "6"]
   answer: 2
@@ -633,6 +718,7 @@ properties_of_radicals_practice__rad_prac_13:
 properties_of_radicals_practice__rad_prac_14:
   type: "Guided Multi-Step"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Step 1: Simplify √8 into 2√2. Step 2: Multiply by 3. The final result of 3 • √8 is:"
   options: ["6√2", "5√2", "2√6", "3√8"]
   answer: 0
@@ -640,6 +726,7 @@ properties_of_radicals_practice__rad_prac_14:
 properties_of_radicals_practice__rad_prac_15:
   type: "Hidden Squares"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Which of these radicals does NOT need to be simplified further?"
   options: ["√12", "√18", "√11", "√20"]
   answer: 2
@@ -647,6 +734,7 @@ properties_of_radicals_practice__rad_prac_15:
 properties_of_radicals_practice__rad_prac_16:
   type: "Division Logic"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √50 / √2 by first dividing the numbers inside the radical. This becomes:"
   options: ["√48", "25", "5", "√25 / 2"]
   answer: 2
@@ -654,6 +742,7 @@ properties_of_radicals_practice__rad_prac_16:
 properties_of_radicals_practice__rad_prac_17:
   type: "Zero Property"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "What is the value of √0?"
   options: ["Undefined", "1", "0", "Infinity"]
   answer: 2
@@ -661,6 +750,7 @@ properties_of_radicals_practice__rad_prac_17:
 properties_of_radicals_practice__rad_prac_18:
   type: "Negative Radicands"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "In the set of real numbers, why is √-16 considered 'not a real number'?"
   options: ["It is too small", "No real number squared is negative", "It is an odd number", "Squares must be prime"]
   answer: 1
@@ -668,6 +758,7 @@ properties_of_radicals_practice__rad_prac_18:
 properties_of_radicals_practice__rad_prac_19:
   type: "Distributive Property"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Simplify √2(3 + √2). (Hint: Multiply √2 by 3, then √2 by √2)."
   options: ["3√2 + 2", "5√2", "√6 + 2", "3√2 + 4"]
   answer: 0
@@ -675,6 +766,7 @@ properties_of_radicals_practice__rad_prac_19:
 properties_of_radicals_practice__rad_prac_20:
   type: "Estimation"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Between which two whole numbers does √30 lie?"
   options: ["4 and 5", "5 and 6", "6 and 7", "3 and 4"]
   answer: 1
@@ -682,6 +774,7 @@ properties_of_radicals_practice__rad_prac_20:
 properties_of_radicals_practice__rad_prac_21:
   type: "Simplifying Variables"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √(25x²). Assuming x is positive, the result is:"
   options: ["5x²", "25x", "5x", "x√5"]
   answer: 2
@@ -689,6 +782,7 @@ properties_of_radicals_practice__rad_prac_21:
 properties_of_radicals_practice__rad_prac_22:
   type: "Subtraction of Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify 10√7 - 4√7. Just like 10x - 4x, the answer is:"
   options: ["6", "6√14", "6√7", "14√7"]
   answer: 2
@@ -696,6 +790,7 @@ properties_of_radicals_practice__rad_prac_22:
 properties_of_radicals_practice__rad_prac_23:
   type: "Conjugate Concept"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "To rationalize 1 / (2 + √3), we multiply by the conjugate, which is:"
   options: ["2 + √3", "2 - √3", "√3", "-2 - √3"]
   answer: 1
@@ -703,6 +798,7 @@ properties_of_radicals_practice__rad_prac_23:
 properties_of_radicals_practice__rad_prac_24:
   type: "Square Root of 1"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "What is the result of √1?"
   options: ["0", "1", "0.5", "2"]
   answer: 1
@@ -710,6 +806,7 @@ properties_of_radicals_practice__rad_prac_24:
 properties_of_radicals_practice__rad_prac_25:
   type: "Guided Factorization"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "To simplify √75, we factor 75 into 25 and 3. The square root of 25 is 5, so the answer is:"
   options: ["3√5", "25√3", "5√3", "√15"]
   answer: 2
@@ -717,6 +814,7 @@ properties_of_radicals_practice__rad_prac_25:
 properties_of_radicals_practice__rad_prac_26:
   type: "Mixed Multiplication"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Multiply (2√3) • (4√5). (Hint: Multiply the outside numbers, then the inside numbers)."
   options: ["6√8", "8√15", "15√8", "8√8"]
   answer: 1
@@ -724,6 +822,7 @@ properties_of_radicals_practice__rad_prac_26:
 properties_of_radicals_practice__rad_prac_27:
   type: "Inverse Operations"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "Squaring a number and taking the square root are ___ operations."
   options: ["Similar", "Inverse", "Equal", "Random"]
   answer: 1
@@ -731,6 +830,7 @@ properties_of_radicals_practice__rad_prac_27:
 properties_of_radicals_practice__rad_prac_28:
   type: "Fractional Radicand"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √(1/4). This is the same as √1 / √4, which equals:"
   options: ["1/2", "1/4", "2", "1/16"]
   answer: 0
@@ -738,6 +838,7 @@ properties_of_radicals_practice__rad_prac_28:
 properties_of_radicals_practice__rad_prac_29:
   type: "Index Knowledge"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "When no number is written in the 'crook' of the radical (the index), it is understood to be:"
   options: ["1", "2", "0", "10"]
   answer: 1
@@ -745,6 +846,7 @@ properties_of_radicals_practice__rad_prac_29:
 properties_of_radicals_practice__rad_prac_30:
   type: "Visualizing Radicals"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Which of the following is an irrational number?"
   options: ["√4", "√9", "√10", "√16"]
   answer: 2
@@ -752,6 +854,7 @@ properties_of_radicals_practice__rad_prac_30:
 properties_of_radicals_practice__rad_prac_31:
   type: "Simplifying √98"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √98. (Hint: 98 = 49 • 2)."
   options: ["7√2", "2√7", "49√2", "14√2"]
   answer: 0
@@ -759,6 +862,7 @@ properties_of_radicals_practice__rad_prac_31:
 properties_of_radicals_practice__rad_prac_32:
   type: "Addition with Simplification"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Simplify √12 + √3. First turn √12 into 2√3. Now add them:"
   options: ["√15", "3√3", "2√6", "5√3"]
   answer: 1
@@ -766,6 +870,7 @@ properties_of_radicals_practice__rad_prac_32:
 properties_of_radicals_practice__rad_prac_33:
   type: "Power of a Radical"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "What is (3√2)²? (Hint: Square the 3 and square the √2, then multiply)."
   options: ["6", "12", "18", "36"]
   answer: 2
@@ -773,6 +878,7 @@ properties_of_radicals_practice__rad_prac_33:
 properties_of_radicals_practice__rad_prac_34:
   type: "Cube Root Intro"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "While a square root asks 'what times itself', a cube root (∛) asks what number used as a factor ___ times equals the radicand?"
   options: ["2", "3", "4", "1"]
   answer: 1
@@ -780,6 +886,7 @@ properties_of_radicals_practice__rad_prac_34:
 properties_of_radicals_practice__rad_prac_35:
   type: "Radical to Decimal"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "Which radical is exactly equal to 9?"
   options: ["√18", "√3", "√81", "√90"]
   answer: 2
@@ -787,6 +894,7 @@ properties_of_radicals_practice__rad_prac_35:
 properties_of_radicals_practice__rad_prac_36:
   type: "Comparing Values"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Which is larger: 2√5 or √20?"
   options: ["2√5", "√20", "They are equal", "Neither"]
   answer: 2
@@ -794,6 +902,7 @@ properties_of_radicals_practice__rad_prac_36:
 properties_of_radicals_practice__rad_prac_37:
   type: "Simplifying √200"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify √200. (Hint: 100 is the largest perfect square factor)."
   options: ["2√10", "10√2", "20√10", "100√2"]
   answer: 1
@@ -801,6 +910,7 @@ properties_of_radicals_practice__rad_prac_37:
 properties_of_radicals_practice__rad_prac_38:
   type: "Guided Division"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Simplify 10√6 / 2√3. Divide the outside (10/2) and the inside (√6/√3)."
   options: ["5√2", "8√3", "5√3", "2√2"]
   answer: 0
@@ -808,6 +918,7 @@ properties_of_radicals_practice__rad_prac_38:
 properties_of_radicals_practice__rad_prac_39:
   type: "Squaring Binomials"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "True or False: (√a + √b)² = a + b."
   options: ["True", "False", "Only if b is 0", "Only if a is 1"]
   answer: 1
@@ -815,6 +926,7 @@ properties_of_radicals_practice__rad_prac_39:
 properties_of_radicals_practice__rad_prac_40:
   type: "Simplifying x³"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Simplify √(x³). (Hint: This can be written as √(x² • x))."
   options: ["x√x", "x²√x", "x", "x³"]
   answer: 0
@@ -822,6 +934,7 @@ properties_of_radicals_practice__rad_prac_40:
 properties_of_radicals_practice__rad_prac_41:
   type: "Constant Radical"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "What is the square root of 144?"
   options: ["10", "11", "12", "14"]
   answer: 2
@@ -829,6 +942,7 @@ properties_of_radicals_practice__rad_prac_41:
 properties_of_radicals_practice__rad_prac_42:
   type: "Guided Addition"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "If you have 4√x and add 1√x, how many √x do you have in total?"
   options: ["4x", "5x", "5√x", "√5x"]
   answer: 2
@@ -836,6 +950,7 @@ properties_of_radicals_practice__rad_prac_42:
 properties_of_radicals_practice__rad_prac_43:
   type: "Multiplying Same Radicals"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "What is √13 • √13?"
   options: ["√26", "26", "13", "√169"]
   answer: 2
@@ -843,6 +958,7 @@ properties_of_radicals_practice__rad_prac_43:
 properties_of_radicals_practice__rad_prac_44:
   type: "Rationalizing Step"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "After rationalizing 3/√2, the new numerator will be:"
   options: ["3", "√2", "3√2", "6"]
   answer: 2
@@ -850,6 +966,7 @@ properties_of_radicals_practice__rad_prac_44:
 properties_of_radicals_practice__rad_prac_45:
   type: "Simplifying √48"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Simplify √48. (Hint: 16 is a factor)."
   options: ["4√3", "3√4", "16√3", "2√12"]
   answer: 0
@@ -857,6 +974,7 @@ properties_of_radicals_practice__rad_prac_45:
 properties_of_radicals_practice__rad_prac_46:
   type: "Radical Logic"
   difficulty: "Easy"
+  category: "completing_the_square"
   question: "Does √a + √a = √(2a)?"
   options: ["Yes", "No, it equals 2√a", "Yes, if a is prime", "Only if a is 4"]
   answer: 1
@@ -864,6 +982,7 @@ properties_of_radicals_practice__rad_prac_46:
 properties_of_radicals_practice__rad_prac_47:
   type: "Perfect Square Search"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "Which factor of 32 should be used to simplify √32?"
   options: ["2", "4", "8", "16"]
   answer: 3
@@ -871,6 +990,7 @@ properties_of_radicals_practice__rad_prac_47:
 properties_of_radicals_practice__rad_prac_48:
   type: "Division Property"
   difficulty: "Medium"
+  category: "completing_the_square"
   question: "√(x/y) is equal to:"
   options: ["√x - √y", "√x / √y", "x/y", "√x • √y"]
   answer: 1
@@ -878,6 +998,7 @@ properties_of_radicals_practice__rad_prac_48:
 properties_of_radicals_practice__rad_prac_49:
   type: "Triple Multiplication"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Multiply √2 • √3 • √6."
   options: ["√11", "6", "12", "√36"]
   answer: 1
@@ -885,6 +1006,7 @@ properties_of_radicals_practice__rad_prac_49:
 properties_of_radicals_practice__rad_prac_50:
   type: "End of Unit Review"
   difficulty: "Hard"
+  category: "completing_the_square"
   question: "Which of these is the simplest form of √24?"
   options: ["2√6", "4√6", "6√2", "√4 • √6"]
   answer: 0
@@ -895,6 +1017,7 @@ properties_of_radicals_practice__rad_prac_50:
 quadratic_word_problems__wp_quad_01:
   type: "Area Translation"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "The length of a rug is 3 feet more than its width (w). Which expression represents the area?"
   options: ["w + (w + 3)", "w(w + 3)", "3w²", "w² + 3"]
   answer: 1
@@ -902,6 +1025,7 @@ quadratic_word_problems__wp_quad_01:
 quadratic_word_problems__wp_quad_02:
   type: "Vertical Motion Logic"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "In the motion formula h = -16t² + vt + s, what does the 's' represent?"
   options: ["Speed", "Ending time", "Starting height", "Gravity"]
   answer: 2
@@ -909,6 +1033,7 @@ quadratic_word_problems__wp_quad_02:
 quadratic_word_problems__wp_quad_03:
   type: "Consecutive Integers"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If 'x' is the first of two consecutive odd integers, how do you represent the second one?"
   options: ["x + 1", "x + 2", "2x", "x²"]
   answer: 1
@@ -916,6 +1041,7 @@ quadratic_word_problems__wp_quad_03:
 quadratic_word_problems__wp_quad_04:
   type: "Zero Height Logic"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "When a word problem asks when an object 'hits the ground,' what value should you plug in for height (h)?"
   options: ["-16", "1", "0", "The starting height"]
   answer: 2
@@ -923,6 +1049,7 @@ quadratic_word_problems__wp_quad_04:
 quadratic_word_problems__wp_quad_05:
   type: "Revenue Modeling"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "Revenue is (Price × Quantity). If price is 'p' and quantity is (50 - p), the revenue equation is:"
   options: ["R = 50p - p²", "R = 50 - 2p", "R = p² - 50", "R = 50p"]
   answer: 0
@@ -930,6 +1057,7 @@ quadratic_word_problems__wp_quad_05:
 quadratic_word_problems__wp_quad_06:
   type: "Guided Geometry"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "The area of a triangle is 20. If the base is x and height is (x+2), the equation is 20 = 0.5(x)(x+2). What is the first step to clear the fraction?"
   options: ["Divide by 2", "Subtract 2", "Multiply both sides by 2", "Square everything"]
   answer: 2
@@ -937,6 +1065,7 @@ quadratic_word_problems__wp_quad_06:
 quadratic_word_problems__wp_quad_07:
   type: "Pythagorean Word Problem"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A ladder leans against a wall. The height it reaches and the distance from the wall are 'a' and 'b'. To find the ladder length 'c', we use:"
   options: ["a + b = c", "a² + b² = c²", "ab = c²", "2a + 2b = c"]
   answer: 1
@@ -944,6 +1073,7 @@ quadratic_word_problems__wp_quad_07:
 quadratic_word_problems__wp_quad_08:
   type: "Number Relations"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "The square of a number 'n' is equal to 10 more than 3 times the number. Which equation fits?"
   options: ["2n = 3n + 10", "n² = 3n + 10", "n² + 3n = 10", "3n² = 10"]
   answer: 1
@@ -951,6 +1081,7 @@ quadratic_word_problems__wp_quad_08:
 quadratic_word_problems__wp_quad_09:
   type: "Projectile Path"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A rocket's height follows h = -16t² + 64t. At t = 0, what is the height of the rocket?"
   options: ["64 feet", "16 feet", "0 feet", "4 feet"]
   answer: 2
@@ -958,6 +1089,7 @@ quadratic_word_problems__wp_quad_09:
 quadratic_word_problems__wp_quad_10:
   type: "Garden Border"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A 5x7 garden is surrounded by a walkway of width 'x'. The total area is (5+2x)(7+2x). Why is it '2x' instead of 'x'?"
   options: ["Because the walk is on both sides", "Because it is a square", "To make it quadratic", "It is a typo"]
   answer: 0
@@ -965,6 +1097,7 @@ quadratic_word_problems__wp_quad_10:
 quadratic_word_problems__wp_quad_11:
   type: "Maximum Height Logic"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "To find the maximum height an object reaches, you should find the y-value of the:"
   options: ["X-intercept", "Y-intercept", "Vertex", "Origin"]
   answer: 2
@@ -972,6 +1105,7 @@ quadratic_word_problems__wp_quad_11:
 quadratic_word_problems__wp_quad_12:
   type: "Profit Break-Even"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If Profit = -x² + 10x - 16, 'breaking even' means the profit is 0. This is found by finding the:"
   options: ["Vertex", "Roots/Zeros", "Y-intercept", "Coefficient a"]
   answer: 1
@@ -979,6 +1113,7 @@ quadratic_word_problems__wp_quad_12:
 quadratic_word_problems__wp_quad_13:
   type: "Velocity Interpretation"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "In h = -16t² + 40t + 5, the object was thrown upward with an initial velocity of:"
   options: ["16", "5", "40", "-16"]
   answer: 2
@@ -986,6 +1121,7 @@ quadratic_word_problems__wp_quad_13:
 quadratic_word_problems__wp_quad_14:
   type: "Work Rate Intro"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "Two pipes fill a tank. If one takes 'x' hours and the other takes 'x+1' hours, the combined rate involves which type of equation?"
   options: ["Linear", "Rational (leading to quadratic)", "Exponential", "Absolute value"]
   answer: 1
@@ -993,6 +1129,7 @@ quadratic_word_problems__wp_quad_14:
 quadratic_word_problems__wp_quad_15:
   type: "Integer Sums"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "The sum of the squares of two consecutive integers is 25. Which equation is correct?"
   options: ["x² + (x+1)² = 25", "(x + x + 1)² = 25", "x² + x + 1 = 25", "2x² = 25"]
   answer: 0
@@ -1000,6 +1137,7 @@ quadratic_word_problems__wp_quad_15:
 quadratic_word_problems__wp_quad_16:
   type: "Fencing a Yard"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A rectangular yard uses a house as one side. If you have 40ft of fence and the width is 'x', the length is (40 - 2x). The Area is:"
   options: ["x(40 - 2x)", "2x + (40 - 2x)", "40x", "x² - 40"]
   answer: 0
@@ -1007,6 +1145,7 @@ quadratic_word_problems__wp_quad_16:
 quadratic_word_problems__wp_quad_17:
   type: "Time to Fall"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "An object falls from 100ft. The equation is 0 = -16t² + 100. To solve for 't', the first step is to move 100 to the other side and then:"
   options: ["Square it", "Divide by -16", "Multiply by 16", "Add 16"]
   answer: 1
@@ -1014,6 +1153,7 @@ quadratic_word_problems__wp_quad_17:
 quadratic_word_problems__wp_quad_18:
   type: "Positive Solutions"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "If you solve a quadratic word problem for 'time' and get t = 5 and t = -2, which answer do you keep?"
   options: ["t = -2", "t = 5", "Both", "Neither"]
   answer: 1
@@ -1021,6 +1161,7 @@ quadratic_word_problems__wp_quad_18:
 quadratic_word_problems__wp_quad_19:
   type: "Business Price Increase"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A store sells 100 items at $10. For every $1 increase (x), they sell 5 fewer items. The new quantity is:"
   options: ["100 - 5x", "100 + x", "5 - 100x", "100/5x"]
   answer: 0
@@ -1028,6 +1169,7 @@ quadratic_word_problems__wp_quad_19:
 quadratic_word_problems__wp_quad_20:
   type: "Dimensions from Area"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "The area of a rectangle is 50. The length is twice the width (w). What is the equation?"
   options: ["w + 2w = 50", "w(2w) = 50", "w² = 50", "2w + 2(2w) = 50"]
   answer: 1
@@ -1035,6 +1177,7 @@ quadratic_word_problems__wp_quad_20:
 quadratic_word_problems__wp_quad_21:
   type: "Guided Path"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "A ball is thrown. h(t) = -16t² + 32t. To find when the ball returns to the height it was thrown from (0), you solve for the:"
   options: ["Y-intercept", "X-intercepts", "Axis of symmetry", "Maximum"]
   answer: 1
@@ -1042,6 +1185,7 @@ quadratic_word_problems__wp_quad_21:
 quadratic_word_problems__wp_quad_22:
   type: "Rectangle Perimeter vs Area"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A rectangle has a perimeter of 20. If width is 'x', then length is (10 - x). The area equation is:"
   options: ["x(10 - x)", "x(20 - x)", "2x + 2(10-x)", "10x"]
   answer: 0
@@ -1049,6 +1193,7 @@ quadratic_word_problems__wp_quad_22:
 quadratic_word_problems__wp_quad_23:
   type: "Physics: Gravity"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "In the formula h = -16t² + s, why is the '16' negative?"
   options: ["Time is negative", "Gravity pulls objects down", "Height is negative", "It is just a rule"]
   answer: 1
@@ -1056,6 +1201,7 @@ quadratic_word_problems__wp_quad_23:
 quadratic_word_problems__wp_quad_24:
   type: "Product of Numbers"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "Two numbers have a sum of 12. If one is 'x', the other is (12 - x). Their product is:"
   options: ["12x", "x(12 - x)", "x + (12 - x)", "x² - 12"]
   answer: 1
@@ -1063,6 +1209,7 @@ quadratic_word_problems__wp_quad_24:
 quadratic_word_problems__wp_quad_25:
   type: "Diagonal of a Square"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "If a square has side 's', the square of its diagonal 'd' is given by s² + s² = d². This simplifies to:"
   options: ["2s = d²", "2s² = d²", "s⁴ = d²", "s² = d"]
   answer: 1
@@ -1070,6 +1217,7 @@ quadratic_word_problems__wp_quad_25:
 quadratic_word_problems__wp_quad_26:
   type: "Finding the Start"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "To find the initial height of a projectile from its equation, you should look at the value when t is:"
   options: ["1", "0", "16", "The vertex"]
   answer: 1
@@ -1077,6 +1225,7 @@ quadratic_word_problems__wp_quad_26:
 quadratic_word_problems__wp_quad_27:
   type: "Triangular Sails"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A sail's height is 4ft more than its base. Area is 30. Using A = 1/2 bh, the equation is:"
   options: ["30 = 0.5(b)(b+4)", "30 = b(b+4)", "30 = 0.5(b+4)", "b² + 4 = 30"]
   answer: 0
@@ -1084,6 +1233,7 @@ quadratic_word_problems__wp_quad_27:
 quadratic_word_problems__wp_quad_28:
   type: "Negative Distance?"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "Can the width of a physical garden ever be a negative solution from a quadratic equation?"
   options: ["Yes", "No", "Only on Tuesdays", "Only if the area is negative"]
   answer: 1
@@ -1091,6 +1241,7 @@ quadratic_word_problems__wp_quad_28:
 quadratic_word_problems__wp_quad_29:
   type: "Revenue Maximization"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "To find the price that generates the MOST revenue, you need to find the ___ of the revenue parabola."
   options: ["X-intercept", "Y-intercept", "Vertex", "Slope"]
   answer: 2
@@ -1098,6 +1249,7 @@ quadratic_word_problems__wp_quad_29:
 quadratic_word_problems__wp_quad_30:
   type: "Consecutive Squares"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "The product of two consecutive integers is 72. Equation: x(x + 1) = 72. In standard form, this is:"
   options: ["x² + x + 72 = 0", "x² + x - 72 = 0", "x² + 1 = 72", "x² + x = 0"]
   answer: 1
@@ -1105,6 +1257,7 @@ quadratic_word_problems__wp_quad_30:
 quadratic_word_problems__wp_quad_31:
   type: "Dropping vs Throwing"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If an object is 'dropped' (not thrown), the initial velocity 'v' in h = -16t² + vt + s is:"
   options: ["16", "1", "0", "-16"]
   answer: 2
@@ -1112,6 +1265,7 @@ quadratic_word_problems__wp_quad_31:
 quadratic_word_problems__wp_quad_32:
   type: "Frame Problem"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A 4x6 photo has a frame of uniform width 'x'. The area of the photo AND frame is:"
   options: ["(4+x)(6+x)", "(4+2x)(6+2x)", "24 + x²", "4x + 6x"]
   answer: 1
@@ -1119,6 +1273,7 @@ quadratic_word_problems__wp_quad_32:
 quadratic_word_problems__wp_quad_33:
   type: "Height at 1 Second"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "If h = -16t² + 100, what is the height after 1 second?"
   options: ["100 ft", "116 ft", "84 ft", "16 ft"]
   answer: 2
@@ -1126,6 +1281,7 @@ quadratic_word_problems__wp_quad_33:
 quadratic_word_problems__wp_quad_34:
   type: "Rounding in Real Life"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If a ball hits the ground at t = 2.456 seconds, 'to the nearest tenth' would be:"
   options: ["2.4", "2.5", "2.46", "2"]
   answer: 1
@@ -1133,6 +1289,7 @@ quadratic_word_problems__wp_quad_34:
 quadratic_word_problems__wp_quad_35:
   type: "Width and Length relationship"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "Length is 5 less than twice the width. If width is 'w', length is:"
   options: ["5 - 2w", "2w - 5", "w/2 - 5", "2(w - 5)"]
   answer: 1
@@ -1140,6 +1297,7 @@ quadratic_word_problems__wp_quad_35:
 quadratic_word_problems__wp_quad_36:
   type: "Pythagorean Trip"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A car travels North 'x' miles and East 'x+7' miles. The straight-line distance squared is 169. Equation:"
   options: ["x + (x+7) = 169", "x² + (x+7)² = 169", "x(x+7) = 169", "x² + x² + 49 = 169"]
   answer: 1
@@ -1147,6 +1305,7 @@ quadratic_word_problems__wp_quad_36:
 quadratic_word_problems__wp_quad_37:
   type: "Guided Vertex"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A path is h = -x² + 4x + 5. The horizontal distance 'x' where the max height occurs is -b/2a. Here, x is:"
   options: ["4", "2", "-2", "5"]
   answer: 1
@@ -1154,6 +1313,7 @@ quadratic_word_problems__wp_quad_37:
 quadratic_word_problems__wp_quad_38:
   type: "Area of a Circle (Variation)"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If the area of a circle is 25π, then the equation πr² = 25π allows us to cancel π and find r is:"
   options: ["25", "12.5", "5", "10"]
   answer: 2
@@ -1161,6 +1321,7 @@ quadratic_word_problems__wp_quad_38:
 quadratic_word_problems__wp_quad_39:
   type: "Hypotenuse Word Problem"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "The hypotenuse of a right triangle is 10. One leg is x, the other is x+2. Which setup is correct?"
   options: ["x + x + 2 = 10", "x² + (x+2)² = 100", "x² + x + 2 = 100", "2x + 2 = 10"]
   answer: 1
@@ -1168,6 +1329,7 @@ quadratic_word_problems__wp_quad_39:
 quadratic_word_problems__wp_quad_40:
   type: "Vertical Motion: Final Height"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "When a projectile returns to the same height it started from, the displacement is:"
   options: ["Maximum", "Zero", "Initial velocity", "Gravity"]
   answer: 1
@@ -1175,6 +1337,7 @@ quadratic_word_problems__wp_quad_40:
 quadratic_word_problems__wp_quad_41:
   type: "Number Logic: Reciprocals"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "The sum of a number and its reciprocal is 2.5. This leads to the equation x + 1/x = 2.5. Multiplying by x gives:"
   options: ["x² + 1 = 2.5x", "x + 1 = 2.5x", "x² + x = 2.5", "2x = 2.5"]
   answer: 0
@@ -1182,6 +1345,7 @@ quadratic_word_problems__wp_quad_41:
 quadratic_word_problems__wp_quad_42:
   type: "Pool with a Deck"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A 10x20 pool has a deck of width 'x'. The area of the deck ONLY is Total Area minus Pool Area. This is:"
   options: ["(10+2x)(20+2x) - 200", "(10+x)(20+x) - 200", "200 - x²", "30x"]
   answer: 0
@@ -1189,6 +1353,7 @@ quadratic_word_problems__wp_quad_42:
 quadratic_word_problems__wp_quad_43:
   type: "Symmetry in Flight"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "If a ball takes 3 seconds to reach its peak, how many total seconds until it hits the ground (if thrown from ground)?"
   options: ["3", "4.5", "6", "9"]
   answer: 2
@@ -1196,6 +1361,7 @@ quadratic_word_problems__wp_quad_43:
 quadratic_word_problems__wp_quad_44:
   type: "Dividing into Two Parts"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A 20-inch wire is cut into two pieces, x and (20-x). If each is bent into a square, the area of the first square is:"
   options: ["x²", "(x/4)²", "4x²", "x/4"]
   answer: 1
@@ -1203,6 +1369,7 @@ quadratic_word_problems__wp_quad_44:
 quadratic_word_problems__wp_quad_45:
   type: "Interpreting 'a'"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "In h = -5t² + 20t (using meters), the '-5' is half of the acceleration of gravity on Earth. Is this true?"
   options: ["Yes (~9.8 m/s²)", "No, it should be 16", "Only on the moon", "It depends on the weight"]
   answer: 0
@@ -1210,6 +1377,7 @@ quadratic_word_problems__wp_quad_45:
 quadratic_word_problems__wp_quad_46:
   type: "Integer Multiples"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "Find two numbers whose difference is 4 and product is 45. If the smaller is 'x', the equation is:"
   options: ["x(x+4) = 45", "x(x-4) = 45", "x + x + 4 = 45", "x/4 = 45"]
   answer: 0
@@ -1217,6 +1385,7 @@ quadratic_word_problems__wp_quad_46:
 quadratic_word_problems__wp_quad_47:
   type: "Cost per Person"
   difficulty: "Hard"
+  category: "solve_by_factoring"
   question: "A group rents a bus for $400. If 5 more people join, the cost per person drops by $4. This setup is:"
   options: ["400/x - 400/(x+5) = 4", "400/x + 4 = 400/(x+5)", "400x - 5 = 4", "400/(x+5) = 4"]
   answer: 0
@@ -1224,6 +1393,7 @@ quadratic_word_problems__wp_quad_47:
 quadratic_word_problems__wp_quad_48:
   type: "Area Scale"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "If the side of a square is tripled (3s), the area becomes how many times larger?"
   options: ["3 times", "6 times", "9 times", "No change"]
   answer: 2
@@ -1231,6 +1401,7 @@ quadratic_word_problems__wp_quad_48:
 quadratic_word_problems__wp_quad_49:
   type: "Midpoint of Flight"
   difficulty: "Medium"
+  category: "solve_by_factoring"
   question: "A ball is at ground level at t=0 and t=4. At what time does it reach its max height?"
   options: ["t = 1", "t = 2", "t = 3", "t = 4"]
   answer: 1
@@ -1238,6 +1409,7 @@ quadratic_word_problems__wp_quad_49:
 quadratic_word_problems__wp_quad_50:
   type: "Unit Awareness"
   difficulty: "Easy"
+  category: "solve_by_factoring"
   question: "If time 't' is in seconds and height 'h' is in feet, the velocity 'v' is measured in:"
   options: ["Feet", "Seconds", "Feet per second", "Square feet"]
   answer: 2
@@ -1247,6 +1419,7 @@ quadratic_word_problems__wp_quad_50:
 advanced_q1:
   type: "Biquadratic Substitution"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Find the real roots of x⁴ - 5x² + 4 = 0."
   options: 
     - "±1, ±2"
@@ -1259,6 +1432,7 @@ advanced_q1:
 advanced_q2:
   type: "Exponential Substitution"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solve for x: 4ˣ - 3(2ˣ) + 2 = 0"
   options: 
     - "x = 1, x = 2"
@@ -1271,6 +1445,7 @@ advanced_q2:
 advanced_q3:
   type: "Reciprocal Equation"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "To solve x⁴ + 2x³ - 6x² + 2x + 1 = 0, we divide by x² and substitute y = x + 1/x. What is the resulting quadratic in y?"
   options: 
     - "y² + 2y - 6 = 0"
@@ -1283,6 +1458,7 @@ advanced_q3:
 advanced_q4:
   type: "Irrational Equation"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solve √(x + 7) = x + 1. Which of the following is the only valid solution?"
   options: 
     - "x = 2"
@@ -1295,6 +1471,7 @@ advanced_q4:
 advanced_q5:
   type: "Modulus Equation"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "How many real solutions exist for |x² - 4| = 3?"
   options: 
     - "2"
@@ -1307,6 +1484,7 @@ advanced_q5:
 advanced_q6:
   type: "Logarithmic Substitution"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solve: (log₂x)² - log₂x⁴ + 3 = 0"
   options: 
     - "x = 2, x = 8"
@@ -1319,6 +1497,7 @@ advanced_q6:
 advanced_q7:
   type: "Substitution"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Factor x - 5√x + 6 = 0 into linear-root factors."
   options: 
     - "(x - 2)(x - 3)"
@@ -1331,6 +1510,7 @@ advanced_q7:
 advanced_q8:
   type: "Biquadratic"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Find the values of x² for the equation 9x⁴ - 37x² + 4 = 0."
   options: 
     - "4 and 1/9"
@@ -1343,6 +1523,7 @@ advanced_q8:
 advanced_q9:
   type: "Absolute Value"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Find the sum of roots for |x - 2|² + |x - 2| - 6 = 0."
   options: 
     - "2"
@@ -1355,6 +1536,7 @@ advanced_q9:
 advanced_q10:
   type: "Reciprocal Equation"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "If x + 1/x = 3, find the value of x² + 1/x²."
   options: 
     - "9"
@@ -1367,6 +1549,7 @@ advanced_q10:
 advanced_q11:
   type: "Irrational Substitution"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Solve: x² - 5x + 2√(x² - 5x + 3) = 12. (Hint: Let u = √(x² - 5x + 3))"
   options: 
     - "u = 3 or u = -5"
@@ -1379,6 +1562,7 @@ advanced_q11:
 advanced_q12:
   type: "Hidden Trig Quadratic"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Factor: 2cos²x - 5cosx + 2"
   options: 
     - "(2cosx - 1)(cosx - 2)"
@@ -1391,6 +1575,7 @@ advanced_q12:
 advanced_q13:
   type: "Reciprocal Equation"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "What substitution is typically used for the equation 2x⁴ + x³ - 6x² + x + 2 = 0?"
   options: 
     - "y = x²"
@@ -1403,6 +1588,7 @@ advanced_q13:
 advanced_q14:
   type: "Irrational Logic"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Why does squaring √(2x - 1) = -5 yield an extraneous solution?"
   options: 
     - "Because the discriminant is negative."
@@ -1415,6 +1601,7 @@ advanced_q14:
 advanced_q15:
   type: "Double Modulus"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Solve: |x² - 1| = 0"
   options: 
     - "x = 1"
@@ -1427,6 +1614,7 @@ advanced_q15:
 advanced_q16:
   type: "Power Substitution"
   difficulty: "Hard"
+  category: "quadratic_formula"
   question: "Solve for x: x^(2/3) - 5x^(1/3) + 6 = 0"
   options: 
     - "x = 2, x = 3"
@@ -1439,6 +1627,7 @@ advanced_q16:
 advanced_q17:
   type: "Biquadratic Complex"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Find the real roots of x⁴ + 3x² - 4 = 0."
   options: 
     - "±1"
@@ -1451,6 +1640,7 @@ advanced_q17:
 advanced_q18:
   type: "Exponential Advance"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Solve: 3²ˣ⁺¹ - 10(3ˣ) + 3 = 0"
   options: 
     - "x = 1, x = -1"
@@ -1463,6 +1653,7 @@ advanced_q18:
 advanced_q19:
   type: "Radical Substitution"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Solve: √(x/x-1) + √(x-1/x) = 13/6"
   options: 
     - "x = 4/13"
@@ -1475,6 +1666,7 @@ advanced_q19:
 advanced_q20:
   type: "Modulus Case Analysis"
   difficulty: "Expert"
+  category: "quadratic_formula"
   question: "Solve |x² - 3x + 2| = x - 1."
   options: 
     - "x = 1, x = 3"

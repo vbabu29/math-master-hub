@@ -1,6 +1,7 @@
 basic_q1:
   type: "Direct Factoring"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "Factor: x² + 5x + 6"
   options: ["(x+2)(x+3)", "(x+1)(x+6)", "(x+2)(x+4)", "(x+3)(x+4)"]
   answer: 0
@@ -8,6 +9,7 @@ basic_q1:
 basic_q2:
   type: "Missing Number"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "x² + 9x + 14 = (x + __)(x + 7)"
   options: ["1", "2", "4", "9"]
   answer: 1
@@ -15,6 +17,7 @@ basic_q2:
 basic_q3:
   type: "Identify Middle Term"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "(x + 3)(x + 5) = x² + __x + 15"
   options: ["6", "8", "15", "3"]
   answer: 1
@@ -22,6 +25,7 @@ basic_q3:
 basic_q4:
   type: "Select the Pair"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which pair multiplies to -20 and adds to -1?"
   options: ["-10, 2", "5, -4", "-5, 4", "10, -2"]
   answer: 2
@@ -29,6 +33,7 @@ basic_q4:
 basic_q5:
   type: "Matching Trinomial"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which trinomial equals (x + 2)(x - 5)?"
   options: ["x² - 3x - 10", "x² - 7x - 10", "x² + 3x - 10", "x² - 3x + 10"]
   answer: 0
@@ -36,6 +41,7 @@ basic_q5:
 basic_q6:
   type: "Factorable or Not"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which trinomial cannot be factored using integers?"
   options: ["x² + 7x + 10", "x² - 5x + 6", "x² + 4x + 7", "x² - 3x - 10"]
   answer: 2
@@ -46,6 +52,7 @@ basic_q6:
 gcf_q1:
   type: "Direct Factoring"
   difficulty: "Easy"
+  category: "factoring_gcf"
   question: "Factor: 3x² + 6x + 3"
   options: ["3(x+1)²", "(x+1)²", "3(x+3)(x+1)", "3(x+2)(x+1)"]
   answer: 0
@@ -53,6 +60,7 @@ gcf_q1:
 gcf_q2:
   type: "Missing Number"
   difficulty: "Easy"
+  category: "factoring_gcf"
   question: "2x² - 18 = 2(x - 3)(x + __)"
   options: ["2", "3", "9", "18"]
   answer: 1
@@ -60,6 +68,7 @@ gcf_q2:
 gcf_q3:
   type: "Error Detection"
   difficulty: "Medium"
+  category: "factoring_gcf"
   question: |
     A student writes
     4x² + 20x + 24 = (2x + 4)(2x + 6)
@@ -71,6 +80,7 @@ gcf_q3:
 gcf_q4:
   type: "Identify Middle Term"
   difficulty: "Medium"
+  category: "factoring_gcf"
   question: "5(x² + 4x - 12) = 5x² + __x - 60"
   options: ["4", "20", "12", "5"]
   answer: 1
@@ -78,6 +88,7 @@ gcf_q4:
 gcf_q5:
   type: "Direct Factoring"
   difficulty: "Hard"
+  category: "factoring_gcf"
   question: "Factor: 3x³ - 21x² + 30x"
   options: ["3x(x-5)(x-2)", "3(x-5)(x-2)", "3x(x+5)(x+2)", "x(3x-10)(x-3)"]
   answer: 0
@@ -88,6 +99,7 @@ gcf_q5:
 adv_q1:
   type: "Direct Factoring"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "Factor: 2x² + 5x + 3"
   options: ["(2x+3)(x+1)", "(2x+1)(x+3)", "(x+2)(2x+3)", "(2x+5)(x+1)"]
   answer: 0
@@ -95,6 +107,7 @@ adv_q1:
 adv_q2:
   type: "Missing Number"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "3x² + 7x + 2 = (3x + __)(x + 2)"
   options: ["1", "2", "3", "6"]
   answer: 0
@@ -102,6 +115,7 @@ adv_q2:
 adv_q3:
   type: "Select the Pair"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "For 5x² - 13x - 6, which pair multiplies to -30 (AC) and adds to -13?"
   options: ["-10, -3", "-15, 2", "15, -2", "-30, 1"]
   answer: 1
@@ -109,6 +123,7 @@ adv_q3:
 adv_q4:
   type: "Matching Trinomial"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which trinomial equals (4x - 1)(x + 3)?"
   options: ["4x² + 11x - 3", "4x² - 11x - 3", "4x² + 12x - 3", "4x² + 13x - 3"]
   answer: 0
@@ -116,6 +131,7 @@ adv_q4:
 adv_q5:
   type: "Identify Middle Term"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "(2x + 5)(3x - 4) = 6x² + __x - 20"
   options: ["15", "-8", "7", "-7"]
   answer: 2
@@ -123,6 +139,7 @@ adv_q5:
 adv_q6:
   type: "Error Detection"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor 6x² + 7x - 3. A student uses 9 and -2 to split 7x. Is this step correct?"
   options: ["Yes, 9 * -2 = -18 (AC) and 9 + -2 = 7", "No, product should be -3", "No, sum should be 6", "No, 9 and -2 don't add to 7"]
   answer: 0
@@ -130,6 +147,7 @@ adv_q6:
 adv_q7:
   type: "Factorable or Not"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which cannot be factored with integers?"
   options: ["2x² + 5x + 2", "3x² + x + 1", "5x² + 7x + 2", "2x² + 7x + 3"]
   answer: 1
@@ -140,6 +158,7 @@ adv_q7:
 spec_q1:
   type: "Direct Factoring"
   difficulty: "Easy"
+  category: "diff_of_square"
   question: "Factor: x² - 25"
   options: ["(x-5)(x+5)", "(x-5)²", "(x+5)²", "(x-25)(x+1)"]
   answer: 0
@@ -147,6 +166,7 @@ spec_q1:
 spec_q2:
   type: "Identify Middle Term"
   difficulty: "Easy"
+  category: "diff_of_square"
   question: "(x + 6)² = x² + __x + 36"
   options: ["6", "12", "36", "18"]
   answer: 1
@@ -154,6 +174,7 @@ spec_q2:
 spec_q3:
   type: "Missing Number"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "9x² - 16 = (3x - 4)(3x + __)"
   options: ["3", "4", "16", "9"]
   answer: 1
@@ -161,6 +182,7 @@ spec_q3:
 spec_q4:
   type: "Matching Trinomial"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "Which expression equals (2x - 3)²?"
   options: ["4x² - 9", "4x² - 12x + 9", "4x² + 9", "4x² - 6x + 9"]
   answer: 1
@@ -168,6 +190,7 @@ spec_q4:
 spec_q5:
   type: "Error Detection"
   difficulty: "Hard"
+  category: "diff_of_square"
   question: "A student says x² + 25 = (x+5)(x-5). What is the error?"
   options: ["Product is -25, not +25", "Sum is 0", "x² + 25 is Prime", "Both A and C"]
   answer: 3
@@ -178,6 +201,7 @@ spec_q5:
 var_q1:
   type: "Direct Factoring"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "Factor: x² + 3xy + 2y²"
   options: ["(x+2y)(x+y)", "(x+2)(x+y)", "(x+2y)(x+2y)", "(x+y)(x+3y)"]
   answer: 0
@@ -185,6 +209,7 @@ var_q1:
 var_q2:
   type: "Identify Middle Term"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "(x - 4y)(x + 3y) = x² + __xy - 12y²"
   options: ["-1", "1", "-7", "12"]
   answer: 0
@@ -192,6 +217,7 @@ var_q2:
 var_q3:
   type: "Matching Trinomial"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which expression equals (x + 5y)(x - 2y)?"
   options: ["x² + 3xy - 10y²", "x² - 3xy - 10y²", "x² + 7xy - 10y²", "x² + 3xy + 10y²"]
   answer: 0
@@ -199,6 +225,7 @@ var_q3:
 var_q4:
   type: "Missing Number"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "x² - 4y² = (x - __y)(x + 2y)"
   options: ["2", "4", "1", "y"]
   answer: 0
@@ -206,6 +233,7 @@ var_q4:
 var_q5:
   type: "Direct Factoring"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor: 2x² + 7xy + 3y²"
   options: ["(2x+y)(x+3y)", "(2x+3y)(x+y)", "(x+y)(x+6y)", "(2x+3)(x+y)"]
   answer: 0
@@ -216,6 +244,7 @@ var_q5:
 ver_q1:
   type: "Reverse Check"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: |
     x² + 6x + 8
 
@@ -227,6 +256,7 @@ ver_q1:
 ver_q2:
   type: "Reverse Check"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: |
     x² - 5x - 6
 
@@ -238,6 +268,7 @@ ver_q2:
 ver_q3:
   type: "Reverse Check"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: |
     x² - 2x - 15
 
@@ -249,6 +280,7 @@ ver_q3:
 ver_q4:
   type: "Error Detection"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: |
     x² - 13x + 40
 
@@ -261,6 +293,7 @@ ver_q4:
 ver_q5:
   type: "Reverse Check"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: |
     x² - xy - 12y²
 
@@ -275,6 +308,7 @@ ver_q5:
 err_q1:
   type: "Error Detection"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "A student writes x² + 7x + 10 = (x+5)(x+5). What is the mistake?"
   options: ["Product is 25, not 10", "Sum is 10, not 7", "Both A and B", "No mistake"]
   answer: 2
@@ -282,6 +316,7 @@ err_q1:
 err_q2:
   type: "Factorable or Not"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which cannot be factored?"
   options: ["x² + 5x + 6", "x² + 4x + 5", "x² - x - 6", "x² + 10x + 25"]
   answer: 1
@@ -289,6 +324,7 @@ err_q2:
 err_q3:
   type: "Error Detection"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: |
     A student writes
     x² - 8x + 12 = (x-6)(x+2)
@@ -300,6 +336,7 @@ err_q3:
 err_q4:
   type: "Factorable or Not"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which is a Prime Trap?"
   options: ["x² + x + 1", "x² + 2x + 1", "x² - 1", "x² + 5x + 4"]
   answer: 0
@@ -307,6 +344,7 @@ err_q4:
 err_q5:
   type: "Error Detection"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: |
     A student writes
     2x² - 8 = 2(x-4)(x+4)
@@ -318,6 +356,7 @@ err_q5:
 err_q6:
   type: "Factorable or Not"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which can be factored?"
   options: ["x² + 3x + 5", "x² - 4x - 12", "x² + x + 1", "x² + 2x + 3"]
   answer: 1
@@ -325,6 +364,7 @@ err_q6:
 err_q7:
   type: "Error Detection"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "A student factors x² + 6x + 12 as (x+2)(x+6). Is this correct?"
   options: ["Yes", "No, sum is 8", "No, product is 12 but sum is 8", "No, it's Prime"]
   answer: 2
@@ -335,6 +375,7 @@ err_q7:
 wp_q1:
   type: "Area and Perimeter"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: |
     A rectangle has area x² + 5x + 6 (square units).
 
@@ -348,6 +389,7 @@ wp_q1:
 wp_q2:
   type: "Area and Perimeter"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: |
     A garden has area x² + 7x + 12.
     The length is (x+4).
@@ -359,6 +401,7 @@ wp_q2:
 wp_q3:
   type: "Projectile Motion"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: |
     The height (feet) of a ball thrown upward is
     h(t) = -16t² + 32t + 48
@@ -373,6 +416,7 @@ wp_q3:
 wp_q4:
   type: "Projectile Motion"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: |
     The height (feet) of a ball thrown upward is
     h(t) = -16t² + 64t
@@ -388,6 +432,7 @@ wp_q4:
 wp_q5:
   type: "Consecutive Integers"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: |
     The product of two consecutive integers is 42.
 
@@ -403,6 +448,7 @@ wp_q5:
 wp_q6:
   type: "Consecutive Integers"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: |
     The product of two consecutive even integers is 48.
 
@@ -422,6 +468,7 @@ wp_q6:
 advanced_factoring_trinomials_a_not_1__adv_q2:
   type: "AC Method Calculation"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "For the trinomial 4x² - 17x + 4, what is the correct AC product and the magic pair?"
   options: ["AC=16; (-16, -1)", "AC=8; (-8, -9)", "AC=16; (-4, -4)", "AC=4; (-4, -13)"]
   answer: 0
@@ -429,6 +476,7 @@ advanced_factoring_trinomials_a_not_1__adv_q2:
 advanced_factoring_trinomials_a_not_1__adv_q3:
   type: "Splitting Logic"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "To factor 6x² + 7x - 3 using grouping, how should the middle term 7x be split?"
   options: ["6x and 1x", "3x and 4x", "9x and -2x", "-9x and 2x"]
   answer: 2
@@ -436,6 +484,7 @@ advanced_factoring_trinomials_a_not_1__adv_q3:
 advanced_factoring_trinomials_a_not_1__adv_q4:
   type: "Magic Pair Search"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "For 3x² + 11x + 6, what pair of numbers multiplies to 18 (AC) and adds to 11?"
   options: ["3, 6", "18, 1", "6, 3", "9, 2"]
   answer: 3
@@ -443,6 +492,7 @@ advanced_factoring_trinomials_a_not_1__adv_q4:
 advanced_factoring_trinomials_a_not_1__adv_q5:
   type: "Grouping Setup"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which expression shows 2x² + 7x + 5 with the middle term split correctly for factoring by grouping?"
   options: ["2x² + 1x + 6x + 5", "2x² + 2x + 5x + 5", "2x² + 3x + 4x + 5", "2x² - 2x + 9x + 5"]
   answer: 1
@@ -452,6 +502,7 @@ advanced_factoring_trinomials_a_not_1__adv_q5:
 advanced_factoring_trinomials_a_not_1__adv_q7:
   type: "Verification"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "A student factors 2x² - 5x - 3 as (2x + 1)(x - 3). Is this correct?"
   options: ["No, the middle term is wrong", "Yes", "No, the constant is wrong", "No, signs are swapped"]
   answer: 1
@@ -459,6 +510,7 @@ advanced_factoring_trinomials_a_not_1__adv_q7:
 advanced_factoring_trinomials_a_not_1__adv_q8:
   type: "Middle Term Check"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "If a student writes (3x - 1)(x + 2) for 3x² + 5x - 2, what is the middle term of their product?"
   options: ["x", "6x", "5x", "-x"]
   answer: 2
@@ -466,6 +518,7 @@ advanced_factoring_trinomials_a_not_1__adv_q8:
 advanced_factoring_trinomials_a_not_1__adv_q9:
   type: "Sign Error"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Why is (2x - 3)(x - 4) the wrong factorization for 2x² - 11x + 12?"
   options: ["The constant term is actually -12", "Product is +12, but sum is -11", "The middle term is actually -14x", "The middle term is actually +11x"]
   answer: 2
@@ -473,6 +526,7 @@ advanced_factoring_trinomials_a_not_1__adv_q9:
 advanced_factoring_trinomials_a_not_1__adv_q10:
   type: "Reverse Distributive Error"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "A student expands (4x + 3)(x - 1) and gets 4x² + x - 3. Is their work correct?"
   options: ["No, the middle term should be -x", "No, the middle term should be 7x", "Yes", "No, the constant should be +3"]
   answer: 0
@@ -482,6 +536,7 @@ advanced_factoring_trinomials_a_not_1__adv_q10:
 advanced_factoring_trinomials_a_not_1__adv_q11:
   type: "Factorable Check"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Using the discriminant (b² - 4ac), which of these is NOT factorable over integers?"
   options: ["3x² + 5x + 2", "2x² + 7x + 3", "4x² + 2x + 5", "5x² + 13x - 6"]
   answer: 2
@@ -489,6 +544,7 @@ advanced_factoring_trinomials_a_not_1__adv_q11:
 advanced_factoring_trinomials_a_not_1__adv_q12:
   type: "Sign Logic"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "In the expression 4x² - 11x + 6, the signs in the binomial factors must be:"
   options: ["Both positive", "Both negative", "One positive, one negative", "Varies by x value"]
   answer: 1
@@ -496,6 +552,7 @@ advanced_factoring_trinomials_a_not_1__adv_q12:
 advanced_factoring_trinomials_a_not_1__adv_q13:
   type: "Prime Identification"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which of the following advanced trinomials is considered 'Prime'?"
   options: ["2x² + 3x + 1", "3x² + x + 2", "5x² - 14x - 3", "4x² + 8x + 3"]
   answer: 1
@@ -503,6 +560,7 @@ advanced_factoring_trinomials_a_not_1__adv_q13:
 advanced_factoring_trinomials_a_not_1__adv_q14:
   type: "Coefficient Relationship"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "If a and c are both positive in ax² + bx + c, and b is negative, the factors must be:"
   options: ["(ax - m)(cx - n)", "(ax + m)(cx + n)", "(ax + m)(cx - n)", "Prime"]
   answer: 0
@@ -512,6 +570,7 @@ advanced_factoring_trinomials_a_not_1__adv_q14:
 advanced_factoring_trinomials_a_not_1__adv_q15:
   type: "Missing Middle Term"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "In the factorization 3x² + bx + 10 = (3x + 2)(x + 5), what is the value of b?"
   options: ["7", "17", "15", "21"]
   answer: 1
@@ -519,6 +578,7 @@ advanced_factoring_trinomials_a_not_1__adv_q15:
 advanced_factoring_trinomials_a_not_1__adv_q16:
   type: "Missing Constant"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "3x² - 11x + ___ = (3x - 2)(x - 3)"
   options: ["-6", "3", "5", "6"]
   answer: 3
@@ -526,6 +586,7 @@ advanced_factoring_trinomials_a_not_1__adv_q16:
 advanced_factoring_trinomials_a_not_1__adv_q17:
   type: "Missing Value k"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "If (2x + 3) is a factor of 2x² + kx - 15, what is k?"
   options: ["7", "-7", "1", "13"]
   answer: 1
@@ -533,6 +594,7 @@ advanced_factoring_trinomials_a_not_1__adv_q17:
 advanced_factoring_trinomials_a_not_1__adv_q18:
   type: "Identify a Factor"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "Which of the following is a factor of 6x² - 5x - 4?"
   options: ["(2x-1)", "(3x+4)", "(3x-4)", "(6x-1)"]
   answer: 2
@@ -540,6 +602,7 @@ advanced_factoring_trinomials_a_not_1__adv_q18:
 advanced_factoring_trinomials_a_not_1__adv_q19:
   type: "Find Coefficient a"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "If (x - 4)(ax + 1) = 3x² - 11x - 4, what is the value of a?"
   options: ["1", "4", "11", "3"]
   answer: 3
@@ -547,146 +610,175 @@ advanced_factoring_trinomials_a_not_1__adv_q19:
 # --- UNIT 5: DIRECT FACTORING ---
 
 advanced_factoring_trinomials_a_not_1__adv_q21:
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 10x + 8"
   options: ["(3x-2)(x-4)", "(x-8)(3x-1)", "(3x-4)(x-2)", "(3x+4)(x+2)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q22:
+  category: "factoring_trinomials"
   question: "Factor: 6x² + 11x - 10"
   options: ["(3x-2)(2x+5)", "(3x+5)(2x-2)", "(6x-5)(x+2)", "(2x+5)(3x-2)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q23:
+  category: "factoring_trinomials"
   question: "Factor: 4x² + 4x - 3"
   options: ["(2x+1)(2x-3)", "(2x-1)(2x+3)", "(4x-1)(x+3)", "(2x+3)(2x+1)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q24:
+  category: "factoring_trinomials"
   question: "Factor: 3x² + 13x + 4"
   options: ["(3x+4)(x+1)", "(x+12)(x+1)", "(3x+1)(x+4)", "(3x+2)(x+2)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q25:
+  category: "factoring_trinomials"
   question: "Factor: 2x² - x - 6"
   options: ["(2x-3)(x+2)", "(2x-1)(x+6)", "(x-3)(2x+2)", "(2x+3)(x-2)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q26:
+  category: "factoring_trinomials"
   question: "Factor: 6x² - x - 2"
   options: ["(3x-2)(2x+1)", "(3x+2)(2x-1)", "(6x+1)(x-2)", "(2x-1)(3x+2)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q27:
+  category: "factoring_trinomials"
   question: "Factor: 5x² - 18x - 8"
   options: ["(5x-2)(x+4)", "(5x+2)(x-4)", "(5x-4)(x+2)", "(x-8)(5x+1)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q28:
+  category: "factoring_trinomials"
   question: "Factor: 4x² + 8x - 5"
   options: ["(2x+1)(2x-5)", "(4x+5)(x-1)", "(2x-1)(2x+5)", "(2x-5)(2x+1)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q29:
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 5x - 2"
   options: ["(3x-1)(x+2)", "(3x-2)(x+1)", "(x-1)(3x+2)", "(3x+1)(x-2)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q30:
+  category: "factoring_trinomials"
   question: "Factor: 2x² + 9x + 10"
   options: ["(2x+5)(x+2)", "(2x+2)(x+5)", "(x+10)(2x+1)", "(2x+4)(x+2.5)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q31:
+  category: "factoring_trinomials"
   question: "Factor: 6x² + 7x + 2"
   options: ["(3x+1)(2x+2)", "(3x+2)(2x+1)", "(6x+2)(x+1)", "(2x+2)(3x+1)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q32:
+  category: "factoring_trinomials"
   question: "Factor: 4x² - 15x - 4"
   options: ["(4x-1)(x+4)", "(2x-4)(2x+1)", "(4x+1)(x-4)", "(x-15)(4x+1)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q33:
+  category: "factoring_trinomials"
   question: "Factor: 3x² + 14x + 8"
   options: ["(3x+4)(x+2)", "(x+8)(3x+1)", "(3x+8)(x+1)", "(3x+2)(x+4)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q34:
+  category: "factoring_trinomials"
   question: "Factor: 2x² - 11x + 12"
   options: ["(2x-3)(x-4)", "(2x-4)(x-3)", "(2x-6)(x-2)", "(x-12)(2x-1)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q35:
+  category: "factoring_trinomials"
   question: "Factor: 5x² + 7x + 2"
   options: ["(5x+1)(x+2)", "(5x+2)(x+1)", "(x+7)(5x+1)", "(5x-2)(x-1)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q36:
+  category: "factoring_trinomials"
   question: "Factor: 6x² - 19x + 10"
   options: ["(3x-5)(2x-2)", "(3x-2)(2x-5)", "(6x-5)(x-2)", "(2x-2)(3x-5)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q37:
+  category: "factoring_trinomials"
   question: "Factor: 4x² - 4x - 15"
   options: ["(2x-3)(2x+5)", "(4x+3)(x-5)", "(2x+3)(2x-5)", "(2x-5)(2x+3)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q38:
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 2x - 8"
   options: ["(3x-4)(x+2)", "(3x-2)(x+4)", "(x-4)(3x+2)", "(3x+4)(x-2)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q39:
+  category: "factoring_trinomials"
   question: "Factor: 2x² + 13x + 15"
   options: ["(2x+3)(x+5)", "(2x+5)(x+3)", "(x+15)(2x+1)", "(2x+1)(x+15)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q40:
+  category: "factoring_trinomials"
   question: "Factor: 8x² + 22x + 5"
   options: ["(8x+1)(x+5)", "(4x+1)(2x+5)", "(2x+1)(4x+5)", "(4x+5)(2x+1)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q41:
+  category: "factoring_trinomials"
   question: "Factor: 10x² + 11x - 6"
   options: ["(5x+3)(2x-2)", "(5x-2)(2x+3)", "(10x-3)(x+2)", "(2x-3)(5x+2)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q42:
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 16x + 5"
   options: ["(3x-5)(x-1)", "(x-15)(x-1)", "(3x-1)(x-5)", "(3x+1)(x+5)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q43:
+  category: "factoring_trinomials"
   question: "Factor: 4x² + 11x - 3"
   options: ["(4x+3)(x-1)", "(2x+3)(2x-1)", "(x+3)(4x-1)", "(4x-1)(x+3)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q44:
+  category: "factoring_trinomials"
   question: "Factor: 6x² + x - 1"
   options: ["(3x-1)(2x+1)", "(3x+1)(2x-1)", "(6x+1)(x-1)", "(2x+1)(3x-1)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q45:
+  category: "factoring_trinomials"
   question: "Factor: 5x² - 13x - 6"
   options: ["(5x-3)(x+2)", "(5x+2)(x-3)", "(x-6)(5x+1)", "(5x+3)(x-2)"]
   answer: 1
 
 advanced_factoring_trinomials_a_not_1__adv_q46:
+  category: "factoring_trinomials"
   question: "Factor: 2x² + 11x + 5"
   options: ["(2x+5)(x+1)", "(x+10)(2x+1)", "(2x+1)(x+5)", "(2x-1)(x-5)"]
   answer: 2
 
 advanced_factoring_trinomials_a_not_1__adv_q47:
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 17x + 10"
   options: ["(3x-5)(x-2)", "(3x-10)(x-1)", "(x-2)(3x-5)", "(3x-2)(x-5)"]
   answer: 3
 
 advanced_factoring_trinomials_a_not_1__adv_q48:
+  category: "factoring_trinomials"
   question: "Factor: 4x² + 19x - 5"
   options: ["(4x-1)(x+5)", "(4x+5)(x-1)", "(2x+5)(2x-1)", "(x+5)(4x-1)"]
   answer: 0
 
 advanced_factoring_trinomials_a_not_1__adv_q49:
+  category: "factoring_trinomials"
   question: "Factor: 6x² - 7x + 2"
   options: ["(3x-1)(2x-2)", "(3x-2)(2x-1)", "(6x-1)(x-2)", "(2x-1)(3x-2)"]
   answer: 1
@@ -694,6 +786,7 @@ advanced_factoring_trinomials_a_not_1__adv_q49:
 advanced_factoring_trinomials_a_not_1__adv_q50:
   type: "Complex Factoring"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor: 12x² + 17x + 6"
   options: ["(6x+2)(2x+3)", "(12x+1)(x+6)", "(3x+2)(4x+3)", "(3x+3)(4x+2)"]
   answer: 2
@@ -705,6 +798,7 @@ advanced_factoring_trinomials_a_not_1__adv_q50:
 basic_factoring_trinomials__basic_q16:
   type: "Prime Check"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Which of these trinomials cannot be factored using integers (Prime)?"
   options: ["x² + 5x + 4", "x² + 3x + 5", "x² - x - 6", "x² + 7x + 10"]
   answer: 1
@@ -712,6 +806,7 @@ basic_factoring_trinomials__basic_q16:
 basic_factoring_trinomials__basic_q17:
   type: "Prime Check"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Find the trinomial that is NOT factorable:"
   options: ["x² + 4x + 4", "x² - 2x - 3", "x² + 2x + 2", "x² + 6x + 5"]
   answer: 2
@@ -720,146 +815,175 @@ basic_factoring_trinomials__basic_q17:
 # Targets: "Factoring practice problems"
 
 basic_factoring_trinomials__basic_q22:
+  category: "factoring_trinomials"
   question: "Factor: x² + 11x + 24"
   options: ["(x+1)(x+24)", "(x+2)(x+12)", "(x+4)(x+6)", "(x+8)(x+3)"]
   answer: 3
 
 basic_factoring_trinomials__basic_q23:
+  category: "factoring_trinomials"
   question: "Factor: x² - 12x + 27"
   options: ["(x-3)(x-9)", "(x-1)(x-12)", "(x-4)(x-8)", "(x-6)(x-6)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q24:
+  category: "factoring_trinomials"
   question: "Factor: x² + x - 30"
   options: ["(x+3)(x-10)", "(x+6)(x-5)", "(x-6)(x+5)", "(x+15)(x-2)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q25:
+  category: "factoring_trinomials"
   question: "Factor: x² - 10x + 21"
   options: ["(x-1)(x-10)", "(x-2)(x-8)", "(x-3)(x-7)", "(x-5)(x-5)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q26:
+  category: "factoring_trinomials"
   question: "Factor: x² + 4x - 12"
   options: ["(x-2)(x+6)", "(x+2)(x-6)", "(x-3)(x+4)", "(x+3)(x-4)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q27:
+  category: "factoring_trinomials"
   question: "Factor: x² - 15x + 56"
   options: ["(x-4)(x-14)", "(x-7)(x-8)", "(x-1)(x-56)", "(x-2)(x-28)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q28:
+  category: "factoring_trinomials"
   question: "Factor: x² - 4x - 21"
   options: ["(x+3)(x-7)", "(x-3)(x+7)", "(x-21)(x+1)", "(x-1)(x+21)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q29:
+  category: "factoring_trinomials"
   question: "Factor: x² + 13x + 40"
   options: ["(x+1)(x+40)", "(x+4)(x+10)", "(x+5)(x+8)", "(x+2)(x+20)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q30:
+  category: "factoring_trinomials"
   question: "Factor: x² - 2x - 24"
   options: ["(x+4)(x-6)", "(x-4)(x+6)", "(x-12)(x+2)", "(x-8)(x+3)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q31:
+  category: "factoring_trinomials"
   question: "Factor: x² + 10x + 25"
   options: ["(x+1)(x+25)", "(x+5)(x+5)", "(x-5)(x-5)", "(x+10)(x+1)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q32:
+  category: "factoring_trinomials"
   question: "Factor: x² - 11x + 18"
   options: ["(x-1)(x-18)", "(x-3)(x-6)", "(x-2)(x-9)", "(x-4)(x-7)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q33:
+  category: "factoring_trinomials"
   question: "Factor: x² + 3x - 18"
   options: ["(x+6)(x-3)", "(x-6)(x+3)", "(x+9)(x-2)", "(x-9)(x+2)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q34:
+  category: "factoring_trinomials"
   question: "Factor: x² - 5x - 14"
   options: ["(x+1)(x-14)", "(x-1)(x+14)", "(x+2)(x-7)", "(x-2)(x+7)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q35:
+  category: "factoring_trinomials"
   question: "Factor: x² + 14x + 45"
   options: ["(x+5)(x+9)", "(x+3)(x+15)", "(x+1)(x+45)", "(x+7)(x+7)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q36:
+  category: "factoring_trinomials"
   question: "Factor: x² - x - 2"
   options: ["(x+1)(x-2)", "(x-1)(x+2)", "(x-2)(x-1)", "(x+2)(x+1)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q37:
+  category: "factoring_trinomials"
   question: "Factor: x² + 12x + 32"
   options: ["(x+2)(x+16)", "(x+4)(x+8)", "(x+1)(x+32)", "(x+6)(x+6)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q38:
+  category: "factoring_trinomials"
   question: "Factor: x² - 14x + 48"
   options: ["(x-2)(x-24)", "(x-4)(x-12)", "(x-1)(x-48)", "(x-6)(x-8)"]
   answer: 3
 
 basic_factoring_trinomials__basic_q39:
+  category: "factoring_trinomials"
   question: "Factor: x² + 6x - 27"
   options: ["(x+9)(x-3)", "(x-9)(x+3)", "(x+27)(x-1)", "(x-27)(x+1)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q40:
+  category: "factoring_trinomials"
   question: "Factor: x² - 17x + 72"
   options: ["(x-2)(x-36)", "(x-8)(x-9)", "(x-4)(x-18)", "(x-6)(x-12)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q41:
+  category: "factoring_trinomials"
   question: "Factor: x² + 5x - 24"
   options: ["(x+8)(x-3)", "(x-8)(x+3)", "(x+12)(x-2)", "(x+6)(x-4)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q42:
+  category: "factoring_trinomials"
   question: "Factor: x² - 13x + 36"
   options: ["(x-1)(x-36)", "(x-6)(x-6)", "(x-4)(x-9)", "(x-3)(x-12)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q43:
+  category: "factoring_trinomials"
   question: "Factor: x² + 2x - 15"
   options: ["(x+5)(x-3)", "(x-5)(x+3)", "(x+15)(x-1)", "(x+1)(x-15)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q44:
+  category: "factoring_trinomials"
   question: "Factor: x² - 12x + 20"
   options: ["(x-4)(x-5)", "(x-2)(x-10)", "(x-1)(x-20)", "(x+2)(x+10)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q45:
+  category: "factoring_trinomials"
   question: "Factor: x² + 4x - 21"
   options: ["(x+7)(x-3)", "(x-7)(x+3)", "(x+21)(x-1)", "(x-21)(x+1)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q46:
+  category: "factoring_trinomials"
   question: "Factor: x² - 3x - 40"
   options: ["(x+4)(x-10)", "(x+2)(x-20)", "(x-8)(x+5)", "(x+8)(x-5)"]
   answer: 2
 
 basic_factoring_trinomials__basic_q47:
+  category: "factoring_trinomials"
   question: "Factor: x² + 16x + 63"
   options: ["(x+7)(x+9)", "(x+1)(x+63)", "(x+3)(x+21)", "(x+10)(x+6)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q48:
+  category: "factoring_trinomials"
   question: "Factor: x² - 6x - 16"
   options: ["(x+2)(x-8)", "(x-2)(x+8)", "(x-16)(x+1)", "(x-4)(x+4)"]
   answer: 0
 
 basic_factoring_trinomials__basic_q49:
+  category: "factoring_trinomials"
   question: "Factor: x² + 15x + 54"
   options: ["(x+3)(x+18)", "(x+6)(x+9)", "(x+1)(x+54)", "(x+2)(x+27)"]
   answer: 1
 
 basic_factoring_trinomials__basic_q50:
+  category: "factoring_trinomials"
   question: "Factor: x² - 10x + 16"
   options: ["(x-1)(x-16)", "(x-4)(x-4)", "(x-2)(x-8)", "(x-5)(x-3)"]
   answer: 2
@@ -869,171 +993,205 @@ basic_factoring_trinomials__basic_q50:
 # Targets: "How to find the greatest common factor", "GCF of variables"
 
 factoring_with_gcf_practice__gcf_q17:
+  category: "factoring_gcf"
   question: "Factor completely: x³ + 5x² + 6x"
   options: ["x(x+1)(x+6)", "x(x+2)(x+3)", "(x²+2)(x+3)", "x(x+5x+6)"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q18:
+  category: "factoring_gcf"
   question: "Factor completely: 4x² - 16"
   options: ["(2x-4)(2x+4)", "4(x-2)(x+2)", "4(x-4)", "4(x-2)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q19:
+  category: "factoring_gcf"
   question: "Factor completely: 2x² + 2x - 24"
   options: ["2(x+4)(x-3)", "2(x-4)(x+3)", "2(x+12)(x-1)", "(2x+8)(x-3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q20:
+  category: "factoring_gcf"
   question: "Factor completely: 3x² + 18x + 27"
   options: ["3(x+3)(x+3)", "3(x+9)(x+1)", "(3x+9)(x+3)", "3(x+6x+9)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q21:
+  category: "factoring_gcf"
   question: "Factor completely: 10x² - 50x + 60"
   options: ["10(x-6)(x-1)", "10(x-2)(x-3)", "5(2x-4)(x-3)", "10(x-5x+6)"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q22:
+  category: "factoring_gcf"
   question: "Factor completely: 4x³ + 12x² - 40x"
   options: ["4x(x+5)(x-2)", "4(x+5)(x-2)", "4x(x-5)(x+2)", "x(4x+20)(x-2)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q23:
+  category: "factoring_gcf"
   question: "Factor completely: 2x³ - 2x² - 12x"
   options: ["2(x-3)(x+2)", "2x(x+3)(x-2)", "2x(x-3)(x+2)", "x(2x-6)(x+2)"]
   answer: 2
 
 factoring_with_gcf_practice__gcf_q24:
+  category: "factoring_gcf"
   question: "Factor completely: 6x² + 6x - 72"
   options: ["6(x+4)(x-3)", "6(x-4)(x+3)", "6(x² + x - 12)", "(6x+24)(x-3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q25:
+  category: "factoring_gcf"
   question: "Factor completely: 3x² - 3x - 18"
   options: ["3(x-3)(x+2)", "3(x+3)(x-2)", "(3x-9)(x+2)", "3(x-6)(x+1)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q26:
+  category: "factoring_gcf"
   question: "Factor completely: 5x³ - 5x"
   options: ["5x(x-1)²", "5x(x-1)(x+1)", "5(x³-x)", "5x(x-1)"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q27:
+  category: "factoring_gcf"
   question: "Factor completely: 2x² + 16x + 30"
   options: ["2(x+3)(x+5)", "2(x+15)(x+1)", "(2x+6)(x+5)", "2(x+2)(x+8)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q28:
+  category: "factoring_gcf"
   question: "Factor completely: 4x² - 20x + 24"
   options: ["4(x-1)(x-6)", "4(x-2)(x-3)", "(4x-8)(x-3)", "4(x-5x+6)"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q29:
+  category: "factoring_gcf"
   question: "Factor completely: 3x³ + 9x² - 30x"
   options: ["3x(x+5)(x-2)", "3x(x-5)(x+2)", "3(x+5)(x-2)", "x(3x+15)(x-2)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q30:
+  category: "factoring_gcf"
   question: "Factor completely: 2x² - 18"
   options: ["2(x-9)", "2(x-3)(x+3)", "(2x-6)(x+3)", "2(x-3)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q31:
+  category: "factoring_gcf"
   question: "Factor completely: 5x² + 25x + 30"
   options: ["5(x+1)(x+6)", "5(x+2)(x+3)", "(5x+10)(x+3)", "5(x+5x+6)"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q32:
+  category: "factoring_gcf"
   question: "Factor completely: 7x² - 7x - 42"
   options: ["7(x-3)(x+2)", "7(x-6)(x+1)", "7(x-3)(x+14)", "7(x-1)(x-6)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q33:
+  category: "factoring_gcf"
   question: "Factor completely: 3x³ - 12x"
   options: ["3x(x-2)(x+2)", "3x(x-4)", "3(x³-4x)", "3x(x-2)²"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q34:
+  category: "factoring_gcf"
   question: "Factor completely: 2x² - 4x - 16"
   options: ["2(x-4)(x+2)", "2(x+4)(x-2)", "(2x-8)(x+2)", "2(x-8)(x+1)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q35:
+  category: "factoring_gcf"
   question: "Factor completely: 6x² - 24"
   options: ["6(x-4)", "6(x-2)(x+2)", "(6x-12)(x+2)", "6(x-2)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q36:
+  category: "factoring_gcf"
   question: "Factor completely: 4x³ + 4x² - 24x"
   options: ["4x(x+3)(x-2)", "4x(x-3)(x+2)", "4(x+3)(x-2)", "x(4x+12)(x-2)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q37:
+  category: "factoring_gcf"
   question: "Factor completely: 3x² - 12x + 12"
   options: ["3(x-2)²", "3(x-2)(x+2)", "3(x-4)(x+3)", "(3x-6)(x-2)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q38:
+  category: "factoring_gcf"
   question: "Factor completely: 5x² - 45"
   options: ["5(x-9)", "5(x-3)(x+3)", "(5x-15)(x+3)", "5(x-3)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q39:
+  category: "factoring_gcf"
   question: "Factor completely: 2x³ + 4x² - 30x"
   options: ["2x(x+5)(x-3)", "2x(x-5)(x+3)", "2(x+5)(x-3)", "x(2x+10)(x-3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q40:
+  category: "factoring_gcf"
   question: "Factor completely: 3x² + 3x - 18"
   options: ["3(x+3)(x-2)", "3(x-3)(x+2)", "(3x+9)(x-2)", "3(x+6)(x-1)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q41:
+  category: "factoring_gcf"
   question: "Factor completely: 4x² + 16x + 12"
   options: ["4(x+1)(x+3)", "4(x+2)(x+2)", "(4x+4)(x+3)", "4(x+4x+3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q42:
+  category: "factoring_gcf"
   question: "Factor completely: 2x³ - 8x"
   options: ["2x(x-2)(x+2)", "2x(x-4)", "2(x³-4x)", "2x(x-2)²"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q43:
+  category: "factoring_gcf"
   question: "Factor completely: 5x² - 10x - 15"
   options: ["5(x-3)(x+1)", "5(x+3)(x-1)", "(5x-15)(x+1)", "5(x-5)(x+3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q44:
+  category: "factoring_gcf"
   question: "Factor completely: 3x² - 27"
   options: ["3(x-9)", "3(x-3)(x+3)", "(3x-9)(x+3)", "3(x-3)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q45:
+  category: "factoring_gcf"
   question: "Factor completely: 2x³ + 14x² + 20x"
   options: ["2x(x+2)(x+5)", "2x(x+10)(x+1)", "2(x+2)(x+5)", "x(2x+4)(x+5)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q46:
+  category: "factoring_gcf"
   question: "Factor completely: 4x² - 36"
   options: ["4(x-9)", "4(x-3)(x+3)", "(4x-12)(x+3)", "4(x-3)²"]
   answer: 1
 
 factoring_with_gcf_practice__gcf_q47:
+  category: "factoring_gcf"
   question: "Factor completely: 6x² + 12x - 18"
   options: ["6(x+3)(x-1)", "6(x-3)(x+1)", "(6x+18)(x-1)", "6(x+2x-3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q48:
+  category: "factoring_gcf"
   question: "Factor completely: 3x³ + 12x² + 9x"
   options: ["3x(x+1)(x+3)", "3x(x+2)(x+1)", "3(x+1)(x+3)", "x(3x+3)(x+3)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q49:
+  category: "factoring_gcf"
   question: "Factor completely: 5x² - 5x - 30"
   options: ["5(x-3)(x+2)", "5(x+3)(x-2)", "(5x-15)(x+2)", "5(x-6)(x+1)"]
   answer: 0
 
 factoring_with_gcf_practice__gcf_q50:
+  category: "factoring_gcf"
   question: "Factor completely: 2x³ - 32x"
   options: ["2x(x-4)(x+4)", "2x(x-16)", "2(x³-16x)", "2x(x-4)²"]
   answer: 0
@@ -1045,6 +1203,7 @@ factoring_with_gcf_practice__gcf_q50:
 factoring_word_problems_and_applications__wp_q1:
   type: "Area Analysis"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "A rectangle has an area represented by x² + 5x + 6. If the area is length times width, which dimensions are possible?"
   options: ["(x + 1) and (x + 6)", "(x + 2) and (x + 3)", "(x + 2) and (x + 4)", "(x - 2) and (x - 3)"]
   answer: 1
@@ -1052,6 +1211,7 @@ factoring_word_problems_and_applications__wp_q1:
 factoring_word_problems_and_applications__wp_q2:
   type: "Finding Width"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "The area of a rug is x² + 7x + 10. If the length is (x + 5), what is the width?"
   options: ["(x + 2)", "(x + 5)", "(x + 10)", "(x + 7)"]
   answer: 0
@@ -1059,6 +1219,7 @@ factoring_word_problems_and_applications__wp_q2:
 factoring_word_problems_and_applications__wp_q3:
   type: "Square Dimensions"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "A square garden has an area of x² + 6x + 9. What is the length of one side?"
   options: ["(x + 9)", "(x + 6)", "(x + 3)", "(x + 3)²"]
   answer: 2
@@ -1066,6 +1227,7 @@ factoring_word_problems_and_applications__wp_q3:
 factoring_word_problems_and_applications__wp_q4:
   type: "Unknown Side"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "A picture frame has an area of x² - x - 12. If one side is (x - 4), what must the other side be?"
   options: ["(x - 3)", "(x + 4)", "(x + 1)", "(x + 3)"]
   answer: 3
@@ -1076,6 +1238,7 @@ factoring_word_problems_and_applications__wp_q4:
 factoring_word_problems_and_applications__wp_q5:
   type: "Ground Impact"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "The height of a ball is given by h(t) = -16(t - 3)(t + 1). At what positive time 't' does the ball hit the ground (height = 0)?"
   options: ["t = 1 second", "t = 3 seconds", "t = -1 second", "t = 0 seconds"]
   answer: 1
@@ -1083,6 +1246,7 @@ factoring_word_problems_and_applications__wp_q5:
 factoring_word_problems_and_applications__wp_q6:
   type: "Initial Height Logic"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "A rocket is launched. Its height is h = -16t² + 64t + 80. After factoring out the GCF (-16), you get -16(t² - 4t - 5). What are the roots of this motion?"
   options: ["t = 5 and t = -1", "t = 4 and t = 5", "t = 2 and t = 8", "t = -5 and t = 1"]
   answer: 0
@@ -1090,6 +1254,7 @@ factoring_word_problems_and_applications__wp_q6:
 factoring_word_problems_and_applications__wp_q7:
   type: "Interpretation"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "If a projectile's height is factored as h = -16(t - 4)(t + 0.5), why do we ignore the root t = -0.5?"
   options: ["Time cannot be a decimal", "The ball never hits that point", "Time cannot be negative in this context", "The equation is prime"]
   answer: 2
@@ -1100,6 +1265,7 @@ factoring_word_problems_and_applications__wp_q7:
 factoring_word_problems_and_applications__wp_q8:
   type: "Consecutive Integers"
   difficulty: "Medium"
+  category: "factoring_trinomials"
   question: "The product of two consecutive positive integers is 42. This forms the equation x² + x - 42 = 0. Which pair of integers is the solution?"
   options: ["5 and 6", "6 and 7", "7 and 8", "21 and 2"]
   answer: 1
@@ -1107,6 +1273,7 @@ factoring_word_problems_and_applications__wp_q8:
 factoring_word_problems_and_applications__wp_q9:
   type: "Integer Logic"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "The product of two consecutive even integers is 80. If x represents the smaller integer, the equation is x(x + 2) = 80. What is the smaller integer?"
   options: ["10", "12", "8", "6"]
   answer: 2
@@ -1114,6 +1281,7 @@ factoring_word_problems_and_applications__wp_q9:
 factoring_word_problems_and_applications__wp_q10:
   type: "Sum and Product"
   difficulty: "Easy"
+  category: "factoring_trinomials"
   question: "Two numbers add to 10 and multiply to 21. What are the numbers?"
   options: ["2 and 8", "4 and 6", "5 and 5", "3 and 7"]
   answer: 3
@@ -1121,201 +1289,241 @@ factoring_word_problems_and_applications__wp_q10:
 # --- UNIT 4: GUIDED APPLICATIONS (MIXED) ---
 
 factoring_word_problems_and_applications__wp_q11:
+  category: "factoring_trinomials"
   question: "A rectangular pool has an area of x² + 12x + 35. What is the sum of the length and width if they are represented by the factors?"
   options: ["2x + 12", "x + 35", "2x + 35", "x + 12"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q12:
+  category: "factoring_trinomials"
   question: "A patio area is x² - 10x + 24. If the width is (x - 6), find the length."
   options: ["(x - 10)", "(x - 4)", "(x + 4)", "(x - 2)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q13:
+  category: "factoring_trinomials"
   question: "The product of two integers is 72. One integer is 1 more than the other. Find the positive integers."
   options: ["6 and 12", "7 and 8", "8 and 9", "9 and 10"]
   answer: 2
 
 factoring_word_problems_and_applications__wp_q14:
+  category: "factoring_trinomials"
   question: "A triangle has area (1/2)bh. If the area is (1/2)(x² + 5x + 4) and the base is (x + 1), what is the height?"
   options: ["(x + 4)", "(x + 5)", "(x + 1)", "(x + 2)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q15:
+  category: "factoring_trinomials"
   question: "A path's area is x² + 13x + 40. Which factor represents a dimension?"
   options: ["(x + 10)", "(x + 4)", "(x + 8)", "(x + 20)"]
   answer: 2
 
 factoring_word_problems_and_applications__wp_q16:
+  category: "factoring_trinomials"
   question: "A ball reaches height h = 0 at t = 5. Which factor must be in its height equation?"
   options: ["(t + 5)", "(t - 5)", "(t² - 5)", "(5t)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q17:
+  category: "factoring_trinomials"
   question: "The product of two consecutive odd integers is 35. What are the integers?"
   options: ["3 and 5", "5 and 7", "7 and 9", "9 and 11"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q18:
+  category: "factoring_trinomials"
   question: "A rectangular field has area x² - 14x + 45. Find the perimeter in terms of x."
   options: ["2x - 14", "4x - 28", "4x - 14", "2x - 28"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q19:
+  category: "factoring_trinomials"
   question: "The area of a poster is x² - 3x - 10. If the height is (x - 5), what is the base?"
   options: ["(x + 2)", "(x - 2)", "(x + 5)", "(x - 10)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q20:
+  category: "factoring_trinomials"
   question: "A box has a base area of x² + 11x + 18. Find the length and width."
   options: ["(x+1),(x+18)", "(x+2),(x+9)", "(x+3),(x+6)", "(x+11),(x+18)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q21:
+  category: "factoring_trinomials"
   question: "An object is thrown and hits the ground at t = 2 and t = 6. What could be the factors of the equation?"
   options: ["(t+2)(t+6)", "(t-2)(t-6)", "(t-2)(t+6)", "(t+2)(t-6)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q22:
+  category: "factoring_trinomials"
   question: "A rectangle has area x² + x - 20. If x = 10, what is the actual area?"
   options: ["90", "110", "130", "150"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q23:
+  category: "factoring_trinomials"
   question: "The product of two consecutive integers is 110. Find the smaller positive integer."
   options: ["9", "10", "11", "12"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q24:
+  category: "factoring_trinomials"
   question: "A backyard has area x² + 15x + 56. Find the dimensions."
   options: ["(x+1),(x+56)", "(x+2),(x+28)", "(x+4),(x+14)", "(x+7),(x+8)"]
   answer: 3
 
 factoring_word_problems_and_applications__wp_q25:
+  category: "factoring_trinomials"
   question: "A window's area is x² - 4x - 21. Find the width if the length is (x + 3)."
   options: ["(x - 7)", "(x + 7)", "(x - 3)", "(x - 21)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q26:
+  category: "factoring_trinomials"
   question: "A diver jumps from a board. The time to hit the water is found by factoring t² - 2t - 8 = 0. How many seconds until they hit?"
   options: ["2 seconds", "4 seconds", "8 seconds", "6 seconds"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q27:
+  category: "factoring_trinomials"
   question: "The area of a sail is x² + 10x + 24. Find the factors."
   options: ["(x+2)(x+12)", "(x+4)(x+6)", "(x+8)(x+3)", "(x+10)(x+24)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q28:
+  category: "factoring_trinomials"
   question: "Two numbers multiply to 48 and have a difference of 2. What are the positive numbers?"
   options: ["4 and 12", "5 and 7", "6 and 8", "8 and 10"]
   answer: 2
 
 factoring_word_problems_and_applications__wp_q29:
+  category: "factoring_trinomials"
   question: "The area of a deck is x² + 8x + 12. If x = 4, what is the width if the length is (x + 6)?"
   options: ["4", "6", "8", "10"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q30:
+  category: "factoring_trinomials"
   question: "A ball's height is h = -(t - 5)(t + 1). At what time is the ball at its highest point (midpoint of roots)?"
   options: ["t = 2", "t = 3", "t = 4", "t = 5"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q31:
+  category: "factoring_trinomials"
   question: "Area of a room is x² + 14x + 48. If one side is (x + 8), find the other."
   options: ["(x + 1)", "(x + 6)", "(x + 48)", "(x + 14)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q32:
+  category: "factoring_trinomials"
   question: "Product of two integers is 30. One is 7 more than the other. Find them."
   options: ["2 and 15", "3 and 10", "5 and 6", "1 and 30"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q33:
+  category: "factoring_trinomials"
   question: "Rectangle area is x² - 2x - 24. Find possible dimensions."
   options: ["(x-6)(x+4)", "(x+6)(x-4)", "(x-12)(x+2)", "(x-8)(x+3)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q34:
+  category: "factoring_trinomials"
   question: "Height is h = -16(t - 2)(t + 0.5). How long is the ball in the air?"
   options: ["0.5 seconds", "1 second", "1.5 seconds", "2 seconds"]
   answer: 3
 
 factoring_word_problems_and_applications__wp_q35:
+  category: "factoring_trinomials"
   question: "Area is x² + 16x + 63. Find the length if width is (x + 7)."
   options: ["(x + 9)", "(x + 1)", "(x + 63)", "(x + 16)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q36:
+  category: "factoring_trinomials"
   question: "Consecutive positive integers multiply to 132. Find the larger one."
   options: ["11", "12", "13", "14"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q37:
+  category: "factoring_trinomials"
   question: "Rectangle area is x² + 5x - 14. Find dimensions."
   options: ["(x+7)(x-2)", "(x-7)(x+2)", "(x+14)(x-1)", "(x-14)(x+1)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q38:
+  category: "factoring_trinomials"
   question: "A square has area x² - 10x + 25. What is the perimeter?"
   options: ["x - 5", "4x - 20", "4x - 5", "2x - 10"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q39:
+  category: "factoring_trinomials"
   question: "Height factors to -16(t - 3)(t + 1). What is the height at t = 0?"
   options: ["0", "16", "48", "32"]
   answer: 2
 
 factoring_word_problems_and_applications__wp_q40:
+  category: "factoring_trinomials"
   question: "Area is x² - 12x + 20. If x = 11, what are the dimensions?"
   options: ["9 and 1", "7 and 3", "10 and 2", "11 and 20"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q41:
+  category: "factoring_trinomials"
   question: "Product of two consecutive integers is 90. Find them."
   options: ["8, 9", "9, 10", "10, 11", "11, 12"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q42:
+  category: "factoring_trinomials"
   question: "A storage unit has floor area x² + 13x + 40. Find the width if length is (x + 8)."
   options: ["(x + 5)", "(x + 40)", "(x + 13)", "(x + 4)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q43:
+  category: "factoring_trinomials"
   question: "Projectile equation factors to -16(t - 1)(t + 1). When does it land?"
   options: ["0.5 sec", "1 sec", "2 sec", "1.5 sec"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q44:
+  category: "factoring_trinomials"
   question: "Area is x² - x - 2. Find dimensions."
   options: ["(x-1)(x+2)", "(x+1)(x-2)", "(x-2)(x-1)", "(x+2)(x+1)"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q45:
+  category: "factoring_trinomials"
   question: "Rectangle area is x² + 18x + 80. Find dimensions."
   options: ["(x+8)(x+10)", "(x+4)(x+20)", "(x+2)(x+40)", "(x+5)(x+16)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q46:
+  category: "factoring_trinomials"
   question: "Consecutive integers multiply to 156. Find the smaller one."
   options: ["11", "12", "13", "14"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q47:
+  category: "factoring_trinomials"
   question: "Area of a frame is x² - 4x - 32. One side is (x - 8). Find the other."
   options: ["(x + 4)", "(x - 4)", "(x + 8)", "(x - 32)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q48:
+  category: "factoring_trinomials"
   question: "Ball height is h = -16(t - 4)(t + 1). How high is it at t = 1?"
   options: ["64 ft", "96 ft", "48 ft", "128 ft"]
   answer: 1
 
 factoring_word_problems_and_applications__wp_q49:
+  category: "factoring_trinomials"
   question: "Area is x² + 20x + 99. Find the length if width is (x + 9)."
   options: ["(x + 11)", "(x + 10)", "(x + 20)", "(x + 99)"]
   answer: 0
 
 factoring_word_problems_and_applications__wp_q50:
+  category: "factoring_trinomials"
   question: "Two numbers add to 15 and multiply to 56. What are they?"
   options: ["6 and 9", "7 and 8", "5 and 10", "4 and 11"]
   answer: 1
@@ -1327,6 +1535,7 @@ factoring_word_problems_and_applications__wp_q50:
 special_patterns_and_difference_of_squares__spec_q5:
   type: "Middle Term Logic"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "In the pattern (a + b)² = a² + 2ab + b², why is the middle term '2ab' and not just 'ab'?"
   options: ["Because you square the middle", "Because inner and outer products are identical and must be added", "Because a and b are both doubled", "It is a mathematical rule with no reason"]
   answer: 1
@@ -1334,6 +1543,7 @@ special_patterns_and_difference_of_squares__spec_q5:
 special_patterns_and_difference_of_squares__spec_q6:
   type: "Identify the Constant"
   difficulty: "Easy"
+  category: "diff_of_square"
   question: "Which constant makes x² + 10x + ___ a perfect square trinomial?"
   options: ["10", "100", "5", "25"]
   answer: 3
@@ -1341,6 +1551,7 @@ special_patterns_and_difference_of_squares__spec_q6:
 special_patterns_and_difference_of_squares__spec_q7:
   type: "Direct Factoring"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "Factor: x² - 12x + 36"
   options: ["(x - 6)(x + 6)", "(x - 6)²", "(x + 6)²", "(x - 18)(x - 2)"]
   answer: 1
@@ -1348,6 +1559,7 @@ special_patterns_and_difference_of_squares__spec_q7:
 special_patterns_and_difference_of_squares__spec_q8:
   type: "Expansion Check"
   difficulty: "Hard"
+  category: "diff_of_square"
   question: "Which expression is the result of squaring the binomial (3x - 4)?"
   options: ["9x² - 16", "9x² - 12x + 16", "9x² - 24x + 16", "6x² - 24x + 8"]
   answer: 2
@@ -1358,6 +1570,7 @@ special_patterns_and_difference_of_squares__spec_q8:
 special_patterns_and_difference_of_squares__spec_q9:
   type: "Prime Trap"
   difficulty: "Hard"
+  category: "diff_of_square"
   question: "A student says x² + 25 factors into (x + 5)(x - 5). Why are they wrong?"
   options: ["The product of factors is x² - 25", "Sum of squares is prime", "The middle term is missing", "Both A and B"]
   answer: 3
@@ -1365,6 +1578,7 @@ special_patterns_and_difference_of_squares__spec_q9:
 special_patterns_and_difference_of_squares__spec_q10:
   type: "Expansion Error"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "A student expands (x + 3)² as x² + 9. What did they forget?"
   options: ["The middle term (2ab)", "To square the 3", "To square the x", "The negative sign"]
   answer: 0
@@ -1372,6 +1586,7 @@ special_patterns_and_difference_of_squares__spec_q10:
 special_patterns_and_difference_of_squares__spec_q11:
   type: "Sign Error"
   difficulty: "Hard"
+  category: "diff_of_square"
   question: "Factor: x² - 14x + 49. A student writes (x + 7)(x - 7). What is the error?"
   options: ["The product is x² - 49", "The middle term would be 0x", "The constant should be -49", "Both A and B"]
   answer: 3
@@ -1381,6 +1596,7 @@ special_patterns_and_difference_of_squares__spec_q11:
 special_patterns_and_difference_of_squares__spec_q12:
   type: "Find b"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "x² + bx + 100 = (x + 10)². What is the value of b?"
   options: ["10", "20", "100", "50"]
   answer: 1
@@ -1388,96 +1604,115 @@ special_patterns_and_difference_of_squares__spec_q12:
 special_patterns_and_difference_of_squares__spec_q13:
   type: "Find c"
   difficulty: "Medium"
+  category: "diff_of_square"
   question: "4x² - 12x + ___ = (2x - 3)²"
   options: ["3", "6", "9", "-9"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q16:
+  category: "diff_of_square"
   question: "Factor: x² + 4x + 4"
   options: ["(x+2)(x-2)", "(x+2)²", "(x+4)²", "(x+1)(x+4)"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q18:
+  category: "diff_of_square"
   question: "Factor: x² - 20x + 100"
   options: ["(x-10)(x+10)", "(x-50)²", "(x-10)²", "(x+10)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q20:
+  category: "diff_of_square"
   question: "Factor: 16x² + 24x + 9"
   options: ["(4x+3)(4x-3)", "(8x+3)²", "(4x+3)²", "(4x+9)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q22:
+  category: "diff_of_square"
   question: "Factor: x² + 18x + 81"
   options: ["(x+9)(x-9)", "(x+9)²", "(x-9)²", "(x+81)(x+1)"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q24:
+  category: "diff_of_square"
   question: "Factor: x² - 2x + 1"
   options: ["(x+1)²", "(x-1)²", "(x-1)(x+1)", "(x-2)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q26:
+  category: "diff_of_square"
   question: "Factor: 4x² + 20x + 25"
   options: ["(2x-5)²", "(4x+5)²", "(2x+5)²", "(2x+5)(2x-5)"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q28:
+  category: "diff_of_square"
   question: "Factor: x² - 16x + 64"
   options: ["(x+8)²", "(x-8)(x+8)", "(x-8)²", "(x-32)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q30:
+  category: "diff_of_square"
   question: "Factor: x² + 22x + 121"
   options: ["(x-11)²", "(x+11)²", "(x+11)(x-11)", "(x+22)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q32:
+  category: "diff_of_square"
   question: "Factor: x² - 26x + 169"
   options: ["(x+13)²", "(x-13)(x+13)", "(x-13)²", "(x-169)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q34:
+  category: "diff_of_square"
   question: "Factor: 4x² + 28x + 49"
   options: ["(2x-7)²", "(2x+7)²", "(4x+7)²", "(2x+7)(2x-7)"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q36:
+  category: "diff_of_square"
   question: "Factor: 9x² - 30x + 25"
   options: ["(3x+5)²", "(3x-5)²", "(3x-5)(3x+5)", "(9x-5)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q38:
+  category: "diff_of_square"
   question: "Factor: x² + 24x + 144"
   options: ["(x+12)(x-12)", "(x-12)²", "(x+12)²", "(x+144)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q40:
+  category: "diff_of_square"
   question: "Factor: 100x² - 20x + 1"
   options: ["(10x+1)²", "(10x-1)²", "(10x-1)(10x+1)", "(50x-1)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q42:
+  category: "diff_of_square"
   question: "Factor: 4x² + 4x + 1"
   options: ["(2x-1)²", "(4x+1)²", "(2x+1)²", "(2x+1)(2x-1)"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q44:
+  category: "diff_of_square"
   question: "Factor: x² - 30x + 225"
   options: ["(x+15)²", "(x-15)²", "(x-15)(x+15)", "(x-225)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q46:
+  category: "diff_of_square"
   question: "Factor: 25x² + 70x + 49"
   options: ["(5x+7)(5x-7)", "(5x+7)²", "(5x-7)²", "(25x+7)²"]
   answer: 1
 
 special_patterns_and_difference_of_squares__spec_q48:
+  category: "diff_of_square"
   question: "Factor: 4x² - 40x + 100"
   options: ["(2x-10)(2x+10)", "(2x+10)²", "(2x-10)²", "(4x-10)²"]
   answer: 2
 
 special_patterns_and_difference_of_squares__spec_q50:
+  category: "diff_of_square"
   question: "Factor: x² + 2x + 1"
   options: ["(x+1)(x-1)", "(x-1)²", "(x+1)²", "(x+2)²"]
   answer: 2
@@ -1485,6 +1720,7 @@ special_patterns_and_difference_of_squares__spec_q50:
 expert_q21:
   type: "Substitution"
   difficulty: "Expert"
+  category: "factoring_trinomials"
   question: "Factor completely: x⁶ - 9x³ + 8"
   options: 
     - "(x³ - 8)(x³ - 1)"
@@ -1497,6 +1733,7 @@ expert_q21:
 expert_q22:
   type: "Fractional Coefficients"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor: x² - 5/6x + 1/6"
   options: 
     - "(x - 1/2)(x - 1/3)"
@@ -1509,6 +1746,7 @@ expert_q22:
 expert_q23:
   type: "Multi-Variable Trinomial"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor: 6x² - 7xy - 3y²"
   options: 
     - "(6x + y)(x - 3y)"
@@ -1521,6 +1759,7 @@ expert_q23:
 expert_q24:
   type: "Trigonometric Substitution"
   difficulty: "Expert"
+  category: "factoring_trinomials"
   question: "Factor: 2sin²θ + sinθ - 1"
   options: 
     - "(2sinθ - 1)(sinθ + 1)"
@@ -1533,6 +1772,7 @@ expert_q24:
 expert_q25:
   type: "Irrational AC Method"
   difficulty: "Expert"
+  category: "factoring_trinomials"
   question: "Factor: √3x² + 11x + 6√3"
   options: 
     - "(√3x + 2)(x + 3√3)"
@@ -1545,6 +1785,7 @@ expert_q25:
 expert_q26:
   type: "Hidden Difference of Squares"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: x⁴ + 4"
   options: 
     - "(x² + 2)²"
@@ -1557,6 +1798,7 @@ expert_q26:
 expert_q27:
   type: "Rational Simplification"
   difficulty: "Hard"
+  category: "diff_of_square"
   question: "Simplify: (x² - 4) / (x² + 4x + 4)"
   options: 
     - "(x - 2) / (x + 2)"
@@ -1569,6 +1811,7 @@ expert_q27:
 expert_q28:
   type: "Negative Leading Coefficient"
   difficulty: "Hard"
+  category: "factoring_gcf"
   question: "Factor completely: -3x² + 15x - 18"
   options: 
     - "-3(x - 2)(x - 3)"
@@ -1581,6 +1824,7 @@ expert_q28:
 expert_q29:
   type: "Logarithmic Substitution"
   difficulty: "Expert"
+  category: "factoring_trinomials"
   question: "Factor: (log x)² - 5(log x) + 6"
   options: 
     - "(log x - 6)(log x + 1)"
@@ -1593,6 +1837,7 @@ expert_q29:
 expert_q30:
   type: "Fractional GCF"
   difficulty: "Expert"
+  category: "factoring_gcf"
   question: "Factor: 1/4x² - x - 3"
   options: 
     - "1/4(x - 6)(x + 2)"
@@ -1605,6 +1850,7 @@ expert_q30:
 expert_q31:
   type: "Fourth Degree Substitution"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor completely: x⁴ - 10x² + 9"
   options: 
     - "(x - 3)(x + 3)(x - 1)(x + 1)"
@@ -1617,6 +1863,7 @@ expert_q31:
 expert_q32:
   type: "Complex Multi-Variable"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: x² + 2xy + y² - z²"
   options: 
     - "(x + y + z)(x + y - z)"
@@ -1629,6 +1876,7 @@ expert_q32:
 expert_q33:
   type: "Irrational Middle Term"
   difficulty: "Expert"
+  category: "factoring_trinomials"
   question: "Factor: x² - 4√2x + 6"
   options: 
     - "(x - 3√2)(x - √2)"
@@ -1641,6 +1889,7 @@ expert_q33:
 expert_q34:
   type: "Higher Degree Rational"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Simplify: (x³ - 1) / (x² - 1)"
   options: 
     - "(x² + x + 1) / (x + 1)"
@@ -1653,6 +1902,7 @@ expert_q34:
 expert_q35:
   type: "Leading Coefficient Choice"
   difficulty: "Hard"
+  category: "factoring_trinomials"
   question: "Factor: 3x² - 2x - 5"
   options: 
     - "(3x - 5)(x + 1)"
@@ -1665,6 +1915,7 @@ expert_q35:
 expert_q36:
   type: "Perfect Square Radical"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: 2x² - 2√10x + 5"
   options: 
     - "(√2x - √5)²"
@@ -1677,6 +1928,7 @@ expert_q36:
 expert_q37:
   type: "Cubic Grouping"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor completely: x³ - 2x² - 9x + 18"
   options: 
     - "(x - 2)(x - 3)(x + 3)"
@@ -1689,6 +1941,7 @@ expert_q37:
 expert_q38:
   type: "Rationalizing Factors"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: x² - 3"
   options: 
     - "(x - √3)(x + √3)"
@@ -1701,6 +1954,7 @@ expert_q38:
 expert_q39:
   type: "Substitution"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: (x² - 1)² - 11(x² - 1) + 24"
   options: 
     - "(x - 3)(x + 3)(x - 2)(x + 2)"
@@ -1713,6 +1967,7 @@ expert_q39:
 expert_q40:
   type: "Double Variable Rational"
   difficulty: "Expert"
+  category: "diff_of_square"
   question: "Factor: 1/9x² - 1/4y²"
   options: 
     - "(1/3x - 1/2y)(1/3x + 1/2y)"

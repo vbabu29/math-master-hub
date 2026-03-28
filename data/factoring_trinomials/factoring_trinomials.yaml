@@ -1,6 +1,7 @@
 basic_q1:
   type: "Magic Pair Search"
   difficulty: "Easy"
+  category: "Simple (a=1)"
   question: "To factor x² + 7x + 10, you need two numbers that multiply to 10 and add to 7. What are they?"
   options: ["1 and 10", "2 and 5", "-2 and -5", "7 and 10"]
   answer: 1
@@ -8,6 +9,7 @@ basic_q1:
 basic_q2:
   type: "Magic Pair Search"
   difficulty: "Medium"
+  category: "Simple (a=1)"
   question: "Which pair of numbers multiplies to -24 and adds to +2?"
   options: ["-4 and 6", "4 and -6", "-12 and 2", "8 and -3"]
   answer: 0
@@ -15,6 +17,7 @@ basic_q2:
 basic_q3:
   type: "Sum/Product Logic"
   difficulty: "Medium"
+  category: "Sign Management"
   question: "In the trinomial x² - x - 20, the constant is -20 and the middle coefficient is -1. Which pair fits?"
   options: ["-10 and 2", "5 and -4", "-5 and 4", "10 and -2"]
   answer: 2
@@ -22,6 +25,7 @@ basic_q3:
 basic_q4:
   type: "Magic Pair Search"
   difficulty: "Hard"
+  category: "Simple (a=1)"
   question: "For x² - 13x + 42, find the pair that multiplies to 42 and adds to -13."
   options: ["-21 and -2", "-6 and -7", "6 and 7", "1 and 42"]
   answer: 1
@@ -29,6 +33,7 @@ basic_q4:
 basic_q5:
   type: "Sign Logic"
   difficulty: "Easy"
+  category: "Sign Management"
   question: "If a trinomial is x² + bx + c (where b and c are both positive), what will the signs in the factors be?"
   options: ["(x + m)(x - n)", "(x - m)(x - n)", "(x + m)(x + n)", "It depends on the value of b"]
   answer: 2
@@ -36,6 +41,7 @@ basic_q5:
 basic_q6:
   type: "Sign Logic"
   difficulty: "Medium"
+  category: "Sign Management"
   question: "In x² - 8x + 15, the constant is positive (+15) but the middle is negative (-8). This means both factors must be:"
   options: ["Positive", "Negative", "One of each", "Prime"]
   answer: 1
@@ -43,6 +49,7 @@ basic_q6:
 basic_q7:
   type: "Sign Logic"
   difficulty: "Medium"
+  category: "Sign Management"
   question: "In x² + 2x - 24, the constant is negative (-24). This tells you that the two factors must have:"
   options: ["Opposite signs", "The same sign", "Only negative signs", "Only positive signs"]
   answer: 0
@@ -50,6 +57,7 @@ basic_q7:
 basic_q8:
   type: "Sign Logic"
   difficulty: "Hard"
+  category: "Sign Management"
   question: "For x² - 3x - 10, the factors have opposite signs. Which factor must get the negative sign to result in -3x?"
   options: ["The smaller absolute value", "Both factors", "The larger absolute value", "Neither factor"]
   answer: 2
@@ -57,6 +65,7 @@ basic_q8:
 basic_q9:
   type: "Verification"
   difficulty: "Easy"
+  category: "Simple (a=1)"
   question: "Is (x + 4)(x + 2) the correct factorization for x² + 6x + 8?"
   options: ["Yes", "No, product is wrong", "No, sum is wrong", "No, variables are missing"]
   answer: 0
@@ -64,6 +73,7 @@ basic_q9:
 basic_q10:
   type: "Error Analysis"
   difficulty: "Medium"
+  category: "Sign Management"
   question: "A student factors x² - 5x + 6 as (x - 1)(x - 6). Why is this wrong?"
   options: ["The sum is -7, not -5", "The product is -6, not +6", "The constant term should be 5", "The signs should be positive"]
   answer: 0
@@ -71,6 +81,7 @@ basic_q10:
 basic_q11:
   type: "Reverse Check"
   difficulty: "Medium"
+  category: "Sign Management"
   question: "Multiply (x - 7)(x + 3). What is the resulting middle term?"
   options: ["-10x", "4x", "-4x", "-21x"]
   answer: 2
@@ -78,6 +89,7 @@ basic_q11:
 basic_q12:
   type: "Error Analysis"
   difficulty: "Hard"
+  category: "Sign Management"
   question: "A student says x² + 5x - 6 factors into (x + 2)(x + 3). What mistake did they make?"
   options: ["They ignored the negative sign of the constant", "They added instead of multiplied", "They used the wrong variable", "They factored correctly"]
   answer: 0
@@ -85,6 +97,7 @@ basic_q12:
 basic_q13:
   type: "Missing Constant"
   difficulty: "Medium"
+  category: "Simple (a=1)"
   question: "x² + 9x + ___ = (x + 5)(x + 4)"
   options: ["9", "1", "20", "25"]
   answer: 2
@@ -92,6 +105,7 @@ basic_q13:
 basic_q14:
   type: "Missing Middle Term"
   difficulty: "Medium"
+  category: "Simple (a=1)"
   question: "x² + ___x + 12 = (x + 6)(x + 2)"
   options: ["8", "12", "7", "4"]
   answer: 0
@@ -99,181 +113,217 @@ basic_q14:
 basic_q15:
   type: "Missing Factor"
   difficulty: "Easy"
+  category: "Sign Management"
   question: "x² - x - 12 = (x - 4)(x + ___)"
   options: ["4", "1", "12", "3"]
   answer: 3
 
 basic_q16:
+  category: "Simple (a=1)"
   question: "Factor: x² + 10x + 24"
   options: ["(x+6)(x+4)", "(x+12)(x+2)", "(x+8)(x+3)", "(x+24)(x+1)"]
   answer: 0
 
 basic_q17:
+  category: "Simple (a=1)"
   question: "Factor: x² - 11x + 18"
   options: ["(x-3)(x-6)", "(x-2)(x-9)", "(x-1)(x-18)", "(x+2)(x+9)"]
   answer: 1
 
 basic_q18:
+  category: "Simple (a=1)"
   question: "Factor: x² + 8x + 15"
   options: ["(x+5)(x+3)", "(x+1)(x+15)", "(x+2)(x+6)", "(x+4)(x+4)"]
   answer: 0
 
 basic_q19:
+  category: "Simple (a=1)"
   question: "Factor: x² - 9x + 20"
   options: ["(x-2)(x-10)", "(x-4)(x-5)", "(x-1)(x-20)", "(x+4)(x+5)"]
   answer: 1
 
 basic_q20:
+  category: "Sign Management"
   question: "Factor: x² + 2x - 8"
   options: ["(x-2)(x+4)", "(x+2)(x-4)", "(x+1)(x-8)", "(x-1)(x+8)"]
   answer: 0
 
 basic_q21:
+  category: "Sign Management"
   question: "Factor: x² - 7x - 18"
   options: ["(x-2)(x+9)", "(x-6)(x+3)", "(x-9)(x+2)", "(x-18)(x+1)"]
   answer: 2
 
 basic_q22:
+  category: "Sign Management"
   question: "Factor: x² + 5x - 14"
   options: ["(x-2)(x+7)", "(x+2)(x-7)", "(x-1)(x+14)", "(x+1)(x-14)"]
   answer: 0
 
 basic_q23:
+  category: "Simple (a=1)"
   question: "Factor: x² - 12x + 27"
   options: ["(x-1)(x-27)", "(x-2)(x-13.5)", "(x-3)(x-9)", "(x-4)(x-8)"]
   answer: 2
 
 basic_q24:
+  category: "Simple (a=1)"
   question: "Factor: x² + 11x + 30"
   options: ["(x+3)(x+10)", "(x+2)(x+15)", "(x+5)(x+6)", "(x+1)(x+30)"]
   answer: 2
 
 basic_q25:
+  category: "Sign Management"
   question: "Factor: x² - 6x - 16"
   options: ["(x-8)(x+2)", "(x+8)(x-2)", "(x-4)(x+4)", "(x-16)(x+1)"]
   answer: 0
 
 basic_q26:
+  category: "Simple (a=1)"
   question: "Factor: x² + 13x + 40"
   options: ["(x+4)(x+10)", "(x+2)(x+20)", "(x+5)(x+8)", "(x+1)(x+40)"]
   answer: 2
 
 basic_q27:
+  category: "Sign Management"
   question: "Factor: x² - 4x - 21"
   options: ["(x-7)(x+3)", "(x+7)(x-3)", "(x-21)(x+1)", "(x+21)(x-1)"]
   answer: 0
 
 basic_q28:
+  category: "Simple (a=1)"
   question: "Factor: x² + 12x + 32"
   options: ["(x+1)(x+32)", "(x+2)(x+16)", "(x+4)(x+8)", "(x+16)(x+2)"]
   answer: 2
 
 basic_q29:
+  category: "Simple (a=1)"
   question: "Factor: x² - 10x + 21"
   options: ["(x-1)(x-21)", "(x-3)(x-7)", "(x-2)(x-8)", "(x+3)(x+7)"]
   answer: 1
 
 basic_q30:
+  category: "Sign Management"
   question: "Factor: x² + 4x - 12"
   options: ["(x+6)(x-2)", "(x-6)(x+2)", "(x+4)(x-3)", "(x-4)(x+3)"]
   answer: 0
 
 basic_q31:
+  category: "Sign Management"
   question: "Factor: x² - x - 30"
   options: ["(x-3)(x+10)", "(x-10)(x+3)", "(x-6)(x+5)", "(x-5)(x+6)"]
   answer: 2
 
 basic_q32:
+  category: "Simple (a=1)"
   question: "Factor: x² + 14x + 45"
   options: ["(x+1)(x+45)", "(x+3)(x+15)", "(x+5)(x+9)", "(x+9)(x+5)"]
   answer: 2
 
 basic_q33:
+  category: "Simple (a=1)"
   question: "Factor: x² - 14x + 48"
   options: ["(x-2)(x-24)", "(x-4)(x-12)", "(x-1)(x-48)", "(x-6)(x-8)"]
   answer: 3
 
 basic_q34:
+  category: "Sign Management"
   question: "Factor: x² + 3x - 10"
   options: ["(x-2)(x+5)", "(x+5)(x-2)", "(x+1)(x-10)", "(x-1)(x+10)"]
   answer: 1
 
 basic_q35:
+  category: "Simple (a=1)"
   question: "Factor: x² - 15x + 54"
   options: ["(x-2)(x-27)", "(x-3)(x-18)", "(x-6)(x-9)", "(x-1)(x-54)"]
   answer: 2
 
 basic_q36:
+  category: "Simple (a=1)"
   question: "Factor: x² + 15x + 50"
   options: ["(x+1)(x+50)", "(x+2)(x+25)", "(x+5)(x+10)", "(x+10)(x+5)"]
   answer: 2
 
 basic_q37:
+  category: "Sign Management"
   question: "Factor: x² - 2x - 24"
   options: ["(x-6)(x+4)", "(x+6)(x-4)", "(x-8)(x+3)", "(x+8)(x-3)"]
   answer: 0
 
 basic_q38:
+  category: "Simple (a=1)"
   question: "Factor: x² + 16x + 63"
   options: ["(x+1)(x+63)", "(x+3)(x+21)", "(x+6)(x+10)", "(x+7)(x+9)"]
   answer: 3
 
 basic_q39:
+  category: "Sign Management"
   question: "Factor: x² - 5x - 36"
   options: ["(x-6)(x+6)", "(x-4)(x+9)", "(x+4)(x-9)", "(x-9)(x+4)"]
   answer: 3
 
 basic_q40:
+  category: "Simple (a=1)"
   question: "Factor: x² + 17x + 72"
   options: ["(x+1)(x+72)", "(x+8)(x+9)", "(x+6)(x+12)", "(x+4)(x+18)"]
   answer: 1
 
 basic_q41:
+  category: "Simple (a=1)"
   question: "Factor: x² - 16x + 60"
   options: ["(x-1)(x-60)", "(x-6)(x-10)", "(x-2)(x-30)", "(x-4)(x-15)"]
   answer: 1
 
 basic_q42:
+  category: "Sign Management"
   question: "Factor: x² + 1x - 20"
   options: ["(x-2)(x+10)", "(x+2)(x-10)", "(x+5)(x-4)", "(x-5)(x+4)"]
   answer: 2
 
 basic_q43:
+  category: "Sign Management"
   question: "Factor: x² - 4x - 32"
   options: ["(x-4)(x+8)", "(x-8)(x+4)", "(x-16)(x+2)", "(x+16)(x-2)"]
   answer: 1
 
 basic_q44:
+  category: "Simple (a=1)"
   question: "Factor: x² + 18x + 80"
   options: ["(x+1)(x+80)", "(x+8)(x+10)", "(x+4)(x+20)", "(x+2)(x+40)"]
   answer: 1
 
 basic_q45:
+  category: "Sign Management"
   question: "Factor: x² - 3x - 40"
   options: ["(x-4)(x+10)", "(x+4)(x-10)", "(x-8)(x+5)", "(x+8)(x-5)"]
   answer: 2
 
 basic_q46:
+  category: "Simple (a=1)"
   question: "Factor: x² + 19x + 90"
   options: ["(x+9)(x+10)", "(x+1)(x+90)", "(x+2)(x+45)", "(x+5)(x+18)"]
   answer: 0
 
 basic_q47:
+  category: "Sign Management"
   question: "Factor: x² - 2x - 35"
   options: ["(x-5)(x+7)", "(x-7)(x+5)", "(x-35)(x+1)", "(x+35)(x-1)"]
   answer: 1
 
 basic_q48:
+  category: "Perfect Squares"
   question: "Factor: x² + 20x + 100"
   options: ["(x+1)(x+100)", "(x+2)(x+50)", "(x+10)(x+10)", "(x+10)²"]
   answer: 3
 
 basic_q49:
+  category: "Sign Management"
   question: "Factor: x² - 1x - 56"
   options: ["(x-1)(x+56)", "(x-2)(x+28)", "(x-4)(x+14)", "(x-8)(x+7)"]
   answer: 3
 
 basic_q50:
+  category: "Simple (a=1)"
   question: "Factor: x² + 21x + 110"
   options: ["(x+1)(x+110)", "(x+11)(x+10)", "(x+2)(x+55)", "(x+5)(x+22)"]
   answer: 1

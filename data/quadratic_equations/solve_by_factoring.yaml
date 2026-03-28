@@ -213,7 +213,7 @@ fact_solv_30:
 fact_solv_31:
   type: "Solving x² + 12x + 36 = 0"
   difficulty: "Medium"
-  question: "Since 36 is 6² and 12 is 2•6, this is a perfect square. The only solution is:"
+  question: "Since 36 is 6² and 12 is 2x6, the expression forms a perfect square trinomial. The only solution is:"
   options: ["x = 6", "x = -6", "x = 36", "x = 0"]
   answer: 1
 

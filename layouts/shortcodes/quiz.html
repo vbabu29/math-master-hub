@@ -9,9 +9,11 @@
   {{ $all = index $all . }}
 {{ end }}
 {{ $questions := slice }}
+{{ $topicKey := index $bankPath 0 }}
+{{ $sourceKey := index $bankPath 1 }}
 
 {{ range $key, $q := $all }}
-  {{ $questions = $questions | append $q }}
+  {{ $questions = $questions | append (merge $q (dict "_id" $key)) }}
 {{ end }}
 
 {{ $questions = shuffle $questions }}
@@ -82,6 +84,152 @@
     margin-bottom: 1rem;
   }
 
+  .quiz-topic-progress-trigger {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    color: #0f172a;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+    transition: transform 0.16s ease-out, box-shadow 0.16s ease-out, background-color 0.16s ease-out;
+  }
+
+  .quiz-topic-progress-trigger:hover,
+  .quiz-topic-progress-trigger:focus-visible {
+    transform: translateY(-1px);
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.12);
+  }
+
+  .quiz-topic-progress-trigger svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .quiz-topic-progress-dialog {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+  }
+
+  .quiz-topic-progress-dialog.is-open {
+    display: flex;
+  }
+
+  .quiz-topic-progress-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.42);
+    backdrop-filter: blur(4px);
+  }
+
+  .quiz-topic-progress-panel {
+    position: relative;
+    width: min(100%, 32rem);
+    max-height: min(80vh, 42rem);
+    overflow: auto;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background: #ffffff;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    box-shadow: 0 26px 60px rgba(15, 23, 42, 0.22);
+  }
+
+  .quiz-topic-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .quiz-topic-progress-title {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .quiz-topic-progress-copy {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #64748b;
+  }
+
+  .quiz-topic-progress-close {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.26);
+    background: rgba(148, 163, 184, 0.08);
+    color: #0f172a;
+  }
+
+  .quiz-topic-progress-list {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .quiz-topic-progress-item {
+    display: grid;
+    gap: 0.35rem;
+    padding: 0.4rem 0.45rem;
+    border-radius: 0.85rem;
+    transition: background-color 0.16s ease-out, box-shadow 0.16s ease-out;
+  }
+
+  .quiz-topic-progress-item.is-active {
+    background: rgba(37, 99, 235, 0.08);
+    box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.14);
+  }
+
+  .quiz-topic-progress-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .quiz-topic-progress-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #111827;
+  }
+
+  .quiz-topic-progress-stats {
+    font-size: 0.76rem;
+    color: #64748b;
+    white-space: nowrap;
+  }
+
+  .quiz-topic-progress-track {
+    height: 0.44rem;
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.24);
+    overflow: hidden;
+  }
+
+  .quiz-topic-progress-fill {
+    height: 100%;
+    width: 0%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #2563eb, #22c55e);
+    transition: width 0.28s ease-out;
+  }
+
   .quiz-progress-track {
     position: relative;
     width: 100%;
@@ -108,6 +256,32 @@
   @media (prefers-color-scheme: dark) {
     .quiz-progress-text {
       color: #9ca3af;
+    }
+    .quiz-topic-progress-trigger {
+      background: rgba(15, 23, 42, 0.68);
+      color: #e5e7eb;
+      border-color: rgba(148, 163, 184, 0.32);
+    }
+    .quiz-topic-progress-title,
+    .quiz-topic-progress-label {
+      color: #e5e7eb;
+    }
+    .quiz-topic-progress-copy,
+    .quiz-topic-progress-stats {
+      color: #94a3b8;
+    }
+    .quiz-topic-progress-panel {
+      background: #020617;
+      border-color: rgba(148, 163, 184, 0.24);
+    }
+    .quiz-topic-progress-close {
+      background: rgba(15, 23, 42, 0.72);
+      color: #e5e7eb;
+      border-color: rgba(148, 163, 184, 0.24);
+    }
+    .quiz-topic-progress-item.is-active {
+      background: rgba(59, 130, 246, 0.16);
+      box-shadow: inset 0 0 0 1px rgba(96, 165, 250, 0.2);
     }
   }
 
@@ -136,6 +310,34 @@
     }
     .quiz-progress {
       margin-bottom: 0.5rem;
+    }
+    .quiz-topic-progress-trigger {
+      width: 2.35rem;
+      height: 2.35rem;
+    }
+    .quiz-topic-progress-dialog {
+      padding: 0;
+      align-items: flex-end;
+    }
+    .quiz-topic-progress-panel {
+      width: 100%;
+      max-height: 82vh;
+      border-radius: 1.15rem 1.15rem 0 0;
+      padding: 0.95rem 0.9rem 1.15rem;
+    }
+    .quiz-topic-progress-header {
+      margin-bottom: 0.65rem;
+    }
+    .quiz-topic-progress-title {
+      font-size: 0.84rem;
+    }
+    .quiz-topic-progress-copy {
+      font-size: 0.72rem;
+    }
+    .quiz-topic-progress-meta {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.15rem;
     }
     .quiz-progress-text {
       font-size: 0.75rem;
@@ -495,6 +697,34 @@
     color: #6b7280;
   }
 
+  .quiz-summary-progress {
+    margin: 0 auto 1rem;
+    max-width: 30rem;
+    padding: 0.95rem 1rem;
+    border-radius: 1rem;
+    text-align: left;
+    background: rgba(148, 163, 184, 0.08);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+  }
+
+  .quiz-summary-progress-title {
+    margin: 0 0 0.25rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .quiz-summary-progress-copy {
+    margin: 0 0 0.8rem;
+    font-size: 0.8rem;
+    color: #64748b;
+  }
+
+  .quiz-summary-progress-list {
+    display: grid;
+    gap: 0.7rem;
+  }
+
   .quiz-restart {
     padding: 0.6rem 1.4rem;
     border-radius: 999px;
@@ -524,6 +754,16 @@
     .quiz-summary-score {
       color: #9ca3af;
     }
+    .quiz-summary-progress {
+      background: rgba(15, 23, 42, 0.48);
+      border-color: rgba(148, 163, 184, 0.24);
+    }
+    .quiz-summary-progress-title {
+      color: #e5e7eb;
+    }
+    .quiz-summary-progress-copy {
+      color: #94a3b8;
+    }
     .quiz-restart {
       color: #e5e7eb;
       border-color: rgba(75, 85, 99, 0.9);
@@ -536,10 +776,36 @@
   }
 </style>
 
-<div class="quiz" data-total="7">
+<div class="quiz" data-total="7" data-topic-key="{{ $topicKey }}">
   <div class="quiz-header">
     <p class="quiz-kicker">Practice Question Set</p>
     <p class="quiz-subtitle">7 quick practice checks</p>
+    <button type="button" class="quiz-topic-progress-trigger" aria-label="Open topic progress" aria-expanded="false" aria-controls="quiz-topic-progress-dialog">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M5 18.5V11.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M12 18.5V6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M19 18.5V14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="quiz-topic-progress-dialog" id="quiz-topic-progress-dialog" aria-hidden="true">
+    <div class="quiz-topic-progress-backdrop" data-close-progress></div>
+    <div class="quiz-topic-progress-panel" role="dialog" aria-modal="true" aria-labelledby="quiz-topic-progress-title">
+      <div class="quiz-topic-progress-header">
+        <div>
+          <p class="quiz-topic-progress-title" id="quiz-topic-progress-title">Topic Progress</p>
+          <p class="quiz-topic-progress-copy">Saved on this device and updated across practice sessions.</p>
+        </div>
+        <button type="button" class="quiz-topic-progress-close" aria-label="Close topic progress" data-close-progress>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M7 7L17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M17 7L7 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="quiz-topic-progress-list"></div>
+    </div>
   </div>
 
   <div class="quiz-progress" aria-hidden="false">
@@ -574,7 +840,15 @@
         {{ end }}
       {{ end }}
 
-      <div class="quiz-question" data-question-index="{{ $qi }}" {{ with $q.question_graph }}data-question-graph='{{ . | jsonify }}'{{ end }} style="display:none">
+      {{ $reportCategory := "" }}
+      {{ if eq $sourceKey "miscellaneous" }}
+        {{ $reportCategory = $q.category | default "" }}
+      {{ else if and (eq $topicKey "factoring_trinomials") (eq $sourceKey "difference_of_squares") }}
+        {{ $reportCategory = "diff_of_square" }}
+      {{ else }}
+        {{ $reportCategory = $sourceKey }}
+      {{ end }}
+      <div class="quiz-question" data-question-index="{{ $qi }}" data-question-id="{{ $q._id }}" data-category="{{ $q.category | default "" }}" data-report-category="{{ $reportCategory }}" {{ with $q.question_graph }}data-question-graph='{{ . | jsonify }}'{{ end }} style="display:none">
         <!-- Question text is now hidden here and displayed above -->
         <p class="quiz-question-text" data-prompt="{{ $prompt }}" data-expr="{{ $expr }}">
           {{ $prompt }}{{ if $expr }}: \({{ $expr }}\){{ end }}
@@ -647,23 +921,175 @@
 </div>
 
 <script>
-(function() {
+(function () {
   const quiz = document.querySelector('.quiz');
   if (!quiz) return;
+
+  const DB_NAME = 'mathSiteProgress';
+  const DB_VERSION = 1;
+  const STORE_NAME = 'topicProgress';
+  const TOPIC_CATEGORY_CONFIG = {
+    linear_equation: [
+      { key: 'one_step_equations', label: 'One-Step' },
+      { key: 'two_step_equations', label: 'Two-Step' },
+      { key: 'multi_step_equations', label: 'Multi-Step' },
+      { key: 'variables_on_both_sides', label: 'Both Sides' },
+      { key: 'substitution', label: 'Substitution' },
+      { key: 'elimination', label: 'Elimination' },
+      { key: 'graphing_linear_equations', label: 'Graphing' },
+      { key: 'word_problems', label: 'Word Problems' }
+    ],
+    quadratic_equations: [
+      { key: 'solve_by_factoring', label: 'Factoring' },
+      { key: 'completing_the_square', label: 'Comp. Square' },
+      { key: 'quadratic_formula', label: 'Quad. Formula' }
+    ],
+    factoring_trinomials: [
+      { key: 'factoring_trinomials', label: 'Trinomials' },
+      { key: 'factoring_gcf', label: 'GCF' },
+      { key: 'diff_of_square', label: 'Diff. Squares' }
+    ]
+  };
 
   const questionDisplay = quiz.querySelector('.quiz-question-display-text');
   const questionFigure = quiz.querySelector('.quiz-question-figure');
   const allQuestions = Array.from(quiz.querySelectorAll('.quiz-question'));
   const progressBar = quiz.querySelector('.quiz-progress-bar');
   const progressText = quiz.querySelector('.quiz-progress-text');
-  let totalQuestions = 7;
   const summary = quiz.querySelector('.quiz-summary');
   const panels = quiz.querySelector('.quiz-panels');
-  
+  const topicKey = quiz.dataset.topicKey || '';
+  const topicProgressTrigger = quiz.querySelector('.quiz-topic-progress-trigger');
+  const topicProgressDialog = quiz.querySelector('.quiz-topic-progress-dialog');
+  const topicProgressList = quiz.querySelector('.quiz-topic-progress-list');
+  const topicCategories = TOPIC_CATEGORY_CONFIG[topicKey] || [];
+
+  let totalQuestions = 7;
   let activeIndices = [];
   let currentQuestionIndex = 0;
   let score = 0;
   let answeredQuestions = new Set();
+  let progressSnapshot = {};
+
+  function openProgressDb() {
+    return new Promise((resolve, reject) => {
+      if (!window.indexedDB) {
+        reject(new Error('IndexedDB unavailable'));
+        return;
+      }
+
+      const request = window.indexedDB.open(DB_NAME, DB_VERSION);
+      request.onerror = () => reject(request.error || new Error('IndexedDB open failed'));
+      request.onupgradeneeded = () => {
+        const db = request.result;
+        if (!db.objectStoreNames.contains(STORE_NAME)) {
+          db.createObjectStore(STORE_NAME, { keyPath: 'topicKey' });
+        }
+      };
+      request.onsuccess = () => resolve(request.result);
+    });
+  }
+
+  async function readTopicProgress() {
+    if (!topicKey) return {};
+    const db = await openProgressDb();
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readonly');
+      const store = tx.objectStore(STORE_NAME);
+      const request = store.get(topicKey);
+
+      request.onerror = () => reject(request.error || new Error('IndexedDB read failed'));
+      request.onsuccess = () => {
+        const record = request.result;
+        resolve(record && record.categories ? record.categories : {});
+      };
+
+      tx.oncomplete = () => db.close();
+    });
+  }
+
+  async function updateTopicProgress(categoryKey, isCorrect) {
+    if (!topicKey || !categoryKey) return progressSnapshot;
+    const db = await openProgressDb();
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readwrite');
+      const store = tx.objectStore(STORE_NAME);
+      const getRequest = store.get(topicKey);
+
+      getRequest.onerror = () => reject(getRequest.error || new Error('IndexedDB lookup failed'));
+      getRequest.onsuccess = () => {
+        const record = getRequest.result || { topicKey, categories: {} };
+        const categoryStats = record.categories[categoryKey] || { attempted: 0, correct: 0 };
+        categoryStats.attempted += 1;
+        if (isCorrect) categoryStats.correct += 1;
+        record.categories[categoryKey] = categoryStats;
+        store.put(record);
+        progressSnapshot = record.categories;
+        resolve(progressSnapshot);
+      };
+
+      tx.onerror = () => reject(tx.error || new Error('IndexedDB update failed'));
+      tx.oncomplete = () => db.close();
+    });
+  }
+
+  function categoryStats(categoryKey) {
+    return progressSnapshot[categoryKey] || { attempted: 0, correct: 0 };
+  }
+
+  function renderTopicProgressBars(activeCategory) {
+    if (!topicProgressDialog || !topicProgressList || !topicCategories.length) {
+      if (topicProgressTrigger) topicProgressTrigger.style.display = 'none';
+      return;
+    }
+
+    topicProgressList.innerHTML = topicCategories.map((category) => {
+      const stats = categoryStats(category.key);
+      const accuracy = stats.attempted ? Math.round((stats.correct / stats.attempted) * 100) : 0;
+      const activeClass = category.key === activeCategory ? ' is-active' : '';
+
+      return `
+        <div class="quiz-topic-progress-item${activeClass}" data-category-key="${category.key}">
+          <div class="quiz-topic-progress-meta">
+            <span class="quiz-topic-progress-label">${category.label}</span>
+            <span class="quiz-topic-progress-stats">${stats.correct}/${stats.attempted} · ${accuracy}%</span>
+          </div>
+          <div class="quiz-topic-progress-track">
+            <div class="quiz-topic-progress-fill" style="width:${accuracy}%"></div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function renderSummaryProgress() {
+    if (!topicCategories.length) return '';
+
+    const items = topicCategories.map((category) => {
+      const stats = categoryStats(category.key);
+      const accuracy = stats.attempted ? Math.round((stats.correct / stats.attempted) * 100) : 0;
+
+      return `
+        <div class="quiz-topic-progress-item" data-category-key="${category.key}">
+          <div class="quiz-topic-progress-meta">
+            <span class="quiz-topic-progress-label">${category.label}</span>
+            <span class="quiz-topic-progress-stats">${stats.correct}/${stats.attempted} · ${accuracy}%</span>
+          </div>
+          <div class="quiz-topic-progress-track">
+            <div class="quiz-topic-progress-fill" style="width:${accuracy}%"></div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <div class="quiz-summary-progress">
+        <p class="quiz-summary-progress-title">Topic Progress Updated</p>
+        <p class="quiz-summary-progress-copy">Saved on this device across practice sessions.</p>
+        <div class="quiz-summary-progress-list">${items}</div>
+      </div>
+    `;
+  }
 
   function shuffleArray(arr) {
     const a = [...arr];
@@ -681,10 +1107,10 @@
   }
 
   function resetQuestionState(q) {
-    q.querySelectorAll('.quiz-option').forEach(opt => {
+    q.querySelectorAll('.quiz-option').forEach((opt) => {
       opt.classList.remove('quiz-option-disabled', 'quiz-option-correct', 'quiz-option-wrong');
     });
-    q.querySelectorAll('.quiz-feedback').forEach(fb => {
+    q.querySelectorAll('.quiz-feedback').forEach((fb) => {
       fb.textContent = '';
       fb.className = 'quiz-feedback';
     });
@@ -701,7 +1127,7 @@
       .replace(/\r\n/g, '\n')
       .replace(/\r/g, '\n')
       .split('\n')
-      .map(line => line.trim())
+      .map((line) => line.trim())
       .join('\n')
       .replace(/\n{3,}/g, '\n\n')
       .trim();
@@ -881,7 +1307,7 @@
     const idx = activeIndices[currentQuestionIndex];
     const currentQuestion = allQuestions[idx];
     if (!currentQuestion) return;
-    
+
     const questionText = currentQuestion.querySelector('.quiz-question-text');
     if (questionText && questionDisplay) {
       const prompt = (questionText.dataset.prompt || '').trim();
@@ -901,10 +1327,11 @@
         questionFigure.style.display = 'none';
       }
     }
-    
+
     const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
-    progressBar.style.width = `${progress}%`;
-    progressText.textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
+    if (progressBar) progressBar.style.width = `${progress}%`;
+    if (progressText) progressText.textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
+    renderTopicProgressBars(currentQuestion.dataset.reportCategory || '');
   }
 
   function showQuestion(index) {
@@ -917,24 +1344,24 @@
     updateQuestionDisplay();
   }
 
-  function handleAnswer(option, step) {
+  async function handleAnswer(option, step) {
     if (option.classList.contains('quiz-option-disabled')) return;
-    
-    const isCorrect = option.dataset.correct == 'true' || option.dataset.correct == 'True' || option.dataset.correct == '1';
+
+    const isCorrect = option.dataset.correct === 'true' || option.dataset.correct === 'True' || option.dataset.correct === '1';
     const feedback = step.querySelector('.quiz-feedback');
     const opts = step.querySelectorAll('.quiz-option');
-    
-    opts.forEach(opt => {
+
+    opts.forEach((opt) => {
       opt.classList.add('quiz-option-disabled');
       if (opt.dataset.correct === 'true') opt.classList.add('quiz-option-correct');
     });
-    
+
     if (isCorrect) {
       option.classList.add('quiz-option-correct');
       feedback.textContent = 'Nice work — that\'s correct!';
       feedback.className = 'quiz-feedback quiz-feedback-correct';
       if (!answeredQuestions.has(currentQuestionIndex)) {
-        score++;
+        score += 1;
         answeredQuestions.add(currentQuestionIndex);
       }
     } else {
@@ -942,7 +1369,15 @@
       feedback.textContent = 'Not quite. The correct answer is highlighted above.';
       feedback.className = 'quiz-feedback quiz-feedback-wrong';
     }
-    
+
+    const currentQuestion = allQuestions[activeIndices[currentQuestionIndex]];
+    try {
+      await updateTopicProgress(currentQuestion?.dataset.reportCategory || '', isCorrect);
+      renderTopicProgressBars(currentQuestion?.dataset.reportCategory || '');
+    } catch (error) {
+      console.warn('Unable to persist topic progress', error);
+    }
+
     const nextButton = allQuestions[activeIndices[currentQuestionIndex]]?.querySelector('.quiz-next');
     if (nextButton) {
       nextButton.disabled = false;
@@ -952,27 +1387,37 @@
 
   function showSummaryView() {
     if (panels) panels.style.display = 'none';
-    quiz.querySelector('.quiz-progress').style.display = 'none';
+    const quizProgress = quiz.querySelector('.quiz-progress');
+    if (quizProgress) quizProgress.style.display = 'none';
     summary.style.display = 'block';
     summary.innerHTML = `
       <p class="quiz-summary-title">Quiz Complete!</p>
       <p class="quiz-summary-score">You scored ${score} out of ${totalQuestions}</p>
+      ${renderSummaryProgress()}
       <button type="button" class="quiz-restart">Try Again</button>
     `;
   }
 
-  function initQuiz() {
+  async function initQuiz() {
     selectNewSet();
     currentQuestionIndex = 0;
     score = 0;
     answeredQuestions = new Set();
-    
+
     allQuestions.forEach(resetQuestionState);
-    
+
     if (panels) panels.style.display = '';
-    quiz.querySelector('.quiz-progress').style.display = '';
+    const quizProgress = quiz.querySelector('.quiz-progress');
+    if (quizProgress) quizProgress.style.display = '';
     summary.style.display = 'none';
-    
+
+    try {
+      progressSnapshot = await readTopicProgress();
+    } catch (error) {
+      progressSnapshot = {};
+      console.warn('Unable to load topic progress', error);
+    }
+
     showQuestion(0);
   }
 
@@ -981,16 +1426,30 @@
   });
 
   quiz.addEventListener('click', (e) => {
+    const openProgressButton = e.target.closest('.quiz-topic-progress-trigger');
+    if (openProgressButton) {
+      topicProgressDialog?.classList.add('is-open');
+      topicProgressDialog?.setAttribute('aria-hidden', 'false');
+      topicProgressTrigger?.setAttribute('aria-expanded', 'true');
+    }
+
+    const closeProgressButton = e.target.closest('[data-close-progress]');
+    if (closeProgressButton) {
+      topicProgressDialog?.classList.remove('is-open');
+      topicProgressDialog?.setAttribute('aria-hidden', 'true');
+      topicProgressTrigger?.setAttribute('aria-expanded', 'false');
+    }
+
     const option = e.target.closest('.quiz-option');
     if (option) {
       const step = option.closest('.quiz-step');
-      handleAnswer(option, step);
+      void handleAnswer(option, step);
     }
-    
+
     const nextButton = e.target.closest('.quiz-next');
     if (nextButton && !nextButton.disabled) {
       if (currentQuestionIndex < totalQuestions - 1) {
-        currentQuestionIndex++;
+        currentQuestionIndex += 1;
         showQuestion(currentQuestionIndex);
       } else {
         showSummaryView();
@@ -999,10 +1458,18 @@
 
     if (e.target.classList.contains('quiz-restart')) {
       e.preventDefault();
-      initQuiz();
+      void initQuiz();
     }
   });
 
-  initQuiz();
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && topicProgressDialog?.classList.contains('is-open')) {
+      topicProgressDialog.classList.remove('is-open');
+      topicProgressDialog.setAttribute('aria-hidden', 'true');
+      topicProgressTrigger?.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  void initQuiz();
 })();
 </script>

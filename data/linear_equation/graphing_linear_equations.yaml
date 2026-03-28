@@ -1,6 +1,7 @@
 graph_q1:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which graph represents y = 2x + 1?"
   option_graphs:
     - graph:
@@ -48,6 +49,7 @@ graph_q1:
 graph_q2:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which graph matches x + y = 4?"
   option_graphs:
     - graph:
@@ -95,6 +97,7 @@ graph_q2:
 graph_q3:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Intercept Analysis"
   question: "What is the y-intercept of the line shown on the graph?"
   question_graph:
     type: "line"
@@ -115,6 +118,7 @@ graph_q3:
 graph_q4:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "What is the slope of the line on the graph?"
   question_graph:
     type: "line"
@@ -138,6 +142,7 @@ graph_q4:
 graph_q5:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which graph shows the vertical line x = 2?"
   option_graphs:
     - graph:
@@ -183,6 +188,7 @@ graph_q5:
 graph_q6:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the line shown?"
   question_graph:
     type: "line"
@@ -206,6 +212,7 @@ graph_q6:
 graph_q7:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which graph matches y = -3?"
   option_graphs:
     - graph:
@@ -252,6 +259,7 @@ graph_q7:
 graph_q8:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which graph represents y = -x + 4?"
   option_graphs:
     - graph:
@@ -299,6 +307,7 @@ graph_q8:
 graph_q9:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which graph shows the constant function y = 3?"
   option_graphs:
     - graph:
@@ -345,6 +354,7 @@ graph_q9:
 graph_q10:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which graph matches 2x - y = -6?"
   option_graphs:
     - graph:
@@ -392,6 +402,7 @@ graph_q10:
 graph_q11:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which graph represents y = -1/2x - 2?"
   option_graphs:
     - graph:
@@ -439,6 +450,7 @@ graph_q11:
 graph_q12:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which graph matches y = 4x?"
   option_graphs:
     - graph:
@@ -486,6 +498,7 @@ graph_q12:
 graph_q13:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which graph represents 3x + y = 3?"
   option_graphs:
     - graph:
@@ -533,6 +546,7 @@ graph_q13:
 graph_q14:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which graph matches y = x - 5?"
   option_graphs:
     - graph:
@@ -580,6 +594,7 @@ graph_q14:
 graph_q15:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which graph shows x = -1?"
   option_graphs:
     - graph:
@@ -625,6 +640,7 @@ graph_q15:
 graph_q16:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which graph matches y = -2/3x + 2?"
   option_graphs:
     - graph:
@@ -672,6 +688,7 @@ graph_q16:
 graph_q17:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "A linear function increases 4 units for every 2 units x increases and has value -1 when x = 0. Which graph matches it?"
   option_graphs:
     - graph:
@@ -719,6 +736,7 @@ graph_q17:
 graph_q18:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "What is the slope of the line shown?"
   question_graph:
     type: "line"
@@ -742,6 +760,7 @@ graph_q18:
 graph_q19:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "What is the slope of the line on the graph?"
   question_graph:
     type: "line"
@@ -765,6 +784,7 @@ graph_q19:
 graph_q20:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Intercept Analysis"
   question: "What is the x-intercept of the line shown?"
   question_graph:
     type: "line"
@@ -785,6 +805,7 @@ graph_q20:
 graph_q21:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the horizontal line shown?"
   question_graph:
     type: "line"
@@ -805,6 +826,7 @@ graph_q21:
 graph_q22:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the vertical line shown?"
   question_graph:
     type: "line"
@@ -824,6 +846,7 @@ graph_q22:
 graph_q23:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Intercept Analysis"
   question: "What is the y-intercept of the graph?"
   question_graph:
     type: "line"
@@ -844,6 +867,7 @@ graph_q23:
 graph_q24:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the graph?"
   question_graph:
     type: "line"
@@ -864,6 +888,7 @@ graph_q24:
 graph_q25:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "How would you describe the slope of this line?"
   question_graph:
     type: "line"
@@ -884,6 +909,7 @@ graph_q25:
 graph_q26:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Coordinate Accuracy"
   question: "Which point lies on the line shown?"
   question_graph:
     type: "line"
@@ -904,6 +930,7 @@ graph_q26:
 graph_q27:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "What is the x-intercept of the graph?"
   question_graph:
     type: "line"
@@ -924,6 +951,7 @@ graph_q27:
 graph_q28:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the graph?"
   question_graph:
     type: "line"
@@ -947,6 +975,7 @@ graph_q28:
 graph_q29:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Coordinate Accuracy"
   question: "What is the slope of the line through the plotted points on the graph?"
   question_graph:
     type: "line"
@@ -970,6 +999,7 @@ graph_q29:
 graph_q30:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "What is the y-intercept of the line shown?"
   question_graph:
     type: "line"
@@ -990,6 +1020,7 @@ graph_q30:
 graph_q31:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which graph matches a line through (0, 4) and (2, 0)?"
   option_graphs:
     - graph:
@@ -1037,6 +1068,7 @@ graph_q31:
 graph_q32:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which graph shows the constant function y = 5?"
   option_graphs:
     - graph:
@@ -1083,6 +1115,7 @@ graph_q32:
 graph_q33:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Intercept Analysis"
   question: "Which graph matches a line with slope -1 and y-intercept -2?"
   option_graphs:
     - graph:
@@ -1130,6 +1163,7 @@ graph_q33:
 graph_q34:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "A line decreases 2 units for every 3 units x increases and crosses the y-axis at 4. Which graph matches it?"
   option_graphs:
     - graph:
@@ -1177,6 +1211,7 @@ graph_q34:
 graph_q35:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "A function increases 1 unit for every 5 units x decreases, and its value at 0 is 3. Which graph matches it?"
   option_graphs:
     - graph:
@@ -1224,6 +1259,7 @@ graph_q35:
 graph_q36:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "Which graph matches a line with slope 3/2 and y-intercept -4?"
   option_graphs:
     - graph:
@@ -1271,6 +1307,7 @@ graph_q36:
 graph_q37:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which graph matches x + 2y = 6?"
   option_graphs:
     - graph:
@@ -1318,6 +1355,7 @@ graph_q37:
 graph_q38:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which graph represents 4x - 2y = 8?"
   option_graphs:
     - graph:
@@ -1365,6 +1403,7 @@ graph_q38:
 graph_q39:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "Which graph has x-intercept -3 and y-intercept 3?"
   option_graphs:
     - graph:
@@ -1412,6 +1451,7 @@ graph_q39:
 graph_q40:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which graph shows an undefined slope at x = 4?"
   option_graphs:
     - graph:
@@ -1457,6 +1497,7 @@ graph_q40:
 graph_q41:
   type: "Graph as Answer"
   difficulty: "Easy"
+  category: "Coordinate Accuracy"
   question: "Which graph passes through (0, -1) and (3, 2)?"
   option_graphs:
     - graph:
@@ -1504,6 +1545,7 @@ graph_q41:
 graph_q42:
   type: "Graph as Answer"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "Which graph is parallel to y = -2x + 5 and has y-intercept -3?"
   option_graphs:
     - graph:
@@ -1551,6 +1593,7 @@ graph_q42:
 graph_q43:
   type: "Graph in Question"
   difficulty: "Easy"
+  category: "Graph-to-Equation"
   question: "Which statement about the line is true?"
   question_graph:
     type: "line"
@@ -1571,6 +1614,7 @@ graph_q43:
 graph_q44:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which equation is represented by the graph?"
   question_graph:
     type: "line"
@@ -1591,6 +1635,7 @@ graph_q44:
 graph_q45:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "Which table could represent the line shown?"
   question_graph:
     type: "line"
@@ -1611,6 +1656,7 @@ graph_q45:
 graph_q46:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Slope-Intercept Form"
   question: "What is the value of b in y = mx + b for the graph shown?"
   question_graph:
     type: "line"
@@ -1631,6 +1677,7 @@ graph_q46:
 graph_q47:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Intercept Analysis"
   question: "The graph shows the cost c of a gym pass after x visits. What does the c-intercept represent?"
   question_graph:
     type: "line"
@@ -1651,6 +1698,7 @@ graph_q47:
 graph_q48:
   type: "Graph in Question"
   difficulty: "Medium"
+  category: "Graph-to-Equation"
   question: "The graph shows the height h of a drone after t minutes. What does the slope represent?"
   question_graph:
     type: "line"
@@ -1671,6 +1719,7 @@ graph_q48:
 graph_q49:
   type: "Graph in Question"
   difficulty: "Hard"
+  category: "Slope-Intercept Form"
   question: "Which equation matches the graph?"
   question_graph:
     type: "line"
@@ -1694,6 +1743,7 @@ graph_q49:
 graph_q50:
   type: "Graph in Question"
   difficulty: "Hard"
+  category: "Intercept Analysis"
   question: "Which statement correctly compares the intercepts of the graph?"
   question_graph:
     type: "line"

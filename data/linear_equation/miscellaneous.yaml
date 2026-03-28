@@ -1,6 +1,7 @@
 solv_q2:
   type: "Distributive Property"
   difficulty: "Medium"
+  category: "multi_step_equations"
   question: "Solve for x: 2(x + 4) = 18"
   options: ["x = 5", "x = 7", "x = 9", "x = 13"]
   answer: 0
@@ -8,6 +9,7 @@ solv_q2:
 solv_q4:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "one_step_equations"
   question: "Solve the formula for h: V = πr²h"
   options: ["h = V - πr²", "h = V / (πr²)", "h = πr² / V", "h = √(V/π)"]
   answer: 1
@@ -15,6 +17,7 @@ solv_q4:
 solv_q5:
   type: "No Solution Trap"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "Solve: 3x + 4 = 3x - 2"
   options: ["x = 0", "x = 6", "No Solution", "Infinite Solutions"]
   answer: 2
@@ -22,6 +25,7 @@ solv_q5:
 solv_q6:
   type: "Infinite Solutions"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "Solve: 2(x + 3) = 2x + 6"
   options: ["x = 3", "x = 0", "No Solution", "Infinite Solutions"]
   answer: 3
@@ -32,6 +36,7 @@ solv_q6:
 slope_q1:
   type: "Slope Formula"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Find the slope (m) between (1, 2) and (3, 6)."
   options: ["m = 1/2", "m = 2", "m = 4", "m = 3"]
   answer: 1
@@ -39,6 +44,7 @@ slope_q1:
 slope_q2:
   type: "Identify Y-Intercept"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "In the equation y = -4x + 7, what is the y-intercept?"
   options: ["-4", "0", "7", "(7, 0)"]
   answer: 2
@@ -46,6 +52,7 @@ slope_q2:
 slope_q3:
   type: "X-Intercept Calculation"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Find the x-intercept of 2x + 4y = 8."
   options: ["(4, 0)", "(0, 2)", "(2, 0)", "(8, 0)"]
   answer: 0
@@ -53,6 +60,7 @@ slope_q3:
 slope_q4:
   type: "Zero vs Undefined"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "What is the slope of a vertical line like x = 5?"
   options: ["0", "5", "Undefined", "1"]
   answer: 2
@@ -60,6 +68,7 @@ slope_q4:
 slope_q5:
   type: "Slope from Standard Form"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "What is the slope of the line 3x + 2y = 10?"
   options: ["3", "-3/2", "2/3", "5"]
   answer: 1
@@ -70,6 +79,7 @@ slope_q5:
 form_q1:
   type: "Slope-Intercept Identification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Which equation is in slope-intercept form?"
   options: ["Ax + By = C", "y = mx + b", "y - y1 = m(x - x1)", "x = a"]
   answer: 1
@@ -77,6 +87,7 @@ form_q1:
 form_q2:
   type: "Standard to Slope-Intercept"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Convert 2x - y = 5 to slope-intercept form."
   options: ["y = 2x - 5", "y = -2x + 5", "y = 2x + 5", "x = 0.5y + 2.5"]
   answer: 0
@@ -84,6 +95,7 @@ form_q2:
 form_q3:
   type: "Point-Slope Conversion"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Which equation represents a line with slope 3 passing through (1, 4)?"
   options: ["y - 1 = 3(x - 4)", "y - 4 = 3(x - 1)", "y + 4 = 3(x + 1)", "y = 3x + 4"]
   answer: 1
@@ -91,6 +103,7 @@ form_q3:
 form_q4:
   type: "Challenge: Point-Slope to Standard"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Convert y - 2 = 4(x - 1) into Standard Form (Ax + By = C)."
   options: ["4x - y = 2", "4x + y = 6", "4x - y = 6", "x - 4y = 2"]
   answer: 0
@@ -98,6 +111,7 @@ form_q4:
 form_q5:
   type: "Challenge: Find Equation from Points"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Write the equation in y = mx + b form for points (0, 3) and (2, 7)."
   options: ["y = 4x + 3", "y = 2x + 3", "y = 3x + 2", "y = 2x + 7"]
   answer: 1
@@ -108,6 +122,7 @@ form_q5:
 para_q1:
   type: "Parallel Logic"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Parallel lines must have the same ______."
   options: ["Y-intercept", "X-intercept", "Slope", "Variable"]
   answer: 2
@@ -115,6 +130,7 @@ para_q1:
 para_q2:
   type: "Identify Perpendicular Slope"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "If a line has a slope of 2/3, what is the slope of a perpendicular line?"
   options: ["2/3", "-2/3", "3/2", "-3/2"]
   answer: 3
@@ -122,6 +138,7 @@ para_q2:
 para_q3:
   type: "Verify Parallel"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Are y = 3x + 4 and 6x - 2y = 10 parallel?"
   options: ["Yes, slopes are both 3", "No, one slope is 6", "Yes, they have same intercept", "No, they are perpendicular"]
   answer: 0
@@ -129,6 +146,7 @@ para_q3:
 para_q4:
   type: "Perpendicular Equation"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Which line is perpendicular to y = -2x + 1?"
   options: ["y = -2x + 5", "y = 2x - 1", "y = 0.5x + 3", "y = -0.5x + 3"]
   answer: 2
@@ -136,6 +154,7 @@ para_q4:
 para_q5:
   type: "Challenge: Passing Through"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Find the equation of a line parallel to y = 4x + 1 that passes through (0, -3)."
   options: ["y = 4x - 3", "y = -1/4x - 3", "y = 4x + 3", "y = -4x - 3"]
   answer: 0
@@ -146,6 +165,7 @@ para_q5:
 sys_q1:
   type: "Verification"
   difficulty: "Easy"
+  category: "substitution"
   question: "Is (2, 3) a solution to the system: x + y = 5 and 2x - y = 1?"
   options: ["Yes", "No, fails first equation", "No, fails second equation", "No, fails both"]
   answer: 0
@@ -153,6 +173,7 @@ sys_q1:
 sys_q5:
   type: "Graphing Interpretation"
   difficulty: "Medium"
+  category: "substitution"
   question: "If two lines in a system are parallel, how many solutions exist?"
   options: ["One solution", "Infinite solutions", "No solution", "Two solutions"]
   answer: 2
@@ -160,6 +181,7 @@ sys_q5:
 slope_q6:
   type: "Identify X-Intercept"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Find the x-intercept of the line y = 3x - 9."
   options: ["(0, -9)", "(3, 0)", "(-3, 0)", "(0, 3)"]
   answer: 1
@@ -169,6 +191,7 @@ slope_q6:
 form_q6:
   type: "Standard to Slope"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "What is the slope of 5x + 2y = 20?"
   options: ["5", "-5/2", "2/5", "10"]
   answer: 1
@@ -178,6 +201,7 @@ form_q6:
 para_q6:
   type: "Horizontal/Vertical Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Which line is perpendicular to x = 4?"
   options: ["x = -4", "y = 4", "y = x", "x = 0"]
   answer: 1
@@ -187,6 +211,7 @@ para_q6:
 wp_lin_q1:
   type: "Rate of Change"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "A plumber charges $50 for a visit plus $30 per hour. Which equation represents the total cost (C) for (h) hours?"
   options: ["C = 50h + 30", "C = 30h + 50", "C = 80h", "h = 30C + 50"]
   answer: 1
@@ -194,6 +219,7 @@ wp_lin_q1:
 err_lin_q1:
   type: "Error Detection"
   difficulty: "Medium"
+  category: "one_step_equations"
   question: "A student solves 4x = 2 and says x = 2. What was the error?"
   options: ["Divided incorrectly", "Subtracted instead of divided", "Swapped the divisor and dividend", "No error"]
   answer: 2
@@ -201,6 +227,7 @@ err_lin_q1:
 err_lin_q2:
   type: "Intercept Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "If a line has a slope of 0 and passes through (2, 5), what is its equation?"
   options: ["x = 2", "y = 5", "y = 0", "y = 2x + 5"]
   answer: 1
@@ -214,6 +241,7 @@ err_lin_q2:
 linear_equation_forms__form_q1:
   type: "Identification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Which equation format is known as Slope-Intercept form?"
   options: ["y - y1 = m(x - x1)", "Ax + By = C", "y = mx + b", "x = a"]
   answer: 2
@@ -221,6 +249,7 @@ linear_equation_forms__form_q1:
 linear_equation_forms__form_q2:
   type: "Identification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "In the equation Ax + By = C, what is this specific form called?"
   options: ["Slope-Intercept Form", "Point-Slope Form", "Standard Form", "Variable Form"]
   answer: 2
@@ -228,6 +257,7 @@ linear_equation_forms__form_q2:
 linear_equation_forms__form_q3:
   type: "Parameter Logic"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "In the point-slope form y - y1 = m(x - x1), what does the 'm' represent?"
   options: ["The x-intercept", "The slope", "The y-coordinate of a point", "The constant term"]
   answer: 1
@@ -235,6 +265,7 @@ linear_equation_forms__form_q3:
 linear_equation_forms__form_q4:
   type: "Form Comparison"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Which form is most useful for identifying the y-intercept at a glance?"
   options: ["Standard Form", "Point-Slope Form", "Slope-Intercept Form", "Direct Variation"]
   answer: 2
@@ -245,6 +276,7 @@ linear_equation_forms__form_q4:
 linear_equation_forms__form_q5:
   type: "Step-by-Step Conversion"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "To convert 3x + y = 10 into slope-intercept form, what is the first algebraic step?"
   options: ["Divide everything by 3", "Subtract 3x from both sides", "Subtract 10 from both sides", "Multiply by y"]
   answer: 1
@@ -252,6 +284,7 @@ linear_equation_forms__form_q5:
 linear_equation_forms__form_q6:
   type: "Standard to Slope-Intercept"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Convert 2x - y = 5 into slope-intercept form (y = mx + b)."
   options: ["y = 2x - 5", "y = -2x + 5", "y = 2x + 5", "y = -2x - 5"]
   answer: 0
@@ -259,6 +292,7 @@ linear_equation_forms__form_q6:
 linear_equation_forms__form_q7:
   type: "Point-Slope to Slope-Intercept"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "If you have y - 4 = 2(x - 3), what is the resulting equation in slope-intercept form after simplifying?"
   options: ["y = 2x - 10", "y = 2x + 4", "y = 2x - 2", "y = 2x + 2"]
   answer: 2
@@ -266,6 +300,7 @@ linear_equation_forms__form_q7:
 linear_equation_forms__form_q8:
   type: "Standard Form Rules"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "In the Standard Form Ax + By = C, which of the following is usually a requirement for the coefficient A?"
   options: ["It must be a negative number", "It must be a non-negative integer", "It must be zero", "It must be a fraction"]
   answer: 1
@@ -276,6 +311,7 @@ linear_equation_forms__form_q8:
 linear_equation_forms__form_q9:
   type: "Slope Extraction"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "What is the slope of the line represented by the equation 5x + 2y = 10?"
   options: ["5", "2", "-5/2", "5/2"]
   answer: 2
@@ -283,6 +319,7 @@ linear_equation_forms__form_q9:
 linear_equation_forms__form_q10:
   type: "Point Identification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "From the equation y - 5 = -3(x + 2), which specific point is the line known to pass through?"
   options: ["(2, -5)", "(-2, 5)", "(5, -2)", "(-3, 5)"]
   answer: 1
@@ -290,6 +327,7 @@ linear_equation_forms__form_q10:
 linear_equation_forms__form_q11:
   type: "Intercept Extraction"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "In the equation y = 4x - 7, what is the y-intercept?"
   options: ["(4, 0)", "(0, 4)", "(0, -7)", "(-7, 0)"]
   answer: 2
@@ -300,6 +338,7 @@ linear_equation_forms__form_q11:
 linear_equation_forms__form_q12:
   type: "Error Analysis"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "A student converts y - 2 = 3(x - 1) to y = 3x - 1. What was their mistake?"
   options: ["They forgot to distribute the 3", "They added 2 to -3 incorrectly", "They subtracted 1 from 2", "They multiplied 3 and 2"]
   answer: 1
@@ -307,6 +346,7 @@ linear_equation_forms__form_q12:
 linear_equation_forms__form_q13:
   type: "Verification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Does the point (1, 5) satisfy the equation y = 2x + 3?"
   options: ["No, the result is 5 = 6", "Yes, the result is 5 = 5", "No, the result is 5 = 1", "Yes, but it is not on the line"]
   answer: 1
@@ -314,181 +354,217 @@ linear_equation_forms__form_q13:
 # --- UNIT 5: DIRECT PRACTICE & DRILLS ---
 
 linear_equation_forms__form_q15:
+  category: "graphing_linear_equations"
   question: "Convert y + 1 = -2(x - 4) to slope-intercept form."
   options: ["y = -2x + 7", "y = -2x + 9", "y = -2x + 3", "y = -2x - 9"]
   answer: 0
 
 linear_equation_forms__form_q16:
+  category: "graphing_linear_equations"
   question: "Write the Standard Form of a line where m = 2 and the y-intercept is 3."
   options: ["2x - y = -3", "2x + y = 3", "x - 2y = 3", "2x - y = 3"]
   answer: 0
 
 linear_equation_forms__form_q17:
+  category: "graphing_linear_equations"
   question: "Find the slope of 3x - 4y = 12."
   options: ["-3/4", "3", "3/4", "4/3"]
   answer: 2
 
 linear_equation_forms__form_q18:
+  category: "graphing_linear_equations"
   question: "Identify the point and slope from: y + 2 = 0.5(x - 7)"
   options: ["Point (7, -2); Slope 0.5", "Point (-7, 2); Slope 0.5", "Point (2, -7); Slope 0.5", "Point (7, 2); Slope -0.5"]
   answer: 0
 
 linear_equation_forms__form_q19:
+  category: "graphing_linear_equations"
   question: "Convert 4x + 6y = 12 to slope-intercept form."
   options: ["y = -2/3x + 2", "y = 2/3x + 2", "y = -4x + 12", "y = -1.5x + 2"]
   answer: 0
 
 linear_equation_forms__form_q20:
+  category: "graphing_linear_equations"
   question: "Which form is Ax + By = C?"
   options: ["Point-Slope", "Standard", "Slope-Intercept", "Intercept Form"]
   answer: 1
 
 linear_equation_forms__form_q21:
+  category: "graphing_linear_equations"
   question: "Write an equation in point-slope form for a line with m = -1 through (0, 0)."
   options: ["y = -x", "y - 0 = -1(x - 0)", "x + y = 0", "All of the above"]
   answer: 1
 
 linear_equation_forms__form_q22:
+  category: "graphing_linear_equations"
   question: "Convert y = 3x - 4 to Standard Form."
   options: ["3x - y = 4", "3x + y = 4", "x - 3y = 4", "3x - y = -4"]
   answer: 0
 
 linear_equation_forms__form_q23:
+  category: "graphing_linear_equations"
   question: "Find the y-intercept of 2x + 5y = 20."
   options: ["4", "10", "20", "2"]
   answer: 0
 
 linear_equation_forms__form_q24:
+  category: "graphing_linear_equations"
   question: "Convert y - 5 = 4(x + 2) to Standard Form."
   options: ["4x - y = -13", "4x - y = 3", "4x + y = 13", "x - 4y = 13"]
   answer: 0
 
 linear_equation_forms__form_q25:
+  category: "graphing_linear_equations"
   question: "What is the slope of x = 10?"
   options: ["10", "0", "Undefined", "1"]
   answer: 2
 
 linear_equation_forms__form_q26:
+  category: "graphing_linear_equations"
   question: "What is the slope of y = -3?"
   options: ["-3", "0", "Undefined", "1"]
   answer: 1
 
 linear_equation_forms__form_q27:
+  category: "graphing_linear_equations"
   question: "Write in slope-intercept form: m = 1/2, through (0, 5)."
   options: ["y = 1/2x + 5", "y = 5x + 1/2", "y = -1/2x + 5", "y = 1/2x - 5"]
   answer: 0
 
 linear_equation_forms__form_q28:
+  category: "graphing_linear_equations"
   question: "Convert 3x - 3y = 9 to slope-intercept form."
   options: ["y = x - 3", "y = -x + 3", "y = 3x - 9", "y = x + 3"]
   answer: 0
 
 linear_equation_forms__form_q29:
+  category: "graphing_linear_equations"
   question: "Find the slope of -2x + 8y = 16."
   options: ["-1/4", "1/4", "4", "2"]
   answer: 1
 
 linear_equation_forms__form_q30:
+  category: "graphing_linear_equations"
   question: "Which point lies on y - 1 = 2(x + 3)?"
   options: ["(3, 1)", "(-3, 1)", "(1, -3)", "(-3, -1)"]
   answer: 1
 
 linear_equation_forms__form_q31:
+  category: "graphing_linear_equations"
   question: "Convert y = -x + 6 to Standard Form."
   options: ["x + y = 6", "x - y = 6", "-x + y = 6", "x + y = -6"]
   answer: 0
 
 linear_equation_forms__form_q32:
+  category: "graphing_linear_equations"
   question: "Find the slope of the line: y + 8 = -5(x - 2)."
   options: ["8", "-5", "2", "-8"]
   answer: 1
 
 linear_equation_forms__form_q33:
+  category: "graphing_linear_equations"
   question: "Convert 7x + y = 14 to slope-intercept form."
   options: ["y = 7x + 14", "y = -7x + 14", "y = -7x - 14", "x = -1/7y + 2"]
   answer: 1
 
 linear_equation_forms__form_q34:
+  category: "graphing_linear_equations"
   question: "What is the constant 'C' in the standard form of y = 2x + 5?"
   options: ["2", "5", "-5", "1"]
   answer: 2
 
 linear_equation_forms__form_q35:
+  category: "graphing_linear_equations"
   question: "Point-slope form of a line with m=4 through (2, 2)."
   options: ["y - 2 = 4(x - 2)", "y + 2 = 4(x + 2)", "y = 4x + 2", "4x - y = 6"]
   answer: 0
 
 linear_equation_forms__form_q36:
+  category: "graphing_linear_equations"
   question: "Convert 10x - 2y = 8 to slope-intercept form."
   options: ["y = 5x - 4", "y = -5x + 4", "y = 10x - 8", "y = 5x + 4"]
   answer: 0
 
 linear_equation_forms__form_q37:
+  category: "graphing_linear_equations"
   question: "Find the slope of y = x."
   options: ["0", "1", "Undefined", "x"]
   answer: 1
 
 linear_equation_forms__form_q38:
+  category: "graphing_linear_equations"
   question: "Standard form of y - 3 = 0.5(x + 4)."
   options: ["x - 2y = -10", "x + 2y = 10", "x - 2y = 10", "2x - y = 5"]
   answer: 0
 
 linear_equation_forms__form_q39:
+  category: "graphing_linear_equations"
   question: "Convert y = 2/3x - 1 to Standard Form (no fractions)."
   options: ["2x - 3y = 3", "2x + 3y = 3", "3x - 2y = 3", "2x - 3y = -3"]
   answer: 0
 
 linear_equation_forms__form_q40:
+  category: "graphing_linear_equations"
   question: "Slope of 12x + 4y = 24."
   options: ["3", "-3", "12", "6"]
   answer: 1
 
 linear_equation_forms__form_q41:
+  category: "graphing_linear_equations"
   question: "What is the y-intercept of y + 2 = 3(x - 1)?"
   options: ["-5", "-2", "-1", "1"]
   answer: 0
 
 linear_equation_forms__form_q42:
+  category: "graphing_linear_equations"
   question: "Slope of a line through (1, 1) and (2, 3) in y=mx+b form."
   options: ["y = 2x - 1", "y = 2x + 1", "y = 1/2x + 1", "y = 2x"]
   answer: 0
 
 linear_equation_forms__form_q43:
+  category: "graphing_linear_equations"
   question: "Convert y - 10 = -1(x + 5) to slope-intercept."
   options: ["y = -x + 5", "y = -x + 15", "y = x + 5", "y = -x - 5"]
   answer: 0
 
 linear_equation_forms__form_q44:
+  category: "graphing_linear_equations"
   question: "Find the x-intercept of 3x - y = 9."
   options: ["3", "-9", "9", "0"]
   answer: 0
 
 linear_equation_forms__form_q45:
+  category: "graphing_linear_equations"
   question: "Identify form: y = 10."
   options: ["Standard", "Slope-Intercept", "Point-Slope", "Both Standard and Slope-Intercept"]
   answer: 3
 
 linear_equation_forms__form_q46:
+  category: "graphing_linear_equations"
   question: "Standard form of y = -4/5x + 2."
   options: ["4x + 5y = 10", "4x - 5y = 10", "5x + 4y = 10", "4x + 5y = 2"]
   answer: 0
 
 linear_equation_forms__form_q47:
+  category: "graphing_linear_equations"
   question: "What is the slope of 0.2x - 0.2y = 1?"
   options: ["0.2", "1", "-1", "0"]
   answer: 1
 
 linear_equation_forms__form_q48:
+  category: "graphing_linear_equations"
   question: "Point-slope through (-1, -1) with m = 5."
   options: ["y + 1 = 5(x + 1)", "y - 1 = 5(x - 1)", "y = 5x + 4", "y + 1 = 5x + 1"]
   answer: 0
 
 linear_equation_forms__form_q49:
+  category: "graphing_linear_equations"
   question: "Convert 15x + 3y = 9 to slope-intercept form."
   options: ["y = -5x + 3", "y = 5x + 3", "y = -15x + 9", "y = -5x - 3"]
   answer: 0
 
 linear_equation_forms__form_q50:
+  category: "graphing_linear_equations"
   question: "Which represents the same line as y = 2x - 4?"
   options: ["2x - y = 4", "y - 0 = 2(x - 2)", "y + 4 = 2x", "All of the above"]
   answer: 3
@@ -500,6 +576,7 @@ linear_equation_forms__form_q50:
 parallel_and_perpendicular_lines__para_q1:
   type: "Logic Check"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Two lines are parallel if they are in the same plane and never intersect. Mathematically, this means their slopes must be:"
   options: ["Negative reciprocals", "The same", "Zero", "Added to equal 1"]
   answer: 1
@@ -507,6 +584,7 @@ parallel_and_perpendicular_lines__para_q1:
 parallel_and_perpendicular_lines__para_q2:
   type: "Identification"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Line A has a slope of -5. If Line B is parallel to Line A, what is its slope?"
   options: ["5", "1/5", "-5", "-1/5"]
   answer: 2
@@ -514,6 +592,7 @@ parallel_and_perpendicular_lines__para_q2:
 parallel_and_perpendicular_lines__para_q3:
   type: "Intercept Logic"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "If two lines have the same slope AND the same y-intercept, which of the following is true?"
   options: ["They are parallel", "They are perpendicular", "They are the same line (coincident)", "They intersect once"]
   answer: 2
@@ -521,6 +600,7 @@ parallel_and_perpendicular_lines__para_q3:
 parallel_and_perpendicular_lines__para_q4:
   type: "Visual Verification"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "On a graph, Line 1 rises 3 units for every 2 units it moves right. Line 2 also rises 3 units for every 2 units it moves right. These lines are:"
   options: ["Parallel", "Perpendicular", "Intersecting at the origin", "Vertical"]
   answer: 0
@@ -531,6 +611,7 @@ parallel_and_perpendicular_lines__para_q4:
 parallel_and_perpendicular_lines__para_q5:
   type: "Negative Reciprocal Logic"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "Perpendicular lines meet at a 90-degree angle. Their slopes are 'negative reciprocals,' meaning if one slope is a/b, the other is:"
   options: ["a/b", "-a/b", "b/a", "-b/a"]
   answer: 3
@@ -538,6 +619,7 @@ parallel_and_perpendicular_lines__para_q5:
 parallel_and_perpendicular_lines__para_q6:
   type: "Calculation"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "If a line has a slope of 4, what is the slope of a line that is perpendicular to it?"
   options: ["-4", "1/4", "-1/4", "4"]
   answer: 2
@@ -545,6 +627,7 @@ parallel_and_perpendicular_lines__para_q6:
 parallel_and_perpendicular_lines__para_q7:
   type: "Product Property"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "When you multiply the slopes of two perpendicular lines (that are not vertical or horizontal), the product is always:"
   options: ["0", "1", "-1", "undefined"]
   answer: 2
@@ -552,6 +635,7 @@ parallel_and_perpendicular_lines__para_q7:
 parallel_and_perpendicular_lines__para_q8:
   type: "Guided Identification"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "The slope of Line J is -2/7. To find the perpendicular slope, you flip the fraction and change the sign. What is the result?"
   options: ["-7/2", "7/2", "2/7", "7"]
   answer: 1
@@ -562,6 +646,7 @@ parallel_and_perpendicular_lines__para_q8:
 parallel_and_perpendicular_lines__para_q9:
   type: "Special Cases"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Which type of line is parallel to the horizontal line y = 10?"
   options: ["x = 10", "y = -2", "x = 0", "y = x"]
   answer: 1
@@ -569,6 +654,7 @@ parallel_and_perpendicular_lines__para_q9:
 parallel_and_perpendicular_lines__para_q10:
   type: "Special Cases"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Which of the following is perpendicular to the vertical line x = -4?"
   options: ["x = 4", "y = 4", "y = x", "x = 0"]
   answer: 1
@@ -576,6 +662,7 @@ parallel_and_perpendicular_lines__para_q10:
 parallel_and_perpendicular_lines__para_q11:
   type: "Slope Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "A line with a slope of 0 (horizontal) is always perpendicular to a line with what kind of slope?"
   options: ["0", "1", "-1", "Undefined (vertical)"]
   answer: 3
@@ -585,6 +672,7 @@ parallel_and_perpendicular_lines__para_q11:
 parallel_and_perpendicular_lines__para_q12:
   type: "Error Analysis"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "A student says y = 2x + 5 and y = -2x + 3 are perpendicular. What is their mistake?"
   options: ["They forgot to flip the fraction", "They shouldn't have changed the sign", "Slopes must be the same", "One intercept must be 0"]
   answer: 0
@@ -592,6 +680,7 @@ parallel_and_perpendicular_lines__para_q12:
 parallel_and_perpendicular_lines__para_q13:
   type: "Verification"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Are the lines 2x + 3y = 6 and 3x - 2y = 8 perpendicular?"
   options: ["No, both are positive", "Yes, slopes are -2/3 and 3/2", "No, slopes are 2/3 and 3/2", "Yes, they have different intercepts"]
   answer: 1
@@ -599,161 +688,193 @@ parallel_and_perpendicular_lines__para_q13:
 # --- UNIT 5: DIRECT PRACTICE & DRILLS ---
 
 parallel_and_perpendicular_lines__para_q18:
+  category: "graphing_linear_equations"
   question: "Find the equation of a line parallel to y = 4x + 1 through (0, -3)."
   options: ["y = 4x - 3", "y = -1/4x - 3", "y = 4x + 3", "y = -4x - 3"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q20:
+  category: "graphing_linear_equations"
   question: "Slope of a line parallel to y = -1/2x + 8."
   options: ["2", "1/2", "-1/2", "-2"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q21:
+  category: "graphing_linear_equations"
   question: "Slope of a line perpendicular to y = x."
   options: ["1", "0", "-1", "Undefined"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q22:
+  category: "graphing_linear_equations"
   question: "Are 4x - y = 2 and y = 4x + 7 parallel?"
   options: ["Yes", "No, one is negative", "No, intercepts are different", "Yes, they are perpendicular"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q23:
+  category: "graphing_linear_equations"
   question: "Find the perpendicular slope to m = -0.1."
   options: ["0.1", "-10", "10", "1"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q24:
+  category: "graphing_linear_equations"
   question: "Is y = 5 parallel to y = -5?"
   options: ["No, they intersect", "Yes, both have slope 0", "No, one is vertical", "Yes, they are perpendicular"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q25:
+  category: "graphing_linear_equations"
   question: "Slope of a line perpendicular to 3x + y = 5."
   options: ["-3", "3", "1/3", "-1/3"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q26:
+  category: "graphing_linear_equations"
   question: "Find a line parallel to y = 2x - 3 passing through the origin (0,0)."
   options: ["y = -2x", "y = 2x", "y = 0.5x", "y = x + 2"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q27:
+  category: "graphing_linear_equations"
   question: "Perpendicular slope to m = 1/8."
   options: ["8", "-8", "-1/8", "0.8"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q28:
+  category: "graphing_linear_equations"
   question: "Are x = 2 and x = 5 parallel?"
   options: ["No", "Yes, both are vertical", "No, they intersect", "Yes, both have slope 0"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q29:
+  category: "graphing_linear_equations"
   question: "Equation of a line perpendicular to y = 3x through (0,0)."
   options: ["y = 3x", "y = -3x", "y = 1/3x", "y = -1/3x"]
   answer: 3
 
 parallel_and_perpendicular_lines__para_q30:
+  category: "graphing_linear_equations"
   question: "Slope of a line parallel to 2x - 5y = 10."
   options: ["2/5", "-2/5", "5/2", "2"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q31:
+  category: "graphing_linear_equations"
   question: "Which slope is perpendicular to m = -3/4?"
   options: ["-3/4", "3/4", "-4/3", "4/3"]
   answer: 3
 
 parallel_and_perpendicular_lines__para_q32:
+  category: "graphing_linear_equations"
   question: "Are y = 2x + 1 and y = 2x - 1 parallel?"
   options: ["Yes", "No", "They are perpendicular", "They are the same line"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q33:
+  category: "graphing_linear_equations"
   question: "Find the slope perpendicular to a horizontal line."
   options: ["0", "1", "Undefined", "-1"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q34:
+  category: "graphing_linear_equations"
   question: "Parallel slope to m = 0.75."
   options: ["3/4", "-3/4", "4/3", "-4/3"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q35:
+  category: "graphing_linear_equations"
   question: "Perpendicular slope to m = -1."
   options: ["-1", "1", "0", "Undefined"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q36:
+  category: "graphing_linear_equations"
   question: "Are y = x + 2 and y = -x + 2 perpendicular?"
   options: ["Yes", "No", "They are parallel", "They are the same line"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q37:
+  category: "graphing_linear_equations"
   question: "Line parallel to y = 10x - 1."
   options: ["y = -10x + 1", "y = 1/10x + 5", "y = 10x + 10", "y = -1/10x"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q38:
+  category: "graphing_linear_equations"
   question: "Line perpendicular to y = 1/5x + 2."
   options: ["y = 5x", "y = -5x + 1", "y = 1/5x - 2", "y = -1/5x"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q39:
+  category: "graphing_linear_equations"
   question: "Slope parallel to m = -2/9."
   options: ["2/9", "-9/2", "-2/9", "9/2"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q40:
+  category: "graphing_linear_equations"
   question: "Slope perpendicular to m = 5/6."
   options: ["5/6", "-5/6", "6/5", "-6/5"]
   answer: 3
 
 parallel_and_perpendicular_lines__para_q41:
+  category: "graphing_linear_equations"
   question: "Are 2x + y = 4 and y = -2x + 8 parallel?"
   options: ["Yes", "No", "Perpendicular", "Same line"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q42:
+  category: "graphing_linear_equations"
   question: "Find line parallel to y = -x + 4 through (0, 5)."
   options: ["y = x + 5", "y = -x + 5", "y = -x - 4", "y = x - 5"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q43:
+  category: "graphing_linear_equations"
   question: "Slope perpendicular to m = 10."
   options: ["10", "-10", "1/10", "-1/10"]
   answer: 3
 
 parallel_and_perpendicular_lines__para_q44:
+  category: "graphing_linear_equations"
   question: "Which line is parallel to x = 0 (the y-axis)?"
   options: ["y = 0", "x = 5", "y = x", "y = 5"]
   answer: 1
 
 parallel_and_perpendicular_lines__para_q45:
+  category: "graphing_linear_equations"
   question: "Which line is perpendicular to y = 0 (the x-axis)?"
   options: ["y = 5", "x = 0", "x = 5", "Both B and C"]
   answer: 3
 
 parallel_and_perpendicular_lines__para_q46:
+  category: "graphing_linear_equations"
   question: "Perpendicular slope to m = -2/3."
   options: ["2/3", "-3/2", "3/2", "-2/3"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q47:
+  category: "graphing_linear_equations"
   question: "Parallel slope to m = 1."
   options: ["1", "-1", "0", "Undefined"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q48:
+  category: "graphing_linear_equations"
   question: "Are y = 0.5x and y = -2x perpendicular?"
   options: ["Yes", "No", "Parallel", "Same line"]
   answer: 0
 
 parallel_and_perpendicular_lines__para_q49:
+  category: "graphing_linear_equations"
   question: "Line parallel to y = -4x + 1."
   options: ["y = 4x + 1", "y = -1/4x + 1", "y = -4x - 10", "y = 1/4x"]
   answer: 2
 
 parallel_and_perpendicular_lines__para_q50:
+  category: "graphing_linear_equations"
   question: "Slope perpendicular to m = 1/3."
   options: ["3", "-3", "1/3", "-1/3"]
   answer: 1
@@ -765,6 +886,7 @@ parallel_and_perpendicular_lines__para_q50:
 slope_and_intercepts_practice__slope_q1:
   type: "Definition"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "In the context of a graph, slope is often described as the ratio of the vertical change to the horizontal change. What is the common nickname for this?"
   options: ["Run over Rise", "Across over Up", "Rise over Run", "Start over Finish"]
   answer: 2
@@ -772,6 +894,7 @@ slope_and_intercepts_practice__slope_q1:
 slope_and_intercepts_practice__slope_q2:
   type: "Visual Logic"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "If a line goes 'downhill' from left to right, what kind of slope does it have?"
   options: ["Positive", "Zero", "Undefined", "Negative"]
   answer: 3
@@ -779,6 +902,7 @@ slope_and_intercepts_practice__slope_q2:
 slope_and_intercepts_practice__slope_q3:
   type: "Visual Logic"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "A line that is perfectly flat (horizontal) has which type of slope?"
   options: ["Zero", "Positive", "Undefined", "Negative"]
   answer: 0
@@ -786,6 +910,7 @@ slope_and_intercepts_practice__slope_q3:
 slope_and_intercepts_practice__slope_q4:
   type: "Visual Logic"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "A line that goes straight up and down (vertical) has which type of slope?"
   options: ["Zero", "Negative", "Undefined", "Positive"]
   answer: 2
@@ -796,6 +921,7 @@ slope_and_intercepts_practice__slope_q4:
 slope_and_intercepts_practice__slope_q6:
   type: "Slope Formula"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Calculate the slope of the line passing through (-2, 4) and (1, 10)."
   options: ["m = 3", "m = 2", "m = -2", "m = 6"]
   answer: 1
@@ -803,6 +929,7 @@ slope_and_intercepts_practice__slope_q6:
 slope_and_intercepts_practice__slope_q7:
   type: "Slope Formula"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "What is the slope of the line passing through (5, -3) and (2, -3)?"
   options: ["m = 1", "m = -3", "m = 0", "Undefined"]
   answer: 2
@@ -810,6 +937,7 @@ slope_and_intercepts_practice__slope_q7:
 slope_and_intercepts_practice__slope_q8:
   type: "Slope Formula"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Find the slope of a line passing through (4, 7) and (4, -2)."
   options: ["m = 0", "m = 9", "m = -9", "Undefined"]
   answer: 3
@@ -817,6 +945,7 @@ slope_and_intercepts_practice__slope_q8:
 slope_and_intercepts_practice__slope_q9:
   type: "Slope Formula"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Calculate the slope between (-1/2, 2) and (1/2, 5)."
   options: ["m = 3", "m = 1.5", "m = 6", "m = 1"]
   answer: 0
@@ -827,6 +956,7 @@ slope_and_intercepts_practice__slope_q9:
 slope_and_intercepts_practice__slope_q10:
   type: "Definition"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "The y-intercept of a line is the point where the graph crosses the y-axis. At this point, what is always the value of x?"
   options: ["x = 1", "x = y", "x = 0", "x is undefined"]
   answer: 2
@@ -834,6 +964,7 @@ slope_and_intercepts_practice__slope_q10:
 slope_and_intercepts_practice__slope_q11:
   type: "Definition"
   difficulty: "Easy"
+  category: "graphing_linear_equations"
   question: "The x-intercept of a line is the point where the graph crosses the x-axis. At this point, what is always the value of y?"
   options: ["y = 0", "y = x", "y = 1", "y is unknown"]
   answer: 0
@@ -841,6 +972,7 @@ slope_and_intercepts_practice__slope_q11:
 slope_and_intercepts_practice__slope_q12:
   type: "Intercept Logic"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "If a line passes through the origin (0, 0), what are its intercepts?"
   options: ["Only the y-intercept is 0", "Only the x-intercept is 0", "Both intercepts are 0", "It has no intercepts"]
   answer: 2
@@ -851,6 +983,7 @@ slope_and_intercepts_practice__slope_q12:
 slope_and_intercepts_practice__slope_q16:
   type: "Y-Intercept Calculation"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "Find the y-intercept of the line 5x - 2y = 10."
   options: ["(2, 0)", "(0, 5)", "(0, -5)", "(-2, 0)"]
   answer: 2
@@ -858,6 +991,7 @@ slope_and_intercepts_practice__slope_q16:
 slope_and_intercepts_practice__slope_q17:
   type: "Intercept Identification"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "What is the y-intercept of y = 12x?"
   options: ["12", "(0, 0)", "(12, 0)", "None"]
   answer: 1
@@ -865,6 +999,7 @@ slope_and_intercepts_practice__slope_q17:
 slope_and_intercepts_practice__slope_q18:
   type: "X-Intercept Calculation"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "What is the x-intercept of the line x + y = 0?"
   options: ["(1, 1)", "(0, 0)", "(-1, 0)", "None"]
   answer: 1
@@ -872,6 +1007,7 @@ slope_and_intercepts_practice__slope_q18:
 slope_and_intercepts_practice__slope_q19:
   type: "Y-Intercept Calculation"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "Calculate the y-intercept for the line 0.5x + 0.1y = 1."
   options: ["10", "1", "0.1", "5"]
   answer: 0
@@ -882,6 +1018,7 @@ slope_and_intercepts_practice__slope_q19:
 slope_and_intercepts_practice__slope_q21:
   type: "Special Case"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "For the horizontal line y = -3, what is the x-intercept?"
   options: ["(-3, 0)", "(0, -3)", "None", "Infinite"]
   answer: 2
@@ -889,6 +1026,7 @@ slope_and_intercepts_practice__slope_q21:
 slope_and_intercepts_practice__slope_q22:
   type: "Special Case"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "For the vertical line x = 4, what is the y-intercept?"
   options: ["(0, 4)", "None", "(4, 0)", "(0, 0)"]
   answer: 1
@@ -896,6 +1034,7 @@ slope_and_intercepts_practice__slope_q22:
 slope_and_intercepts_practice__slope_q24:
   type: "Slope Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "A line with an undefined slope passes through (7, -1). What is its x-intercept?"
   options: ["(0, 7)", "(-1, 0)", "(7, 0)", "None"]
   answer: 2
@@ -906,6 +1045,7 @@ slope_and_intercepts_practice__slope_q24:
 slope_and_intercepts_practice__slope_q25:
   type: "Error Analysis"
   difficulty: "Medium"
+  category: "graphing_linear_equations"
   question: "A student calculates slope between (1, 2) and (3, 10) as (3 - 1) / (10 - 2) = 2/8. What was the error?"
   options: ["They simplified wrong", "They used x-values in the numerator instead of y-values", "They subtracted incorrectly", "They swapped the signs"]
   answer: 1
@@ -913,6 +1053,7 @@ slope_and_intercepts_practice__slope_q25:
 slope_and_intercepts_practice__slope_q26:
   type: "Guided Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "If a line has a positive x-intercept and a positive y-intercept, which direction must the slope be?"
   options: ["Positive", "Zero", "Negative", "Undefined"]
   answer: 2
@@ -920,6 +1061,7 @@ slope_and_intercepts_practice__slope_q26:
 slope_and_intercepts_practice__slope_q27:
   type: "Guided Logic"
   difficulty: "Hard"
+  category: "graphing_linear_equations"
   question: "If the slope of a line is positive, and the y-intercept is negative, in which quadrant will the x-intercept be located?"
   options: ["Quadrant I (Positive x)", "Quadrant II (Negative x)", "Quadrant III (Negative x)", "The origin"]
   answer: 0
@@ -927,116 +1069,139 @@ slope_and_intercepts_practice__slope_q27:
 # --- UNIT 7: DIRECT PRACTICE & MIXED DRILLS ---
 
 slope_and_intercepts_practice__slope_q28:
+  category: "graphing_linear_equations"
   question: "Find the slope: (0, 0) and (5, 5)."
   options: ["0", "5", "1", "Undefined"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q29:
+  category: "graphing_linear_equations"
   question: "Y-intercept of y = -x - 4?"
   options: ["-1", "0", "4", "-4"]
   answer: 3
 
 slope_and_intercepts_practice__slope_q30:
+  category: "graphing_linear_equations"
   question: "X-intercept of 3x + y = 9?"
   options: ["(3, 0)", "(0, 9)", "(9, 0)", "(0, 3)"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q31:
+  category: "graphing_linear_equations"
   question: "Slope of y = 10?"
   options: ["10", "1", "0", "Undefined"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q32:
+  category: "graphing_linear_equations"
   question: "Slope between (1, 1) and (2, 2)?"
   options: ["1", "2", "0", "0.5"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q33:
+  category: "graphing_linear_equations"
   question: "Y-intercept of 4x + 2y = 12?"
   options: ["4", "2", "6", "12"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q34:
+  category: "graphing_linear_equations"
   question: "X-intercept of y = 2x + 10?"
   options: ["(5, 0)", "(-5, 0)", "(0, 10)", "(10, 0)"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q35:
+  category: "graphing_linear_equations"
   question: "Slope between (-5, 2) and (-5, 8)?"
   options: ["6", "0", "Undefined", "1"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q36:
+  category: "graphing_linear_equations"
   question: "Slope of a line through the origin and (2, 4)?"
   options: ["1/2", "2", "4", "0"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q37:
+  category: "graphing_linear_equations"
   question: "If y = 3, what is the slope?"
   options: ["3", "0", "1", "Undefined"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q38:
+  category: "graphing_linear_equations"
   question: "What is the x-intercept of x = -2?"
   options: ["(-2, 0)", "(0, -2)", "None", "(2, 0)"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q39:
+  category: "graphing_linear_equations"
   question: "Find slope: (10, 5) and (12, 4)."
   options: ["-0.5", "0.5", "-2", "2"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q40:
+  category: "graphing_linear_equations"
   question: "Y-intercept of y = 0.5x + 3?"
   options: ["0.5", "3", "6", "0"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q41:
+  category: "graphing_linear_equations"
   question: "X-intercept of 5x + 10y = 50?"
   options: ["(5, 0)", "(10, 0)", "(50, 0)", "(0, 5)"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q42:
+  category: "graphing_linear_equations"
   question: "Slope of x = -100?"
   options: ["-100", "0", "Undefined", "-1"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q43:
+  category: "graphing_linear_equations"
   question: "Find slope: (-1, -1) and (1, 1)."
   options: ["0", "1", "-1", "2"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q44:
+  category: "graphing_linear_equations"
   question: "Y-intercept of x + y = 10?"
   options: ["10", "0", "-10", "1"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q45:
+  category: "graphing_linear_equations"
   question: "X-intercept of y = x - 5?"
   options: ["(5, 0)", "(-5, 0)", "(0, -5)", "(0, 5)"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q46:
+  category: "graphing_linear_equations"
   question: "Slope between (4, 3) and (8, 3)?"
   options: ["4", "1", "0", "Undefined"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q47:
+  category: "graphing_linear_equations"
   question: "Y-intercept of y = 3x - 1?"
   options: ["3", "1", "-1", "0"]
   answer: 2
 
 slope_and_intercepts_practice__slope_q48:
+  category: "graphing_linear_equations"
   question: "X-intercept of 2x - y = 4?"
   options: ["(2, 0)", "(4, 0)", "(-2, 0)", "(0, -4)"]
   answer: 0
 
 slope_and_intercepts_practice__slope_q49:
+  category: "graphing_linear_equations"
   question: "Slope between (2, 1) and (4, 2)?"
   options: ["2", "0.5", "1", "-0.5"]
   answer: 1
 
 slope_and_intercepts_practice__slope_q50:
+  category: "graphing_linear_equations"
   question: "What is the slope of the x-axis?"
   options: ["1", "Undefined", "0", "Infinite"]
   answer: 2
@@ -1048,6 +1213,7 @@ slope_and_intercepts_practice__slope_q50:
 solving_one_variable_equations__solv_q11:
   type: "Literal Equation"
   difficulty: "Hard"
+  category: "one_step_equations"
   question: "Solve for y in terms of x: 2x + y = 10"
   options: ["y = 10 + 2x", "y = 5 - x", "y = 10 - 2x", "y = 2x - 10"]
   answer: 2
@@ -1055,6 +1221,7 @@ solving_one_variable_equations__solv_q11:
 solving_one_variable_equations__solv_q12:
   type: "Literal Equation"
   difficulty: "Hard"
+  category: "one_step_equations"
   question: "The formula for perimeter is P = 2L + 2W. Solve for W."
   options: ["W = (P - 2L) / 2", "W = P - L", "W = P / 4", "W = 2L - P"]
   answer: 0
@@ -1065,6 +1232,7 @@ solving_one_variable_equations__solv_q12:
 solving_one_variable_equations__solv_q16:
   type: "Error Detection"
   difficulty: "Medium"
+  category: "one_step_equations"
   question: "In solving x + 7 = -3, a student gets x = 4. What did they do wrong?"
   options: ["Added 7 instead of subtracting 7", "Multiplied by -3", "Divided by 7", "Subtracted 3 from 7"]
   answer: 0
@@ -1072,26 +1240,31 @@ solving_one_variable_equations__solv_q16:
 # --- UNIT 5: DIRECT PRACTICE DRILLS ---
 
 solving_one_variable_equations__solv_q26:
+  category: "one_step_equations"
   question: "Solve: 10 - x = 15"
   options: ["x = 5", "x = -5", "x = 25", "x = -25"]
   answer: 1
 
 solving_one_variable_equations__solv_q28:
+  category: "one_step_equations"
   question: "Solve for m: y = mx + b"
   options: ["m = (y - b) / x", "m = y - b - x", "m = y / x + b", "m = x / (y - b)"]
   answer: 0
 
 solving_one_variable_equations__solv_q33:
+  category: "two_step_equations"
   question: "Solve: 1 - 2x = 9"
   options: ["x = 4", "x = -4", "x = 5", "x = -5"]
   answer: 1
 
 solving_one_variable_equations__solv_q38:
+  category: "one_step_equations"
   question: "Solve for a: F = ma"
   options: ["a = F/m", "a = F - m", "a = m/F", "a = Fm"]
   answer: 0
 
 solving_one_variable_equations__solv_q49:
+  category: "one_step_equations"
   question: "Solve for r: C = 2πr"
   options: ["r = C / 2π", "r = 2π / C", "r = C - 2π", "r = C/π - 2"]
   answer: 0
@@ -1099,6 +1272,7 @@ solving_one_variable_equations__solv_q49:
 systems_of_equations_test__sys_q1:
   type: "Graphing Logic"
   difficulty: "Easy"
+  category: "substitution"
   question: "When two lines in a system are parallel and never touch, how many solutions does the system have?"
   options: ["One unique solution", "Exactly two solutions", "No solution", "Infinitely many solutions"]
   answer: 2
@@ -1106,6 +1280,7 @@ systems_of_equations_test__sys_q1:
 systems_of_equations_test__sys_q2:
   type: "Graphing Logic"
   difficulty: "Medium"
+  category: "substitution"
   question: "If two equations in a system represent the exact same line, the system is said to have:"
   options: ["No solution", "One solution at the origin", "Infinitely many solutions", "Two solutions"]
   answer: 2
@@ -1113,6 +1288,7 @@ systems_of_equations_test__sys_q2:
 systems_of_equations_test__sys_q3:
   type: "Visual Verification"
   difficulty: "Easy"
+  category: "substitution"
   question: "The solution to a system of equations on a graph is located at the ________ of the two lines."
   options: ["Y-intercept", "Intersection point", "X-intercept", "Midpoint"]
   answer: 1
@@ -1120,6 +1296,7 @@ systems_of_equations_test__sys_q3:
 systems_of_equations_test__sys_q4:
   type: "Solution Logic"
   difficulty: "Hard"
+  category: "substitution"
   question: "A system has one solution. If the first line has a slope of 3, which of the following MUST be true about the second line?"
   options: ["It must have a slope of -3", "It must have a slope other than 3", "It must have the same y-intercept", "It must be a vertical line"]
   answer: 1
@@ -1130,6 +1307,7 @@ systems_of_equations_test__sys_q4:
 systems_of_equations_test__sys_q9:
   type: "Error Analysis"
   difficulty: "Medium"
+  category: "substitution"
   question: "A student solves a system and gets '0 = 5'. What does this result indicate?"
   options: ["The solution is x = 0 and y = 5", "The system has infinitely many solutions", "The system has no solution", "The student made no error; the answer is 0"]
   answer: 2
@@ -1137,6 +1315,7 @@ systems_of_equations_test__sys_q9:
 systems_of_equations_test__sys_q10:
   type: "Verification"
   difficulty: "Medium"
+  category: "substitution"
   question: "Which point is the solution to the system { x - y = 4 ; x + y = 10 }?"
   options: ["(3, 7)", "(7, 3)", "(6, 4)", "(4, 6)"]
   answer: 1
@@ -1149,6 +1328,7 @@ systems_of_equations_test__sys_q10:
 lit_q1:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve for x in terms of a and b: a(x - b) = b(x + a)"
   options: ["x = 2ab / (a - b)", "x = ab / (a + b)", "x = 0", "x = 2ab / (a + b)"]
   answer: 0
@@ -1157,6 +1337,7 @@ lit_q1:
 lit_q2:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve for y: 3x - 4y = 12"
   options: ["y = (3/4)x - 3", "y = (3/4)x + 3", "y = -(4/3)x + 4", "y = 3x - 12"]
   answer: 0
@@ -1164,6 +1345,7 @@ lit_q2:
 lit_q3:
   type: "Literal Equations"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve for c: 1/a = 1/b + 1/c"
   options: ["c = ab / (b - a)", "c = (b - a) / ab", "c = a - b", "c = ab / (a + b)"]
   answer: 0
@@ -1171,6 +1353,7 @@ lit_q3:
 lit_q4:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve for h: V = (1/3)πr²h"
   options: ["h = 3V / (πr²)", "h = V / (3πr²)", "h = √(3V/π)", "h = 3V - πr²"]
   answer: 0
@@ -1178,6 +1361,7 @@ lit_q4:
 lit_q5:
   type: "Literal Equations"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve for x: m(x - n) = p(x + q)"
   options: ["x = (mn + pq) / (m - p)", "x = (mn - pq) / (m + p)", "x = mn + pq", "x = (m - p) / (mn + pq)"]
   answer: 0
@@ -1185,6 +1369,7 @@ lit_q5:
 lit_q6:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve for w: P = 2l + 2w"
   options: ["w = (P - 2l) / 2", "w = P - l", "w = 2P - l", "w = (P + 2l) / 2"]
   answer: 0
@@ -1192,6 +1377,7 @@ lit_q6:
 lit_q7:
   type: "Literal Equations"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve for x: (x + a) / b = (x - b) / a"
   options: ["x = -(a² + b²) / (a - b)", "x = (a² + b²) / (b - a)", "x = ab", "x = a + b"]
   answer: 0
@@ -1199,6 +1385,7 @@ lit_q7:
 lit_q8:
   type: "Literal Equations"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve for C: F = (9/5)C + 32"
   options: ["C = (5/9)(F - 32)", "C = (9/5)(F + 32)", "C = 5F - 160", "C = F - 32 / 1.8"]
   answer: 0
@@ -1208,6 +1395,7 @@ lit_q8:
 abs_q9:
   type: "Absolute Value"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: |3x + 2| = 11"
   options: ["x = 3, x = -13/3", "x = 3", "x = -3, x = 13/3", "No Solution"]
   answer: 0
@@ -1215,6 +1403,7 @@ abs_q9:
 abs_q10:
   type: "Absolute Value"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: |x - 5| = -2"
   options: ["x = 3", "x = 7", "x = 3, 7", "No Solution"]
   answer: 3
@@ -1223,6 +1412,7 @@ abs_q10:
 abs_q11:
   type: "Absolute Value"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve: |x + 4| = |2x - 1|"
   options: ["x = 5, x = -1", "x = 5", "x = -1", "x = 5, x = 1"]
   answer: 0
@@ -1230,6 +1420,7 @@ abs_q11:
 abs_q12:
   type: "Absolute Value"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve: |x - 4| = 2x + 1"
   options: ["x = 1, x = -5", "x = 1", "x = -5", "No solution"]
   answer: 1
@@ -1238,6 +1429,7 @@ abs_q12:
 abs_q13:
   type: "Absolute Value"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: 2|x + 3| - 4 = 10"
   options: ["x = 4, x = -10", "x = 4", "x = -10", "x = 7, x = -7"]
   answer: 0
@@ -1245,6 +1437,7 @@ abs_q13:
 abs_q14:
   type: "Absolute Value"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve: |3x - 5| = |3x + 5|"
   options: ["x = 0", "x = 5/3", "No solution", "Infinite solutions"]
   answer: 0
@@ -1252,6 +1445,7 @@ abs_q14:
 abs_q15:
   type: "Absolute Value"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: |x/2 - 1| = 3"
   options: ["x = 8, x = -4", "x = 4, x = -8", "x = 8", "x = -4"]
   answer: 0
@@ -1259,6 +1453,7 @@ abs_q15:
 abs_q16:
   type: "Absolute Value"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "How many solutions exist for |x - 2| + 5 = 5?"
   options: ["0", "1", "2", "Infinite"]
   answer: 1
@@ -1269,6 +1464,7 @@ abs_q16:
 rate_q17:
   type: "Relative Rate"
   difficulty: "Expert"
+  category: "word_problems"
   question: "A car leaves at 40 mph. 1 hour later, a second car leaves at 60 mph. How long after the second car starts will it catch the first?"
   options: ["2 hours", "3 hours", "1.5 hours", "4 hours"]
   answer: 0
@@ -1276,6 +1472,7 @@ rate_q17:
 rate_q18:
   type: "Relative Rate (Head-on)"
   difficulty: "Expert"
+  category: "word_problems"
   question: "Two towns are 300 miles apart. Car A (50 mph) and Car B (70 mph) drive toward each other. How long until they meet?"
   options: ["2.5 hours", "3 hours", "4 hours", "2 hours"]
   answer: 0
@@ -1283,6 +1480,7 @@ rate_q18:
 rate_q19:
   type: "Upstream/Downstream"
   difficulty: "Expert"
+  category: "word_problems"
   question: "A boat travels 12 mph in still water. If the river current is 3 mph, how long is a 45-mile trip upstream?"
   options: ["5 hours", "3 hours", "15 hours", "4 hours"]
   answer: 0
@@ -1291,6 +1489,7 @@ rate_q19:
 rate_q20:
   type: "Speed Shift"
   difficulty: "Hard"
+  category: "word_problems"
   question: "If I walk at 5 mph instead of 4 mph, I save 15 minutes. How far am I walking?"
   options: ["5 miles", "4 miles", "6 miles", "3 miles"]
   answer: 0
@@ -1298,6 +1497,7 @@ rate_q20:
 rate_q21:
   type: "Work Rate"
   difficulty: "Expert"
+  category: "word_problems"
   question: "John can paint a room in 3 hours. Dave takes 6 hours. How long together?"
   options: ["2 hours", "4.5 hours", "9 hours", "2.5 hours"]
   answer: 0
@@ -1305,6 +1505,7 @@ rate_q21:
 rate_q22:
   type: "Average Speed"
   difficulty: "Hard"
+  category: "word_problems"
   question: "I drive 60 miles at 30 mph and 60 miles at 60 mph. What is the total travel time?"
   options: ["3 hours", "2 hours", "2.5 hours", "4 hours"]
   answer: 0
@@ -1312,6 +1513,7 @@ rate_q22:
 rate_q23:
   type: "Relative Distance"
   difficulty: "Expert"
+  category: "word_problems"
   question: "Two joggers start at the same point and run in opposite directions. One runs at 6 mph, the other at 8 mph. When will they be 21 miles apart?"
   options: ["1.5 hours", "2 hours", "3 hours", "1 hour"]
   answer: 0
@@ -1321,6 +1523,7 @@ rate_q23:
 logic_q24:
   type: "No Solution"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "Find k if 4x - 9 = kx + 2 has no solution."
   options: ["k = 4", "k = -9", "k = 0", "k = 2"]
   answer: 0
@@ -1328,6 +1531,7 @@ logic_q24:
 logic_q25:
   type: "Infinite Solutions"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "Solve: 3(2x - 4) = 6x - 12"
   options: ["x = 0", "x = 2", "No Solution", "Infinite Solutions"]
   answer: 3
@@ -1335,6 +1539,7 @@ logic_q25:
 logic_q26:
   type: "Identity Logic"
   difficulty: "Expert"
+  category: "variables_on_both_sides"
   question: "For what value of 'a' and 'b' does ax + 7 = 3x + b have infinite solutions?"
   options: ["a=3, b=7", "a=7, b=3", "a=3, b=3", "a=0, b=0"]
   answer: 0
@@ -1342,6 +1547,7 @@ logic_q26:
 logic_q27:
   type: "Logic Trap"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "A student simplifies an equation to 0 = 0. This means the original equation is a(n) ________."
   options: ["Contradiction", "Identity", "Conditional", "Quadratic"]
   answer: 1
@@ -1349,6 +1555,7 @@ logic_q27:
 logic_q28:
   type: "Contradiction"
   difficulty: "Hard"
+  category: "variables_on_both_sides"
   question: "Solve: 5(x + 1) = 5x + 1"
   options: ["x = 0", "x = 1", "No Solution", "Infinite Solutions"]
   answer: 2
@@ -1356,6 +1563,7 @@ logic_q28:
 logic_q29:
   type: "No Solution Expert"
   difficulty: "Expert"
+  category: "variables_on_both_sides"
   question: "If m(x - 2) = 4x + 1 has no solution, what is m?"
   options: ["4", "-2", "1", "0"]
   answer: 0
@@ -1365,6 +1573,7 @@ logic_q29:
 frac_q30:
   type: "Fractional Linear"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: (x/4) + (x/3) = 7"
   options: ["x = 12", "x = 7", "x = 1", "x = 24"]
   answer: 0
@@ -1372,6 +1581,7 @@ frac_q30:
 frac_q31:
   type: "Fractional Linear"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: 2/x + 3/x = 1"
   options: ["x = 5", "x = 1", "x = 6", "x = 0"]
   answer: 0
@@ -1379,6 +1589,7 @@ frac_q31:
 frac_q32:
   type: "Extraneous Solution"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve: x / (x - 2) = 2 / (x - 2) + 1"
   options: ["x = 2", "No Solution", "x = 0", "Infinite Solutions"]
   answer: 1
@@ -1387,6 +1598,7 @@ frac_q32:
 frac_q33:
   type: "Fractional Linear"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: (x + 1) / 2 - (x - 1) / 3 = 2"
   options: ["x = 7", "x = 5", "x = 11", "x = 1"]
   answer: 0
@@ -1394,6 +1606,7 @@ frac_q33:
 frac_q34:
   type: "Cross Multiply"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: 5 / (2x - 3) = 2 / (x + 1)"
   options: ["x = 11", "x = -11", "x = 1", "x = 9"]
   answer: 0
@@ -1401,6 +1614,7 @@ frac_q34:
 frac_q35:
   type: "Fractional Linear"
   difficulty: "Expert"
+  category: "multi_step_equations"
   question: "Solve: 3 / x = 12 / (x + 3)"
   options: ["x = 1", "x = 3", "x = 4", "x = 12"]
   answer: 0
@@ -1408,6 +1622,7 @@ frac_q35:
 frac_q36:
   type: "Fractional GCF"
   difficulty: "Hard"
+  category: "multi_step_equations"
   question: "Solve: (2/5)x - 1 = (1/10)x + 2"
   options: ["x = 10", "x = 5", "x = 15", "x = 20"]
   answer: 0
@@ -1417,6 +1632,7 @@ frac_q36:
 num_q37:
   type: "Digit Problem"
   difficulty: "Expert"
+  category: "word_problems"
   question: "The sum of the digits of a 2-digit number is 9. Reversing the digits increases it by 27. Find the number."
   options: ["36", "63", "45", "27"]
   answer: 0
@@ -1425,6 +1641,7 @@ num_q37:
 num_q38:
   type: "Consecutive Integers"
   difficulty: "Hard"
+  category: "word_problems"
   question: "The sum of four consecutive integers is 66. Find the smallest."
   options: ["15", "16", "17", "14"]
   answer: 0
@@ -1432,6 +1649,7 @@ num_q38:
 num_q39:
   type: "Digit Problem"
   difficulty: "Expert"
+  category: "word_problems"
   question: "The units digit is double the tens digit. Reversing them increases the value by 18. Find the number."
   options: ["24", "48", "12", "36"]
   answer: 0
@@ -1439,6 +1657,7 @@ num_q39:
 num_q40:
   type: "Number Logic"
   difficulty: "Hard"
+  category: "word_problems"
   question: "One number is 5 more than twice another. Their sum is 20. Find the smaller number."
   options: ["5", "10", "7.5", "15"]
   answer: 0
@@ -1446,6 +1665,7 @@ num_q40:
 num_q41:
   type: "Consecutive Odd"
   difficulty: "Hard"
+  category: "word_problems"
   question: "The sum of three consecutive odd integers is 51. What is the middle integer?"
   options: ["17", "15", "19", "21"]
   answer: 0
@@ -1453,6 +1673,7 @@ num_q41:
 num_q42:
   type: "Fraction Number"
   difficulty: "Expert"
+  category: "word_problems"
   question: "A number's 3/4 part is 10 more than its 1/2 part. Find the number."
   options: ["40", "20", "60", "80"]
   answer: 0
@@ -1460,6 +1681,7 @@ num_q42:
 num_q43:
   type: "Digit Logic"
   difficulty: "Hard"
+  category: "word_problems"
   question: "A two-digit number ends in 5. The sum of digits is 1/7 of the number. Find the number."
   options: ["35", "25", "15", "45"]
   answer: 0
@@ -1469,6 +1691,7 @@ num_q43:
 geo_q44:
   type: "Perimeter"
   difficulty: "Hard"
+  category: "word_problems"
   question: "The length of a rectangle is 3cm more than the width. If the perimeter is 26cm, find the width."
   options: ["5 cm", "8 cm", "10 cm", "4 cm"]
   answer: 0
@@ -1476,6 +1699,7 @@ geo_q44:
 geo_q45:
   type: "Triangle Angles"
   difficulty: "Hard"
+  category: "word_problems"
   question: "Two angles of a triangle are equal. The third is 30° more than the others. Find the equal angles."
   options: ["50°", "60°", "75°", "45°"]
   answer: 0
@@ -1483,6 +1707,7 @@ geo_q45:
 geo_q46:
   type: "Complementary Angles"
   difficulty: "Hard"
+  category: "word_problems"
   question: "An angle is 20° less than its complement. Find the angle."
   options: ["35°", "55°", "45°", "25°"]
   answer: 0
@@ -1490,6 +1715,7 @@ geo_q46:
 geo_q47:
   type: "Supplementary Angles"
   difficulty: "Hard"
+  category: "word_problems"
   question: "Two angles are supplementary. One is triple the other. Find the smaller angle."
   options: ["45°", "135°", "60°", "30°"]
   answer: 0
@@ -1497,6 +1723,7 @@ geo_q47:
 geo_q48:
   type: "Isosceles Logic"
   difficulty: "Expert"
+  category: "word_problems"
   question: "In an isosceles triangle, the vertex angle is 40°. Find the base angles."
   options: ["70°", "140°", "40°", "60°"]
   answer: 0
@@ -1504,6 +1731,7 @@ geo_q48:
 geo_q49:
   type: "Perimeter Shift"
   difficulty: "Expert"
+  category: "word_problems"
   question: "If the side of a square is doubled, the perimeter increases by 20 units. What was the original side?"
   options: ["5", "10", "4", "2.5"]
   answer: 0
@@ -1511,6 +1739,7 @@ geo_q49:
 geo_q50:
   type: "Exterior Angle"
   difficulty: "Expert"
+  category: "word_problems"
   question: "An exterior angle of a triangle is 110°. One interior opposite angle is 40°. Find the other interior opposite angle."
   options: ["70°", "40°", "110°", "150°"]
   answer: 0

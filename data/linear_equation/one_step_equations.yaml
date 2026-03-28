@@ -1,11 +1,13 @@
 solv_q1:
   type: "Inverse Logic"
   difficulty: "Easy"
+  category: "Equation Logic"
   question: "In the equation x - 15 = 30, which inverse operation should you use to isolate x?"
   options: ["Subtract 15 from both sides", "Multiply both sides by 15", "Add 15 to both sides", "Divide both sides by 30"]
   answer: 2
 
 solv_q2:
+  category: "Integer Fluency"
   question: "Solve: x + 9 = 21"
   options: ["x = 30", "x = 11", "x = 13", "x = 12"]
   answer: 3
@@ -13,6 +15,7 @@ solv_q2:
 solv_q3:
   type: "Logic Check"
   difficulty: "Easy"
+  category: "Equation Logic"
   question: "To solve (x / 5) = 10, you must multiply both sides by 5. What is the value of x?"
   options: ["x = 2", "x = 15", "x = 50", "x = 5"]
   answer: 2
@@ -20,236 +23,283 @@ solv_q3:
 solv_q4:
   type: "Inverse Logic"
   difficulty: "Medium"
+  category: "Equation Logic"
   question: "In the equation -3x = 12, why do we divide by -3 rather than adding 3?"
   options: ["Because -3 is being multiplied by x", "Because the answer must be negative", "Because 12 is a multiple of 3", "Adding 3 would change the variable to x+3"]
   answer: 0
 
 solv_q5:
+  category: "Integer Fluency"
   question: "Solve: 7 + x = -3"
   options: ["x = -10", "x = 4", "x = 10", "x = -4"]
   answer: 0
 
 solv_q6:
+  category: "Integer Fluency"
   question: "Solve: x - 12 = -5"
   options: ["x = -17", "x = 7", "x = 17", "x = -7"]
   answer: 1
 
 solv_q7:
+  category: "Integer Fluency"
   question: "Solve: 4x = 36"
   options: ["x = 32", "x = 40", "x = 8", "x = 9"]
   answer: 3
 
 solv_q8:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 3 = 9"
   options: ["x = 3", "x = 12", "x = 27", "x = 6"]
   answer: 2
 
 solv_q9:
+  category: "Integer Fluency"
   question: "Solve: -6x = 42"
   options: ["x = 7", "x = -7", "x = 48", "x = -8"]
   answer: 1
 
 solv_q10:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x + 1.5 = 5"
   options: ["x = 3.5", "x = 6.5", "x = 4.5", "x = 3"]
   answer: 0
 
 solv_q11:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x - 0.8 = 2.2"
   options: ["x = 1.4", "x = 3.2", "x = 3.0", "x = 2.0"]
   answer: 2
 
 solv_q12:
+  category: "Integer Fluency"
   question: "Solve: 10x = 2"
   options: ["x = 5", "x = 0.5", "x = 20", "x = 0.2"]
   answer: 3
 
 solv_q13:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 7 = 0"
   options: ["x = 7", "x = -7", "x = 1", "x = 0"]
   answer: 3
 
 solv_q14:
+  category: "Integer Fluency"
   question: "Solve: x + 25 = 10"
   options: ["x = -15", "x = 15", "x = 35", "x = -35"]
   answer: 0
 
 solv_q15:
+  category: "Integer Fluency"
   question: "Solve: -x = 14"
   options: ["x = 14", "x = -14", "x = 0", "x = 1"]
   answer: 1
 
 solv_q16:
+  category: "Integer Fluency"
   question: "Solve: x - 100 = 250"
   options: ["x = 150", "x = 350", "x = 250", "x = 400"]
   answer: 1
 
 solv_q17:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 4 = -2"
   options: ["x = -0.5", "x = -8", "x = 2", "x = 8"]
   answer: 1
 
 solv_q18:
+  category: "Integer Fluency"
   question: "Solve: 12x = 144"
   options: ["x = 10", "x = 14", "x = 12", "x = 13"]
   answer: 2
 
 solv_q19:
+  category: "Integer Fluency"
   question: "Solve: x + 13 = 13"
   options: ["x = 1", "x = 26", "x = -13", "x = 0"]
   answer: 3
 
 solv_q20:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / -5 = -4"
   options: ["x = -20", "x = 9", "x = -1", "x = 20"]
   answer: 3
 
 solv_q21:
+  category: "Integer Fluency"
   question: "Solve: 15 = x - 7"
   options: ["x = 22", "x = 8", "x = -22", "x = 7"]
   answer: 0
 
 solv_q22:
+  category: "Fraction/Decimal Ops"
   question: "Solve: 0.5x = 10"
   options: ["x = 5", "x = 20", "x = 2", "x = 0.05"]
   answer: 1
 
 solv_q23:
+  category: "Integer Fluency"
   question: "Solve: 9x = 0"
   options: ["x = 9", "x = -9", "x = 0", "x = 1"]
   answer: 2
 
 solv_q24:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x + 4.2 = 4.2"
   options: ["x = 8.4", "x = 1", "x = 0", "x = -1"]
   answer: 2
 
 solv_q25:
+  category: "Integer Fluency"
   question: "Solve: x - 11 = -11"
   options: ["x = 0", "x = -22", "x = 22", "x = 1"]
   answer: 0
 
 solv_q26:
+  category: "Integer Fluency"
   question: "Solve: 3x = 1"
   options: ["x = 3", "x = 0.3", "x = 1/3", "x = -3"]
   answer: 2
 
 solv_q27:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 2 = 2.5"
   options: ["x = 5.0", "x = 1.25", "x = 4.5", "x = 0.5"]
   answer: 0
 
 solv_q28:
+  category: "Integer Fluency"
   question: "Solve: -5 + x = 5"
   options: ["x = 0", "x = -10", "x = 10", "x = 25"]
   answer: 2
 
 solv_q29:
+  category: "Integer Fluency"
   question: "Solve: x - 6 = -18"
   options: ["x = -24", "x = -12", "x = 12", "x = 24"]
   answer: 1
 
 solv_q30:
+  category: "Integer Fluency"
   question: "Solve: 20x = 100"
   options: ["x = 5", "x = 80", "x = 0.2", "x = 120"]
   answer: 0
 
 solv_q31:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 8 = 4"
   options: ["x = 2", "x = 12", "x = 32", "x = 4"]
   answer: 2
 
 solv_q32:
+  category: "Integer Fluency"
   question: "Solve: 8x = 4"
   options: ["x = 2", "x = 0.5", "x = 4", "x = -4"]
   answer: 1
 
 solv_q33:
+  category: "Integer Fluency"
   question: "Solve: x + 17 = 5"
   options: ["x = 12", "x = 22", "x = -22", "x = -12"]
   answer: 3
 
 solv_q34:
+  category: "Integer Fluency"
   question: "Solve: -2x = -10"
   options: ["x = -5", "x = 5", "x = 8", "x = -8"]
   answer: 1
 
 solv_q35:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 11 = 3"
   options: ["x = 14", "x = 8", "x = 33", "x = 22"]
   answer: 2
 
 solv_q36:
+  category: "Integer Fluency"
   question: "Solve: x + 5 = 5"
   options: ["Infinite", "No Solution", "x = 0", "x = 10"]
   answer: 2
 
 solv_q37:
+  category: "Fraction/Decimal Ops"
   question: "Solve: 1.2x = 6"
   options: ["x = 5", "x = 4.8", "x = 7.2", "x = 0.5"]
   answer: 0
 
 solv_q38:
+  category: "Integer Fluency"
   question: "Solve: x - 9 = 0"
   options: ["x = -9", "x = 0", "x = 1", "x = 9"]
   answer: 3
 
 solv_q39:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / -2 = 10"
   options: ["x = 5", "x = -5", "x = 20", "x = -20"]
   answer: 3
 
 solv_q40:
+  category: "Fraction/Decimal Ops"
   question: "Solve: 4 = x / 6"
   options: ["x = 1.5", "x = 2", "x = 10", "x = 24"]
   answer: 3
 
 solv_q41:
+  category: "Integer Fluency"
   question: "Solve: x + 50 = 25"
   options: ["x = 75", "x = -25", "x = 25", "x = -75"]
   answer: 1
 
 solv_q42:
+  category: "Integer Fluency"
   question: "Solve: -3x = 0"
   options: ["x = 3", "x = -3", "x = 1", "x = 0"]
   answer: 3
 
 solv_q43:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x - 0.5 = 0.5"
   options: ["x = 1.0", "x = 0", "x = 0.25", "x = -1"]
   answer: 0
 
 solv_q44:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x/10 = 0.1"
   options: ["x = 0.01", "x = 1", "x = 10", "x = 0.1"]
   answer: 1
 
 solv_q45:
+  category: "Integer Fluency"
   question: "Solve: 14 + x = 14"
   options: ["x = 28", "x = 1", "x = 0", "x = -28"]
   answer: 2
 
 solv_q46:
+  category: "Fraction/Decimal Ops"
   question: "Solve: x / 9 = -1"
   options: ["x = -9", "x = 9", "x = 8", "x = -8"]
   answer: 0
 
 solv_q47:
+  category: "Integer Fluency"
   question: "Solve: 11x = 121"
   options: ["x = 10", "x = 11", "x = 12", "x = 121"]
   answer: 1
 
 solv_q48:
+  category: "Integer Fluency"
   question: "Solve: x - 4 = -12"
   options: ["x = -16", "x = -8", "x = 8", "x = 16"]
   answer: 1
 
 solv_q49:
+  category: "Integer Fluency"
   question: "Solve: x + 8 = -2"
   options: ["x = 6", "x = 10", "x = -6", "x = -10"]
   answer: 3
 
 solv_q50:
+  category: "Integer Fluency"
   question: "Solve: 6x = 3"
   options: ["x = 0.5", "x = 2", "x = 18", "x = 3"]
   answer: 0

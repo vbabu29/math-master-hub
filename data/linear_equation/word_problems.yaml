@@ -1,49 +1,59 @@
 sys_q1:
+  category: "Scenario Translation"
   question: "The sum of three consecutive integers is 45. What is the smallest of these integers?"
   options: ["14", "15", "13", "16"]
   answer: 0
 
 sys_q2:
+  category: "Defining Variables"
   question: "A taxi charges a flat fee of $3.00 plus $1.50 per mile. If a ride costs $12.00, how many miles was the ride?"
   options: ["5 miles", "6 miles", "4 miles", "8 miles"]
   answer: 1
 
 sys_q3:
+  category: "Defining Variables"
   question: "The perimeter of a rectangle is 40 cm. If the length is 4 cm longer than the width, find the width."
   options: ["12 cm", "10 cm", "8 cm", "6 cm"]
   answer: 2
 
 sys_q4:
+  category: "Defining Variables"
   question: "Sarah is twice as old as her brother. In 5 years, the sum of their ages will be 25. How old is Sarah now?"
   options: ["5", "8", "12", "10"]
   answer: 3
 
 sys_q5:
+  category: "Defining Variables"
   question: "A movie theater sells adult tickets for $12 and child tickets for $8. If 100 tickets were sold for a total of $1040, how many adult tickets were sold?"
   options: ["60", "40", "50", "70"]
   answer: 0
 
 sys_q6:
+  category: "Defining Variables"
   question: "If 4 times a number is decreased by 7, the result is 13. What is the number?"
   options: ["4", "5", "6", "7"]
   answer: 1
 
 sys_q7:
+  category: "Defining Variables"
   question: "The width of a garden is 5 meters less than its length. If the perimeter is 50 meters, find the length."
   options: ["10m", "20m", "15m", "12m"]
   answer: 2
 
 sys_q8:
+  category: "Unit/Context Logic"
   question: "A jar contains 25 coins consisting of nickels and dimes. If the total value is $1.90, how many dimes are in the jar?"
   options: ["10", "12", "15", "13"]
   answer: 3
 
 sys_q9:
+  category: "Defining Variables"
   question: "Two angles are supplementary. If one angle is 20 degrees more than the other, find the smaller angle."
   options: ["80", "100", "70", "90"]
   answer: 0
 
 sys_q10:
+  category: "Defining Variables"
   question: "An online store charges $5 for shipping plus $15 per shirt. If a customer spent $80, how many shirts did they buy?"
   options: ["4", "5", "6", "3"]
   answer: 1
@@ -51,6 +61,7 @@ sys_q10:
 sys_q11:
   type: "Number Problem"
   difficulty: "Medium"
+  category: "Defining Variables"
   question: "The sum of two numbers is 20 and their difference is 4. Find the larger number."
   options: ["10", "14", "12", "16"]
   answer: 2
@@ -58,6 +69,7 @@ sys_q11:
 sys_q12:
   type: "Break-Even"
   difficulty: "Hard"
+  category: "Defining Variables"
   question: "Company A charges $20 + $2/mile. Company B charges $10 + $3/mile. At how many miles is the cost identical?"
   options: ["5 miles", "10 miles", "15 miles", "20 miles"]
   answer: 1
@@ -65,191 +77,229 @@ sys_q12:
 sys_q13:
   type: "Rate Problem"
   difficulty: "Medium"
+  category: "Real-World Modeling"
   question: "A plumber charges $50 for a visit plus $30 per hour. Which equation represents total cost C for h hours?"
   options: ["C = 50h + 30", "C = 80h", "C = 30h + 50", "h = 30C + 50"]
   answer: 2
 
 sys_q14:
+  category: "Scenario Translation"
   question: "John has $20 more than twice the amount of money Mary has. If they have $110 together, how much does Mary have?"
   options: ["$25", "$30", "$35", "$40"]
   answer: 1
 
 sys_q15:
+  category: "Defining Variables"
   question: "The length of a rectangle is 3 times its width. If the perimeter is 48 inches, find the length."
   options: ["12 in", "15 in", "18 in", "6 in"]
   answer: 2
 
 sys_q16:
+  category: "Unit/Context Logic"
   question: "A store is having a 20% off sale. If a jacket costs $48 after the discount, what was the original price?"
   options: ["$55", "$58", "$62", "$60"]
   answer: 3
 
 sys_q17:
+  category: "Defining Variables"
   question: "If you add 8 to a number and then divide by 3, the result is 10. What is the number?"
   options: ["22", "18", "24", "30"]
   answer: 0
 
 sys_q18:
+  category: "Defining Variables"
   question: "A piggy bank has quarters and dimes. There are 3 times as many dimes as quarters. If the total value is $2.75, how many quarters are there?"
   options: ["4", "5", "6", "8"]
   answer: 1
 
 sys_q19:
+  category: "Unit/Context Logic"
   question: "Two cars start from the same point and travel in opposite directions. One travels at 60 mph and the other at 40 mph. In how many hours will they be 300 miles apart?"
   options: ["2 hours", "5 hours", "3 hours", "4 hours"]
   answer: 2
 
 sys_q20:
+  category: "Scenario Translation"
   question: "The sum of three consecutive even integers is 72. Find the largest integer."
   options: ["22", "24", "28", "26"]
   answer: 3
 
 sys_q21:
+  category: "Defining Variables"
   question: "A bank account earns simple interest at a rate of 5% per year. If the interest earned after 1 year was $250, what was the initial deposit?"
   options: ["$5,000", "$4,000", "$6,000", "$4,500"]
   answer: 0
 
 sys_q22:
+  category: "Unit/Context Logic"
   question: "A triangle has a perimeter of 30 cm. The sides are in the ratio 2:3:5. Find the longest side."
   options: ["10 cm", "15 cm", "12 cm", "9 cm"]
   answer: 1
 
 sys_q23:
+  category: "Defining Variables"
   question: "A rectangle's length is 2 cm less than 4 times its width. If the perimeter is 66 cm, find the width."
   options: ["10 cm", "8 cm", "7 cm", "9 cm"]
   answer: 2
 
 sys_q24:
+  category: "Scenario Translation"
   question: "Mark spent $15.50 on a notebook and 3 pens. If the notebook cost $8.00, how much did each pen cost?"
   options: ["$2.00", "$2.25", "$2.75", "$2.50"]
   answer: 3
 
 sys_q25:
+  category: "Scenario Translation"
   question: "One number is 5 less than another. Their sum is 19. What is the larger number?"
   options: ["12", "7", "11", "13"]
   answer: 0
 
 sys_q26:
+  category: "Defining Variables"
   question: "A car rental agency charges $40 per day plus $0.20 per mile. If a one-day rental cost $64, how many miles were driven?"
   options: ["100", "120", "150", "80"]
   answer: 1
 
 sys_q27:
+  category: "Unit/Context Logic"
   question: "The base of an isosceles triangle is 4 cm shorter than each of the equal sides. If the perimeter is 26 cm, find the base."
   options: ["8 cm", "10 cm", "6 cm", "12 cm"]
   answer: 2
 
 sys_q28:
+  category: "Scenario Translation"
   question: "A test has 20 questions. Students get 5 points for every correct answer and lose 2 points for every wrong answer. If a student scored 72, how many questions did they get right?"
   options: ["14", "15", "18", "16"]
   answer: 3
 
 sys_q29:
+  category: "Scenario Translation"
   question: "A baker uses 3 cups of flour for every 2 cups of sugar. If he used 15 total cups for a mixture, how many cups of flour were used?"
   options: ["9", "6", "10", "8"]
   answer: 0
 
 sys_q30:
+  category: "Unit/Context Logic"
   question: "An equilateral triangle and a square have the same perimeter. If the side of the square is 6 cm, what is the side of the triangle?"
   options: ["9 cm", "8 cm", "10 cm", "12 cm"]
   answer: 1
 
 sys_q31:
+  category: "Defining Variables"
   question: "The difference between two numbers is 15. If the smaller number is doubled, it becomes 4 more than the larger. Find the smaller number."
   options: ["12", "15", "19", "21"]
   answer: 2
 
 sys_q32:
+  category: "Scenario Translation"
   question: "A cell phone plan costs $30 per month plus $0.05 per text. If the bill was $42.50, how many texts were sent?"
   options: ["200", "220", "240", "250"]
   answer: 3
 
 sys_q33:
+  category: "Scenario Translation"
   question: "The cost of 2 tables and 3 chairs is $450. If a table costs twice as much as a chair, what is the cost of a table?"
   options: ["$128.50", "$120", "$150", "$100"]
   answer: 0
 
 sys_q34:
+  category: "Defining Variables"
   question: "The sum of the ages of a father and son is 50. In 5 years, the father will be 3 times as old as the son. How old is the son now?"
   options: ["8", "10", "12", "15"]
   answer: 1
 
 sys_q35:
+  category: "Defining Variables"
   question: "If a number is multiplied by 3 and then increased by 10, the result is 7 times the number. What is the number?"
   options: ["2", "2.2", "2.5", "3"]
   answer: 2
 
 sys_q36:
+  category: "Scenario Translation"
   question: "A group of 8 people went to lunch. The bill was $120. If 2 people didn't have money and the others split the bill equally, how much did each paying person pay?"
   options: ["$15", "$18", "$24", "$20"]
   answer: 3
 
 sys_q37:
+  category: "Scenario Translation"
   question: "A pool is being filled at a rate of 50 gallons per hour. If it already has 200 gallons and holds 1000, how many more hours will it take to fill?"
   options: ["16 hours", "20 hours", "12 hours", "18 hours"]
   answer: 0
 
 sys_q38:
+  category: "Defining Variables"
   question: "A rectangular field is twice as long as it is wide. If the perimeter is 150 meters, find the length."
   options: ["40m", "50m", "60m", "45m"]
   answer: 1
 
 sys_q39:
+  category: "Defining Variables"
   question: "A collection of 30 coins consists of quarters and nickels. Their total value is $4.30. How many quarters are there?"
   options: ["12", "15", "14", "16"]
   answer: 2
 
 sys_q40:
+  category: "Scenario Translation"
   question: "The sum of two consecutive integers is 41. What is the product of these integers?"
   options: ["400", "410", "422", "420"]
   answer: 3
 
 sys_q41:
+  category: "Scenario Translation"
   question: "Five times a number decreased by 12 is the same as twice the number increased by 6. Find the number."
   options: ["6", "5", "4", "7"]
   answer: 0
 
 sys_q42:
+  category: "Scenario Translation"
   question: "A mountain climber starts at 2000 feet and climbs at a rate of 300 feet per hour. How long will it take to reach 4400 feet?"
   options: ["7 hours", "8 hours", "6 hours", "9 hours"]
   answer: 1
 
 sys_q43:
+  category: "Unit/Context Logic"
   question: "One side of a triangle is 5 cm. The second side is x. The third side is 2x. If the perimeter is 20 cm, find x."
   options: ["4 cm", "6 cm", "5 cm", "3 cm"]
   answer: 2
 
 sys_q44:
+  category: "Scenario Translation"
   question: "A library book is 4 days overdue. If the fine is $0.50 per day plus a $2.00 processing fee, what is the total fine?"
   options: ["$3.00", "$3.50", "$4.50", "$4.00"]
   answer: 3
 
 sys_q45:
+  category: "Defining Variables"
   question: "The sum of a number and its half is 18. What is the number?"
   options: ["12", "9", "10", "14"]
   answer: 0
 
 sys_q46:
+  category: "Scenario Translation"
   question: "A membership at a gym costs $50 to join and $20 per month. If a person has paid $290 in total, how many months have they been a member?"
   options: ["10", "12", "11", "9"]
   answer: 1
 
 sys_q47:
+  category: "Unit/Context Logic"
   question: "Two angles of a triangle are equal. The third angle is 30 degrees larger than one of the equal angles. Find the third angle."
   options: ["60", "70", "80", "50"]
   answer: 2
 
 sys_q48:
+  category: "Defining Variables"
   question: "If 10 is subtracted from 4 times a number, the result is the same as adding 20 to twice the number. What is the number?"
   options: ["12", "10", "20", "15"]
   answer: 3
 
 sys_q49:
+  category: "Scenario Translation"
   question: "A cable company charges $60 setup and $45 per month. Another charges $10 setup and $55 per month. After how many months is the cost the same?"
   options: ["5", "4", "6", "10"]
   answer: 0
 
 sys_q50:
+  category: "Scenario Translation"
   question: "The sum of three consecutive odd integers is 33. Find the middle integer."
   options: ["9", "11", "13", "7"]
   answer: 1
