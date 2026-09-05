@@ -1,0 +1,1059 @@
+/* Math Learning Site — Apex Math v2 design system (pure CSS, Hugo-safe) */
+
+:root {
+  --apex-obsidian: #0b1325;
+  --apex-navy: #152238;
+  --apex-sand: #f7f5f0;
+  --apex-parchment: #efece6;
+  --apex-card: #ffffff;
+  --apex-amber: #d97706;
+  --apex-amber-dark: #b45309;
+  --apex-amber-light: #fef3c7;
+  --apex-emerald: #059669;
+  --apex-emerald-dark: #047857;
+  --apex-border: #e2dcd5;
+  --primary-hue: 32deg;
+  --primary-saturation: 90%;
+  --primary-lightness: 44%;
+}
+
+/* Base */
+html:not(.dark) body {
+  background: var(--apex-sand);
+  color: var(--apex-obsidian);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #fde68a;
+  color: var(--apex-obsidian);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--apex-sand); }
+::-webkit-scrollbar-thumb { background: #d8d2c9; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #b8b0a2; }
+
+/* Navbar */
+html:not(.dark) .hextra-nav-container-blur {
+  background: rgba(247, 245, 240, 0.95) !important;
+  border-bottom: 1px solid var(--apex-border) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(12px);
+}
+
+html:not(.dark) .hextra-nav-container nav > a,
+html:not(.dark) .hextra-nav-menu-toggle {
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  color: #44403c !important;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem !important;
+}
+
+html:not(.dark) .hextra-nav-container nav > a:hover {
+  background: rgba(231, 229, 228, 0.7) !important;
+  color: var(--apex-obsidian) !important;
+}
+
+html:not(.dark) .hextra-nav-container nav > a.apex-nav-cta {
+  border: 1px solid rgba(217, 119, 6, 0.4) !important;
+  background: rgba(254, 243, 199, 0.5) !important;
+  color: var(--apex-amber-dark) !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .hextra-nav-container nav > a.apex-nav-cta:hover {
+  background: #fef3c7 !important;
+}
+
+/* Brand mark */
+.apex-brand-mark {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.375rem;
+  background: var(--apex-obsidian);
+  color: #fbbf24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border: 1px solid #1c1917;
+  flex-shrink: 0;
+}
+
+.apex-brand-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: -0.02em;
+  color: var(--apex-obsidian);
+  line-height: 1;
+}
+
+.apex-brand-motto {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #78716c;
+  margin-top: 0.125rem;
+  display: block;
+}
+
+/* Sidebar */
+html:not(.dark) .hextra-sidebar-container {
+  background: var(--apex-sand) !important;
+  border-right: 1px solid var(--apex-border) !important;
+}
+
+@media (min-width: 768px) {
+  html:not(.dark) .hextra-sidebar-container {
+    width: 18rem !important;
+  }
+}
+
+html:not(.dark) .hextra-sidebar-container .hextra-scrollbar {
+  font-size: 0.75rem;
+}
+
+html:not(.dark) .hextra-sidebar-container a {
+  border-radius: 0.375rem;
+}
+
+html:not(.dark) .hextra-sidebar-container .hextra-sidebar-active-item,
+html:not(.dark) .hextra-sidebar-container [data-active="true"] > a {
+  background: var(--apex-obsidian) !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.apex-sidebar-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.apex-sidebar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem 0;
+}
+
+.apex-sidebar-head-label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #78716c;
+  font-weight: 600;
+}
+
+.apex-sidebar-version {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  background: var(--apex-amber-light);
+  color: var(--apex-amber-dark);
+}
+
+.apex-sidebar-card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(226, 220, 213, 0.85);
+  border-radius: 0.5rem;
+  padding: 0.625rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.apex-sidebar-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.5rem;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--apex-obsidian);
+}
+
+.apex-sidebar-dot {
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 999px;
+  background: var(--apex-amber);
+  flex-shrink: 0;
+}
+
+.apex-sidebar-tree {
+  margin-top: 0.25rem;
+}
+
+.apex-sidebar-blog {
+  margin-top: 0.75rem;
+}
+
+.apex-sidebar-blog .hextra-sidebar-item a > span {
+  line-height: 1.35;
+  font-size: 0.6875rem;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* Blog prev/next navigation */
+.apex-pager {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.apex-pager-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  max-width: min(22rem, 48%);
+  text-decoration: none;
+  color: inherit;
+  padding: 0.25rem 0;
+}
+
+.apex-pager-link:hover .apex-pager-title {
+  color: var(--apex-amber-dark);
+}
+
+.apex-pager-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.apex-pager-next .apex-pager-text {
+  align-items: flex-end;
+}
+
+.apex-pager-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.apex-pager-label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #78716c;
+  font-weight: 600;
+}
+
+.apex-pager-title {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--apex-obsidian);
+}
+
+.apex-pager-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+  color: #78716c;
+}
+
+.apex-pager-icon-prev {
+  transform: rotate(180deg);
+}
+
+.apex-blog-content a {
+  font-weight: 600;
+  color: var(--apex-amber-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.apex-blog-content a:hover {
+  color: var(--apex-amber);
+}
+
+.apex-sidebar-tree .hextra-sidebar-children ul::before {
+  background: var(--apex-border) !important;
+}
+
+/* Homepage content width with sidebar */
+.apex-home {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 0 3rem;
+}
+
+/* Typography helpers */
+.apex-serif { font-family: "Newsreader", Georgia, serif; }
+.apex-mono {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.apex-math-grid {
+  background-size: 30px 30px;
+  background-image:
+    linear-gradient(to right, rgba(226, 220, 213, 0.45) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 220, 213, 0.45) 1px, transparent 1px);
+}
+
+.apex-home-section { margin-bottom: 3rem; }
+
+.apex-hero-box {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid var(--apex-border);
+  background: var(--apex-card);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .apex-hero-box { padding: 2.5rem; }
+}
+
+.apex-trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: var(--apex-sand);
+  border: 1px solid var(--apex-border);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #44403c;
+  margin-bottom: 1rem;
+}
+
+.apex-trust-pill .dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--apex-emerald);
+}
+
+.apex-hero-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.875rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--apex-obsidian);
+  margin: 0;
+}
+
+.apex-hero-title em {
+  color: var(--apex-amber-dark);
+  font-style: italic;
+}
+
+.apex-lead {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.625;
+  color: #44403c;
+  max-width: 42rem;
+}
+
+@media (min-width: 640px) {
+  .apex-lead { font-size: 1.125rem; }
+}
+
+.apex-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.apex-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.375rem;
+  background: var(--apex-obsidian);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  transition: background 0.15s ease;
+}
+
+.apex-btn-primary:hover {
+  background: var(--apex-navy);
+  color: #fff;
+}
+
+.apex-btn-primary .arrow { color: #fbbf24; }
+
+.apex-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.625rem 1rem;
+  border-radius: 0.375rem;
+  background: #f5f5f4;
+  border: 1px solid var(--apex-border);
+  color: #292524;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.apex-btn-secondary:hover {
+  background: #e7e5e4;
+  color: #292524;
+}
+
+/* Alert / callout */
+.apex-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1.25rem;
+  background: rgba(255, 251, 235, 0.8);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  border-left: 4px solid var(--apex-amber);
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: #292524;
+}
+
+.apex-alert-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  background: var(--apex-amber-light);
+  color: var(--apex-amber-dark);
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.apex-alert-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--apex-obsidian);
+}
+
+.apex-alert a {
+  color: var(--apex-amber-dark);
+  font-weight: 600;
+}
+
+/* Section headers */
+.apex-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--apex-border);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.apex-section-head h2 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  font-weight: 700;
+  color: var(--apex-obsidian);
+  margin: 0.125rem 0 0;
+}
+
+.apex-section-head .label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--apex-amber-dark);
+  font-weight: 700;
+}
+
+.apex-section-head .meta {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: #78716c;
+}
+
+.apex-section-intro {
+  font-size: 0.875rem;
+  color: #44403c;
+  line-height: 1.625;
+  max-width: 42rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Module / topic tiles */
+.apex-tile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .apex-tile-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.apex-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--apex-border);
+  background: var(--apex-card);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  min-height: 100%;
+}
+
+.apex-tile:hover {
+  border-color: var(--apex-amber);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.apex-tile.is-featured {
+  border-width: 2px;
+  border-color: var(--apex-obsidian);
+}
+
+.apex-tile.is-disabled {
+  opacity: 0.72;
+  cursor: default;
+  pointer-events: none;
+}
+
+.apex-tile-badge {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--apex-amber-light);
+  color: var(--apex-amber-dark);
+  margin-bottom: 0.75rem;
+}
+
+.apex-tile-badge.neutral {
+  background: #f5f5f4;
+  color: #44403c;
+}
+
+.apex-tile h3 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--apex-obsidian);
+  margin: 0;
+  transition: color 0.15s ease;
+}
+
+.apex-tile:hover h3 { color: var(--apex-amber-dark); }
+
+.apex-tile p {
+  font-size: 0.75rem;
+  color: #57534e;
+  line-height: 1.6;
+  margin: 0.5rem 0 0;
+}
+
+.apex-tile-footer {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f5f5f4;
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6875rem;
+  color: #78716c;
+}
+
+.apex-tile-footer strong {
+  color: var(--apex-obsidian);
+  font-weight: 600;
+}
+
+/* Pillar cards */
+.apex-pillar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .apex-pillar-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.apex-pillar {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: var(--apex-card);
+  border: 1px solid var(--apex-border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.apex-pillar-num {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  background: var(--apex-sand);
+  border: 1px solid var(--apex-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.apex-pillar h3 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.apex-pillar p {
+  font-size: 0.75rem;
+  color: #57534e;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Tool cards */
+.apex-tool-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .apex-tool-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.apex-tool {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: var(--apex-card);
+  border: 1px solid var(--apex-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apex-tool-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #78716c;
+}
+
+.apex-tool-label.emerald { color: var(--apex-emerald-dark); }
+
+.apex-tool h4 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0;
+}
+
+.apex-tool p {
+  font-size: 0.75rem;
+  color: #57534e;
+  margin: 0.25rem 0 0;
+}
+
+.apex-tool-footer {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #f5f5f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6875rem;
+}
+
+/* Practice hub module cards */
+.apex-module-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .apex-module-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.apex-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--apex-border);
+  background: var(--apex-card);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.apex-module:hover {
+  border-color: var(--apex-amber);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.apex-module-meta {
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6875rem;
+  color: #a8a29e;
+  margin-bottom: 0.25rem;
+}
+
+.apex-module-meta .tag-emerald { color: var(--apex-emerald); font-weight: 600; }
+.apex-module-meta .tag-amber { color: var(--apex-amber-dark); font-weight: 600; }
+
+.apex-module h3 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  transition: color 0.15s ease;
+}
+
+.apex-module:hover h3 { color: var(--apex-amber-dark); }
+
+.apex-module p {
+  font-size: 0.75rem;
+  color: #57534e;
+  line-height: 1.6;
+  margin: 0.5rem 0 0;
+}
+
+.apex-module-footer {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #f5f5f4;
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: #78716c;
+}
+
+.apex-module-footer strong {
+  color: var(--apex-obsidian);
+  font-weight: 600;
+}
+
+/* Page header for hubs */
+.apex-page-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: #78716c;
+  margin-bottom: 1rem;
+}
+
+.apex-page-breadcrumb a {
+  color: #78716c;
+  text-decoration: none;
+}
+
+.apex-page-breadcrumb a:hover { color: var(--apex-obsidian); }
+
+.apex-page-breadcrumb .current {
+  color: var(--apex-amber-dark);
+  font-weight: 700;
+}
+
+.apex-page-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0.25rem 0 0;
+}
+
+.apex-page-desc {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #44403c;
+  line-height: 1.625;
+  max-width: 48rem;
+}
+
+/* Content typography */
+.hextra-content,
+#content {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+.hextra-content h1,
+.hextra-content h2,
+.hextra-content h3,
+#content h1,
+#content h2,
+#content h3 {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  color: var(--apex-obsidian);
+}
+
+/* Remove layout-breaking overrides */
+main {
+  max-width: none;
+}
+
+/* KaTeX */
+.katex {
+  font-size: 1.05em;
+  letter-spacing: normal;
+}
+
+.katex-display {
+  display: block !important;
+  margin: 1.25rem 0 !important;
+  padding: 0.85rem 1.25rem;
+  background: rgba(239, 236, 230, 0.55);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(226, 220, 213, 0.7);
+  border-left: 3px solid var(--apex-amber);
+  overflow-x: auto;
+}
+
+.katex-html {
+  display: inline-block;
+}
+
+/* Blog article typography */
+.apex-blog-content {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: #292524;
+}
+
+.apex-blog-content p,
+.apex-blog-content li {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  margin-bottom: 0.85rem;
+}
+
+.apex-blog-content h2 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--apex-obsidian);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--apex-border);
+}
+
+.apex-blog-content h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+}
+
+.apex-blog-content strong {
+  font-weight: 700;
+  color: var(--apex-obsidian);
+}
+
+.apex-blog-content ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.apex-blog-content ol li {
+  margin-bottom: 0.75rem;
+}
+
+.apex-blog-content .katex {
+  font-size: 1.15em;
+}
+
+.apex-blog-content .katex-display {
+  font-size: 1.3em;
+  margin: 1.5rem 0 !important;
+  padding: 1.1rem 1.35rem;
+}
+
+.apex-blog-content blockquote {
+  background: rgba(255, 251, 235, 0.85);
+  border-left: 3px solid var(--apex-amber);
+  padding: 1rem 1.25rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 1.5rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.apex-blog-content table {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 1rem;
+}
+
+/* Hextra callout → apex style */
+html:not(.dark) .hextra-callout {
+  border-radius: 0.5rem;
+}
+
+html:not(.dark) .hextra-callout-note {
+  background: rgba(255, 251, 235, 0.8);
+  border-color: var(--apex-amber);
+}
+
+/* Cards override */
+html:not(.dark) .hextra-card {
+  background: var(--apex-card) !important;
+  border: 1px solid var(--apex-border) !important;
+  border-radius: 0.75rem !important;
+}
+
+html:not(.dark) .hextra-card:hover {
+  border-color: var(--apex-amber) !important;
+}
+
+/* Quiz / worksheet */
+.quiz {
+  border-color: var(--apex-border) !important;
+  background: var(--apex-card) !important;
+}
+
+.apex-blog-content .quiz p {
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
+.worksheet-shell {
+  border-color: var(--apex-border) !important;
+}
+
+.worksheet-action { background: var(--apex-obsidian) !important; }
+.worksheet-title { font-family: "Newsreader", Georgia, serif !important; }
+
+/* Footer */
+html:not(.dark) .hextra-footer {
+  background: var(--apex-obsidian) !important;
+  border-top: 1px solid #1f2937 !important;
+  color: #a8a29e;
+}
+
+html:not(.dark) .hextra-footer > .hextra-max-footer-width:last-child {
+  display: none;
+}
+
+.apex-footer {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .apex-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.apex-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.apex-footer-brand .mark {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 0.25rem;
+  background: #1c1917;
+  color: #fbbf24;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  border: 1px solid #374151;
+}
+
+.apex-footer-brand .name {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.apex-footer-brand .tagline {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.625rem;
+  color: #78716c;
+}
+
+.apex-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6875rem;
+}
+
+.apex-footer-links a {
+  color: #a8a29e;
+  text-decoration: none;
+}
+
+.apex-footer-links a:hover { color: #fff; }
+
+.apex-footer-copy {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.625rem;
+  color: #78716c;
+}

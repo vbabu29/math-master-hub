@@ -3,23 +3,39 @@ title: "Worksheets"
 weight: 2
 ---
 
-Choose a printable quadratic worksheet below. Each page includes a short topic explanation, a randomized printable worksheet generated from the existing quadratic question banks, and an answer key on page 2.
+{{< apex/hub-header label="Printables" title="Quadratic Equations Worksheets" desc="Choose a printable quadratic worksheet below. Each page includes a short topic explanation, a randomized printable worksheet generated from the existing quadratic question banks, and an answer key on page 2." crumb1="Algebra I" crumb1link="/algebra-i/" crumb2="Quadratic Equations" current="Worksheets" >}}
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;">
-  <a href="/algebra-i/quadratic-equations/worksheets/solve-by-factoring-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Solve by Factoring Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice solving quadratic equations by factoring and using the zero product property.</span>
+<div class="apex-module-grid">
+  <a href="/algebra-i/quadratic-equations/worksheets/solve-by-factoring-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-emerald">&bull; PDF</span></div>
+      <h3>Solve by Factoring Worksheet</h3>
+      <p>Practice solving quadratic equations by factoring and using the zero product property.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/worksheets/quadratic-formula-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Quadratic Formula Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Build confidence using the quadratic formula and identifying coefficients correctly.</span>
+  <a href="/algebra-i/quadratic-equations/worksheets/quadratic-formula-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-amber">&bull; PDF</span></div>
+      <h3>Quadratic Formula Worksheet</h3>
+      <p>Build confidence using the quadratic formula and identifying coefficients correctly.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/worksheets/completing-the-square-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Completing the Square Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice rewriting quadratics into perfect-square form and solving carefully.</span>
+  <a href="/algebra-i/quadratic-equations/worksheets/completing-the-square-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-amber">&bull; PDF</span></div>
+      <h3>Completing the Square Worksheet</h3>
+      <p>Practice rewriting quadratics into perfect-square form and solving carefully.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/worksheets/mixed-quadratic-equations-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Mixed Quadratic Equations Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">A mixed printable review covering factoring, quadratic formula, and completing the square.</span>
+  <a href="/algebra-i/quadratic-equations/worksheets/mixed-quadratic-equations-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-amber">&bull; Mixed</span></div>
+      <h3>Mixed Quadratic Equations Worksheet</h3>
+      <p>A mixed printable review covering factoring, quadratic formula, and completing the square.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
 </div>

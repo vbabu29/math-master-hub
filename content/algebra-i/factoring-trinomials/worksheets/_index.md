@@ -3,23 +3,39 @@ title: "Worksheets"
 weight: 3
 ---
 
-Choose a printable factoring worksheet below. Each page includes a short topic explanation, a randomized printable worksheet generated from the core factoring question banks, and an answer key on page 2.
+{{< apex/hub-header label="Printables" title="Factoring Worksheets" desc="Choose a printable factoring worksheet below. Each page includes a short topic explanation, a randomized printable worksheet generated from the core factoring question banks, and an answer key on page 2." crumb1="Algebra I" crumb1link="/algebra-i/" crumb2="Factoring" current="Worksheets" >}}
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;">
-  <a href="/algebra-i/factoring-trinomials/worksheets/factoring-gcf-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Factoring GCF Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice identifying the greatest common factor and factoring it out first.</span>
+<div class="apex-module-grid">
+  <a href="/algebra-i/factoring-trinomials/worksheets/factoring-gcf-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-emerald">&bull; PDF</span></div>
+      <h3>Factoring GCF Worksheet</h3>
+      <p>Practice identifying the greatest common factor and factoring it out first.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/worksheets/factoring-trinomials-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Factoring Trinomials Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Build fluency with factoring trinomials and finding the correct pair of factors.</span>
+  <a href="/algebra-i/factoring-trinomials/worksheets/factoring-trinomials-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-amber">&bull; PDF</span></div>
+      <h3>Factoring Trinomials Worksheet</h3>
+      <p>Build fluency with factoring trinomials and finding the correct pair of factors.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/worksheets/difference-of-squares-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Difference of Squares Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice recognizing and factoring expressions that match the difference of squares pattern.</span>
+  <a href="/algebra-i/factoring-trinomials/worksheets/difference-of-squares-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-emerald">&bull; PDF</span></div>
+      <h3>Difference of Squares Worksheet</h3>
+      <p>Practice recognizing and factoring expressions that match the difference of squares pattern.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/worksheets/mixed-factoring-polynomials-worksheet/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Mixed Factoring Polynomials Worksheet</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">A mixed printable review covering GCF, trinomials, and difference of squares.</span>
+  <a href="/algebra-i/factoring-trinomials/worksheets/mixed-factoring-polynomials-worksheet/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Printable</span><span class="tag-amber">&bull; Mixed</span></div>
+      <h3>Mixed Factoring Polynomials Worksheet</h3>
+      <p>A mixed printable review covering GCF, trinomials, and difference of squares.</p>
+    </div>
+    <div class="apex-module-footer"><span>Answer Key Included</span><strong>Print &rarr;</strong></div>
   </a>
 </div>

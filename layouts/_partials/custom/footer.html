@@ -1,0 +1,17 @@
+{{- $ctx := .context -}}
+<footer class="apex-footer">
+  <div class="apex-footer-brand">
+    <div class="mark" aria-hidden="true">&lambda;</div>
+    <div>
+      <div class="name">{{ $ctx.Site.Title }}</div>
+      <div class="tagline">Proof &bull; Mechanics &bull; Fluency</div>
+    </div>
+  </div>
+  <ul class="apex-footer-links">
+    <li><a href="{{ `/algebra-i/` | relURL }}">Algebra I</a></li>
+    <li><a href="{{ `/algebra-i/linear-algebra/practice-questions/` | relURL }}">Practice Hub</a></li>
+    <li><a href="{{ `/blog/` | relURL }}">Blogs</a></li>
+    <li><a href="{{ `/algebra-i/factoring-trinomials/practice-questions/factoring-trinomials/` | relURL }}">Diagnostic Q&amp;A</a></li>
+  </ul>
+  <div class="apex-footer-copy">&copy; {{ now.Year }} {{ $ctx.Site.Title }}</div>
+</footer>

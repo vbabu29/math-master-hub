@@ -6,23 +6,39 @@ aliases:
   - /algebra-i/quadratic-equations/practice-questions/
 ---
 
-Choose a quadratic equations topic below and open a focused practice set. Each topic opens a randomized interactive practice session built from the current quadratic banks.
+{{< apex/hub-header label="Problem Directories" title="Quadratic Equations Practice Sets" desc="Choose a quadratic equations topic below. Each topic opens a randomized interactive practice session built from the current quadratic banks." crumb1="Algebra I" crumb1link="/algebra-i/" crumb2="Quadratic Equations" current="Practice Sets" >}}
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;">
-  <a href="/algebra-i/quadratic-equations/practice-questions/solve-by-factoring/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Solve by Factoring</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice solving quadratic equations by factoring and using the zero product property.</span>
+<div class="apex-module-grid">
+  <a href="/algebra-i/quadratic-equations/practice-questions/solve-by-factoring/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-emerald">&bull; Foundational</span></div>
+      <h3>Solve by Factoring</h3>
+      <p>Practice solving quadratic equations by factoring and using the zero product property.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/practice-questions/quadratic-formula/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Quadratic Formula</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Build confidence with coefficient identification and formula substitution.</span>
+  <a href="/algebra-i/quadratic-equations/practice-questions/quadratic-formula/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Quadratic Formula</h3>
+      <p>Build confidence with coefficient identification and formula substitution.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/practice-questions/completing-the-square/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Completing the Square</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice rewriting quadratics into perfect-square form and solving carefully.</span>
+  <a href="/algebra-i/quadratic-equations/practice-questions/completing-the-square/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Completing the Square</h3>
+      <p>Practice rewriting quadratics into perfect-square form and solving carefully.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/quadratic-equations/practice-questions/miscellaneous/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Miscellaneous</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Mixed review for additional quadratic practice and extension problems.</span>
+  <a href="/algebra-i/quadratic-equations/practice-questions/miscellaneous/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Review</span><span class="tag-amber">&bull; Mixed</span></div>
+      <h3>Miscellaneous</h3>
+      <p>Mixed review for additional quadratic practice and extension problems.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
 </div>

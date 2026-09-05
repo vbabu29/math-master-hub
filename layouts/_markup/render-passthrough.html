@@ -1,0 +1,9 @@
+{{- /* Client-side KaTeX via baseof.html auto-render — avoids Hugo ToMath cache failures */ -}}
+{{- $.Page.Store.Set "hasMath" true -}}
+{{- if eq .Type "block" -}}
+$$
+{{- .Inner -}}
+$$
+{{- else -}}
+${{- .Inner -}}$
+{{- end -}}

@@ -11,12 +11,19 @@
 {{ $questions := slice }}
 {{ $topicKey := index $bankPath 0 }}
 {{ $sourceKey := index $bankPath 1 }}
+{{ $count := 7 }}
+{{ with .Get "count" }}{{ $count = int . }}{{ end }}
+{{ $kicker := .Get "kicker" | default "Practice Question Set" }}
+{{ $subtitle := .Get "subtitle" | default (printf "%d quick practice checks" $count) }}
+{{ $doShuffle := ne (.Get "shuffle") "false" }}
 
 {{ range $key, $q := $all }}
   {{ $questions = $questions | append (merge $q (dict "_id" $key)) }}
 {{ end }}
 
-{{ $questions = shuffle $questions }}
+{{ if $doShuffle }}
+  {{ $questions = shuffle $questions }}
+{{ end }}
 
 <style>
   .quiz {
@@ -776,10 +783,10 @@
   }
 </style>
 
-<div class="quiz" data-total="7" data-topic-key="{{ $topicKey }}">
+<div class="quiz" data-total="{{ $count }}" data-shuffle="{{ $doShuffle }}" data-topic-key="{{ $topicKey }}">
   <div class="quiz-header">
-    <p class="quiz-kicker">Practice Question Set</p>
-    <p class="quiz-subtitle">7 quick practice checks</p>
+    <p class="quiz-kicker">{{ $kicker }}</p>
+    <p class="quiz-subtitle">{{ $subtitle }}</p>
     <button type="button" class="quiz-topic-progress-trigger" aria-label="Open topic progress" aria-expanded="false" aria-controls="quiz-topic-progress-dialog">
       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M5 18.5V11.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
@@ -812,7 +819,7 @@
     <div class="quiz-progress-track">
       <div class="quiz-progress-bar"></div>
     </div>
-    <div class="quiz-progress-text">Question 1 of 7</div>
+    <div class="quiz-progress-text">Question 1 of {{ $count }}</div>
   </div>
 
   <div class="quiz-panels">
@@ -964,7 +971,9 @@
   const topicProgressList = quiz.querySelector('.quiz-topic-progress-list');
   const topicCategories = TOPIC_CATEGORY_CONFIG[topicKey] || [];
 
-  let totalQuestions = 7;
+  const configuredTotal = Math.max(1, Number(quiz.dataset.total || 7));
+  const shouldShuffle = quiz.dataset.shuffle !== 'false';
+  let totalQuestions = configuredTotal;
   let activeIndices = [];
   let currentQuestionIndex = 0;
   let score = 0;
@@ -1102,7 +1111,8 @@
 
   function selectNewSet() {
     const indices = allQuestions.map((_, i) => i);
-    activeIndices = shuffleArray(indices).slice(0, 7);
+    const ordered = shouldShuffle ? shuffleArray(indices) : indices;
+    activeIndices = ordered.slice(0, configuredTotal);
     totalQuestions = activeIndices.length;
   }
 
@@ -1143,6 +1153,19 @@
     const formatted = formatQuestionText(text);
     const escaped = escapeHtml(formatted);
     return escaped.replace(/__/g, '<span class="quiz-blank">?</span>');
+  }
+
+  function typesetMath(el) {
+    if (!el || typeof renderMathInElement !== 'function') return;
+    renderMathInElement(el, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ],
+      throwOnError: false
+    });
   }
 
   function parseGraphSpec(raw) {
@@ -1314,6 +1337,7 @@
       const expr = (questionText.dataset.expr || '').trim();
       const fullText = expr ? `${prompt}: (${expr})` : prompt;
       questionDisplay.innerHTML = renderQuestionHtml(fullText);
+      typesetMath(questionDisplay);
     }
 
     if (questionFigure) {
@@ -1419,6 +1443,7 @@
     }
 
     showQuestion(0);
+    typesetMath(quiz);
   }
 
   quiz.querySelectorAll('[data-option-graph]').forEach((option) => {

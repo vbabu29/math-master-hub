@@ -6,43 +6,79 @@ aliases:
   - /algebra-i/linear-algebra/practice-questions/
 ---
 
-Choose a linear equations topic below and open a focused practice set. Each topic opens a randomized interactive practice session built from the current Algebra I banks.
+{{< apex/hub-header label="Problem Directories" title="Linear Equations Practice Sets" desc="Choose a linear equations topic below. Each topic opens a randomized interactive practice session built from the current Algebra I banks." crumb1="Algebra I" crumb1link="/algebra-i/" crumb2="Linear Equations" current="Practice Sets" >}}
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;">
-  <a href="/algebra-i/linear-algebra/practice-questions/one-step-equations/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>One-Step Equations</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Build fluency with inverse operations and quick one-step solves.</span>
+<div class="apex-module-grid">
+  <a href="/algebra-i/linear-algebra/practice-questions/one-step-equations/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-emerald">&bull; Foundational</span></div>
+      <h3>One-Step Equations</h3>
+      <p>Build fluency with inverse operations and quick one-step solves.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/two-step-equations/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Two-Step Equations</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice undoing two operations in the correct order.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/two-step-equations/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-emerald">&bull; Foundational</span></div>
+      <h3>Two-Step Equations</h3>
+      <p>Practice undoing two operations in the correct order.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/multi-step-equations/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Multi-Step Equations</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Work through combining like terms, distribution, and longer equations.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/multi-step-equations/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Multi-Step Equations</h3>
+      <p>Work through combining like terms, distribution, and longer equations.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/variables-on-both-sides/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Variables on Both Sides</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Strengthen your skill in collecting terms and solving balanced equations.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/variables-on-both-sides/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Variables on Both Sides</h3>
+      <p>Strengthen your skill in collecting terms and solving balanced equations.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/substitution/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Substitution</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice solving systems by substituting one equation into another.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/substitution/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Systems</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Substitution</h3>
+      <p>Practice solving systems by substituting one equation into another.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/elimination/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Elimination</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Use elimination to solve systems efficiently and clearly.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/elimination/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Systems</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Elimination</h3>
+      <p>Use elimination to solve systems efficiently and clearly.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/word-problems/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Word Problems</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Model real situations with linear equations and systems.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/word-problems/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Applications</span><span class="tag-amber">&bull; Core Practice</span></div>
+      <h3>Word Problems</h3>
+      <p>Model real situations with linear equations and systems.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/graphing-linear-equations/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Graphing Linear Equations</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Read, match, and interpret linear graphs in interactive practice.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/graphing-linear-equations/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Graphing</span><span class="tag-emerald">&bull; Visual</span></div>
+      <h3>Graphing Linear Equations</h3>
+      <p>Read, match, and interpret linear graphs in interactive practice.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/linear-algebra/practice-questions/miscellaneous/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Miscellaneous</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Mixed review for extra linear-equation and systems practice.</span>
+  <a href="/algebra-i/linear-algebra/practice-questions/miscellaneous/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Review</span><span class="tag-amber">&bull; Mixed</span></div>
+      <h3>Miscellaneous</h3>
+      <p>Mixed review for extra linear-equation and systems practice.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
 </div>

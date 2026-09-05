@@ -6,23 +6,39 @@ aliases:
   - /algebra-i/factoring-trinomials/practice-questions/
 ---
 
-Choose a factoring topic below and open a focused practice set. Each topic opens a randomized interactive practice session built from the current factoring banks.
+{{< apex/hub-header label="Problem Directories" title="Factoring Practice Sets" desc="Choose a factoring topic below. Each topic opens a randomized interactive practice session built from the current factoring banks." crumb1="Algebra I" crumb1link="/algebra-i/" crumb2="Factoring" current="Practice Sets" >}}
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem;">
-  <a href="/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Factoring GCF</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Practice finding and factoring out the greatest common factor first.</span>
+<div class="apex-module-grid">
+  <a href="/algebra-i/factoring-trinomials/practice-questions/factoring-gcf/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-emerald">&bull; Foundational</span></div>
+      <h3>Factoring GCF</h3>
+      <p>Practice finding and factoring out the greatest common factor first.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/practice-questions/factoring-trinomials/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Factoring Trinomials</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Build fluency with choosing factor pairs and rewriting trinomials.</span>
+  <a href="/algebra-i/factoring-trinomials/practice-questions/factoring-trinomials/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-amber">&bull; Diagnostic Q&amp;A</span></div>
+      <h3>Factoring Trinomials</h3>
+      <p>Build fluency with choosing factor pairs and rewriting trinomials.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/practice-questions/difference-of-squares/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Difference of Squares</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Recognize and factor expressions that match the special square pattern.</span>
+  <a href="/algebra-i/factoring-trinomials/practice-questions/difference-of-squares/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Topic</span><span class="tag-emerald">&bull; Pattern</span></div>
+      <h3>Difference of Squares</h3>
+      <p>Recognize and factor expressions that match the special square pattern.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
-  <a href="/algebra-i/factoring-trinomials/practice-questions/miscellaneous/" style="display:block;padding:1.1rem 1rem;border:1.5px solid #111827;border-radius:1rem;text-decoration:none;color:inherit;background:#ffffff;">
-    <strong>Miscellaneous</strong><br>
-    <span style="display:block;margin-top:.45rem;color:#475569;">Mixed review for broader factoring practice beyond the core topics.</span>
+  <a href="/algebra-i/factoring-trinomials/practice-questions/miscellaneous/" class="apex-module">
+    <div>
+      <div class="apex-module-meta"><span>Review</span><span class="tag-amber">&bull; Mixed</span></div>
+      <h3>Miscellaneous</h3>
+      <p>Mixed review for broader factoring practice beyond the core topics.</p>
+    </div>
+    <div class="apex-module-footer"><span>Interactive Set</span><strong>Solve &rarr;</strong></div>
   </a>
 </div>

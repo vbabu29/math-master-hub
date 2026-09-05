@@ -1,0 +1,156 @@
+{{ define "main" }}
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "navRoot" (site.GetPage "/algebra-i")) }}
+    <main id="content" class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)]">
+      <div class="apex-home">
+
+        <section class="apex-home-section">
+          <div class="apex-hero-box apex-math-grid">
+            <div class="apex-trust-pill">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Teacher-Reviewed &bull; No Gimmicks &bull; Genuine Mastery</span>
+            </div>
+            <h1 class="apex-hero-title">
+              Master Algebra:<br>
+              <em>From first principles to beyond.</em>
+            </h1>
+            <p class="apex-lead">
+              Welcome to the structured Algebra learning path. While gamified apps reward superficial tapping, our guides break complex equations into rigorous, step-by-step reasoning you can write out on paper.
+            </p>
+            <div class="apex-btn-row">
+              <a class="apex-btn-primary" href="{{ `/algebra-i/linear-algebra/practice-questions/` | relURL }}">
+                <span>Explore Problem Hubs</span>
+                <span class="arrow" aria-hidden="true">&rarr;</span>
+              </a>
+              <a class="apex-btn-secondary" href="{{ `/algebra-i/factoring-trinomials/blog/` | relURL }}">
+                Read 5 Factoring Pitfalls
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="apex-home-section">
+          <div class="apex-alert">
+            <div class="apex-alert-icon" aria-hidden="true">!</div>
+            <div>
+              <span class="apex-alert-label">Curriculum Update:</span>
+              We have released our newest deep-dive guide: <em>5 Common Mistakes When Factoring Trinomials</em>, featuring step-by-step sign breakdown proofs and an interactive diagnostic.
+              <a href="{{ `/algebra-i/factoring-trinomials/blog/` | relURL }}">Study the breakdown &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="apex-home-section">
+          <div class="apex-section-head">
+            <div>
+              <span class="label">Curriculum Directories</span>
+              <h2>Select Your Topic</h2>
+            </div>
+            <span class="meta">Self-Paced &bull; Free</span>
+          </div>
+          <p class="apex-section-intro">
+            Choose a core module below. Each hub contains step-by-step worked derivations, common trap analyses, and clean practice sets with zero multiple-choice guessing.
+          </p>
+          <div class="apex-tile-grid">
+            <a class="apex-tile is-featured" href="{{ `/algebra-i/` | relURL }}">
+              <div>
+                <span class="apex-tile-badge">Grade 8–9 &bull; Most Popular</span>
+                <h3>Algebra I</h3>
+                <p>Linear equations, multi-step systems, polynomials, factoring mechanics, quadratic formulas, and Cartesian graphing.</p>
+              </div>
+              <div class="apex-tile-footer">
+                <span>3 Core Units</span>
+                <strong>Open Directory &rarr;</strong>
+              </div>
+            </a>
+            <div class="apex-tile is-disabled" aria-disabled="true">
+              <div>
+                <span class="apex-tile-badge neutral">Grade 9–10 &bull; Coming Soon</span>
+                <h3>Geometry</h3>
+                <p>Euclidean two-column proofs, triangle congruence, cyclic quadrilaterals, trigonometric ratios, and coordinate transformations.</p>
+              </div>
+              <div class="apex-tile-footer">
+                <span>In Development</span>
+                <strong>Notify Me</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="apex-home-section">
+          <div class="apex-section-head">
+            <div>
+              <span class="label">Pedagogical Thesis</span>
+              <h2>Why Our Method Works</h2>
+            </div>
+          </div>
+          <p class="apex-section-intro">
+            Our curriculum is built on the <strong>Hub-and-Spoke Mastery Model</strong>. We reject superficial gamification and rote mnemonic tricks in favor of genuine structural comprehension.
+          </p>
+          <div class="apex-pillar-grid">
+            <div class="apex-pillar">
+              <div class="apex-pillar-num">01</div>
+              <h3>Identify the Pattern</h3>
+              <p>Every algebraic challenge follows underlying symmetry. We train students to immediately identify the <em>Greatest Common Factor</em>, <em>Difference of Squares</em>, or coefficient ratios before putting pencil to paper.</p>
+            </div>
+            <div class="apex-pillar">
+              <div class="apex-pillar-num">02</div>
+              <h3>Avoid the Traps</h3>
+              <p>We highlight the <strong>5 Common Mistakes</strong> for every major topic so you can catch sign errors, skipped GCF steps, and coefficient mismatches before they happen on your exam.</p>
+            </div>
+            <div class="apex-pillar">
+              <div class="apex-pillar-num">03</div>
+              <h3>Practice with Purpose</h3>
+              <p>Use our interactive Q&amp;A tools and printable worksheets to test your knowledge in real-time — with worked solutions, not just right-or-wrong feedback.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="apex-home-section">
+          <div class="apex-section-head">
+            <div>
+              <span class="label">Resources</span>
+              <h2>Quick Tools &amp; Printables</h2>
+            </div>
+          </div>
+          <div class="apex-tool-grid">
+            <div class="apex-tool">
+              <div>
+                <span class="apex-tool-label">Interactive Tool</span>
+                <h4>Factoring Step Calculator</h4>
+                <p>Visual box-method decomposition for non-monic quadratics.</p>
+              </div>
+              <div class="apex-tool-footer">
+                <span class="apex-mono" style="text-transform:none;font-size:0.6875rem;color:#a8a29e;">(In active review)</span>
+                <span class="apex-mono" style="color:var(--apex-amber-dark);font-weight:600;">Beta v0.9</span>
+              </div>
+            </div>
+            <div class="apex-tool">
+              <div>
+                <span class="apex-tool-label emerald">Printable PDF</span>
+                <h4>Formula &amp; Proof Cheat Sheet</h4>
+                <p>High-density reference sheet formatted for physical desk scratchwork.</p>
+              </div>
+              <div class="apex-tool-footer">
+                <span class="apex-mono" style="text-transform:none;font-size:0.6875rem;color:#78716c;">Vector PDF</span>
+                <a href="{{ `/algebra-i/linear-algebra/worksheets/` | relURL }}" style="font-weight:600;color:var(--apex-obsidian);text-decoration:none;font-size:0.75rem;">Browse worksheets &rarr;</a>
+              </div>
+            </div>
+            <div class="apex-tool">
+              <div>
+                <span class="apex-tool-label">Daily Habit</span>
+                <h4>5-Minute Daily Sprint</h4>
+                <p>Hand-picked non-standard problem to sharpen daily pattern recognition.</p>
+              </div>
+              <div class="apex-tool-footer">
+                <span class="apex-mono" style="text-transform:none;font-size:0.6875rem;color:#78716c;">Quick Practice</span>
+                <a href="{{ `/algebra-i/factoring-trinomials/practice-questions/factoring-trinomials/` | relURL }}" style="font-weight:600;color:var(--apex-obsidian);text-decoration:none;font-size:0.75rem;">Start &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+{{ end }}

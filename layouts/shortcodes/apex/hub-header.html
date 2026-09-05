@@ -1,0 +1,24 @@
+{{- $label := .Get "label" | default "Problem Directories" -}}
+{{- $title := .Get "title" | default $.Page.Title -}}
+{{- $desc := .Get "desc" -}}
+{{- $crumb1 := .Get "crumb1" -}}
+{{- $crumb1link := .Get "crumb1link" -}}
+{{- $crumb2 := .Get "crumb2" -}}
+{{- $current := .Get "current" | default $title -}}
+
+{{ if or $crumb1 $crumb2 }}
+<nav class="apex-page-breadcrumb" aria-label="Breadcrumb">
+  {{ with $crumb1 }}
+    {{ if $crumb1link }}<a href="{{ $crumb1link | relURL }}">{{ . }}</a>{{ else }}<span>{{ . }}</span>{{ end }}
+    <span aria-hidden="true">/</span>
+  {{ end }}
+  {{ with $crumb2 }}<span>{{ . }}</span><span aria-hidden="true">/</span>{{ end }}
+  <span class="current">{{ $current }}</span>
+</nav>
+{{ end }}
+
+<div style="margin-bottom:1.5rem;">
+  <span class="apex-mono" style="color:var(--apex-amber-dark);font-weight:700;">{{ $label }}</span>
+  <h1 class="apex-page-title">{{ $title }}</h1>
+  {{ with $desc }}<p class="apex-page-desc">{{ . }}</p>{{ end }}
+</div>

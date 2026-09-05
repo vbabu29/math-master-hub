@@ -1,0 +1,55 @@
+{{/* Article navigation — uses shortTitle when set to avoid awkward wrapping */}}
+
+{{- $reversePagination := .Store.Get "reversePagination" | default false -}}
+
+{{- $prev := cond $reversePagination .PrevInSection .NextInSection -}}
+{{- $next := cond $reversePagination .NextInSection .PrevInSection -}}
+
+{{- if eq .Params.prev false }}
+  {{- if $reversePagination }}{{ $next = false }}{{ else }}{{ $prev = false }}{{ end -}}
+{{ else }}
+  {{- with .Params.prev -}}
+    {{- with $.Site.GetPage . -}}
+      {{- if $reversePagination }}{{ $next = . }}{{ else }}{{ $prev = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if eq .Params.next false }}
+  {{- if $reversePagination }}{{ $prev = false }}{{ else }}{{ $next = false }}{{ end -}}
+{{ else }}
+  {{- with .Params.next -}}
+    {{- with $.Site.GetPage . -}}
+      {{- if $reversePagination }}{{ $prev = . }}{{ else }}{{ $next = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if or $prev $next -}}
+  <nav class="apex-pager hx:mb-8 hx:border-t hx:pt-8 hx:border-gray-200 hx:print:hidden" aria-label="Blog post navigation">
+    {{- if $prev -}}
+      {{- $fullTitle := partial "utils/title" $prev -}}
+      {{- $shortTitle := $prev.Params.shortTitle | default $fullTitle -}}
+      <a href="{{ $prev.RelPermalink }}" title="{{ $fullTitle }}" class="apex-pager-link apex-pager-prev">
+        {{- partial "utils/icon.html" (dict "name" "chevron-right" "attributes" "class=\"apex-pager-icon apex-pager-icon-prev\"") -}}
+        <span class="apex-pager-text">
+          <span class="apex-pager-label">Previous</span>
+          <span class="apex-pager-title">{{ $shortTitle }}</span>
+        </span>
+      </a>
+    {{- else -}}
+      <span></span>
+    {{- end -}}
+    {{- if $next -}}
+      {{- $fullTitle := partial "utils/title" $next -}}
+      {{- $shortTitle := $next.Params.shortTitle | default $fullTitle -}}
+      <a href="{{ $next.RelPermalink }}" title="{{ $fullTitle }}" class="apex-pager-link apex-pager-next">
+        <span class="apex-pager-text">
+          <span class="apex-pager-label">Next</span>
+          <span class="apex-pager-title">{{ $shortTitle }}</span>
+        </span>
+        {{- partial "utils/icon.html" (dict "name" "chevron-right" "attributes" "class=\"apex-pager-icon\"") -}}
+      </a>
+    {{- end -}}
+  </nav>
+{{- end -}}

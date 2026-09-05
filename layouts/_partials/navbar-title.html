@@ -1,0 +1,8 @@
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+<a class="hx:flex hx:items-center hx:gap-3 hx:hover:opacity-90 hx:ltr:mr-auto hx:rtl:ml-auto" href="{{ $logoLink }}">
+  <div class="apex-brand-mark" aria-hidden="true">&lambda;</div>
+  <div>
+    <span class="apex-brand-title">{{ .Site.Title }}</span>
+    <span class="apex-brand-motto">Proof &bull; Mechanics &bull; Fluency</span>
+  </div>
+</a>

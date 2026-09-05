@@ -10,9 +10,37 @@ theme = "hextra"
 
 [params]
   defaultTheme = "light"
-  displayToggle = true
-  customCSS = ["css/custom.css"]
+  displayToggle = false
   sidebar = true
+
+  [params.navbar]
+    [params.navbar.logo]
+      link = "/"
+
+  [params.search]
+    enable = false
+    index = "title"
+
+  [params.footer]
+    displayPoweredBy = false
+    displayCopyright = false
+
+[[menu.main]]
+  name = "Practice Hub"
+  pageRef = "/algebra-i/linear-algebra/practice-questions"
+  weight = 1
+
+[[menu.main]]
+  name = "Blogs"
+  pageRef = "/blog"
+  weight = 2
+
+[[menu.main]]
+  name = "Diagnostic Q&A"
+  pageRef = "/algebra-i/factoring-trinomials/practice-questions/factoring-trinomials"
+  weight = 3
+  [menu.main.params]
+    style = "cta"
 
 [markup]
   [markup.goldmark]
