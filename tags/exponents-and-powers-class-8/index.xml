@@ -1,0 +1,1684 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math Learning Site – Exponents and Powers Class 8</title><link>https://quizmathgenius.com/tags/exponents-and-powers-class-8/</link><description>Recent content in Exponents and Powers Class 8 on Math Learning Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://quizmathgenius.com/tags/exponents-and-powers-class-8/index.xml" rel="self" type="application/rss+xml"/><item><title>Grade 8 Exponents and Powers: 10 Challenging Questions to Test Your Skills</title><link>https://quizmathgenius.com/blog/exponents-10-exam-questions/</link><pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate><guid>https://quizmathgenius.com/blog/exponents-10-exam-questions/</guid><description>
+&lt;p&gt;These 10 questions are designed to feel like the kind of problems you might encounter in challenging Grade 8 math tests and competitions. They aren’t about simply plugging numbers into a formula. Each question has a small twist, rewriting numbers with a common base, spotting a repeating pattern, or turning a tricky equation into something much simpler.&lt;/p&gt;
+&lt;p&gt;No calculator is needed. The goal is to think, spot the pattern, and choose the right strategy. Try each question on your own before checking the step-by-step solution&lt;/p&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 1&lt;span class="hx:absolute hx:-mt-20" id="question-1"&gt;&lt;/span&gt;
+&lt;a href="#question-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Which is larger?&lt;/p&gt;
+$$3^{4444} \quad \text{or} \quad 4^{3333}$$&lt;p&gt;Justify your answer without calculating either number.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Both exponents share a common factor: $4444 = 4 \times 1111$ and $3333 = 3 \times 1111$.&lt;/li&gt;
+&lt;li&gt;Rewrite each number using that shared factor: $3^{4444} = (3^4)^{1111} = 81^{1111}$, and $4^{3333} = (4^3)^{1111} = 64^{1111}$.&lt;/li&gt;
+&lt;li&gt;Now both numbers are raised to the &lt;em&gt;same&lt;/em&gt; power, $1111$ — so we only need to compare the bases: $81 &amp;gt; 64$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $3^{4444}$ is larger.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; To compare two huge powers, look for a shared factor in the exponents. Rewrite both numbers with that same outer exponent, then just compare the smaller bases.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 2&lt;span class="hx:absolute hx:-mt-20" id="question-2"&gt;&lt;/span&gt;
+&lt;a href="#question-2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A computer processes $2^{40}$ operations per second. About how many operations does it process in:&lt;/p&gt;
+$$2^{-10} \text{ seconds}$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Total operations = rate × time = $2^{40} \times 2^{-10}$.&lt;/li&gt;
+&lt;li&gt;Same base, so multiplying means adding the exponents: $40 &amp;#43; (-10) = 30$.&lt;/li&gt;
+&lt;li&gt;That gives $2^{30}$ operations.&lt;/li&gt;
+&lt;li&gt;$2^{30} = 1{,}073{,}741{,}824$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $2^{30} = 1{,}073{,}741{,}824$ operations.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; A negative exponent on &amp;ldquo;time&amp;rdquo; just means a fraction of a second — you still add exponents the same way when multiplying.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 3&lt;span class="hx:absolute hx:-mt-20" id="question-3"&gt;&lt;/span&gt;
+&lt;a href="#question-3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Find the units digit of:&lt;/p&gt;
+$$7^{2026}$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;List the units digits of powers of 7: $7^1=7$, $7^2=49$, $7^3=343$, $7^4=2401$ → the units digits are $7, 9, 3, 1$, and then the pattern repeats.&lt;/li&gt;
+&lt;li&gt;The pattern has length 4, so divide the exponent by 4: $2026 \div 4 = 506$ remainder $2$.&lt;/li&gt;
+&lt;li&gt;A remainder of $2$ means the units digit matches the &lt;em&gt;2nd&lt;/em&gt; number in the pattern: $9$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $9$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; When an exponent is too big to calculate directly, look for a repeating pattern in the units digit instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 4&lt;span class="hx:absolute hx:-mt-20" id="question-4"&gt;&lt;/span&gt;
+&lt;a href="#question-4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If:&lt;/p&gt;
+$$2^x = 3^y = 6^z$$&lt;p&gt;and $x$, $y$, $z$ are all nonzero, find the value of $\dfrac{1}{x} &amp;#43; \dfrac{1}{y} - \dfrac{1}{z}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Let $2^x = 3^y = 6^z = k$, for some number $k$.&lt;/li&gt;
+&lt;li&gt;That means $2 = k^{1/x}$, $3 = k^{1/y}$, and $6 = k^{1/z}$.&lt;/li&gt;
+&lt;li&gt;Since $6 = 2 \times 3$, we can write: $k^{1/z} = k^{1/x} \times k^{1/y} = k^{1/x &amp;#43; 1/y}$.&lt;/li&gt;
+&lt;li&gt;Same base $k$ on both sides, so the exponents must match: $\dfrac{1}{z} = \dfrac{1}{x} &amp;#43; \dfrac{1}{y}$.&lt;/li&gt;
+&lt;li&gt;Rearranging gives $\dfrac{1}{x} &amp;#43; \dfrac{1}{y} - \dfrac{1}{z} = 0$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $0$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; When one number is the product of two others (like $6 = 2 \times 3$), their &amp;ldquo;exponent relationships&amp;rdquo; combine the same way.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 5&lt;span class="hx:absolute hx:-mt-20" id="question-5"&gt;&lt;/span&gt;
+&lt;a href="#question-5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Simplify:&lt;/p&gt;
+$$\left(x^{a-b}\right)^{a&amp;#43;b} \times \left(x^{b-c}\right)^{b&amp;#43;c} \times \left(x^{c-a}\right)^{c&amp;#43;a}$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apply &amp;ldquo;power of a power&amp;rdquo; to the first term: $\left(x^{a-b}\right)^{a&amp;#43;b} = x^{(a-b)(a&amp;#43;b)} = x^{a^2-b^2}$.&lt;/li&gt;
+&lt;li&gt;The same way, the second term becomes $x^{b^2-c^2}$, and the third becomes $x^{c^2-a^2}$.&lt;/li&gt;
+&lt;li&gt;Multiply all three (same base, so add the exponents): $(a^2-b^2) &amp;#43; (b^2-c^2) &amp;#43; (c^2-a^2)$.&lt;/li&gt;
+&lt;li&gt;Everything cancels out to $0$.&lt;/li&gt;
+&lt;li&gt;So the whole expression is $x^0$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $1$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; $(a-b)(a&amp;#43;b) = a^2 - b^2$. Spotting this pattern turns a scary-looking expression into one where everything cancels.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 6&lt;span class="hx:absolute hx:-mt-20" id="question-6"&gt;&lt;/span&gt;
+&lt;a href="#question-6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A bacteria population doubles every 3 hours, starting at 500. Write an expression for the population after $t$ hours, and find the population after 15 hours.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;Doubles every 3 hours&amp;rdquo; means the population is multiplied by $2$ for every 3-hour block that passes.&lt;/li&gt;
+&lt;li&gt;In $t$ hours, the number of 3-hour blocks is $t/3$.&lt;/li&gt;
+&lt;li&gt;So the population is $500 \times 2^{t/3}$.&lt;/li&gt;
+&lt;li&gt;After 15 hours: $t/3 = 15/3 = 5$.&lt;/li&gt;
+&lt;li&gt;Population = $500 \times 2^5 = 500 \times 32$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $500 \times 2^{t/3}$; after 15 hours, $16{,}000$ bacteria.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; &amp;ldquo;Doubles every X hours&amp;rdquo; always becomes $2^{\,\text{time} \div X}$ in the exponent.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 7&lt;span class="hx:absolute hx:-mt-20" id="question-7"&gt;&lt;/span&gt;
+&lt;a href="#question-7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If:&lt;/p&gt;
+$$a^2 = b^3 = c^5$$&lt;p&gt;where $a$, $b$, $c$ are positive integers and all powers of the same prime number, find the smallest possible value of $a &amp;#43; b &amp;#43; c$ (other than the trivial case $a=b=c=1$).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Since $a$, $b$, $c$ are all powers of the same prime $p$, write $a = p^i$, $b = p^j$, $c = p^k$.&lt;/li&gt;
+&lt;li&gt;Then $a^2 = b^3 = c^5$ means $2i = 3j = 5k$. Call this shared value $M$.&lt;/li&gt;
+&lt;li&gt;For $i$, $j$, $k$ to be whole numbers, $M$ must be divisible by $2$, $3$, &lt;em&gt;and&lt;/em&gt; $5$ — so the smallest option is their LCM: $2 \times 3 \times 5 = 30$.&lt;/li&gt;
+&lt;li&gt;That gives $i = 15$, $j = 10$, $k = 6$.&lt;/li&gt;
+&lt;li&gt;Using the smallest possible prime, $p = 2$: $a = 2^{15} = 32{,}768$, $b = 2^{10} = 1{,}024$, $c = 2^{6} = 64$.&lt;/li&gt;
+&lt;li&gt;Add them: $32{,}768 &amp;#43; 1{,}024 &amp;#43; 64$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $33{,}856$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; When several powers all need to be equal, think in exponents and find the LCM — it hands you the smallest whole-number solution.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 8&lt;span class="hx:absolute hx:-mt-20" id="question-8"&gt;&lt;/span&gt;
+&lt;a href="#question-8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Find the integer $n$ for which:&lt;/p&gt;
+$$2^n &amp;#43; 2^{n&amp;#43;1} &amp;#43; 2^{n&amp;#43;2} = 224$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Factor $2^n$ out of every term: $2^n(1 &amp;#43; 2 &amp;#43; 4) = 2^n \times 7$.&lt;/li&gt;
+&lt;li&gt;So $2^n \times 7 = 224$.&lt;/li&gt;
+&lt;li&gt;Divide both sides by 7: $2^n = 32$.&lt;/li&gt;
+&lt;li&gt;$32 = 2^5$, so $n = 5$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $n = 5$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; When the same base shows up in a sum, factor it out first. Turning addition into multiplication makes the equation solvable.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 9&lt;span class="hx:absolute hx:-mt-20" id="question-9"&gt;&lt;/span&gt;
+&lt;a href="#question-9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Simplify:&lt;/p&gt;
+$$\left[\left(-\frac{1}{2}\right)^{-3}\right]^{2} \div \left[\left(-\frac{1}{2}\right)^{2}\right]^{-3}$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\left(-\frac{1}{2}\right)^{-3}$ means &amp;ldquo;flip the fraction, then cube it&amp;rdquo;: $(-2)^3 = -8$.&lt;/li&gt;
+&lt;li&gt;Square that: $(-8)^2 = 64$.&lt;/li&gt;
+&lt;li&gt;$\left(-\frac{1}{2}\right)^{2} = \frac{1}{4}$ (a negative number squared becomes positive).&lt;/li&gt;
+&lt;li&gt;Raise $\frac{1}{4}$ to the power $-3$: flip it and cube it: $4^3 = 64$.&lt;/li&gt;
+&lt;li&gt;Divide: $64 \div 64$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $1$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; Watch your signs carefully — an &lt;em&gt;even&lt;/em&gt; outer exponent always makes the result positive, no matter what sign was inside.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Question 10&lt;span class="hx:absolute hx:-mt-20" id="question-10"&gt;&lt;/span&gt;
+&lt;a href="#question-10" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Arrange in increasing order, without a calculator:&lt;/p&gt;
+$$2^{300}, \quad 3^{200}, \quad 5^{100}$$&lt;p&gt;&lt;strong&gt;Step by step:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The exponents $300$, $200$, and $100$ all share a common factor of $100$.&lt;/li&gt;
+&lt;li&gt;Rewrite each number using that shared exponent: $2^{300} = (2^3)^{100} = 8^{100}$, and $3^{200} = (3^2)^{100} = 9^{100}$.&lt;/li&gt;
+&lt;li&gt;$5^{100}$ already has the exponent $100$.&lt;/li&gt;
+&lt;li&gt;Now all three numbers share the same outer exponent, so just compare the bases: $5 &amp;lt; 8 &amp;lt; 9$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer: $5^{100} &amp;lt; 2^{300} &amp;lt; 3^{200}$&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Key rule:&lt;/strong&gt; When comparing powers with different bases &lt;em&gt;and&lt;/em&gt; different exponents, rewrite them so they all share the same exponent — then it&amp;rsquo;s just a comparison of bases.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2&gt;Quick Answer Key&lt;span class="hx:absolute hx:-mt-20" id="quick-answer-key"&gt;&lt;/span&gt;
+&lt;a href="#quick-answer-key" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;Question&lt;/th&gt;
+&lt;th style="text-align: center"&gt;Answer&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;1&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$3^{4444}$ is larger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;2&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$2^{30} = 1{,}073{,}741{,}824$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;3&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$9$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;4&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$0$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;5&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$1$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;6&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$500 \times 2^{t/3}$; $16{,}000$ after 15 hours&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;7&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$33{,}856$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;8&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$n = 5$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;9&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$1$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;10&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$5^{100} &amp;lt; 2^{300} &amp;lt; 3^{200}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h2&gt;Now you try: 5 multiple-choice questions&lt;span class="hx:absolute hx:-mt-20" id="now-you-try-5-multiple-choice-questions"&gt;&lt;/span&gt;
+&lt;a href="#now-you-try-5-multiple-choice-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You&amp;rsquo;ve worked through the 10 exam-style problems. These 5 are designed to test your knowledge - pick an answer, then the next question appears.&lt;/p&gt;
+&lt;style&gt;
+.quiz {
+max-width: 1000px;
+margin: 2rem auto;
+padding: 1.75rem 1.75rem 2rem;
+border-radius: 1.25rem;
+box-sizing: border-box;
+background: radial-gradient(circle at top left, rgba(59,130,246,0.08), transparent),
+radial-gradient(circle at bottom right, rgba(16,185,129,0.08), transparent),
+var(--quiz-surface, #ffffff);
+border: 1px solid rgba(148, 163, 184, 0.35);
+box-shadow:
+0 18px 45px rgba(15, 23, 42, 0.12),
+0 0 0 1px rgba(15, 23, 42, 0.02);
+--graph-surface: #ffffff;
+--graph-grid: #cbd5e1;
+--graph-axis: #0f172a;
+--graph-label: #64748b;
+}
+@media (prefers-color-scheme: dark) {
+.quiz {
+--quiz-surface: #020617;
+border-color: rgba(148, 163, 184, 0.4);
+--graph-surface: #0f172a;
+--graph-grid: #334155;
+--graph-axis: #e2e8f0;
+--graph-label: #cbd5e1;
+}
+}
+.quiz-header {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+gap: 0.75rem;
+margin-bottom: 1.25rem;
+}
+.quiz-kicker {
+font-size: 0.75rem;
+font-weight: 600;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #6b7280;
+}
+.quiz-subtitle {
+margin-left: auto;
+font-size: 0.875rem;
+color: #4b5563;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-kicker {
+color: #9ca3af;
+}
+.quiz-subtitle {
+color: #9ca3af;
+}
+}
+.quiz-progress {
+margin-bottom: 1rem;
+}
+.quiz-topic-progress-trigger {
+margin-left: auto;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 2.5rem;
+height: 2.5rem;
+border: 1px solid rgba(148, 163, 184, 0.3);
+border-radius: 999px;
+background: rgba(255, 255, 255, 0.72);
+color: #0f172a;
+box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+transition: transform 0.16s ease-out, box-shadow 0.16s ease-out, background-color 0.16s ease-out;
+}
+.quiz-topic-progress-trigger:hover,
+.quiz-topic-progress-trigger:focus-visible {
+transform: translateY(-1px);
+background: rgba(255, 255, 255, 0.96);
+box-shadow: 0 14px 28px rgba(15, 23, 42, 0.12);
+}
+.quiz-topic-progress-trigger svg {
+width: 1.2rem;
+height: 1.2rem;
+}
+.quiz-topic-progress-dialog {
+position: fixed;
+inset: 0;
+z-index: 40;
+display: none;
+align-items: center;
+justify-content: center;
+padding: 1.25rem;
+}
+.quiz-topic-progress-dialog.is-open {
+display: flex;
+}
+.quiz-topic-progress-backdrop {
+position: absolute;
+inset: 0;
+background: rgba(15, 23, 42, 0.42);
+backdrop-filter: blur(4px);
+}
+.quiz-topic-progress-panel {
+position: relative;
+width: min(100%, 32rem);
+max-height: min(80vh, 42rem);
+overflow: auto;
+padding: 1rem;
+border-radius: 1.2rem;
+background: #ffffff;
+border: 1px solid rgba(148, 163, 184, 0.28);
+box-shadow: 0 26px 60px rgba(15, 23, 42, 0.22);
+}
+.quiz-topic-progress-header {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+gap: 0.75rem;
+margin-bottom: 0.8rem;
+}
+.quiz-topic-progress-title {
+margin: 0;
+font-size: 0.9rem;
+font-weight: 700;
+color: #0f172a;
+}
+.quiz-topic-progress-copy {
+margin: 0;
+font-size: 0.78rem;
+color: #64748b;
+}
+.quiz-topic-progress-close {
+flex: 0 0 auto;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 2rem;
+height: 2rem;
+border-radius: 999px;
+border: 1px solid rgba(148, 163, 184, 0.26);
+background: rgba(148, 163, 184, 0.08);
+color: #0f172a;
+}
+.quiz-topic-progress-list {
+display: grid;
+gap: 0.7rem;
+}
+.quiz-topic-progress-item {
+display: grid;
+gap: 0.35rem;
+padding: 0.4rem 0.45rem;
+border-radius: 0.85rem;
+transition: background-color 0.16s ease-out, box-shadow 0.16s ease-out;
+}
+.quiz-topic-progress-item.is-active {
+background: rgba(37, 99, 235, 0.08);
+box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.14);
+}
+.quiz-topic-progress-meta {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 0.75rem;
+}
+.quiz-topic-progress-label {
+font-size: 0.82rem;
+font-weight: 600;
+color: #111827;
+}
+.quiz-topic-progress-stats {
+font-size: 0.76rem;
+color: #64748b;
+white-space: nowrap;
+}
+.quiz-topic-progress-track {
+height: 0.44rem;
+border-radius: 999px;
+background: rgba(148, 163, 184, 0.24);
+overflow: hidden;
+}
+.quiz-topic-progress-fill {
+height: 100%;
+width: 0%;
+border-radius: inherit;
+background: linear-gradient(90deg, #2563eb, #22c55e);
+transition: width 0.28s ease-out;
+}
+.quiz-progress-track {
+position: relative;
+width: 100%;
+height: 0.5rem;
+border-radius: 999px;
+background: rgba(148, 163, 184, 0.25);
+overflow: hidden;
+}
+.quiz-progress-bar {
+height: 100%;
+width: 0%;
+border-radius: inherit;
+background: linear-gradient(90deg, #4f46e5, #22c55e);
+transition: width 0.35s ease-out;
+}
+.quiz-progress-text {
+margin-top: 0.5rem;
+font-size: 0.8125rem;
+color: #6b7280;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-progress-text {
+color: #9ca3af;
+}
+.quiz-topic-progress-trigger {
+background: rgba(15, 23, 42, 0.68);
+color: #e5e7eb;
+border-color: rgba(148, 163, 184, 0.32);
+}
+.quiz-topic-progress-title,
+.quiz-topic-progress-label {
+color: #e5e7eb;
+}
+.quiz-topic-progress-copy,
+.quiz-topic-progress-stats {
+color: #94a3b8;
+}
+.quiz-topic-progress-panel {
+background: #020617;
+border-color: rgba(148, 163, 184, 0.24);
+}
+.quiz-topic-progress-close {
+background: rgba(15, 23, 42, 0.72);
+color: #e5e7eb;
+border-color: rgba(148, 163, 184, 0.24);
+}
+.quiz-topic-progress-item.is-active {
+background: rgba(59, 130, 246, 0.16);
+box-shadow: inset 0 0 0 1px rgba(96, 165, 250, 0.2);
+}
+}
+.quiz-panels {
+display: grid;
+grid-template-columns: minmax(280px, 1fr) 1fr;
+gap: 1.5rem;
+align-items: stretch;
+margin-top: 1rem;
+}
+@media (max-width: 767px) {
+.quiz {
+margin: 0.5rem auto;
+padding: 0.875rem 1rem;
+}
+.quiz-header {
+margin-bottom: 0.5rem;
+}
+.quiz-kicker {
+font-size: 0.7rem;
+}
+.quiz-subtitle {
+font-size: 0.8125rem;
+}
+.quiz-progress {
+margin-bottom: 0.5rem;
+}
+.quiz-topic-progress-trigger {
+width: 2.35rem;
+height: 2.35rem;
+}
+.quiz-topic-progress-dialog {
+padding: 0;
+align-items: flex-end;
+}
+.quiz-topic-progress-panel {
+width: 100%;
+max-height: 82vh;
+border-radius: 1.15rem 1.15rem 0 0;
+padding: 0.95rem 0.9rem 1.15rem;
+}
+.quiz-topic-progress-header {
+margin-bottom: 0.65rem;
+}
+.quiz-topic-progress-title {
+font-size: 0.84rem;
+}
+.quiz-topic-progress-copy {
+font-size: 0.72rem;
+}
+.quiz-topic-progress-meta {
+align-items: flex-start;
+flex-direction: column;
+gap: 0.15rem;
+}
+.quiz-progress-text {
+font-size: 0.75rem;
+margin-top: 0.25rem;
+}
+.quiz-panels {
+grid-template-columns: 1fr;
+gap: 0.5rem;
+margin-top: 0.5rem;
+}
+.quiz-panel-question {
+padding: 0.75rem 0.875rem;
+flex-shrink: 0;
+}
+.quiz-question-display-text {
+font-size: 0.9rem;
+line-height: 1.45;
+}
+.quiz-options {
+gap: 0.4rem;
+}
+.quiz-option {
+padding: 0.5rem 0.65rem;
+font-size: 0.85rem;
+}
+.quiz-step-title {
+font-size: 0.8rem;
+margin-bottom: 0.5rem;
+}
+.quiz-feedback {
+height: 2.2rem;
+font-size: 0.8rem;
+margin-top: 0.35rem;
+}
+.quiz-next-wrap {
+padding-top: 0.5rem;
+}
+.quiz-next {
+margin-top: 0;
+padding: 0.55rem 0.75rem;
+font-size: 0.875rem;
+}
+}
+.quiz-panel-question {
+padding: 1.25rem;
+border-radius: 1rem;
+background: rgba(148, 163, 184, 0.06);
+border: 1px solid rgba(148, 163, 184, 0.2);
+}
+@media (prefers-color-scheme: dark) {
+.quiz-panel-question {
+background: rgba(15, 23, 42, 0.5);
+border-color: rgba(148, 163, 184, 0.25);
+}
+}
+.quiz-panel-answers {
+display: flex;
+flex-direction: column;
+gap: 0.55rem;
+}
+.quiz-next-wrap {
+margin-top: 0.75rem;
+}
+.quiz-question-display {
+animation: quiz-fade-in 0.24s ease-out;
+}
+.quiz-question-display-text {
+font-size: 1.1rem;
+font-weight: 600;
+color: #0f172a;
+line-height: 1.6;
+white-space: pre-line;
+overflow-wrap: break-word;
+}
+.quiz-blank {
+color: #dc2626;
+font-weight: 700;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-question-display-text {
+color: #e5e7eb;
+}
+.quiz-blank {
+color: #f87171;
+}
+}
+.quiz-question-figure {
+margin-top: 1rem;
+min-height: 0;
+}
+.quiz-graph-card {
+width: 100%;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.35);
+background: rgba(255, 255, 255, 0.96);
+padding: 0.75rem;
+box-sizing: border-box;
+}
+.quiz-graph-card svg {
+display: block;
+width: 100%;
+height: auto;
+}
+.quiz-option-graph {
+display: flex;
+flex-direction: column;
+align-items: stretch;
+gap: 0.55rem;
+width: 100%;
+}
+.quiz-graph-caption {
+font-size: 0.82rem;
+color: #4b5563;
+font-weight: 500;
+}
+.quiz-question-figure img,
+.quiz-question-figure figure {
+max-width: 100%;
+height: auto;
+border-radius: 0.5rem;
+}
+@keyframes quiz-fade-in {
+from {
+opacity: 0;
+transform: translateY(4px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+.quiz-question {
+animation: quiz-fade-in 0.24s ease-out;
+}
+.quiz-question-label {
+font-size: 0.8125rem;
+font-weight: 500;
+color: #6b7280;
+margin-bottom: 0.25rem;
+}
+.quiz-tag {
+display: inline-flex;
+align-items: center;
+padding: 0.125rem 0.5rem;
+border-radius: 999px;
+font-size: 0.7rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+background: rgba(37, 99, 235, 0.08);
+color: #1d4ed8;
+margin-left: 0.25rem;
+}
+.quiz-question-text {
+display: none;
+}
+.quiz-step-title {
+font-size: 0.9rem;
+color: #6b7280;
+margin-bottom: 0.9rem;
+}
+.quiz-step-question {
+font-size: 0.9rem;
+color: #4b5563;
+margin-top: -0.4rem;
+margin-bottom: 0.75rem;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-question-label {
+color: #9ca3af;
+}
+.quiz-step-title {
+color: #9ca3af;
+}
+.quiz-step-question {
+color: #e5e7eb;
+}
+.quiz-tag {
+background: rgba(96, 165, 250, 0.18);
+color: #93c5fd;
+}
+.quiz-graph-card {
+background: rgba(15, 23, 42, 0.82);
+border-color: rgba(148, 163, 184, 0.25);
+}
+.quiz-graph-caption {
+color: #cbd5e1;
+}
+}
+.quiz-options {
+display: flex;
+flex-direction: column;
+gap: 0.55rem;
+}
+.quiz-option {
+display: inline-flex;
+width: 100%;
+text-align: left;
+align-items: center;
+gap: 0.5rem;
+padding: 0.75rem 0.9rem;
+border-radius: 0.9rem;
+border: 1px solid rgba(148, 163, 184, 0.6);
+background: rgba(255, 255, 255, 0.9);
+font-size: 0.95rem;
+color: #111827;
+cursor: pointer;
+transition:
+transform 0.08s ease-out,
+box-shadow 0.08s ease-out,
+border-color 0.08s ease-out,
+background-color 0.08s ease-out,
+color 0.08s ease-out;
+}
+.quiz-option:hover:not(.quiz-option-disabled) {
+transform: translateY(-1px);
+box-shadow: 0 10px 18px rgba(15, 23, 42, 0.15);
+border-color: #4f46e5;
+}
+.quiz-option:focus-visible {
+outline: 2px solid #4f46e5;
+outline-offset: 2px;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-option {
+background: rgba(15, 23, 42, 0.9);
+border-color: rgba(55, 65, 81, 0.9);
+color: #e5e7eb;
+}
+.quiz-option:hover:not(.quiz-option-disabled) {
+border-color: #6366f1;
+box-shadow: 0 10px 24px rgba(15, 23, 42, 0.85);
+}
+}
+.quiz-option-correct {
+border-color: #16a34a !important;
+background: #dcfce7 !important;
+color: #166534 !important;
+}
+.quiz-option-wrong {
+border-color: #b91c1c !important;
+background: #fee2e2 !important;
+color: #7f1d1d !important;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-option-correct {
+background: rgba(22, 163, 74, 0.18) !important;
+color: #bbf7d0 !important;
+}
+.quiz-option-wrong {
+background: rgba(185, 28, 28, 0.18) !important;
+color: #fecaca !important;
+}
+}
+.quiz-option-disabled {
+cursor: default;
+opacity: 0.96;
+}
+.quiz-feedback {
+margin-top: 0.5rem;
+font-size: 0.9rem;
+height: 2.6rem;
+display: flex;
+align-items: center;
+}
+.quiz-feedback-correct {
+color: #15803d;
+}
+.quiz-feedback-wrong {
+color: #b91c1c;
+}
+@media (prefers-color-scheme: dark) {
+.quiz-feedback-correct {
+color: #4ade80;
+}
+.quiz-feedback-wrong {
+color: #fecaca;
+}
+}
+.quiz-next {
+margin-top: 1.1rem;
+width: 100%;
+padding: 0.7rem 1rem;
+border-radius: 999px;
+border: none;
+font-size: 0.95rem;
+font-weight: 600;
+letter-spacing: 0.02em;
+background: linear-gradient(90deg, #111827, #1f2937);
+color: #f9fafb;
+cursor: pointer;
+opacity: 0.55;
+transition:
+opacity 0.16s ease-out,
+transform 0.08s ease-out,
+box-shadow 0.08s ease-out;
+}
+.quiz-next.is-active {
+opacity: 1;
+}
+.quiz-next.is-active:hover {
+transform: translateY(-1px);
+box-shadow: 0 14px 26px rgba(15, 23, 42, 0.65);
+}
+.quiz-summary {
+text-align: center;
+}
+.quiz-summary-title {
+font-size: 1.15rem;
+font-weight: 600;
+margin-bottom: 0.35rem;
+}
+.quiz-summary-score {
+font-size: 1rem;
+margin-bottom: 1rem;
+color: #6b7280;
+}
+.quiz-summary-progress {
+margin: 0 auto 1rem;
+max-width: 30rem;
+padding: 0.95rem 1rem;
+border-radius: 1rem;
+text-align: left;
+background: rgba(148, 163, 184, 0.08);
+border: 1px solid rgba(148, 163, 184, 0.22);
+}
+.quiz-summary-progress-title {
+margin: 0 0 0.25rem;
+font-size: 0.92rem;
+font-weight: 700;
+color: #0f172a;
+}
+.quiz-summary-progress-copy {
+margin: 0 0 0.8rem;
+font-size: 0.8rem;
+color: #64748b;
+}
+.quiz-summary-progress-list {
+display: grid;
+gap: 0.7rem;
+}
+.quiz-restart {
+padding: 0.6rem 1.4rem;
+border-radius: 999px;
+border: 1px solid rgba(148, 163, 184, 0.8);
+background: transparent;
+font-size: 0.9rem;
+font-weight: 500;
+color: #111827;
+cursor: pointer;
+transition:
+background-color 0.12s ease-out,
+color 0.12s ease-out,
+box-shadow 0.12s ease-out,
+border-color 0.12s ease-out,
+transform 0.08s ease-out;
+}
+.quiz-restart:hover {
+background: #111827;
+color: #f9fafb;
+border-color: #111827;
+box-shadow: 0 14px 26px rgba(15, 23, 42, 0.55);
+transform: translateY(-1px);
+}
+@media (prefers-color-scheme: dark) {
+.quiz-summary-score {
+color: #9ca3af;
+}
+.quiz-summary-progress {
+background: rgba(15, 23, 42, 0.48);
+border-color: rgba(148, 163, 184, 0.24);
+}
+.quiz-summary-progress-title {
+color: #e5e7eb;
+}
+.quiz-summary-progress-copy {
+color: #94a3b8;
+}
+.quiz-restart {
+color: #e5e7eb;
+border-color: rgba(75, 85, 99, 0.9);
+}
+.quiz-restart:hover {
+background: #e5e7eb;
+color: #020617;
+border-color: #e5e7eb;
+}
+}
+&lt;/style&gt;
+&lt;div class="quiz" data-total="5" data-shuffle="false" data-topic-key="exponents"&gt;
+&lt;div class="quiz-header"&gt;
+&lt;p class="quiz-kicker"&gt;Check your understanding&lt;/p&gt;
+&lt;p class="quiz-subtitle"&gt;5 multiple-choice questions&lt;/p&gt;
+&lt;button type="button" class="quiz-topic-progress-trigger" aria-label="Open topic progress" aria-expanded="false" aria-controls="quiz-topic-progress-dialog"&gt;
+&lt;svg viewBox="0 0 24 24" fill="none" aria-hidden="true"&gt;
+&lt;path d="M5 18.5V11.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/&gt;
+&lt;path d="M12 18.5V6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/&gt;
+&lt;path d="M19 18.5V14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-topic-progress-dialog" id="quiz-topic-progress-dialog" aria-hidden="true"&gt;
+&lt;div class="quiz-topic-progress-backdrop" data-close-progress&gt;&lt;/div&gt;
+&lt;div class="quiz-topic-progress-panel" role="dialog" aria-modal="true" aria-labelledby="quiz-topic-progress-title"&gt;
+&lt;div class="quiz-topic-progress-header"&gt;
+&lt;div&gt;
+&lt;p class="quiz-topic-progress-title" id="quiz-topic-progress-title"&gt;Topic Progress&lt;/p&gt;
+&lt;p class="quiz-topic-progress-copy"&gt;Saved on this device and updated across practice sessions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;button type="button" class="quiz-topic-progress-close" aria-label="Close topic progress" data-close-progress&gt;
+&lt;svg viewBox="0 0 24 24" fill="none" aria-hidden="true"&gt;
+&lt;path d="M7 7L17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/&gt;
+&lt;path d="M17 7L7 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-topic-progress-list"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-progress" aria-hidden="false"&gt;
+&lt;div class="quiz-progress-track"&gt;
+&lt;div class="quiz-progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-progress-text"&gt;Question 1 of 5&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-panels"&gt;
+&lt;div class="quiz-panel-question"&gt;
+&lt;div class="quiz-question-display"&gt;
+&lt;p class="quiz-question-display-text"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="quiz-question-figure" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-panel-answers"&gt;
+&lt;div class="quiz-questions"&gt;
+&lt;div class="quiz-question" data-question-index="0" data-question-id="exp_q1" data-category="Same Base" data-report-category="grade_8_exam_mcq" style="display:none"&gt;
+&lt;p class="quiz-question-text" data-prompt="Find $x$ if $2^{3x} = 4^{x&amp;#43;2}$" data-expr=""&gt;
+Find $x$ if $2^{3x} = 4^{x&amp;#43;2}$
+&lt;/p&gt;
+&lt;div class="quiz-steps"&gt;
+&lt;div class="quiz-step" data-step-index="0"&gt;
+&lt;p class="quiz-step-title"&gt;
+&lt;/p&gt;
+&lt;div class="quiz-options" role="list"&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$2$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$3$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="true"
+role="listitem"&gt;
+$4$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$5$
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-feedback" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-next-wrap"&gt;
+&lt;button type="button" class="quiz-next quiz-next-question" disabled&gt;Next question&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-question" data-question-index="1" data-question-id="exp_q2" data-category="Equivalent Powers" data-report-category="grade_8_exam_mcq" style="display:none"&gt;
+&lt;p class="quiz-question-text" data-prompt="Which of these is NOT equal to $3^{12}$?" data-expr=""&gt;
+Which of these is NOT equal to $3^{12}$?
+&lt;/p&gt;
+&lt;div class="quiz-steps"&gt;
+&lt;div class="quiz-step" data-step-index="0"&gt;
+&lt;p class="quiz-step-title"&gt;
+&lt;/p&gt;
+&lt;div class="quiz-options" role="list"&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$9^{6}$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$27^{4}$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$81^{3}$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="true"
+role="listitem"&gt;
+$243^{2}$
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-feedback" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-next-wrap"&gt;
+&lt;button type="button" class="quiz-next quiz-next-question" disabled&gt;Next question&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-question" data-question-index="2" data-question-id="exp_q3" data-category="Negative Exponents" data-report-category="grade_8_exam_mcq" style="display:none"&gt;
+&lt;p class="quiz-question-text" data-prompt="Simplify $(5^{-2})^{-3} \times 5^{-4}$" data-expr=""&gt;
+Simplify $(5^{-2})^{-3} \times 5^{-4}$
+&lt;/p&gt;
+&lt;div class="quiz-steps"&gt;
+&lt;div class="quiz-step" data-step-index="0"&gt;
+&lt;p class="quiz-step-title"&gt;
+&lt;/p&gt;
+&lt;div class="quiz-options" role="list"&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$5^{-2}$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="true"
+role="listitem"&gt;
+$25$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$5^{10}$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$5^{-10}$
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-feedback" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-next-wrap"&gt;
+&lt;button type="button" class="quiz-next quiz-next-question" disabled&gt;Next question&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-question" data-question-index="3" data-question-id="exp_q4" data-category="Comparing Powers" data-report-category="grade_8_exam_mcq" style="display:none"&gt;
+&lt;p class="quiz-question-text" data-prompt="If $x = 2^{100}$ and $y = 4^{51}$, which statement is true?" data-expr=""&gt;
+If $x = 2^{100}$ and $y = 4^{51}$, which statement is true?
+&lt;/p&gt;
+&lt;div class="quiz-steps"&gt;
+&lt;div class="quiz-step" data-step-index="0"&gt;
+&lt;p class="quiz-step-title"&gt;
+&lt;/p&gt;
+&lt;div class="quiz-options" role="list"&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$x &amp;gt; y$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="true"
+role="listitem"&gt;
+$y &amp;gt; x$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$x = y$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+Cannot be determined
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-feedback" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-next-wrap"&gt;
+&lt;button type="button" class="quiz-next quiz-next-question" disabled&gt;Next question&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-question" data-question-index="4" data-question-id="exp_q5" data-category="Remainders" data-report-category="grade_8_exam_mcq" style="display:none"&gt;
+&lt;p class="quiz-question-text" data-prompt="What is the remainder when $3^{100}$ is divided by $4$?" data-expr=""&gt;
+What is the remainder when $3^{100}$ is divided by $4$?
+&lt;/p&gt;
+&lt;div class="quiz-steps"&gt;
+&lt;div class="quiz-step" data-step-index="0"&gt;
+&lt;p class="quiz-step-title"&gt;
+&lt;/p&gt;
+&lt;div class="quiz-options" role="list"&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$0$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="true"
+role="listitem"&gt;
+$1$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$2$
+&lt;/button&gt;
+&lt;button
+type="button"
+class="quiz-option"
+data-correct="false"
+role="listitem"&gt;
+$3$
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="quiz-feedback" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-next-wrap"&gt;
+&lt;button type="button" class="quiz-next quiz-next-question" disabled&gt;Next question&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="quiz-summary" style="display:none" aria-live="polite"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function () {
+const quiz = document.querySelector('.quiz');
+if (!quiz) return;
+const DB_NAME = 'mathSiteProgress';
+const DB_VERSION = 1;
+const STORE_NAME = 'topicProgress';
+const TOPIC_CATEGORY_CONFIG = {
+linear_equation: [
+{ key: 'one_step_equations', label: 'One-Step' },
+{ key: 'two_step_equations', label: 'Two-Step' },
+{ key: 'multi_step_equations', label: 'Multi-Step' },
+{ key: 'variables_on_both_sides', label: 'Both Sides' },
+{ key: 'substitution', label: 'Substitution' },
+{ key: 'elimination', label: 'Elimination' },
+{ key: 'graphing_linear_equations', label: 'Graphing' },
+{ key: 'word_problems', label: 'Word Problems' }
+],
+quadratic_equations: [
+{ key: 'solve_by_factoring', label: 'Factoring' },
+{ key: 'completing_the_square', label: 'Comp. Square' },
+{ key: 'quadratic_formula', label: 'Quad. Formula' }
+],
+factoring_trinomials: [
+{ key: 'factoring_trinomials', label: 'Trinomials' },
+{ key: 'factoring_gcf', label: 'GCF' },
+{ key: 'diff_of_square', label: 'Diff. Squares' }
+]
+};
+const questionDisplay = quiz.querySelector('.quiz-question-display-text');
+const questionFigure = quiz.querySelector('.quiz-question-figure');
+const allQuestions = Array.from(quiz.querySelectorAll('.quiz-question'));
+const progressBar = quiz.querySelector('.quiz-progress-bar');
+const progressText = quiz.querySelector('.quiz-progress-text');
+const summary = quiz.querySelector('.quiz-summary');
+const panels = quiz.querySelector('.quiz-panels');
+const topicKey = quiz.dataset.topicKey || '';
+const topicProgressTrigger = quiz.querySelector('.quiz-topic-progress-trigger');
+const topicProgressDialog = quiz.querySelector('.quiz-topic-progress-dialog');
+const topicProgressList = quiz.querySelector('.quiz-topic-progress-list');
+const topicCategories = TOPIC_CATEGORY_CONFIG[topicKey] || [];
+const configuredTotal = Math.max(1, Number(quiz.dataset.total || 7));
+const shouldShuffle = quiz.dataset.shuffle !== 'false';
+let totalQuestions = configuredTotal;
+let activeIndices = [];
+let currentQuestionIndex = 0;
+let score = 0;
+let answeredQuestions = new Set();
+let progressSnapshot = {};
+function openProgressDb() {
+return new Promise((resolve, reject) =&gt; {
+if (!window.indexedDB) {
+reject(new Error('IndexedDB unavailable'));
+return;
+}
+const request = window.indexedDB.open(DB_NAME, DB_VERSION);
+request.onerror = () =&gt; reject(request.error || new Error('IndexedDB open failed'));
+request.onupgradeneeded = () =&gt; {
+const db = request.result;
+if (!db.objectStoreNames.contains(STORE_NAME)) {
+db.createObjectStore(STORE_NAME, { keyPath: 'topicKey' });
+}
+};
+request.onsuccess = () =&gt; resolve(request.result);
+});
+}
+async function readTopicProgress() {
+if (!topicKey) return {};
+const db = await openProgressDb();
+return await new Promise((resolve, reject) =&gt; {
+const tx = db.transaction(STORE_NAME, 'readonly');
+const store = tx.objectStore(STORE_NAME);
+const request = store.get(topicKey);
+request.onerror = () =&gt; reject(request.error || new Error('IndexedDB read failed'));
+request.onsuccess = () =&gt; {
+const record = request.result;
+resolve(record &amp;&amp; record.categories ? record.categories : {});
+};
+tx.oncomplete = () =&gt; db.close();
+});
+}
+async function updateTopicProgress(categoryKey, isCorrect) {
+if (!topicKey || !categoryKey) return progressSnapshot;
+const db = await openProgressDb();
+return await new Promise((resolve, reject) =&gt; {
+const tx = db.transaction(STORE_NAME, 'readwrite');
+const store = tx.objectStore(STORE_NAME);
+const getRequest = store.get(topicKey);
+getRequest.onerror = () =&gt; reject(getRequest.error || new Error('IndexedDB lookup failed'));
+getRequest.onsuccess = () =&gt; {
+const record = getRequest.result || { topicKey, categories: {} };
+const categoryStats = record.categories[categoryKey] || { attempted: 0, correct: 0 };
+categoryStats.attempted += 1;
+if (isCorrect) categoryStats.correct += 1;
+record.categories[categoryKey] = categoryStats;
+store.put(record);
+progressSnapshot = record.categories;
+resolve(progressSnapshot);
+};
+tx.onerror = () =&gt; reject(tx.error || new Error('IndexedDB update failed'));
+tx.oncomplete = () =&gt; db.close();
+});
+}
+function categoryStats(categoryKey) {
+return progressSnapshot[categoryKey] || { attempted: 0, correct: 0 };
+}
+function renderTopicProgressBars(activeCategory) {
+if (!topicProgressDialog || !topicProgressList || !topicCategories.length) {
+if (topicProgressTrigger) topicProgressTrigger.style.display = 'none';
+return;
+}
+topicProgressList.innerHTML = topicCategories.map((category) =&gt; {
+const stats = categoryStats(category.key);
+const accuracy = stats.attempted ? Math.round((stats.correct / stats.attempted) * 100) : 0;
+const activeClass = category.key === activeCategory ? ' is-active' : '';
+return `
+&lt;div class="quiz-topic-progress-item${activeClass}" data-category-key="${category.key}"&gt;
+&lt;div class="quiz-topic-progress-meta"&gt;
+&lt;span class="quiz-topic-progress-label"&gt;${category.label}&lt;/span&gt;
+&lt;span class="quiz-topic-progress-stats"&gt;${stats.correct}/${stats.attempted} · ${accuracy}%&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="quiz-topic-progress-track"&gt;
+&lt;div class="quiz-topic-progress-fill" style="width:${accuracy}%"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+`;
+}).join('');
+}
+function renderSummaryProgress() {
+if (!topicCategories.length) return '';
+const items = topicCategories.map((category) =&gt; {
+const stats = categoryStats(category.key);
+const accuracy = stats.attempted ? Math.round((stats.correct / stats.attempted) * 100) : 0;
+return `
+&lt;div class="quiz-topic-progress-item" data-category-key="${category.key}"&gt;
+&lt;div class="quiz-topic-progress-meta"&gt;
+&lt;span class="quiz-topic-progress-label"&gt;${category.label}&lt;/span&gt;
+&lt;span class="quiz-topic-progress-stats"&gt;${stats.correct}/${stats.attempted} · ${accuracy}%&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="quiz-topic-progress-track"&gt;
+&lt;div class="quiz-topic-progress-fill" style="width:${accuracy}%"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+`;
+}).join('');
+return `
+&lt;div class="quiz-summary-progress"&gt;
+&lt;p class="quiz-summary-progress-title"&gt;Topic Progress Updated&lt;/p&gt;
+&lt;p class="quiz-summary-progress-copy"&gt;Saved on this device across practice sessions.&lt;/p&gt;
+&lt;div class="quiz-summary-progress-list"&gt;${items}&lt;/div&gt;
+&lt;/div&gt;
+`;
+}
+function shuffleArray(arr) {
+const a = [...arr];
+for (let i = a.length - 1; i &gt; 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[a[i], a[j]] = [a[j], a[i]];
+}
+return a;
+}
+function selectNewSet() {
+const indices = allQuestions.map((_, i) =&gt; i);
+const ordered = shouldShuffle ? shuffleArray(indices) : indices;
+activeIndices = ordered.slice(0, configuredTotal);
+totalQuestions = activeIndices.length;
+}
+function resetQuestionState(q) {
+q.querySelectorAll('.quiz-option').forEach((opt) =&gt; {
+opt.classList.remove('quiz-option-disabled', 'quiz-option-correct', 'quiz-option-wrong');
+});
+q.querySelectorAll('.quiz-feedback').forEach((fb) =&gt; {
+fb.textContent = '';
+fb.className = 'quiz-feedback';
+});
+const nextBtn = q.querySelector('.quiz-next');
+if (nextBtn) {
+nextBtn.disabled = true;
+nextBtn.classList.remove('is-active');
+nextBtn.textContent = 'Next question';
+}
+}
+function formatQuestionText(text) {
+return text
+.replace(/\r\n/g, '\n')
+.replace(/\r/g, '\n')
+.split('\n')
+.map((line) =&gt; line.trim())
+.join('\n')
+.replace(/\n{3,}/g, '\n\n')
+.trim();
+}
+function escapeHtml(text) {
+const div = document.createElement('div');
+div.textContent = text;
+return div.innerHTML;
+}
+function renderQuestionHtml(text) {
+const formatted = formatQuestionText(text);
+const escaped = escapeHtml(formatted);
+return escaped.replace(/__/g, '&lt;span class="quiz-blank"&gt;?&lt;/span&gt;');
+}
+function typesetMath(el) {
+if (!el || typeof renderMathInElement !== 'function') return;
+renderMathInElement(el, {
+delimiters: [
+{ left: '$$', right: '$$', display: true },
+{ left: '$', right: '$', display: false },
+{ left: '\\(', right: '\\)', display: false },
+{ left: '\\[', right: '\\]', display: true }
+],
+throwOnError: false
+});
+}
+function parseGraphSpec(raw) {
+if (!raw) return null;
+try {
+return JSON.parse(raw);
+} catch (error) {
+return null;
+}
+}
+function createSvgNode(tag, attrs) {
+const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+Object.entries(attrs || {}).forEach(([key, value]) =&gt; node.setAttribute(key, value));
+return node;
+}
+function mapX(x, width, padding, spec) {
+return padding + ((x - spec.x_min) / (spec.x_max - spec.x_min)) * (width - padding * 2);
+}
+function mapY(y, height, padding, spec) {
+return height - padding - ((y - spec.y_min) / (spec.y_max - spec.y_min)) * (height - padding * 2);
+}
+function renderGraphCard(container, graphSpec) {
+if (!container) return;
+container.innerHTML = '';
+if (!graphSpec || graphSpec.type !== 'line') return;
+const width = 240;
+const height = 240;
+const padding = 26;
+const spec = {
+type: 'line',
+slope: Number(graphSpec.slope || 0),
+intercept: Number(graphSpec.intercept || 0),
+vertical_x: graphSpec.vertical_x === undefined ? null : Number(graphSpec.vertical_x),
+x_min: Number(graphSpec.x_min || -5),
+x_max: Number(graphSpec.x_max || 5),
+y_min: Number(graphSpec.y_min || -5),
+y_max: Number(graphSpec.y_max || 5),
+color: graphSpec.color || '#2563eb',
+label: graphSpec.label || ''
+};
+const quizStyles = getComputedStyle(quiz);
+const theme = {
+surface: (quizStyles.getPropertyValue('--graph-surface') || '#ffffff').trim(),
+grid: (quizStyles.getPropertyValue('--graph-grid') || '#cbd5e1').trim(),
+axis: (quizStyles.getPropertyValue('--graph-axis') || '#0f172a').trim(),
+label: (quizStyles.getPropertyValue('--graph-label') || '#64748b').trim()
+};
+const svg = createSvgNode('svg', {
+viewBox: `0 0 ${width} ${height}`,
+role: 'img',
+'aria-label': spec.label || 'Coordinate plane'
+});
+svg.appendChild(createSvgNode('rect', {
+x: 0,
+y: 0,
+width,
+height,
+rx: 12,
+fill: theme.surface
+}));
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+const px = mapX(x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: x === 0 ? theme.axis : theme.grid,
+'stroke-width': x === 0 ? 1.6 : 1
+}));
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+const py = mapY(y, height, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: padding,
+y1: py,
+x2: width - padding,
+y2: py,
+stroke: y === 0 ? theme.axis : theme.grid,
+'stroke-width': y === 0 ? 1.6 : 1
+}));
+}
+for (let x = Math.ceil(spec.x_min); x &lt;= Math.floor(spec.x_max); x++) {
+if (x === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(x, width, padding, spec),
+y: mapY(0, height, padding, spec) + 15,
+'text-anchor': 'middle',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(x);
+svg.appendChild(label);
+}
+for (let y = Math.ceil(spec.y_min); y &lt;= Math.floor(spec.y_max); y++) {
+if (y === 0) continue;
+const label = createSvgNode('text', {
+x: mapX(0, width, padding, spec) - 10,
+y: mapY(y, height, padding, spec) + 3,
+'text-anchor': 'end',
+'font-size': 10,
+fill: theme.label
+});
+label.textContent = String(y);
+svg.appendChild(label);
+}
+if (spec.vertical_x !== null &amp;&amp; Number.isFinite(spec.vertical_x)) {
+const px = mapX(spec.vertical_x, width, padding, spec);
+svg.appendChild(createSvgNode('line', {
+x1: px,
+y1: padding,
+x2: px,
+y2: height - padding,
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+} else {
+const x1 = spec.x_min;
+const x2 = spec.x_max;
+const y1 = spec.slope * x1 + spec.intercept;
+const y2 = spec.slope * x2 + spec.intercept;
+svg.appendChild(createSvgNode('line', {
+x1: mapX(x1, width, padding, spec),
+y1: mapY(y1, height, padding, spec),
+x2: mapX(x2, width, padding, spec),
+y2: mapY(y2, height, padding, spec),
+stroke: spec.color,
+'stroke-width': 3.2,
+'stroke-linecap': 'round'
+}));
+}
+if (Array.isArray(graphSpec.points)) {
+graphSpec.points.forEach((point) =&gt; {
+if (!Array.isArray(point) || point.length &lt; 2) return;
+svg.appendChild(createSvgNode('circle', {
+cx: mapX(Number(point[0]), width, padding, spec),
+cy: mapY(Number(point[1]), height, padding, spec),
+r: 4,
+fill: '#f97316'
+}));
+});
+}
+container.appendChild(svg);
+}
+function updateQuestionDisplay() {
+const idx = activeIndices[currentQuestionIndex];
+const currentQuestion = allQuestions[idx];
+if (!currentQuestion) return;
+const questionText = currentQuestion.querySelector('.quiz-question-text');
+if (questionText &amp;&amp; questionDisplay) {
+const prompt = (questionText.dataset.prompt || '').trim();
+const expr = (questionText.dataset.expr || '').trim();
+const fullText = expr ? `${prompt}: (${expr})` : prompt;
+questionDisplay.innerHTML = renderQuestionHtml(fullText);
+typesetMath(questionDisplay);
+}
+if (questionFigure) {
+const graphSpec = parseGraphSpec(currentQuestion.dataset.questionGraph || '');
+if (graphSpec) {
+questionFigure.style.display = '';
+questionFigure.innerHTML = '&lt;div class="quiz-graph-card"&gt;&lt;/div&gt;';
+renderGraphCard(questionFigure.querySelector('.quiz-graph-card'), graphSpec);
+} else {
+questionFigure.innerHTML = '';
+questionFigure.style.display = 'none';
+}
+}
+const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+if (progressBar) progressBar.style.width = `${progress}%`;
+if (progressText) progressText.textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
+renderTopicProgressBars(currentQuestion.dataset.reportCategory || '');
+}
+function showQuestion(index) {
+allQuestions.forEach((q, i) =&gt; {
+const pos = activeIndices.indexOf(i);
+q.style.display = pos === index ? 'block' : 'none';
+});
+const nextBtn = allQuestions[activeIndices[index]]?.querySelector('.quiz-next');
+if (nextBtn) nextBtn.textContent = index === totalQuestions - 1 ? 'See my score' : 'Next question';
+updateQuestionDisplay();
+}
+async function handleAnswer(option, step) {
+if (option.classList.contains('quiz-option-disabled')) return;
+const isCorrect = option.dataset.correct === 'true' || option.dataset.correct === 'True' || option.dataset.correct === '1';
+const feedback = step.querySelector('.quiz-feedback');
+const opts = step.querySelectorAll('.quiz-option');
+opts.forEach((opt) =&gt; {
+opt.classList.add('quiz-option-disabled');
+if (opt.dataset.correct === 'true') opt.classList.add('quiz-option-correct');
+});
+if (isCorrect) {
+option.classList.add('quiz-option-correct');
+feedback.textContent = 'Nice work — that\'s correct!';
+feedback.className = 'quiz-feedback quiz-feedback-correct';
+if (!answeredQuestions.has(currentQuestionIndex)) {
+score += 1;
+answeredQuestions.add(currentQuestionIndex);
+}
+} else {
+option.classList.add('quiz-option-wrong');
+feedback.textContent = 'Not quite. The correct answer is highlighted above.';
+feedback.className = 'quiz-feedback quiz-feedback-wrong';
+}
+const currentQuestion = allQuestions[activeIndices[currentQuestionIndex]];
+try {
+await updateTopicProgress(currentQuestion?.dataset.reportCategory || '', isCorrect);
+renderTopicProgressBars(currentQuestion?.dataset.reportCategory || '');
+} catch (error) {
+console.warn('Unable to persist topic progress', error);
+}
+const nextButton = allQuestions[activeIndices[currentQuestionIndex]]?.querySelector('.quiz-next');
+if (nextButton) {
+nextButton.disabled = false;
+nextButton.classList.add('is-active');
+}
+}
+function showSummaryView() {
+if (panels) panels.style.display = 'none';
+const quizProgress = quiz.querySelector('.quiz-progress');
+if (quizProgress) quizProgress.style.display = 'none';
+summary.style.display = 'block';
+summary.innerHTML = `
+&lt;p class="quiz-summary-title"&gt;Quiz Complete!&lt;/p&gt;
+&lt;p class="quiz-summary-score"&gt;You scored ${score} out of ${totalQuestions}&lt;/p&gt;
+${renderSummaryProgress()}
+&lt;button type="button" class="quiz-restart"&gt;Try Again&lt;/button&gt;
+`;
+}
+async function initQuiz() {
+selectNewSet();
+currentQuestionIndex = 0;
+score = 0;
+answeredQuestions = new Set();
+allQuestions.forEach(resetQuestionState);
+if (panels) panels.style.display = '';
+const quizProgress = quiz.querySelector('.quiz-progress');
+if (quizProgress) quizProgress.style.display = '';
+summary.style.display = 'none';
+try {
+progressSnapshot = await readTopicProgress();
+} catch (error) {
+progressSnapshot = {};
+console.warn('Unable to load topic progress', error);
+}
+showQuestion(0);
+typesetMath(quiz);
+}
+quiz.querySelectorAll('[data-option-graph]').forEach((option) =&gt; {
+renderGraphCard(option.querySelector('.quiz-graph-card'), parseGraphSpec(option.dataset.optionGraph || ''));
+});
+quiz.addEventListener('click', (e) =&gt; {
+const openProgressButton = e.target.closest('.quiz-topic-progress-trigger');
+if (openProgressButton) {
+topicProgressDialog?.classList.add('is-open');
+topicProgressDialog?.setAttribute('aria-hidden', 'false');
+topicProgressTrigger?.setAttribute('aria-expanded', 'true');
+}
+const closeProgressButton = e.target.closest('[data-close-progress]');
+if (closeProgressButton) {
+topicProgressDialog?.classList.remove('is-open');
+topicProgressDialog?.setAttribute('aria-hidden', 'true');
+topicProgressTrigger?.setAttribute('aria-expanded', 'false');
+}
+const option = e.target.closest('.quiz-option');
+if (option) {
+const step = option.closest('.quiz-step');
+void handleAnswer(option, step);
+}
+const nextButton = e.target.closest('.quiz-next');
+if (nextButton &amp;&amp; !nextButton.disabled) {
+if (currentQuestionIndex &lt; totalQuestions - 1) {
+currentQuestionIndex += 1;
+showQuestion(currentQuestionIndex);
+} else {
+showSummaryView();
+}
+}
+if (e.target.classList.contains('quiz-restart')) {
+e.preventDefault();
+void initQuiz();
+}
+});
+document.addEventListener('keydown', (e) =&gt; {
+if (e.key === 'Escape' &amp;&amp; topicProgressDialog?.classList.contains('is-open')) {
+topicProgressDialog.classList.remove('is-open');
+topicProgressDialog.setAttribute('aria-hidden', 'true');
+topicProgressTrigger?.setAttribute('aria-expanded', 'false');
+}
+});
+void initQuiz();
+})();
+&lt;/script&gt;
+&lt;br&gt;
+&lt;p&gt;New to this topic? Start with the warm-up set first: &lt;a href="https://quizmathgenius.com/blog/exponents-and-powers-grade-8-questions/"&gt;&lt;em&gt;Exponents and Powers Class 8: 5 Challenging Questions (With Simple Step-by-Step Solutions)&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
